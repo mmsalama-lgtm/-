@@ -1,5 +1,5 @@
 import json,sys,numpy as np,soundfile as sf
-SR=48000;TOT=68.5;n=int(TOT*SR)
+SR=48000;TOT=float(sys.argv[3]) if len(sys.argv)>3 else 68.5;n=int(TOT*SR)
 ev=json.load(open(sys.argv[1]))['events'];rng=np.random.default_rng(3)
 def band(x,lo,hi):
     X=np.fft.rfft(x);f=np.fft.rfftfreq(len(x),1/SR);X[(f<lo)|(f>hi)]=0;return np.fft.irfft(X,len(x))
@@ -28,6 +28,11 @@ for a,b,kind in ev:
     elif kind=='stamp':
         d=int(0.35*SR);tt=np.arange(d)/SR
         s=(np.sin(2*np.pi*85*tt)*np.exp(-tt*16)*0.45+band(rng.standard_normal(d),800,5000)*np.exp(-tt*60)*0.05)
+    elif kind=='tick':
+        for tk in np.arange(a,b,0.075):
+            d=int(0.012*SR);tt=np.arange(d)/SR;c=np.sin(2*np.pi*2400*tt)*np.exp(-tt*500)*0.05
+            ii=int(tk*SR);ee=min(n,ii+d);out[ii:ee]+=c[:ee-ii]
+        continue
     else: continue
     e=min(n,i+len(s));out[i:e]+=s[:e-i]
 sf.write(sys.argv[2],np.stack([out,out],1).astype('float32'),SR);print('sfx ok')

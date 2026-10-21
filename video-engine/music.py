@@ -23,7 +23,7 @@ def add(sig,t,g=1.0,pan=0.0):
     i=int(t*SR); e=min(n,i+len(sig)); s=sig[:e-i]*g
     L[i:e]+=s*(1-pan)*0.5*2**0.5; R[i:e]+=s*(1+pan)*0.5*2**0.5
 # ukulele voicings (strings 4..1), reentrant G tuning
-C=[67,60,64,72]; G=[67,62,67,71]; Am=[69,60,64,69]; F=[69,60,65,69]
+C=[67,60,64,72]; G=[67,62,67,71]; Am=[69,60,64,69]; F=[69,60,65,69]; Dm=[69,62,65,69]
 prog=[C,G,Am,F]; roots=[48,43,45,41]
 pattern=[(0,'D',1.0),(2,'D',0.8),(3,'U',0.55),(5,'U',0.55),(6,'D',0.75),(7,'U',0.5)]
 end_t=TOTAL-2.6; nb=int(end_t/bar)+1
