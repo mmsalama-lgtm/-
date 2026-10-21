@@ -26,3 +26,7 @@ curl -L -o std.rnnn https://raw.githubusercontent.com/richardpl/arnndn-models/ma
 npm i playwright@1.48.2 roughjs@4.6.6   # المتصفح: /opt/pw-browsers/chromium_headless_shell-*/chrome-linux/headless_shell
 ```
 الخطوط موجودة في `fonts/` (Aref Ruqaa وCairo وCaveat، من Google Fonts بترخيص OFL)، واللوجو في `logo.png`.
+
+## مقاس 16:9 (من الحلقة 03)
+`make_ep03.py` بيحوّل المحرك لمقاس 1920×1080: بيغيّر الـviewBox، ومكان اللوجو (الدايرة في النص، وفي الركن 140px على بعد 50px من الحواف، وفي الختام 400px)، والترجمة على y=992، والعدّاد على y=1056.
+للرندر: `VW=1920 VH=1080 PAGE=ep03.html node render.js frames 0 N`
