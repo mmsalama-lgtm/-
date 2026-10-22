@@ -1,0 +1,27 @@
+# Changed files, RCA step 2026-10-15 (SHA-256 against the uploaded Pareto package; test results excluded)
+changed 9, added 15, removed 0 (this list itself replaces the Pareto step's, which is kept as pareto-changed-files.txt)
+
+changed  index.html  173e73475fb6f591 -> a6c2e038678424a4
+changed  modules/capa.html  8bd2904ae05cc4dc -> c7a946d80744b673
+changed  modules/pareto.html  bf4c70fde8b7cefe -> f39fc187a8f3a9b0
+changed  tests/build/README.md  dfc4df46366596c7 -> 0f23bc651abf01ec
+changed  tests/platform/run_all.sh  0b2f7ed28de0cdd9 -> 0ef3219f6df62e4e
+changed  tests/platform/summary.py  3f2a9b05689d2db2 -> 9fc1a891a30a40fb
+changed  tests/platform/t_example.py  0d263142d4ea3ae2 -> f8a4f19ff956f328
+changed  tests/platform/t_hub.py  9c73d4c459c05870 -> 6e71fd30c7559be7
+changed  tests/platform/t_static.py  0dd530a30e09f320 -> b0d46d582e6a67c1
+added    modules/rca.html  c2e7dc01349a92fb
+added    tests/build/build_rca.py  01c2619f98029c7f
+added    tests/build/data_rca.py  a6db0f6c21abed14
+added    tests/build/demo_rca.py  5328d1449bdb088b
+added    tests/build/patch_capa_rca.py  9c76c9a0f1460eed
+added    tests/build/patch_hub_rca.py  c7033d0bcb4860a5
+added    tests/build/patch_pareto_rca.py  9d7a776ce7d7b389
+added    tests/build/rca_body.html  92bdc30b444422fc
+added    tests/build/rca_example.js  bc8544c399d16ae3
+added    tests/build/rca_host.css  a9b0ac278d55395b
+added    tests/build/rca_host.js  97dc20dc44320607
+added    tests/platform/results/pareto-changed-files.txt  eb038a58b2af7b82
+added    tests/rca/capa_regress.py  ea94c98e5d842ceb
+added    tests/rca/pareto_regress.py  8a6b8481d9b44ed0
+added    tests/rca/test_rca.py  084c55502bf27ed1

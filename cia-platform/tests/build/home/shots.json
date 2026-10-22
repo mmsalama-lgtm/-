@@ -1,0 +1,16 @@
+[
+ {"file":"iso9001","key":"iso9001","tab":"report","view":"report"},
+ {"file":"iso27001","key":"iso27001","tab":"annexa","view":"soa","js":"(()=>{const b=document.getElementById('axAllApp'); if(b) b.click();})()"},
+ {"file":"iso31000-risk-studio","key":"iso31000","tab":"annexa","view":"heatmap","anchor":"(function(){const h=[...document.querySelectorAll('h3.bia-h')].find(h=>/inherent|الكامن|المتأصل|قبل الضوابط/i.test(h.textContent)); return h&&(h.closest('.cr-grid')||h);})()"},
+ {"file":"iso37000-governance","key":"iso37000","tab":"report","view":"radar"},
+ {"file":"ims-builder","key":"ims","tab":"matrix","view":"matrix"},
+ {"file":"pmo-excellence","key":"pmoexc","tab":"results","view":"index"},
+ {"file":"excellence-efqm","key":"exc","tab":"results","view":"results"},
+ {"file":"kaqa","key":"kaqa","tab":"results","view":"verdict"},
+ {"file":"smart-audit-improvement","key":"aud","tab":"dash","view":"dashboard"},
+ {"file":"strategy-performance","key":"str","tab":"map","view":"map"},
+ {"file":"operations-excellence","key":"oec","tab":"pmap","view":"processmap"},
+ {"file":"executive-cockpit-workspace","key":"w8","tab":"cockpit","view":"ohi","example":false},
+ {"file":"iso42001","key":"iso42001","tab":"results","view":"results"},
+ {"file":"pdca","key":"pdca","tab":"dash","view":"dashboard"}
+]

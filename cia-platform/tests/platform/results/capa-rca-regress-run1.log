@@ -1,0 +1,13 @@
+PASS CAPA stored state after the example is identical
+PASS CAPA report HTML is identical
+PASS CAPA CSV is identical
+PASS CAPA stored state after a scripted record and an answer is identical
+PASS CAPA automatic audit results are identical
+PASS no errors in either version
+PASS with no RCA data, the text of every tab is identical (AR/EN, including the four example forms)
+PASS the panel lists RC-EX-01 on CA-EX-04 and RC-EX-03 on CA-EX-03, nothing on CA-EX-01 and CA-EX-02
+PASS 'Use this root cause' fills the form field with both root causes
+PASS reading the RCA data changes neither CAPA's nor RCA's stored state
+PASS no errors with the RCA data present
+
+11/11 passed

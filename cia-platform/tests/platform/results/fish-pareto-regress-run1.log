@@ -1,0 +1,15 @@
+PASS Fishbone stored state after the example is identical
+PASS Fishbone report HTML is identical
+PASS Fishbone CSV is identical
+PASS Fishbone stored state after a scripted analysis and an answer is identical
+PASS Fishbone automatic audit results are identical
+PASS no errors in either version
+PASS with no Pareto data, the text of every tab is identical (AR/EN, including the three example forms)
+PASS the panel lists PA-EX-01 on FB-EX-01, PA-EX-02 on FB-EX-02 and PA-EX-03 on FB-EX-03
+PASS a new analysis shows no Pareto panel
+PASS ?pareto=PA-EX-02&cat=k1 fills a new, unsaved analysis from the category
+PASS reading the Pareto data and the request changes neither Fishbone's nor Pareto's stored state
+PASS an unknown Pareto analysis leaves the page on its tab with an empty form
+PASS no errors with the Pareto data present
+
+13/13 passed

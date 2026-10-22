@@ -1,0 +1,79 @@
+/* ===== PESTLE tool — additions to the PDCA host styles and the CAPA, 5 Whys, Fishbone, Pareto, RCA, A3, DMAIC, FMEA, Lessons and SWOT additions (same tokens) ===== */
+.pe-term{border-inline-start-color:#3563C9}
+.pe-from{border-inline-start-color:#1B2A4A}
+/* stage map: seven stages; four columns on tablets, one on phones */
+.pe-map{grid-template-columns:repeat(7,minmax(0,1fr))}
+.pe-map li{padding:7px 8px}
+.pe-map li b{font-size:12.5px}
+@media (max-width:1100px){.pe-map{grid-template-columns:repeat(4,minmax(0,1fr))}}
+@media (max-width:640px){.pe-map{grid-template-columns:1fr}}
+/* sections */
+.pe-sec .dm-pht{font-size:16.5px}
+.pe-tm{min-width:520px}
+.pe-ou{min-width:1260px}
+.pe-rv{min-width:760px}
+.pe-vh{margin:14px 0 4px;font-size:14px;color:var(--ink)}
+/* the factor boxes: three on wide screens, two on tablets, one on phones */
+.pe-gboxes{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.pe-gbox{border:1px solid var(--line,#DCE4EE);border-top:4px solid var(--gc);border-radius:12px;padding:8px 10px;min-width:0;background:#fff}
+.pe-gh{display:flex;gap:8px;align-items:baseline;margin:2px 0 2px;color:var(--gc);font-size:15px;font-weight:700}
+.pe-gh b{font-family:Georgia,serif}
+.pe-gh span{flex:1;min-width:0}
+.pe-gd{margin:0 0 6px;font-size:12.5px;color:var(--ink-soft)}
+.pe-gm{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin-bottom:6px}
+.pe-gm .pd-f{min-width:0}
+.pe-gm .pd-f input{padding:6px 9px;font-size:13.5px}
+.pe-cards .dm-card{border-inline-start:4px solid var(--gc)}
+.pe-acards .dm-card{border-inline-start:4px solid #C2410C}
+/* item cards: two compact columns */
+.pe-fa .pd-fields{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+.pe-fa .pd-f{min-width:0}
+.pe-fa .pd-f.wide{grid-column:1/-1}
+.pe-fa .pd-f input,.pe-fa .pd-f select,.pe-fa .pd-f textarea{padding:7px 9px;font-size:14px}
+/* action cards: three compact columns */
+.pe-ac .pd-fields{grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+.pe-ac .pd-f{min-width:0}
+.pe-ac .pd-f.wide{grid-column:1/-1}
+.pe-ou td:nth-child(1){min-width:200px}.pe-ou td:nth-child(2){min-width:170px}.pe-ou td:nth-child(3){min-width:100px}.pe-ou td:nth-child(4){min-width:250px}.pe-ou td:nth-child(5){min-width:200px}.pe-ou td:nth-child(6){min-width:180px}.pe-ou td:nth-child(7){min-width:120px}
+.pe-rv td:nth-child(2){min-width:130px}.pe-rv td:nth-child(3){min-width:220px}
+.pe-rk tr.top td{background:#F3F7FB}
+/* the board, the matrix and the time horizon (also drawn into the report) */
+.pe-board{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin:8px 0}
+.pe-g{border:1px solid var(--line,#DCE4EE);border-top:4px solid var(--gc);border-radius:10px;padding:8px 10px;min-width:0;background:#fff}
+.pe-g h4{margin:0 0 4px;display:flex;flex-wrap:wrap;gap:4px 8px;align-items:baseline;color:var(--gc);font-size:14px}
+.pe-g h4 b{font-family:Georgia,serif}
+.pe-g h4 small{color:var(--ink-soft);font-weight:400;font-size:11.5px}
+.pe-g ol{margin:0;padding:0;list-style:none;display:grid;gap:4px}
+.pe-g li{display:flex;gap:6px;align-items:baseline;font-size:13px;overflow-wrap:anywhere;min-width:0}
+.pe-g li span{flex:1;min-width:0}
+.pe-g li.top span{font-weight:600}
+.pe-g code{font-family:Georgia,serif;font-weight:700;color:var(--gc)}
+.pe-g em{font-style:normal;color:var(--ink-soft);font-size:11.5px;white-space:nowrap}
+.pe-none,.pe-more{margin:2px 0;color:var(--muted,#7A869E);font-size:12.5px}
+.pe-two{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.pe-mxw{min-width:0}
+.pe-mx{border-collapse:separate;border-spacing:3px;width:100%;table-layout:fixed}
+.pe-mx caption{caption-side:top;text-align:start;font-size:12px;color:var(--ink-soft);padding:0 0 4px}
+.pe-mx th{font-size:11.5px;color:var(--ink-soft);font-weight:700;width:22px;padding:0;background:none;border:0}
+.pe-mx td{height:44px;border-radius:6px;vertical-align:middle;text-align:center;padding:2px;border:0}
+.pe-mx td.lo{background:#E5F4EA}.pe-mx td.md{background:#FBEBCB}.pe-mx td.hi{background:#F6D5D2}
+.pe-mc{display:inline-block;margin:1px;padding:0 4px;border-radius:4px;background:#fff;border:1px solid var(--gc);color:var(--gc);font-size:10.5px;font-weight:700;font-family:Georgia,serif}
+.pe-mc.top{background:var(--gc);color:#fff}
+.pe-tl{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+.pe-tl section{border:1px solid var(--line,#DCE4EE);border-radius:10px;padding:6px 8px;min-width:0;background:#fff}
+.pe-tl h5{margin:0 0 4px;font-size:12.5px;color:var(--ink)}
+.pe-tl ul{margin:0;padding:0;list-style:none;display:grid;gap:3px}
+.pe-tl li{font-size:12px;display:flex;gap:5px;align-items:baseline;overflow-wrap:anywhere;min-width:0}
+.pe-tl li span{flex:1;min-width:0}
+.pe-tl li code{font-family:Georgia,serif;font-weight:700;color:var(--gc)}
+.pe-tl li.top span{font-weight:600}
+/* chart: never wider than the screen */
+.pe-chartw{overflow-x:auto;max-width:100%}
+.pe-chartw svg{max-width:100%;height:auto;display:block}
+@media (min-width:1500px){.pe-gboxes{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media (max-width:900px){.pe-two{grid-template-columns:1fr}}
+@media (max-width:760px){.pe-gboxes{grid-template-columns:1fr}.pe-board{grid-template-columns:repeat(2,minmax(0,1fr))}.pe-ac .pd-fields{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:640px){.pe-tm{min-width:460px}.pe-ou{min-width:1200px}.pe-rv{min-width:640px}.pe-g,.pe-tl section{padding:6px 7px}.pe-g li{font-size:12.5px}.pe-mx td{height:38px}}
+@media (max-width:420px){.pe-fa .pd-fields,.pe-ac .pd-fields,.pe-gm{grid-template-columns:1fr}.pe-tl{grid-template-columns:1fr}}
+/* the six-letter code badge in the header */
+.brand-mark{font-size:9.5px;letter-spacing:0}

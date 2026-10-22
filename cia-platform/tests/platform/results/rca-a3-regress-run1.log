@@ -1,0 +1,13 @@
+PASS RCA stored state after the example is identical
+PASS RCA report HTML is identical
+PASS RCA CSV is identical
+PASS RCA stored state after a scripted record and an answer is identical
+PASS RCA automatic audit results are identical
+PASS no errors in either version
+PASS with no A3 data, the text of every tab is identical (AR/EN, including the three example forms)
+PASS the panel lists A3-EX-01 on RC-EX-01, A3-EX-02 on RC-EX-02 and A3-EX-03 on RC-EX-03, with goal and result
+PASS 'Open in A3' asks for a3.html?open=A3-EX-01 outside the hub
+PASS reading the A3 data changes neither RCA's nor A3's stored state
+PASS no errors with the A3 data present
+
+11/11 passed

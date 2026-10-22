@@ -1,0 +1,170 @@
+PASS engine block present once in pdca.html, capa.html and five-whys.html
+PASS engine block identical in the three files
+PASS engine block identical to tests/build/engine.js
+PASS five-whys.html cia-explain-kit-css byte-identical to the template
+PASS five-whys.html cia-explain-kit-js byte-identical to the template
+PASS tour script identical to capa.html apart from CFG
+PASS tour CSS identical to capa.html
+PASS tour CFG names five-whys and guards the example
+PASS storage key and schema documented at the top of the host script
+PASS sidebar buttons and the CAPA panel never write another tool's key (no setItem on cia-capa/cia-pdca)
+PASS loads in Arabic RTL
+PASS method tab says once that 5 Whys is a method, not a clause, and names 10.2.1 b) 2) and b) 3)
+PASS method tab says five is a rule of thumb and when to stop
+PASS the explanation is marked as interpretive summary
+PASS method guide renders (kit) with the roles and the steps
+PASS clause guide index shows 5 clauses
+PASS clause guide draws the cycle diagram
+PASS opening 10.2 shows 10.2.1 b 1 … b 3, the method rules and A.10.2
+PASS requirements are marked as interpretive summaries
+PASS method rules are marked as guidance, not normative text
+PASS kit: 14 items, 10 linked to the 10 questions, 4 outside the assessment
+PASS every question has an item
+PASS meta.verified names the date and the source files
+PASS ui labels set (roles, wheelT, purpose, smap, assess, assessOff, offGo, actCtx)
+PASS 'Assess this' lands on question CH2, highlighted
+PASS item outside the assessment shows the note and a button to the analysis
+PASS the note's button opens the 5 Whys analysis tab
+PASS 'Explain' back-link on each of the 10 questions
+PASS 'Explain' on RT1 opens GD-4 (root cause test)
+PASS no JS errors on load and kit use (ar)
+PASS tab home shows and is selected
+PASS tab explain-std shows and is selected
+PASS tab explain-cl shows and is selected
+PASS tab assess shows and is selected
+PASS tab tools shows and is selected
+PASS tab docs shows and is selected
+PASS tab audit shows and is selected
+PASS tab dash shows and is selected
+PASS tab report shows and is selected
+PASS tab ai shows and is selected
+PASS sidebar buttons carry data-go and data-t
+PASS toggle to English sets LTR
+PASS kit re-renders the open method tab in English
+PASS English method card: not a clause, rule of thumb
+PASS toggle back to Arabic re-renders again
+PASS assessment answers persisted under cia-why5:v1
+PASS gauge value correct (15%)
+PASS score per stage group shown (4 groups)
+PASS 10 questions on a 0–2 scale
+PASS a new form starts with the main chain and one empty why
+PASS empty save is refused (title)
+PASS missing problem refused (what happened)
+PASS valid analysis saves with id W5-2026-001, stage Problem
+PASS first why asks about the problem
+PASS next why asks about the previous answer, without a full stop before the question mark
+PASS with an answered why the stage is Chain of whys
+PASS audit: two whys and no stop reason fail the depth check; a why without evidence and a 'not supported' answer fail
+PASS a recorded stop reason passes the depth check; evidence and no unsupported answer pass
+PASS a root cause naming only a person is flagged at once
+PASS with a root cause the stage is Root cause
+PASS audit fails 'root is not a person alone' and the record shows the flag
+PASS the flag clears when the root names the process
+PASS 'only partly' shows the incomplete-test note
+PASS reading back runs from the deepest answer to the problem with 'therefore'
+PASS up to two branches; the add button hides at the limit
+PASS a branch can be removed
+PASS at most 9 whys in a chain
+PASS a team without anyone who does the work is flagged
+PASS adding a person who does the work clears the flag
+PASS tested root cause: stage Root cause tested
+PASS branch saved with its label and whys; empty whys dropped
+PASS audit: countermeasure without an owner fails, and the record shows the flag
+PASS review dated before the analysis is refused
+PASS a reviewer from the team is flagged
+PASS reviewed (stage) but the audit fails the independent review
+PASS an outside reviewer passes the audit; every check passes except the reference
+PASS all ten checks pass on a complete analysis
+PASS second analysis saves as W5-2026-00x
+PASS no JS errors after the analysis flow
+PASS records list both analyses with stage and flags
+PASS sidebar count badge is 2
+PASS open loads the analysis into the form, with its branch
+PASS audit table lists the analyses with 10 checks
+PASS audit KPI tiles present (4)
+PASS dashboard has 9 KPI tiles, stage and source bars and an open-items list
+PASS HTML report named 5Whys-report-*.html
+PASS report draws each analysis as its chain with evidence, branch, reading back, audit, open items and sources
+PASS report uses the shared engine frame (same CSS as PDCA and CAPA)
+PASS CSV header and rows
+PASS analyses persist after reload
+PASS first delete click arms confirmation
+PASS second click deletes
+PASS no JS errors through the full flow
+PASS home button back to the hub is present
+PASS code badge 5W and Arabic brand line in AR
+PASS language button reads English in AR
+PASS hero shows the academy logo and 'إعداد مدثر سلامه'
+PASS sidebar uses SVG icons with tinted tiles (10)
+PASS launch grid has 9 tiles
+PASS related tools strip: CAPA, PDCA, Smart Audit, ISO 9001
+PASS AI tab is a placeholder labelled under construction
+PASS example loads 3 analyses linked to CA-EX-01, CA-EX-03 and CA-EX-04
+PASS example stages: reviewed, tested (waiting for review), reviewed
+PASS the concrete analysis has a branch because two causes acted together
+PASS example dates are in 2026 and labelled illustrative
+PASS example self-assessment is 70%
+PASS example audit: only the missing review of W5-EX-02 fails
+PASS example: home has content and no undefined/NaN/[object Object]
+PASS example: explain-std has content and no undefined/NaN/[object Object]
+PASS example: explain-cl has content and no undefined/NaN/[object Object]
+PASS example: assess has content and no undefined/NaN/[object Object]
+PASS example: tools has content and no undefined/NaN/[object Object]
+PASS example: docs has content and no undefined/NaN/[object Object]
+PASS example: audit has content and no undefined/NaN/[object Object]
+PASS example: dash has content and no undefined/NaN/[object Object]
+PASS example: report has content and no undefined/NaN/[object Object]
+PASS example: ai has content and no undefined/NaN/[object Object]
+PASS no errors with example data on every tab
+PASS assistant button and panel present
+PASS assistant: five is a rule of thumb, with the clause it serves
+PASS assistant answers the human-error question
+PASS assistant lists open items from the data
+PASS assistant has 4–6 method answers plus two that read the data
+PASS clear all removes the stored data
+PASS analyses with missing or broken parts render without errors
+PASS full tour covers all 9 sections after home
+PASS tour has no empty titles and no errors
+PASS without CAPA data the preview says so
+PASS home shows the CAPA records whose method is 5 Whys and have no analysis yet (1: CA-EX-03)
+PASS preview lists the 4 CAPA records with their stage and method
+PASS 'start from this record' prefills reference, CAPA link, PDCA link and the problem
+PASS the prefill message says nothing was written to CAPA
+PASS the CAPA record and the PDCA cycle names are read and shown
+PASS the prefilled analysis saves
+PASS CAPA and PDCA data were only read
+PASS outside the hub 'Open CAPA' and 'Open PDCA' open new tabs
+PASS CAPA: on a new record with method 5 Whys the 'Open the 5 Whys tool' button shows and the panel stays hidden
+PASS CAPA: the button hides for another method
+PASS CAPA: the cause section lists the 5 Whys analysis naming CA-EX-01
+PASS CAPA: 'Use this root cause' copies the text into the form field
+PASS CAPA: nothing is stored until the user saves
+PASS CAPA: after saving, the record holds the copied root cause
+PASS CAPA never writes the 5 Whys key
+PASS CAPA: a record with method Fishbone and no analysis shows no panel
+PASS CAPA: a Fishbone record named by an analysis still lists it
+PASS CAPA outside the hub: links open 5 Whys in a new tab on the analysis or prefilled from the record
+PASS 5 Whys opens the analysis named in ?open=
+PASS 5 Whys starts a new analysis from the CAPA record in ?capa=
+PASS no errors in the link checks
+PASS in the hub, 'Open in 5 Whys' opens the tool in the overlay on that analysis
+PASS the navigation hint is removed after use
+PASS in the hub, 'Open CAPA' opens CAPA in the overlay
+PASS no errors in the hub link checks
+PASS English loads LTR
+PASS keyboard can switch tabs (focus next + Enter)
+PASS form fields reachable by keyboard
+PASS no horizontal scroll at 390px on home (sw=390)
+PASS no horizontal scroll at 390px on explain-std (sw=390)
+PASS no horizontal scroll at 390px on explain-cl (sw=390)
+PASS no horizontal scroll at 390px on assess (sw=390)
+PASS no horizontal scroll at 390px on tools (sw=390)
+PASS no horizontal scroll at 390px on docs (sw=390)
+PASS no horizontal scroll at 390px on audit (sw=390)
+PASS no horizontal scroll at 390px on dash (sw=390)
+PASS no horizontal scroll at 390px on report (sw=390)
+PASS no horizontal scroll at 390px on ai (sw=390)
+PASS English example text has no Arabic in the analyses
+PASS no JS errors in English/mobile run
+
+168/168 passed

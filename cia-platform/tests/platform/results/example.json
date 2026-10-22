@@ -1,0 +1,2056 @@
+{
+ "name": "example",
+ "checks": 384,
+ "failed": 0,
+ "seconds": 220.4,
+ "rows": [
+  {
+   "label": "a3: example loads (pfEx) into cia-a3:v1",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "a3: no errors while loading the example",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ai-regulatory: example loads (pfEx) into ai-regulatory:v1",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ai-regulatory: no errors while loading the example",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "capa: example loads (pfEx) into cia-capa:v1",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "capa: no errors while loading the example",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "compliance-anti-bribery: example loads (pfEx, mtDemo) into compliance-center:v1",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "compliance-anti-bribery: no errors while loading the example",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "dmaic: example loads (pfEx) into cia-dmaic:v1",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "dmaic: no errors while loading the example",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "excellence-efqm: example loads (pfEx, asDemo, qsDemo, rvDemo) into excellence2025:v1",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "excellence-efqm: no errors while loading the example",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "executive-cockpit-workspace: has no example of its own (it reads the other tools)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "executive-cockpit-workspace: no errors while loading the example",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "fishbone: example loads (pfEx) into cia-fish:v1",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "fishbone: no errors while loading the example",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "five-whys: example loads (pfEx) into cia-why5:v1",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "five-whys: no errors while loading the example",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "fmea: example loads (pfEx) into cia-fmea:v1",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "fmea: no errors while loading the example",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ims-builder: example loads (pkEx, asDemo) into imsbuilder:v1",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ims-builder: no errors while loading the example",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso10009: example loads (pfEx) into cia-iso10009:v1",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso10009: no errors while loading the example",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso14001: example loads (asDemo) into iso14001tk:v1",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso14001: no errors while loading the example",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso21500: example loads (pfEx, asDemo) into iso21500:v1",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso21500: no errors while loading the example",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso22301: example loads (asDemo) into iso22301tk:v1",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso22301: no errors while loading the example",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso27001: example loads (asDemo) into iso27001tk:v1",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso27001: no errors while loading the example",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso27701: example loads (pfEx, asDemo) into iso27701:v1",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso27701: no errors while loading the example",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso31000-risk-studio: example loads (asDemo) into iso31000tk:v1",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso31000-risk-studio: no errors while loading the example",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37000-governance: example loads (asDemo) into iso37000tk:v1",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37000-governance: no errors while loading the example",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37001: example loads (asDemo) into iso37001tk:v1",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37001: no errors while loading the example",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37301: example loads (asDemo) into iso37301tk:v1",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37301: no errors while loading the example",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso42001: example loads (pfEx, asDemo) into iso42001:v1",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso42001: no errors while loading the example",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso42005: example loads (pfEx) into iso42005:v1",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso42005: no errors while loading the example",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso45001: example loads (asDemo) into iso45001tk:v1",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso45001: no errors while loading the example",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso9001: example loads (asDemo) into iso9001tk:v1",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso9001: no errors while loading the example",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "kaqa: example loads (pfEx, asDemo, qsDemo, rvDemo) into kaqa:v1",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "kaqa: no errors while loading the example",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "lessons: example loads (pfEx) into cia-lessons:v1",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "lessons: no errors while loading the example",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "operations-excellence: example loads (pfEx) into ops-excellence:v1",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "operations-excellence: no errors while loading the example",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "p3o: example loads (pfEx, asDemo) into p3o:v1",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "p3o: no errors while loading the example",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pareto: example loads (pfEx) into cia-pareto:v1",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pareto: no errors while loading the example",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pdca: example loads (pfEx) into cia-pdca:v1",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pdca: no errors while loading the example",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pestle: example loads (pfEx) into cia-pestle:v1",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pestle: no errors while loading the example",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pmo-excellence: example loads (pfEx, asDemo) into pmo-excellence:v1",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pmo-excellence: no errors while loading the example",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pmo-maturity: example loads (pfEx, asDemo) into p3m3:v1",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pmo-maturity: no errors while loading the example",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "rca: example loads (pfEx) into cia-rca:v1",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "rca: no errors while loading the example",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "smart-audit-improvement: example loads (pfEx) into audit-center:v1",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "smart-audit-improvement: no errors while loading the example",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance: example loads (pfEx) into strategy-studio:v1",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance: no errors while loading the example",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot: example loads (pfEx) into cia-swot:v1",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot: no errors while loading the example",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "a3 ar: every tab with example data has content",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "a3 ar: no undefined/NaN/[object Object] with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "a3 ar: no errors with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ai-regulatory ar: every tab with example data has content",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ai-regulatory ar: no undefined/NaN/[object Object] with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ai-regulatory ar: no errors with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "capa ar: every tab with example data has content",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "capa ar: no undefined/NaN/[object Object] with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "capa ar: no errors with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "compliance-anti-bribery ar: every tab with example data has content",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "compliance-anti-bribery ar: no undefined/NaN/[object Object] with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "compliance-anti-bribery ar: no errors with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "dmaic ar: every tab with example data has content",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "dmaic ar: no undefined/NaN/[object Object] with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "dmaic ar: no errors with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "excellence-efqm ar: every tab with example data has content",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "excellence-efqm ar: no undefined/NaN/[object Object] with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "excellence-efqm ar: no errors with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "executive-cockpit-workspace ar: every tab with example data has content",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "executive-cockpit-workspace ar: no undefined/NaN/[object Object] with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "executive-cockpit-workspace ar: no errors with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "fishbone ar: every tab with example data has content",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "fishbone ar: no undefined/NaN/[object Object] with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "fishbone ar: no errors with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "five-whys ar: every tab with example data has content",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "five-whys ar: no undefined/NaN/[object Object] with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "five-whys ar: no errors with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "fmea ar: every tab with example data has content",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "fmea ar: no undefined/NaN/[object Object] with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "fmea ar: no errors with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ims-builder ar: every tab with example data has content",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ims-builder ar: no undefined/NaN/[object Object] with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ims-builder ar: no errors with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso10009 ar: every tab with example data has content",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso10009 ar: no undefined/NaN/[object Object] with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso10009 ar: no errors with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso14001 ar: every tab with example data has content",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso14001 ar: no undefined/NaN/[object Object] with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso14001 ar: no errors with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso21500 ar: every tab with example data has content",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso21500 ar: no undefined/NaN/[object Object] with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso21500 ar: no errors with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso22301 ar: every tab with example data has content",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso22301 ar: no undefined/NaN/[object Object] with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso22301 ar: no errors with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso27001 ar: every tab with example data has content",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso27001 ar: no undefined/NaN/[object Object] with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso27001 ar: no errors with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso27701 ar: every tab with example data has content",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso27701 ar: no undefined/NaN/[object Object] with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso27701 ar: no errors with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso31000-risk-studio ar: every tab with example data has content",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso31000-risk-studio ar: no undefined/NaN/[object Object] with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso31000-risk-studio ar: no errors with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37000-governance ar: every tab with example data has content",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37000-governance ar: no undefined/NaN/[object Object] with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37000-governance ar: no errors with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37001 ar: every tab with example data has content",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37001 ar: no undefined/NaN/[object Object] with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37001 ar: no errors with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37301 ar: every tab with example data has content",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37301 ar: no undefined/NaN/[object Object] with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37301 ar: no errors with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso42001 ar: every tab with example data has content",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso42001 ar: no undefined/NaN/[object Object] with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso42001 ar: no errors with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso42005 ar: every tab with example data has content",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso42005 ar: no undefined/NaN/[object Object] with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso42005 ar: no errors with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso45001 ar: every tab with example data has content",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso45001 ar: no undefined/NaN/[object Object] with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso45001 ar: no errors with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso9001 ar: every tab with example data has content",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso9001 ar: no undefined/NaN/[object Object] with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso9001 ar: no errors with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "kaqa ar: every tab with example data has content",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "kaqa ar: no undefined/NaN/[object Object] with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "kaqa ar: no errors with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "lessons ar: every tab with example data has content",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "lessons ar: no undefined/NaN/[object Object] with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "lessons ar: no errors with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "operations-excellence ar: every tab with example data has content",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "operations-excellence ar: no undefined/NaN/[object Object] with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "operations-excellence ar: no errors with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "p3o ar: every tab with example data has content",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "p3o ar: no undefined/NaN/[object Object] with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "p3o ar: no errors with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pareto ar: every tab with example data has content",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pareto ar: no undefined/NaN/[object Object] with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pareto ar: no errors with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pdca ar: every tab with example data has content",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pdca ar: no undefined/NaN/[object Object] with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pdca ar: no errors with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pestle ar: every tab with example data has content",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pestle ar: no undefined/NaN/[object Object] with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pestle ar: no errors with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pmo-excellence ar: every tab with example data has content",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pmo-excellence ar: no undefined/NaN/[object Object] with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pmo-excellence ar: no errors with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pmo-maturity ar: every tab with example data has content",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pmo-maturity ar: no undefined/NaN/[object Object] with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pmo-maturity ar: no errors with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "rca ar: every tab with example data has content",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "rca ar: no undefined/NaN/[object Object] with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "rca ar: no errors with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "smart-audit-improvement ar: every tab with example data has content",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "smart-audit-improvement ar: no undefined/NaN/[object Object] with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "smart-audit-improvement ar: no errors with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance ar: every tab with example data has content",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance ar: no undefined/NaN/[object Object] with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance ar: no errors with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar: every tab with example data has content",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar: no undefined/NaN/[object Object] with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar: no errors with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "a3 en: every tab with example data has content",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "a3 en: no undefined/NaN/[object Object] with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "a3 en: no errors with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ai-regulatory en: every tab with example data has content",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ai-regulatory en: no undefined/NaN/[object Object] with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ai-regulatory en: no errors with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "capa en: every tab with example data has content",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "capa en: no undefined/NaN/[object Object] with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "capa en: no errors with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "compliance-anti-bribery en: every tab with example data has content",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "compliance-anti-bribery en: no undefined/NaN/[object Object] with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "compliance-anti-bribery en: no errors with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "dmaic en: every tab with example data has content",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "dmaic en: no undefined/NaN/[object Object] with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "dmaic en: no errors with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "excellence-efqm en: every tab with example data has content",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "excellence-efqm en: no undefined/NaN/[object Object] with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "excellence-efqm en: no errors with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "executive-cockpit-workspace en: every tab with example data has content",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "executive-cockpit-workspace en: no undefined/NaN/[object Object] with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "executive-cockpit-workspace en: no errors with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "fishbone en: every tab with example data has content",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "fishbone en: no undefined/NaN/[object Object] with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "fishbone en: no errors with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "five-whys en: every tab with example data has content",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "five-whys en: no undefined/NaN/[object Object] with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "five-whys en: no errors with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "fmea en: every tab with example data has content",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "fmea en: no undefined/NaN/[object Object] with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "fmea en: no errors with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ims-builder en: every tab with example data has content",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ims-builder en: no undefined/NaN/[object Object] with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ims-builder en: no errors with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso10009 en: every tab with example data has content",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso10009 en: no undefined/NaN/[object Object] with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso10009 en: no errors with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso14001 en: every tab with example data has content",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso14001 en: no undefined/NaN/[object Object] with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso14001 en: no errors with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso21500 en: every tab with example data has content",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso21500 en: no undefined/NaN/[object Object] with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso21500 en: no errors with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso22301 en: every tab with example data has content",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso22301 en: no undefined/NaN/[object Object] with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso22301 en: no errors with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso27001 en: every tab with example data has content",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso27001 en: no undefined/NaN/[object Object] with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso27001 en: no errors with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso27701 en: every tab with example data has content",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso27701 en: no undefined/NaN/[object Object] with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso27701 en: no errors with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso31000-risk-studio en: every tab with example data has content",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso31000-risk-studio en: no undefined/NaN/[object Object] with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso31000-risk-studio en: no errors with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37000-governance en: every tab with example data has content",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37000-governance en: no undefined/NaN/[object Object] with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37000-governance en: no errors with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37001 en: every tab with example data has content",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37001 en: no undefined/NaN/[object Object] with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37001 en: no errors with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37301 en: every tab with example data has content",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37301 en: no undefined/NaN/[object Object] with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37301 en: no errors with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso42001 en: every tab with example data has content",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso42001 en: no undefined/NaN/[object Object] with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso42001 en: no errors with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso42005 en: every tab with example data has content",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso42005 en: no undefined/NaN/[object Object] with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso42005 en: no errors with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso45001 en: every tab with example data has content",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso45001 en: no undefined/NaN/[object Object] with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso45001 en: no errors with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso9001 en: every tab with example data has content",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso9001 en: no undefined/NaN/[object Object] with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso9001 en: no errors with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "kaqa en: every tab with example data has content",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "kaqa en: no undefined/NaN/[object Object] with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "kaqa en: no errors with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "lessons en: every tab with example data has content",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "lessons en: no undefined/NaN/[object Object] with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "lessons en: no errors with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "operations-excellence en: every tab with example data has content",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "operations-excellence en: no undefined/NaN/[object Object] with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "operations-excellence en: no errors with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "p3o en: every tab with example data has content",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "p3o en: no undefined/NaN/[object Object] with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "p3o en: no errors with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pareto en: every tab with example data has content",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pareto en: no undefined/NaN/[object Object] with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pareto en: no errors with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pdca en: every tab with example data has content",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pdca en: no undefined/NaN/[object Object] with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pdca en: no errors with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pestle en: every tab with example data has content",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pestle en: no undefined/NaN/[object Object] with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pestle en: no errors with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pmo-excellence en: every tab with example data has content",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pmo-excellence en: no undefined/NaN/[object Object] with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pmo-excellence en: no errors with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pmo-maturity en: every tab with example data has content",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pmo-maturity en: no undefined/NaN/[object Object] with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pmo-maturity en: no errors with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "rca en: every tab with example data has content",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "rca en: no undefined/NaN/[object Object] with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "rca en: no errors with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "smart-audit-improvement en: every tab with example data has content",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "smart-audit-improvement en: no undefined/NaN/[object Object] with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "smart-audit-improvement en: no errors with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en: every tab with example data has content",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en: no undefined/NaN/[object Object] with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en: no errors with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en: every tab with example data has content",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en: no undefined/NaN/[object Object] with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en: no errors with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "hub dashboard reads iso9001 (iso9001.html)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "hub dashboard reads iso14001 (iso14001.html)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "hub dashboard reads iso45001 (iso45001.html)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "hub dashboard reads iso27001 (iso27001.html)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "hub dashboard reads iso27701 (iso27701.html)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "hub dashboard reads iso22301 (iso22301.html)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "hub dashboard reads iso37301 (iso37301.html)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "hub dashboard reads iso37001 (iso37001.html)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "hub dashboard reads iso42001 (iso42001.html)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "hub dashboard reads iso42005 (iso42005.html)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "hub dashboard reads ims (ims-builder.html)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "hub dashboard reads iso31000 (iso31000-risk-studio.html)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "hub dashboard reads iso37000 (iso37000-governance.html)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "hub dashboard reads ccc (compliance-anti-bribery.html)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "hub dashboard reads aireg (ai-regulatory.html)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "hub dashboard reads pmo (pmo-maturity.html)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "hub dashboard reads iso21500 (iso21500.html)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "hub dashboard reads p3o (p3o.html)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "hub dashboard reads pmoexc (pmo-excellence.html)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "hub dashboard reads exc (excellence-efqm.html)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "hub dashboard reads kaqa (kaqa.html)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "hub dashboard reads str (strategy-performance.html)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "hub dashboard reads aud (smart-audit-improvement.html)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "hub dashboard reads oec (operations-excellence.html)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "hub dashboard reads pdca (pdca.html)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "hub dashboard reads capa (capa.html)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "hub dashboard reads why5 (five-whys.html)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "hub dashboard reads fish (fishbone.html)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "hub dashboard reads pareto (pareto.html)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "hub dashboard reads rca (rca.html)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "hub dashboard reads a3 (a3.html)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "hub dashboard reads dmaic (dmaic.html)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "hub dashboard reads iso10009 (iso10009.html)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "hub dashboard reads fmea (fmea.html)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "hub dashboard reads lessons (lessons.html)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "hub dashboard reads swot (swot.html)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "hub dashboard reads pestle (pestle.html)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "hub dashboard reads w8 (executive-cockpit-workspace.html)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "hub reads PDCA: self-assessment 65% and 3 cycles",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "PDCA metrics on the hub: 65% assessed, 1/3 closed",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "CAPA metrics on the hub: 67% assessed, 1/4 closed and effective",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "CAPA breakdown on the hub: overdue actions, overdue reviews, reopened, waiting",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "5 Whys metrics on the hub: 70% assessed, 3/3 tested, 3/3 linked to CAPA",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "5 Whys breakdown on the hub: not tested 0, to check 2, person only 0, waiting for review 1",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "hub demo snapshot for 5 Whys equals the hub's own reading of the example",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "Fishbone metrics on the hub: 75% assessed, 3/3 with verified selected causes, 3/3 linked to CAPA",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "Fishbone breakdown on the hub: not verified 0, none selected 0, person only 0, waiting for review 1",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "hub demo snapshot for Fishbone equals the hub's own reading of the example",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "Pareto metrics on the hub: 70% assessed, 2/3 with every vital-few category linked, 1/3 improved on a before/after check",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "Pareto breakdown on the hub: not confirmed 0, unlinked 1, not checked 1, Other too large 0, waiting for review 0",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "hub demo snapshot for Pareto equals the hub's own reading of the example",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "RCA metrics on the hub: 71% assessed, 3/3 with every root cause confirmed and tested, 3/3 with a criterion written before the action",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "RCA breakdown on the hub: not tested 0, person only 0, depth or methods 0, root without action 0, waiting for review 1",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "hub demo snapshot for RCA equals the hub's own reading of the example",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "A3 metrics on the hub: 75% assessed, 2/3 goal met or partly met on a follow-up, 3/3 with every countermeasure tied to a proved cause",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "A3 breakdown on the hub: goal rule 0, causes 0, countermeasures 0, plan 0, waiting 1",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "hub demo snapshot for A3 equals the hub's own reading of the example",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "DMAIC metrics on the hub: 79% assessed, 2/3 goal met or partly met after the change, 3/3 with every completed phase passed at its gate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "DMAIC breakdown on the hub: goal rule 0, measurement 0, causes 1, solutions 0, waiting 0",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "hub demo snapshot for DMAIC equals the hub's own reading of the example",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ISO 10009 metrics on the hub: 72% assessed, 3/3 storyboards with tools in all four phases, 8/8 completed toolbox steps linked (hub snapshot unchanged by the FMEA step)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ISO 10009 breakdown on the hub: phase 0, reason 1, result 0, standard 0, review 0",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "hub demo snapshot for ISO 10009 equals the hub's own reading of the example",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "FMEA metrics on the hub: 75% assessed, 3/3 with every high-priority row acted on, 2/3 re-rated after all their actions",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "FMEA breakdown on the hub: scales 0, high rows without action 0, human error 1, severity rule 0, re-rating or review 0",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "hub demo snapshot for FMEA equals the hub's own reading of the example",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "Lessons Learned metrics on the hub: 71% assessed, 3/3 embedded, 2/3 verified as applied and working",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "Lessons Learned breakdown on the hub: cause 0, blame 0, rule 0, action 0, not done 0, not verified 1, not shared 0",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "hub demo snapshot for Lessons Learned equals the hub's own reading of the example",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "SWOT metrics on the hub: 71% assessed, 26/26 top items with evidence, 3/3 with actions, 1/3 reviewed",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "SWOT breakdown on the hub: every open-item type 0 in the example",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "hub demo snapshot for SWOT equals the hub's own reading of the example",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "PESTLE metrics on the hub: 75% assessed, 17/17 top items with a source and a date, 17/17 with an outcome, 1/3 reviewed",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "PESTLE breakdown on the hub: every open-item type 0 in the example",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "hub demo snapshot for PESTLE equals the hub's own reading of the example",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "hub dashboard view has no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "hub dashboard lists PDCA, CAPA, 5 Whys, Fishbone and Pareto",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "hub: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "executive cockpit registry shows tools with data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "executive cockpit: no errors",
+   "ok": true,
+   "detail": ""
+  }
+ ],
+ "loaded": {
+  "a3": [
+   "pfEx"
+  ],
+  "ai-regulatory": [
+   "pfEx"
+  ],
+  "capa": [
+   "pfEx"
+  ],
+  "compliance-anti-bribery": [
+   "pfEx",
+   "mtDemo"
+  ],
+  "dmaic": [
+   "pfEx"
+  ],
+  "excellence-efqm": [
+   "pfEx",
+   "asDemo",
+   "qsDemo",
+   "rvDemo"
+  ],
+  "executive-cockpit-workspace": [],
+  "fishbone": [
+   "pfEx"
+  ],
+  "five-whys": [
+   "pfEx"
+  ],
+  "fmea": [
+   "pfEx"
+  ],
+  "ims-builder": [
+   "pkEx",
+   "asDemo"
+  ],
+  "iso10009": [
+   "pfEx"
+  ],
+  "iso14001": [
+   "asDemo"
+  ],
+  "iso21500": [
+   "pfEx",
+   "asDemo"
+  ],
+  "iso22301": [
+   "asDemo"
+  ],
+  "iso27001": [
+   "asDemo"
+  ],
+  "iso27701": [
+   "pfEx",
+   "asDemo"
+  ],
+  "iso31000-risk-studio": [
+   "asDemo"
+  ],
+  "iso37000-governance": [
+   "asDemo"
+  ],
+  "iso37001": [
+   "asDemo"
+  ],
+  "iso37301": [
+   "asDemo"
+  ],
+  "iso42001": [
+   "pfEx",
+   "asDemo"
+  ],
+  "iso42005": [
+   "pfEx"
+  ],
+  "iso45001": [
+   "asDemo"
+  ],
+  "iso9001": [
+   "asDemo"
+  ],
+  "kaqa": [
+   "pfEx",
+   "asDemo",
+   "qsDemo",
+   "rvDemo"
+  ],
+  "lessons": [
+   "pfEx"
+  ],
+  "operations-excellence": [
+   "pfEx"
+  ],
+  "p3o": [
+   "pfEx",
+   "asDemo"
+  ],
+  "pareto": [
+   "pfEx"
+  ],
+  "pdca": [
+   "pfEx"
+  ],
+  "pestle": [
+   "pfEx"
+  ],
+  "pmo-excellence": [
+   "pfEx",
+   "asDemo"
+  ],
+  "pmo-maturity": [
+   "pfEx",
+   "asDemo"
+  ],
+  "rca": [
+   "pfEx"
+  ],
+  "smart-audit-improvement": [
+   "pfEx"
+  ],
+  "strategy-performance": [
+   "pfEx"
+  ],
+  "swot": [
+   "pfEx"
+  ]
+ }
+}

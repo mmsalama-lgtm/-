@@ -1,0 +1,32 @@
+# ISO 10009 step (2026-10-16) — files changed or added against the uploaded DMAIC package (SHA-256 of the new file); test results under tests/platform/results/ not listed
+
+changed  ba4db557c9139dee0d04ef42502f8fc01028915c6c568a6acf16dcf2c0b55bb0  index.html
+changed  8ff8194f4400144e57d0286b50972456bf60bc5fb30fa61fa1c7299b9a439a73  modules/a3.html
+changed  ee117971c923feb2c809231f85cd978fcb87318e276043331ea4d17a01e9d0ad  modules/dmaic.html
+changed  7ceb344d0ea0578373347dc4c9b39bf7316a2261f83398a6f351dc60c1982559  modules/fishbone.html
+changed  fed33d105fd4e24cdab42147ef3c7dbb5a22514db7d824b7765db2ff4cc0950d  modules/pareto.html
+changed  afb94bc8b8100c5a6cbc6c97396fafde5731d8d198719c2b9c299b2682e62fc1  modules/rca.html
+changed  b1e14290cb2ccc54be753259b3dc8d4c742531bd1e41f8367c384f7fcebb01c1  tests/a3/rca_regress.py
+changed  b057636aa8f8db8684fdf3a95f616c7bba8df153afa48ddfbf7a989e86885c10  tests/build/README.md
+changed  72b973e6b60d9ec3234b97b11d55cfaeac05cf04754aab222f17cc618a1cf27f  tests/dmaic/a3_regress.py
+changed  780278d922627944d2095c85cb50d8ad68629378b0e74d4d35b35a6ef63fb05e  tests/pareto/fish_regress.py
+changed  e25201177bdcfc8c3d3e60093ca1344525ea9c04b4394a67fe5e5674714a1743  tests/platform/run_all.sh
+changed  b05f96888985f6d6626169dfa966d92a780b1b2777de65de054e04c5f87a4842  tests/platform/summary.py
+changed  b83e44c9259c52765454c2a6353794656b1580b1498f50d6e78eecf4e4d11c59  tests/platform/t_example.py
+changed  9558e86440a9586b8cf3dfba73c6bade30cdbbfe6ab01c2348565ffe1355f096  tests/platform/t_hub.py
+changed  d7a954806ca7f31e65ef75ea3ad3a15164141ea0f6cc409c34627d527931a9ad  tests/platform/t_static.py
+changed  c000afd601d44760557a3d911ffda70d570c609b14c95048160a8158e86b220e  tests/rca/pareto_regress.py
+added    a04c84c4492f3ed1447ad5a3e63626ad5e7a363af8b6225755ce43489ae5898c  modules/iso10009.html
+added    6f6d5fab7d06c10ad6e73d1ad457eb7a7e4342f939f1d9b4655ef515e76b2ede  tests/build/build_10009.py
+added    c84eab377253ce134f257924c54b9317a5c31965ff98235a1d1fe2df799cd770  tests/build/cat_10009.py
+added    844a3fa644dd8789e140b2f915f6813408bb9d19743460c117d9a83c7dcaecbc  tests/build/data_10009.py
+added    0e0d726a3cd2010ada7c805daa206a9cd75236856259d8e0352d4b08f3d51500  tests/build/demo_10009.py
+added    1b90d47f9d2a7bf88486d388f2936942ee5e289ccbbfabd130fa5ca5828fe6d3  tests/build/patch_hub_10009.py
+added    fad2449f9ba1e02d5a1aae0baf5f024ac24856c18a6f73f2184339e7b4317bc9  tests/build/patch_kits_10009.py
+added    0f2689fc4b6e68df8c93ba1eb6a18297958adac6511f32f59f3bd60fdd695408  tests/build/qt_body.html
+added    b2f7864349633c9cde715e7f1cf63a830017c7cd45e73b632a164353ce3876ff  tests/build/qt_example.js
+added    c05711b18d36056831750ce3546c921322133a27bd84c5242304b32d4dcd771a  tests/build/qt_host.css
+added    7d204a8a8571a3e029f94be6f012ce1d834705cd9ea7b461dffead5c93b3aa06  tests/build/qt_host.js
+added    7f9fc2873205a26a04ba5be05a5e375ad9c3fd1e931aefca559a555fc3be0f71  tests/iso10009/kitdiff.py
+added    1ed237cda0b0c621d1196aa1fe3b56fc3a3cbd83f67466877e5231a25b7c1adb  tests/iso10009/kits_regress.py
+added    8ae41dae6739e6c4043e2cf2437badfb4e15ba5ca0594b3432f912b31c11afb0  tests/iso10009/test_iso10009.py

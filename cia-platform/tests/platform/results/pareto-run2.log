@@ -1,0 +1,204 @@
+PASS engine block present once in pdca, capa, five-whys, fishbone and pareto
+PASS engine block identical in the five files
+PASS engine block identical to tests/build/engine.js
+PASS pareto.html cia-explain-kit-css byte-identical to the template
+PASS pareto.html cia-explain-kit-js byte-identical to the template
+PASS tour script identical to fishbone.html apart from CFG
+PASS tour CSS identical to fishbone.html
+PASS tour CFG names pareto and guards the example
+PASS storage key and schema documented at the top of the host script
+PASS Pareto never writes another tool's key; no other tool writes the Pareto key
+PASS sidebar buttons carry data-go and data-t
+PASS loads in Arabic RTL
+PASS header: home button, PA badge, Arabic brand line, language button
+PASS hero shows the academy logo and the author
+PASS related tools strip: CAPA, Fishbone, 5 Whys, Smart Audit
+PASS method tab says once that Pareto is a method, not a clause, and names 9.1.3, its note, 10.2.1 ب) 2) and A.10.2
+PASS method tab: 80/20 is a rule of thumb, the chart depends on definitions, period and unit, a category is where to dig, not a cause
+PASS the explanation is marked as interpretive summary
+PASS term cards: ISO 9000:2026 3.8.1, 3.8.2 (Pareto charts), 3.8.3, 3.8.6
+PASS method guide renders (kit) with the roles and the steps
+PASS clause guide index shows 5 clauses
+PASS clause guide draws the cycle diagram
+PASS opening 9.1.3 shows 9.1.3, the method rules GD-1 … GD-6 and A.9.1
+PASS A.9.1 names ISO 10009 and ISO 10017 as not verified
+PASS requirements are marked as interpretive summaries
+PASS method rules are marked as guidance, not normative text
+PASS kit: 14 items, 10 linked to the 10 questions, 4 outside the assessment
+PASS every question has an item
+PASS meta.verified names the date and the source files
+PASS ui labels set (roles, wheelT, purpose, smap, assess, assessOff, offGo, actCtx)
+PASS 'Assess this' lands on question VF2, highlighted
+PASS item outside the assessment shows the note and a button to the analysis
+PASS the note's button opens the Pareto analysis tab
+PASS 'Explain' back-link on each of the 10 questions
+PASS 'Explain' on AC2 opens 10.1 (before/after check)
+PASS no JS errors on load and kit use (ar)
+PASS tab home shows content (ar)
+PASS tab explain-std shows content (ar)
+PASS tab explain-cl shows content (ar)
+PASS tab assess shows content (ar)
+PASS tab tools shows content (ar)
+PASS tab docs shows content (ar)
+PASS tab audit shows content (ar)
+PASS tab dash shows content (ar)
+PASS tab report shows content (ar)
+PASS tab ai shows content (ar)
+PASS switches to English LTR and re-renders the open explain tab
+PASS English title and toolName
+PASS back to Arabic re-renders the explain tab
+PASS tab descriptions in both languages (no raw keys)
+PASS 10 questions in 4 groups, 0–2 scale
+PASS score updates: 3 of 20 points = 15%
+PASS group scores: QD 50%, DT 17%
+PASS answers saved under cia-pareto:v1
+PASS answers persist after reload
+PASS clear answers
+PASS validation: title required
+PASS validation: question required
+PASS validation: period end not before start
+PASS three empty category rows to start, plus Other
+PASS sorted largest first, ties keep entry order (k1 before k3)
+PASS cumulative %: 60, 80, 100
+PASS 80% cut-off: the line takes k2 and k1 (the category that crosses the line), not k3
+PASS stage moves to data
+PASS live chart: SVG with three bars, the cumulative line and the cut-off line
+PASS SVG is mirrored for Arabic (largest bar on the right)
+PASS cut-off moved to 60%: only k2 is on the line; the label follows
+PASS 'Other' larger than a named category is flagged
+PASS 'Other' is drawn last and never in the vital few
+PASS 'Other' the largest: bad flag and the audit check fails
+PASS small 'Other': no warning
+PASS add a category row (focus moves to its name)
+PASS an undefined category is flagged
+PASS 15 categories at most: the add button hides with a note
+PASS removing empty rows
+PASS validation: negative values refused
+PASS saved as PA-2026-001 at stage data
+PASS vital-few table lists the ranked categories with the line marks
+PASS adding k4 against the line asks for a reason
+PASS confirmed without the reason: still stage data, audit 'conf' fails
+PASS with the reason: stage vital few; the line now takes k2, k1, k3 (71% before k3) and the team adds k4
+PASS next-step cards for the four vital-few categories
+PASS choosing CAPA with no CAPA data says so in the preview
+PASS an id not in CAPA is flagged in the preview
+PASS all vital-few linked: stage next steps
+PASS changing the method clears the id
+PASS periods of different length are flagged
+PASS 92 days against 92: same basis
+PASS change per category is drawn as you type (k2: -18, -60.0%)
+PASS totals: vital few 54 → 30, all 56 → 32
+PASS the figures suggest 'improved'; the before/after chart is drawn
+PASS no verdict yet: stage stays at next steps
+PASS verdict confirmed: effect checked, waiting for review
+PASS review date before the analysis date is refused
+PASS reviewer from the team is flagged
+PASS reviewed: stage 'reviewed', all audit checks pass except the reference
+PASS with a reference every applicable check passes
+PASS stored: categories with values, after values, vf/why and next steps; Other and cut
+PASS persists after reload and opens in the form with its state
+PASS verdict 'worse' is a bad flag
+PASS records table shows the analysis with stage, vital few and before/after
+PASS audit tab: 10 checks per analysis
+PASS dashboard KPIs and distributions
+PASS report: cover, author, the Pareto SVG and the before/after SVG, ranked table, audit, open items, self-assessment
+PASS CSV with BOM, header and the analysis row
+PASS report downloads as HTML
+PASS CSV downloads
+PASS delete asks for confirmation first
+PASS deleted after confirmation
+PASS no JS errors in the form flow
+PASS example: 3 analyses, assessment 70%
+PASS example stages: PA-EX-01 next steps, PA-EX-02 reviewed, PA-EX-03 vital few
+PASS PA-EX-01: CA-EX-01, CA-EX-04 and CA-EX-03 are in the vital few by the line; calibration added by the team (FB-EX-01)
+PASS PA-EX-02 links Fishbone FB-EX-02, 5 Whys W5-EX-03 and CAPA CA-EX-04; before/after improved on 61 vs 62 days
+PASS PA-EX-03 ranks the same categories by cost in a different order
+PASS example labelled illustrative
+PASS example: tab home renders without undefined/NaN
+PASS example: tab explain-std renders without undefined/NaN
+PASS example: tab explain-cl renders without undefined/NaN
+PASS example: tab assess renders without undefined/NaN
+PASS example: tab tools renders without undefined/NaN
+PASS example: tab docs renders without undefined/NaN
+PASS example: tab audit renders without undefined/NaN
+PASS example: tab dash renders without undefined/NaN
+PASS example: tab report renders without undefined/NaN
+PASS example: tab ai renders without undefined/NaN
+PASS assistant suggestions include 'Is it always 80/20?' and 'Pareto or Fishbone first?'
+PASS 80/20 answer: rule of thumb, not a law
+PASS typed question answered: Pareto first, Fishbone on the category
+PASS assistant reads the open items
+PASS assistant reads the status
+PASS keyboard: Tab moves through the form fields
+PASS keyboard: the cut-off slider moves with arrow keys
+PASS analysis with missing parts: docs renders
+PASS analysis with missing parts: audit renders
+PASS analysis with missing parts: dash renders
+PASS analysis with missing parts: report renders
+PASS analysis with missing parts opens in the form
+PASS clear all removes the key
+PASS no JS errors with example, assistant and broken data
+PASS CAPA, Fishbone and Smart Audit examples are in the browser
+PASS home strip offers to build categories from the data in this browser
+PASS the strip opens the builder
+PASS CAPA by source: preview of 4 records (no period: all data)
+PASS preview lists the CAPA ids as examples
+PASS CAPA within the period: 3 records (CA-EX-01 raised in April is left out)
+PASS CAPA by method groups Fishbone / 5 Whys
+PASS 'Use these categories' fills the form (unsaved) with values and definitions
+PASS Fishbone causes by bone (ruled-out causes not counted)
+PASS Fishbone causes by votes
+PASS Smart Audit findings by clause
+PASS Smart Audit findings by department
+PASS the other tools' data is unchanged after the builds
+PASS next-step previews: FB-EX-02 with its stage, W5-EX-03 with its root cause, CA-EX-04 with its stage
+PASS datalists offer the other tool's ids
+PASS no JS errors in the builds
+PASS 'Start a Fishbone analysis' saves first and opens fishbone.html?pareto=PA-EX-03&cat=k4
+PASS Fishbone opens a new, unsaved analysis filled from the category
+PASS 'Open the 5 Whys tool' opens five-whys.html on its analysis tab
+PASS 'Open the linked one' opens 5 Whys on W5-EX-03 (its existing ?open=)
+PASS CAPA link opens capa.html
+PASS PDCA link opens pdca.html in a new tab outside the hub
+PASS inside the hub the next-step cards say the other tool replaces this one
+PASS hub: Fishbone opens in the overlay from a Pareto category
+PASS hub: the hint fills the Fishbone effect, then is removed
+PASS hub: PDCA opens through ciaOpenFile
+PASS hub: Fishbone's panel opens the Pareto analysis it came from
+PASS no errors in the hub flow
+PASS 390 px en: no horizontal overflow on the analysis tab
+PASS 390 px en: chart becomes a ranked table with bars
+PASS 390 px en: the ranked table reads in order with share and cumulative %
+PASS 390 px en: tab home no overflow
+PASS 390 px en: tab explain-std no overflow
+PASS 390 px en: tab explain-cl no overflow
+PASS 390 px en: tab assess no overflow
+PASS 390 px en: tab tools no overflow
+PASS 390 px en: tab docs no overflow
+PASS 390 px en: tab audit no overflow
+PASS 390 px en: tab dash no overflow
+PASS 390 px en: tab report no overflow
+PASS 390 px en: tab ai no overflow
+PASS English LTR chart: largest bar on the left
+PASS English labels on the analysis
+PASS no errors at 390 px en
+PASS 390 px ar: no horizontal overflow on the analysis tab
+PASS 390 px ar: chart becomes a ranked table with bars
+PASS 390 px ar: the ranked table reads in order with share and cumulative %
+PASS 390 px ar: tab home no overflow
+PASS 390 px ar: tab explain-std no overflow
+PASS 390 px ar: tab explain-cl no overflow
+PASS 390 px ar: tab assess no overflow
+PASS 390 px ar: tab tools no overflow
+PASS 390 px ar: tab docs no overflow
+PASS 390 px ar: tab audit no overflow
+PASS 390 px ar: tab dash no overflow
+PASS 390 px ar: tab report no overflow
+PASS 390 px ar: tab ai no overflow
+PASS no errors at 390 px ar
+PASS full tour (ar) covers all 9 sections after home
+PASS tour (ar) has no empty titles and no errors
+PASS full tour (en) covers all 9 sections after home
+PASS tour (en) has no empty titles and no errors
+
+202/202 passed

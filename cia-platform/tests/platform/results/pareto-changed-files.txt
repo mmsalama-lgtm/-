@@ -1,0 +1,23 @@
+# Pareto step (2026-10-11, delivered 2026-10-15): checksum diff against the uploaded cia-platform.zip (Fishbone release)
+# changed 8, added 12, removed 0, unchanged 117 (tests/platform/results excluded)
+
+changed  index.html  173e73475fb6f591731de763aa250b8d300580c237a342f52c7fbb3a21ed3d27
+changed  modules/fishbone.html  47251ffe5f8b98b02d754d923752dbd32afb2e548ad50d0fdafe791aeafca2c3
+changed  tests/build/README.md  dfc4df46366596c7e87db41db76db64bd3ed1d90d37035f8d129443ff49b5b75
+changed  tests/platform/run_all.sh  0b2f7ed28de0cdd95ce16ad959fe112e5cd48f89daee4ef7b8a64cc21d864aa5
+changed  tests/platform/summary.py  3f2a9b05689d2db2d7fef7d385fde86a80a65cfe17ce9ca5400cabb6531e8dea
+changed  tests/platform/t_example.py  0d263142d4ea3ae2c5b52b8817eded031d11ff3851e3078d2f04bb71eb876069
+changed  tests/platform/t_hub.py  9c73d4c459c058707b9deef78c1b1bde1508c076d1395649131c71e5ad9c82ab
+changed  tests/platform/t_static.py  0dd530a30e09f320376baf03ae52c64bfa7d4d9311fa3b7ff631d217df3018e6
+added    modules/pareto.html  bf4c70fde8b7cefe1cf89c9eab1f1c98aa779d7af93ad605da6a86bd9e133c15
+added    tests/build/build_pareto.py  b446ac3f1ca739be7476fe9ffbe7804bd75cd293d1429c170d90b02691748846
+added    tests/build/data_pareto.py  f65d3750cca86757c66a6895fe957953fdcb84d8d3ecd38dc5f7748e87c9766b
+added    tests/build/demo_pareto.py  9afc3e8e3a097ee5c0d025ab62174fd1e4fa6e58be6b4581121b1c7fa42e2b38
+added    tests/build/pareto_body.html  2ab187a3c7dcecc06554d9f816aee04237304f7157ca74c504e9cb781c546913
+added    tests/build/pareto_example.js  2b69ce6ea32baf64668518a45716d9753cdab75d33416702372daf6ffad68712
+added    tests/build/pareto_host.css  dbb53fa758571ced8febbd4a9ae02ec837edb654062df287309ae640cd5386b1
+added    tests/build/pareto_host.js  96b440552d1666dfba024510d713fff07fb8e8652a0d71195fbe2a0e68d02205
+added    tests/build/patch_fish_pareto.py  af2cb36101041d9af96b0524efbdad91d592428b4e496e257d9752386722df85
+added    tests/build/patch_hub_pareto.py  f550b93cfb408a23546cf4439301b0e36c4bbec634f37171b9a9156852217f4a
+added    tests/pareto/fish_regress.py  a7f1a1bf01464ea47af915f4d736515324b36e794f1607e00e542d76e8007636
+added    tests/pareto/test_pareto.py  a448ce9d4e7d30a83b2fdf5eddb25aa4da4b46e7185a430c178f8132ebfe43ed

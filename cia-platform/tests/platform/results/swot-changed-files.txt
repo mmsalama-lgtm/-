@@ -1,0 +1,36 @@
+# SWOT step (2026-10-17): checksum diff against the uploaded cia-platform.zip (Lessons Learned + ISO 10009 10.1 package)
+
+## Changed (15)
+c3e2cf0f8bdb85ec224c81d6e354e5ec7b8355a1cb61507fd00cefc14e111757  index.html
+6542fd3e2d471b942bc4f3726a1eb4de40b56712a6f36aad3442d704fbeb384d  modules/iso10009.html
+a21dc5e3a7376696bfc9df5c9b9999cf4db1fdd247152218d9b92e77083472a4  tests/build/README.md
+b88c12385bdd0cb44c8bec58cf420c81520bde07fc526b7cbfced84b01ebaa90  tests/build/cat_10009.py
+f8dae45f48927739d4a64abdeaba8a6f85163830dd02d487c648661f32ed3f36  tests/build/qt_host.js
+6fd690fa9d94c34eda09b6b94532409d7f697448a768231e0e0b49ce634edacb  tests/fmea/test_fmea.py
+eb748a095d3ab4d94c6afbece3fb071d5132167ffbc57ee572d09006da52edca  tests/iso10009/explain_regress.py
+44785a0282188e2d11e66f4c23ffbada682c05437d30d40f079eef6d9eb4d6e9  tests/iso10009/test_iso10009.py
+1e8da5b3ed2741883854dd13ed90c4f2b7c5a33026af6afc6baa1db2d0f7c146  tests/iso10009/test_iso10009_explain.py
+95a81e9d2f1764e130be151b3c4547e0738a6d510c290a3600d1ff6d09039320  tests/lessons/test_lessons.py
+aaf686c2347be57f08f884d30a8e673ac8c2668e842c785365c8b922126b25c4  tests/platform/run_all.sh
+1e4e5aba34d5770ab5a2054c36ad1f83c93505e5f3e5bfeb02ce150a5a270471  tests/platform/summary.py
+7cef128d2d055b840fb2a4ee286f5ef9b462bbb21cc8e8e6d489ef8e42485a36  tests/platform/t_example.py
+2d3a6ac899ab626df0431a3245c738527cd01e8c4d817f218abf9c5cc8eb91f3  tests/platform/t_hub.py
+006ee5509ec2915a9a88f742c2df6eef8c17163eb08cb3018030d82c761aff4d  tests/platform/t_static.py
+
+## Added (12)
+e12d421997360cb3a06e78e08b383ae14e1f14f5fe5b92f3f5fe47c114ec6af5  modules/swot.html
+27e8efcbffc4c6cf3a2a8c3f5b8c70b4d4032460edd7c617fbcb1c59667c2760  tests/build/build_swot.py
+37c6f055f54b18fec64090fdae6468f05fe63879b53d7ba418a783847669d192  tests/build/data_swot.py
+45a4054242790b136ce17f436ff0825f9a50dbb07fc4bfb0dc418b9845749695  tests/build/demo_swot.py
+6c81d8594e8a6a16e993cfef0cf144d07667340b79b0925eca7d67fe1f40c6c5  tests/build/patch_10009_swot.py
+a835c265ad29c178976d3e58af0b74f8a8e286ec899e82fc50d3915389883978  tests/build/patch_hub_swot.py
+3e61a5a936b4e1633a18577d036467a281f0c75e2242c22267de559cf1b558ad  tests/build/swot_body.html
+864fa1bd5a6ba717691e105241ea2cb89a7f31c7d8555c8c597ce48deda76cdc  tests/build/swot_example.js
+7c583e1793e52b043835afdec8f823d0d2a519cab9612c37e79f3dc08a7a140e  tests/build/swot_host.css
+39f93e4d6e6bd249f7926ed14dac294f1ffbbdcefaa9250d71915b813de715e0  tests/build/swot_host.js
+bfd20ee43d846154427cbcd56cb80f1fdfb80eaf9ede4ba58fdcfc22a1776db1  tests/swot/iso10009_regress.py
+03a9144f9e8cbd2961340ef657511c6873701810e7bac7104f03eba91237d9c8  tests/swot/test_swot.py
+
+## Removed (0)
+
+## Test results refreshed (tests/platform/results): 16 changed, 1 added, 10 removed (old shards and summary)

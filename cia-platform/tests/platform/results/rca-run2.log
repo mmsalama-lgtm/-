@@ -1,0 +1,214 @@
+PASS engine block present once in pdca, capa, five-whys, fishbone, pareto and rca
+PASS engine block identical in the six files
+PASS engine block identical to tests/build/engine.js
+PASS rca.html cia-explain-kit-css byte-identical to the template
+PASS rca.html cia-explain-kit-js byte-identical to the template
+PASS tour script identical to pareto.html apart from CFG
+PASS tour CSS identical to pareto.html
+PASS tour CFG names rca and guards the example
+PASS storage key and schema documented at the top of the host script
+PASS RCA never writes another tool's key; no other tool writes the RCA key
+PASS sidebar buttons carry data-go and data-t
+PASS RC code badge and the RCA hero code
+PASS loads in Arabic RTL
+PASS header: home button, RC badge, Arabic brand line, language button
+PASS hero shows the academy logo and the author
+PASS related tools strip: CAPA, Pareto, Fishbone, 5 Whys, Smart Audit
+PASS launch tiles for the nine tabs after home
+PASS method tab says once that RCA is a discipline, not a clause, and names 10.2.1 ب) 2) and 3), 10.2.2 and A.10.2
+PASS method tab: ISO 9000:2026 does not define root cause; root cause investigation under 4.2.6
+PASS method tab: more than one root cause, human error a starting point, a hypothesis until tested, depth by risk, chooses among the methods
+PASS the explanation is marked as interpretive summary
+PASS term cards: ISO 9000:2026 3.5.13, 3.6.4, 3.8.6, 4.2.6, 4.2.7
+PASS method guide renders (kit) with the roles and the steps
+PASS clause guide index shows 9 sections
+PASS clause guide draws the cycle diagram
+PASS opening 10.2.1 b) shows b) 2), GD-2, GD-3 and b) 3)
+PASS 8.5.1 g) human error item: a starting point, the process allowed it
+PASS 10.2.1 b) 2) item: cause(s), more than one root cause, 3.6.4 and 4.2.6
+PASS requirements are marked as interpretive summaries
+PASS method rules are marked as guidance, not normative text
+PASS kit: 18 items, 12 linked to the 12 questions, 6 outside the assessment
+PASS every question has an item
+PASS meta.verified names the date and the source files, and the standards not verified
+PASS ui labels set (roles, wheelT, purpose, smap, assess, assessOff, offGo, actCtx)
+PASS 'Assess this' lands on question AN3, highlighted
+PASS item outside the assessment shows the note and a button to the investigation
+PASS 'Explain' back-link on each of the 12 questions
+PASS 'Explain' on AN3 opens 8.5.1 g) (human error)
+PASS language switch re-renders the method guide in English
+PASS English term card
+PASS and back to Arabic
+PASS no JS errors on load and kit use
+PASS 12 questions in 5 groups, 0–2 scale
+PASS score from 3 answers (5 of 24 = 21%)
+PASS score per group: PS 75%
+PASS answers persist after reload
+PASS clear answers
+PASS stepper shows the six stages
+PASS validation: a title is required
+PASS stage stays 'problem' until risk, facts and evidence are in
+PASS depth rule: severity 4 × likelihood 4 → full
+PASS depth rule: severity 5 × likelihood 1 → full
+PASS depth rule: severity 2 × likelihood 2 → light
+PASS depth rule: severity 4 × likelihood 1 → std
+PASS depth rule: severity 3 × likelihood 2 → std
+PASS depth rule: severity 1 × likelihood 5 → light
+PASS depth rule: severity 3 × likelihood 5 → full
+PASS the rule is written on the page
+PASS severity 4 × 3 requires standard
+PASS lowering the depth without a reason warns and fails the depth check
+PASS the reason field shows when the depth is lowered
+PASS with a written reason the depth check passes
+PASS raising the depth needs no reason
+PASS warns when no one in the team does the work
+PASS the warning goes when someone does the work
+PASS timeline counts facts and assumptions
+PASS an assumption row is marked
+PASS sort by time puts 08:00 first
+PASS problem, depth, two facts and evidence move the stage to 'facts collected'
+PASS a cause that names only a person is flagged
+PASS the flag goes when the cause is rewritten in the process
+PASS codes D1, C1, R1
+PASS the root cause explains the contributing cause by default; a direct cause explains the problem
+PASS the test field is only for root causes
+PASS stage 'causes mapped' with a direct and a root cause
+PASS an untested hypothesis root cause is flagged
+PASS removal test 'no' says this is not the root cause
+PASS confirmed without evidence is still not enough
+PASS root cause confirmed with evidence and tested
+PASS a full depth needs two methods including data before the root stage
+PASS choosing data analysis shows its table and disables the id
+PASS data analysis rate computed (4/6 = 66.7%)
+PASS two valid methods with data reach 'root cause confirmed'
+PASS validation: cases with the problem cannot exceed the cases
+PASS the action's root-cause list offers R1
+PASS an action without an owner is flagged and the root stays without an action
+PASS no CAPA link: the hint says the plan belongs in CAPA
+PASS the criterion needs the 'written before the action' box
+PASS stage 'actions proposed' with an action per root and the criterion
+PASS a reviewer from the team is flagged
+PASS stage 'reviewed'
+PASS cause tree: problem + 3 causes and 3 edges
+PASS tree mirrored: the problem (drawn last) on the right in Arabic, on the left in English
+PASS saved with a new id RC-2026-001
+PASS persists after reload and opens with its rows, parents and tests
+PASS records table shows the investigation with stage, depth and roots
+PASS audit tab: 13 checks per investigation
+PASS dashboard KPIs and distributions
+PASS report: cover, author, the tree SVG, timeline, evidence, methods, causes with tests, actions, criterion, audit, open items, self-assessment
+PASS CSV with BOM, header and the investigation row
+PASS report downloads as HTML
+PASS CSV downloads
+PASS delete asks for confirmation first
+PASS deleted after confirmation
+PASS no JS errors in the form flow
+PASS example: 3 investigations, assessment 71%
+PASS example stages and depths: RC-EX-01 reviewed full, RC-EX-02 actions full, RC-EX-03 reviewed light
+PASS RC-EX-01: from Pareto PA-EX-02 temperature, CAPA CA-EX-04, Fishbone FB-EX-02, 5 Whys W5-EX-03, data, two root causes, the 3% criterion
+PASS RC-EX-02: near miss, severity 5, barrier and data analysis, no person-only cause, one assumption
+PASS RC-EX-03: light depth from CA-EX-03 with FB-EX-03; the methods check does not apply
+PASS example audit: every applicable check passes except RC-EX-02's review
+PASS example labelled illustrative
+PASS example: tab home renders without undefined/NaN
+PASS example: tab explain-std renders without undefined/NaN
+PASS example: tab explain-cl renders without undefined/NaN
+PASS example: tab assess renders without undefined/NaN
+PASS example: tab tools renders without undefined/NaN
+PASS example: tab docs renders without undefined/NaN
+PASS example: tab audit renders without undefined/NaN
+PASS example: tab dash renders without undefined/NaN
+PASS example: tab report renders without undefined/NaN
+PASS example: tab ai renders without undefined/NaN
+PASS RC-EX-01 tree draws the problem, 7 causes and the ruled-out one dashed
+PASS example report: three trees and the illustrative note
+PASS assistant suggests 5 questions incl. one root cause and which method
+PASS 'Is there always one root cause?' → more than one, cause(s) in 3.6.4
+PASS 'RCA, 5 Whys or Fishbone — which one?' → not alternatives, RCA chooses
+PASS human error answer cites 8.5.1 ز)
+PASS assistant lists the open items from the investigations
+PASS clear all (confirmed) removes every investigation and the answers
+PASS record with missing parts: tab home renders
+PASS record with missing parts: tab explain-std renders
+PASS record with missing parts: tab explain-cl renders
+PASS record with missing parts: tab assess renders
+PASS record with missing parts: tab tools renders
+PASS record with missing parts: tab docs renders
+PASS record with missing parts: tab audit renders
+PASS record with missing parts: tab dash renders
+PASS record with missing parts: tab report renders
+PASS record with missing parts: tab ai renders
+PASS record with missing parts opens in the form
+PASS keyboard: Enter on a sidebar button opens the tab
+PASS keyboard: Tab moves through the form fields
+PASS no JS errors with example, chatbot, broken record
+PASS home strip counts what can start an investigation
+PASS CAPA preview lists the four CAPA records with their stage and root cause
+PASS prefill from CA-EX-04: reference, source, CAPA, PDCA, problem, timeline, evidence, root cause as hypothesis, similar cases
+PASS the prefill is not saved and says so
+PASS CAPA preview in the header field
+PASS Pareto preview lists the vital-few categories with value, share and period
+PASS prefill from PA-EX-02 temperature: source, Pareto link, period, value and share, method, Fishbone method, PDCA
+PASS Pareto category info shows under the field
+PASS method previews read Pareto and Fishbone with their own stages
+PASS 'Open the linked one' opens Fishbone on ?open=FB-EX-02
+PASS 'Start a 5 Whys analysis' opens 5 Whys through its own request
+PASS 'Start a Fishbone analysis' carries the CAPA record (?capa=CA-EX-04)
+PASS the criterion's Pareto before/after preview reads the verdict
+PASS PDCA link opens pdca.html in a new tab outside the hub
+PASS other tools' data unchanged by the starts and previews
+PASS ?pareto=PA-EX-02&cat=k2 fills a new investigation from the slump category
+PASS ?capa=CA-EX-03 fills a new investigation from the CAPA record
+PASS ?open=RC-EX-02 opens that investigation
+PASS other tools' data still unchanged
+PASS CAPA: the RCA panel lists RC-EX-01 with its two root causes, both confirmed and tested
+PASS 'Use this root cause' copies both root causes into the form, not into storage
+PASS 'Open in RCA' opens rca.html?open=RC-EX-01 on that investigation
+PASS CAPA: no panel for a record no investigation names
+PASS Pareto: the next-step list includes RCA
+PASS Pareto dashboard: no RCA row while no step is RCA
+PASS Pareto: the RCA preview uses the RCA tool's stage and root causes
+PASS Pareto: start button and the save-first note for RCA
+PASS Pareto saves first, then opens rca.html?pareto=PA-EX-01&cat=… filling a new investigation
+PASS Pareto stored the rca step (accepted value)
+PASS Pareto dashboard shows the RCA row once a step is RCA
+PASS no JS errors across the tools
+PASS hub: RCA opens in the overlay
+PASS inside the hub the methods section says the other tool replaces this one
+PASS hub: PDCA opens through ciaOpenFile
+PASS hub: CAPA's panel opens RCA in the overlay on RC-EX-01, the hint removed
+PASS hub: a Fishbone method opens Fishbone in the overlay on its analysis
+PASS no JS errors in the hub
+PASS 390 px ar: the cause tree becomes an indented list
+PASS 390 px ar: the list reads the problem first, then D1
+PASS 390 px ar: tab home no overflow
+PASS 390 px ar: tab explain-std no overflow
+PASS 390 px ar: tab explain-cl no overflow
+PASS 390 px ar: tab assess no overflow
+PASS 390 px ar: tab tools no overflow
+PASS 390 px ar: tab docs no overflow
+PASS 390 px ar: tab audit no overflow
+PASS 390 px ar: tab dash no overflow
+PASS 390 px ar: tab report no overflow
+PASS 390 px ar: tab ai no overflow
+PASS no errors at 390 px ar
+PASS 390 px en: the cause tree becomes an indented list
+PASS 390 px en: the list reads the problem first, then D1
+PASS 390 px en: tab home no overflow
+PASS 390 px en: tab explain-std no overflow
+PASS 390 px en: tab explain-cl no overflow
+PASS 390 px en: tab assess no overflow
+PASS 390 px en: tab tools no overflow
+PASS 390 px en: tab docs no overflow
+PASS 390 px en: tab audit no overflow
+PASS 390 px en: tab dash no overflow
+PASS 390 px en: tab report no overflow
+PASS 390 px en: tab ai no overflow
+PASS English LTR: the stage names and sections
+PASS no errors at 390 px en
+PASS full tour (ar) covers all 9 sections after home
+PASS tour (ar) has no empty titles and no errors
+PASS full tour (en) covers all 9 sections after home
+PASS tour (en) has no empty titles and no errors
+
+212/212 passed

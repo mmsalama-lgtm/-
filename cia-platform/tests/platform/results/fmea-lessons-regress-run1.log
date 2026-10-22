@@ -1,0 +1,13 @@
+PASS FMEA stored state after the example is identical
+PASS FMEA report HTML is identical
+PASS FMEA CSV is identical
+PASS FMEA stored state after a scripted study and an answer is identical
+PASS FMEA automatic audit results are identical
+PASS no errors in either version
+PASS with no lessons data, the text of every tab is identical (AR/EN, including the three example forms)
+PASS the panel lists LL-EX-01 on FM-EX-01, LL-EX-02 on FM-EX-02 and LL-EX-03 on FM-EX-03 with their actions done
+PASS 'Open in Lessons Learned' asks for lessons.html?open=LL-EX-01 outside the hub
+PASS reading the lessons changes neither FMEA's nor the lessons' stored state
+PASS no errors with the lessons data present
+
+11/11 passed

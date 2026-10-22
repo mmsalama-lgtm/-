@@ -1,0 +1,156 @@
+PASS engine block present once in pdca.html and capa.html
+PASS engine block identical in pdca.html and capa.html
+PASS engine block identical to tests/build/engine.js
+PASS capa.html cia-explain-kit-css byte-identical to the template
+PASS capa.html cia-explain-kit-js byte-identical to the template
+PASS tour script identical to pdca.html apart from CFG
+PASS tour CSS identical to pdca.html
+PASS tour CFG names capa and guards the example
+PASS storage key and schema documented at the top of the host script
+PASS loads in Arabic RTL
+PASS method guide renders (kit) with the roles and the steps
+PASS method tab explains once that preventive action is not an ISO 9001 clause
+PASS the explanation is marked as interpretive summary
+PASS clause guide index shows 7 clauses
+PASS clause guide draws the cycle diagram
+PASS opening 10.2 shows its items 10.2.1 a … 10.2.2
+PASS requirements are marked as interpretive summaries
+PASS kit: 19 items, 13 linked to the 12 questions, 6 outside the assessment
+PASS meta.verified names the date and the source files
+PASS ui labels set (roles, wheelT, purpose, smap, assess, assessOff, offGo, actCtx)
+PASS 'Assess this' lands on question CA1, highlighted
+PASS item outside the assessment shows the note and opens the CAPA record
+PASS the note's button opens the CAPA record tab
+PASS 'Explain' back-link on each of the 12 questions
+PASS 'Explain' on EF1 opens 10.2.1 d
+PASS no JS errors on load and kit use (ar)
+PASS tab home shows and is selected
+PASS tab explain-std shows and is selected
+PASS tab explain-cl shows and is selected
+PASS tab assess shows and is selected
+PASS tab tools shows and is selected
+PASS tab docs shows and is selected
+PASS tab audit shows and is selected
+PASS tab dash shows and is selected
+PASS tab report shows and is selected
+PASS tab ai shows and is selected
+PASS sidebar buttons carry data-go and data-t
+PASS toggle to English sets LTR
+PASS English brand line
+PASS kit re-renders the open method tab in English
+PASS toggle back to Arabic
+PASS assessment answers persisted under cia-capa:v1
+PASS gauge value correct (13%)
+PASS score per group shown (6 groups)
+PASS 12 questions on a 0–2 scale
+PASS empty save is refused (title)
+PASS missing reference refused
+PASS missing description refused
+PASS valid record saves with id CA-2026-001
+PASS stage badge is Reaction
+PASS correction date before the date found is refused
+PASS with a dated correction the stage is Cause analysis
+PASS method template inserted into the analysis
+PASS with a root cause the stage is Action
+PASS action rows can be added
+PASS actions saved with owner, due date and status
+PASS all actions done: stage is Effectiveness check
+PASS a result without criterion and review date is refused
+PASS closure without justification and approver is refused
+PASS closure dated before the effectiveness review is refused
+PASS closed with an effective result
+PASS a record cannot stay closed when the action was not effective
+PASS not effective: the record is reopened
+PASS reopen note with 'start a new review round'
+PASS new round keeps the earlier review in the history and clears the result
+PASS second record saves as CA-2026-002 (year of the date found or today)
+PASS an open action past its date is flagged overdue
+PASS no JS errors after the record flow
+PASS records list both records with flags
+PASS sidebar count badge is 2
+PASS open loads the record into the form
+PASS audit table lists the records with 9 checks
+PASS audit KPI tiles present (4)
+PASS audit flags the overdue record and passes its dated containment
+PASS dashboard has 9 KPI tiles and an open-items list
+PASS HTML report named CAPA-report-*.html
+PASS report carries the author, the records, audit results, open items and sources
+PASS report uses the shared engine frame (same CSS as PDCA)
+PASS CSV header and rows
+PASS records persist after reload
+PASS first delete click arms confirmation
+PASS second click deletes
+PASS no JS errors through the full flow
+PASS home button back to the hub is present
+PASS code badge CAPA and Arabic brand line in AR
+PASS language button reads English in AR
+PASS hero shows the academy logo and 'إعداد مدثر سلامه'
+PASS sidebar uses SVG icons with tinted tiles (10)
+PASS launch grid has 9 tiles
+PASS related tools strip: Smart Audit, PDCA, ISO 9001, IMS
+PASS AI tab is a placeholder labelled under construction
+PASS example loads 4 records, each with its NCR or finding reference
+PASS example stages: closed, waiting for review, action (overdue), reopened
+PASS example dates are in 2026 and labelled illustrative
+PASS example self-assessment is 67%
+PASS example links PDCA cycles
+PASS example: home has content and no undefined/NaN/[object Object]
+PASS example: explain-std has content and no undefined/NaN/[object Object]
+PASS example: explain-cl has content and no undefined/NaN/[object Object]
+PASS example: assess has content and no undefined/NaN/[object Object]
+PASS example: tools has content and no undefined/NaN/[object Object]
+PASS example: docs has content and no undefined/NaN/[object Object]
+PASS example: audit has content and no undefined/NaN/[object Object]
+PASS example: dash has content and no undefined/NaN/[object Object]
+PASS example: report has content and no undefined/NaN/[object Object]
+PASS example: ai has content and no undefined/NaN/[object Object]
+PASS no errors with example data on every tab
+PASS assistant button and panel present
+PASS assistant answers the preventive-action question from the guide
+PASS assistant lists overdue records from the data
+PASS clear all removes the stored data
+PASS records with missing or broken parts render without errors
+PASS full tour covers all 9 sections after home
+PASS tour has no empty titles and no errors
+PASS Smart Audit: every CAPA row links to the CAPA tool (17 of 17)
+PASS outside the hub the link opens the CAPA tool in a new tab
+PASS Smart Audit: the CAPA register CSV is unchanged by the link
+PASS Smart Audit: stored data unchanged by the link
+PASS home shows what can be imported from the center
+PASS preview lists every CAPA row and every NC finding without one (17)
+PASS preview shows bilingual fields in Arabic, never as objects
+PASS preview re-renders in English
+PASS new rows default to 'take theirs'
+PASS 'All: mine' then apply imports nothing
+PASS one row taken: one record imported
+PASS 'All: theirs' imports the rest
+PASS nothing was written to the Smart Audit center's key
+PASS after import every row shows 'no change'
+PASS imported record keeps the center's facts (root cause, action, owner) in the current language
+PASS an imported record closed without an effectiveness result fails 'effectiveness before closure'
+PASS a local edit of an imported record saves
+PASS after a local edit the row shows as an update, defaulting to 'keep mine'
+PASS 'take theirs' on an existing record restores the center's fields and keeps the ones it does not have
+PASS no errors in the import flow
+PASS the PDCA cycle's title is read from the PDCA tool
+PASS PDCA cycles offered as suggestions
+PASS outside the hub 'Open PDCA' opens a new tab
+PASS PDCA data was only read
+PASS no errors in the PDCA link checks
+PASS English loads LTR
+PASS keyboard can switch tabs (focus next + Enter)
+PASS form fields reachable by keyboard
+PASS no horizontal scroll at 390px on home (sw=390)
+PASS no horizontal scroll at 390px on explain-std (sw=390)
+PASS no horizontal scroll at 390px on explain-cl (sw=390)
+PASS no horizontal scroll at 390px on assess (sw=390)
+PASS no horizontal scroll at 390px on tools (sw=390)
+PASS no horizontal scroll at 390px on docs (sw=390)
+PASS no horizontal scroll at 390px on audit (sw=390)
+PASS no horizontal scroll at 390px on dash (sw=390)
+PASS no horizontal scroll at 390px on report (sw=390)
+PASS no horizontal scroll at 390px on ai (sw=390)
+PASS English example text has no Arabic in the records
+PASS no JS errors in English/mobile run
+
+154/154 passed

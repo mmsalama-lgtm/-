@@ -1,0 +1,16 @@
+PASS Pareto stored state after the example is identical
+PASS Pareto report HTML is identical
+PASS Pareto CSV is identical
+PASS Pareto stored state after a scripted analysis and an answer is identical
+PASS Pareto automatic audit results are identical
+PASS no errors in either version
+PASS tab text differs only by the new next-step option 'RCA investigation' (listed in text-diff-pareto-rca.json)
+PASS the differences sit on the analysis forms only (tools tab)
+PASS an unlinked vital-few category linked to RC-EX-01 shows the RCA preview
+PASS the value 'rca' is stored as an accepted next step
+PASS PA-EX-03 now has every vital-few category linked (stage moves past 'vital few')
+PASS the rca step survives a reload (fixRec accepts it)
+PASS the RCA tool's data does not change
+PASS no errors with the RCA data present
+
+14/14 passed

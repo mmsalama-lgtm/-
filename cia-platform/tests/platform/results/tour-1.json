@@ -1,0 +1,720 @@
+{
+ "name": "tour-1",
+ "checks": 140,
+ "failed": 0,
+ "seconds": 186.6,
+ "rows": [
+  {
+   "label": "ai-regulatory ar: tour API present",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ai-regulatory ar: full tour finishes (23 steps)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ai-regulatory ar: tour visits all 15 tabs",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ai-regulatory ar: no empty step title",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ai-regulatory ar: tour text has no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ai-regulatory ar: back where it started",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ai-regulatory ar: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ai-regulatory en: tour API present",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ai-regulatory en: full tour finishes (23 steps)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ai-regulatory en: tour visits all 15 tabs",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ai-regulatory en: no empty step title",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ai-regulatory en: tour text has no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ai-regulatory en: back where it started",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ai-regulatory en: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "excellence-efqm ar: tour API present",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "excellence-efqm ar: full tour finishes (23 steps)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "excellence-efqm ar: tour visits all 15 tabs",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "excellence-efqm ar: no empty step title",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "excellence-efqm ar: tour text has no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "excellence-efqm ar: back where it started",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "excellence-efqm ar: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "excellence-efqm en: tour API present",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "excellence-efqm en: full tour finishes (23 steps)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "excellence-efqm en: tour visits all 15 tabs",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "excellence-efqm en: no empty step title",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "excellence-efqm en: tour text has no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "excellence-efqm en: back where it started",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "excellence-efqm en: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "fmea ar: tour API present",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "fmea ar: full tour finishes (17 steps)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "fmea ar: tour visits all 9 tabs",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "fmea ar: no empty step title",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "fmea ar: tour text has no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "fmea ar: back where it started",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "fmea ar: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "fmea en: tour API present",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "fmea en: full tour finishes (17 steps)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "fmea en: tour visits all 9 tabs",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "fmea en: no empty step title",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "fmea en: tour text has no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "fmea en: back where it started",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "fmea en: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso21500 ar: tour API present",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso21500 ar: full tour finishes (20 steps)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso21500 ar: tour visits all 12 tabs",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso21500 ar: no empty step title",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso21500 ar: tour text has no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso21500 ar: back where it started",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso21500 ar: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso21500 en: tour API present",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso21500 en: full tour finishes (20 steps)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso21500 en: tour visits all 12 tabs",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso21500 en: no empty step title",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso21500 en: tour text has no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso21500 en: back where it started",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso21500 en: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso31000-risk-studio ar: tour API present",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso31000-risk-studio ar: full tour finishes (19 steps)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso31000-risk-studio ar: tour visits all 12 tabs",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso31000-risk-studio ar: no empty step title",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso31000-risk-studio ar: tour text has no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso31000-risk-studio ar: back where it started",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso31000-risk-studio ar: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso31000-risk-studio en: tour API present",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso31000-risk-studio en: full tour finishes (19 steps)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso31000-risk-studio en: tour visits all 12 tabs",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso31000-risk-studio en: no empty step title",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso31000-risk-studio en: tour text has no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso31000-risk-studio en: back where it started",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso31000-risk-studio en: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso42001 ar: tour API present",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso42001 ar: full tour finishes (22 steps)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso42001 ar: tour visits all 14 tabs",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso42001 ar: no empty step title",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso42001 ar: tour text has no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso42001 ar: back where it started",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso42001 ar: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso42001 en: tour API present",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso42001 en: full tour finishes (22 steps)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso42001 en: tour visits all 14 tabs",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso42001 en: no empty step title",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso42001 en: tour text has no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso42001 en: back where it started",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso42001 en: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "kaqa ar: tour API present",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "kaqa ar: full tour finishes (23 steps)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "kaqa ar: tour visits all 15 tabs",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "kaqa ar: no empty step title",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "kaqa ar: tour text has no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "kaqa ar: back where it started",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "kaqa ar: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "kaqa en: tour API present",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "kaqa en: full tour finishes (23 steps)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "kaqa en: tour visits all 15 tabs",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "kaqa en: no empty step title",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "kaqa en: tour text has no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "kaqa en: back where it started",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "kaqa en: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pareto ar: tour API present",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pareto ar: full tour finishes (17 steps)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pareto ar: tour visits all 9 tabs",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pareto ar: no empty step title",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pareto ar: tour text has no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pareto ar: back where it started",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pareto ar: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pareto en: tour API present",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pareto en: full tour finishes (17 steps)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pareto en: tour visits all 9 tabs",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pareto en: no empty step title",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pareto en: tour text has no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pareto en: back where it started",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pareto en: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pmo-maturity ar: tour API present",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pmo-maturity ar: full tour finishes (20 steps)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pmo-maturity ar: tour visits all 12 tabs",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pmo-maturity ar: no empty step title",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pmo-maturity ar: tour text has no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pmo-maturity ar: back where it started",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pmo-maturity ar: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pmo-maturity en: tour API present",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pmo-maturity en: full tour finishes (20 steps)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pmo-maturity en: tour visits all 12 tabs",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pmo-maturity en: no empty step title",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pmo-maturity en: tour text has no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pmo-maturity en: back where it started",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pmo-maturity en: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar: tour API present",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar: full tour finishes (17 steps)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar: tour visits all 9 tabs",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar: no empty step title",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar: tour text has no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar: back where it started",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en: tour API present",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en: full tour finishes (17 steps)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en: tour visits all 9 tabs",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en: no empty step title",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en: tour text has no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en: back where it started",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en: no errors",
+   "ok": true,
+   "detail": ""
+  }
+ ],
+ "modules": [
+  "ai-regulatory",
+  "excellence-efqm",
+  "fmea",
+  "iso21500",
+  "iso31000-risk-studio",
+  "iso42001",
+  "kaqa",
+  "pareto",
+  "pmo-maturity",
+  "swot"
+ ]
+}

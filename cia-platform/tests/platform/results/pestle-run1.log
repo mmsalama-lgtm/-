@@ -1,0 +1,106 @@
+PASS engine block present once in the thirteen toolbox files
+PASS engine block identical in the thirteen files and to tests/build/engine.js
+PASS pestle.html cia-explain-kit-css byte-identical to the template
+PASS pestle.html cia-explain-kit-js byte-identical to the template
+PASS tour script identical to swot.html apart from CFG
+PASS tour CSS identical to swot.html
+PASS tour CFG names pestle and guards the example
+PASS storage key and schema documented at the top of the host script
+PASS the host writes only its own key (TBX.save/drop on STORE, language key only)
+PASS other tools' rules carried read-only: ssTKV, SSO (pestleF, pestleImp, tf), SWR
+PASS no host function named after a browser global
+PASS Explain Kit data: EXPLAIN_PESTLE with meta.verified, 4.1, A.4.1, 4.2, 6.1.1–6.1.3, 9.3.2, 3.1.2, 3.7.2, 5.1, 5.2, 5.3, 7.2 and 'not verified'
+PASS Explain Kit ui labels set
+PASS every self-assessment question is reached from the kit
+PASS method guide says once that PESTLE is a technique, not a requirement
+PASS author name on the page and the report
+PASS sidebar buttons carry data-go and data-t
+PASS SWOT, Strategy Studio, Lessons, FMEA, Pareto and the Risk Studio unchanged (byte-identical to the previous package)
+PASS opens in Arabic, RTL, on the home tab
+PASS ten tabs in the sidebar in the agreed order
+PASS home: code badge, author, launch tiles and the related-tools strip
+PASS AI tab is a placeholder labelled under construction
+PASS every tab renders in AR and EN with no undefined/NaN/[object Object]
+PASS English switches to LTR and the title
+PASS clause guide renders the sections
+PASS method guide shows the term box and the kit
+PASS 12 questions in 4 groups on a 0–2 scale
+PASS an answer is saved under cia-pestle:v1 and scored
+PASS an empty scan is a draft
+PASS saving with no title is refused
+PASS title, reference, scope, level, decision, date and facilitator → scoped
+PASS one person with an item: the one-person flag
+PASS three roles with an outside input → team complete
+PASS a generic, unsourced item is flagged (generic and no source)
+PASS five factors not looked at are flagged
+PASS an empty factor with no reason keeps the scan at 'team'
+PASS the 'nothing relevant' reason counts as looked at → items with sources
+PASS a climate decision with no reason is not enough
+PASS climate decided with its reason → past 'climate' (the items are already rated, so ranked)
+PASS ranking: score = significance × certainty, top items are the six highest of 6 or more
+PASS the board shows the six factors, the matrix 25 cells, the timeline 3 columns, the chart drawn
+PASS an item not rated keeps the scan at 'climate'
+PASS 'add an outcome for each top item' adds five rows, not yet complete
+PASS an outcome set aside with no reason leaves one top item uncovered
+PASS a SWOT outcome with an unknown study says so (read-only preview)
+PASS every top item has an outcome → outcomes
+PASS an action with no owner or date keeps the scan at 'ranked'
+PASS a review dated before the scan is refused on save
+PASS a review after the scan with what changed, and a next date → reviewed
+PASS saved under PE-2026-001 with every part
+PASS audit: the reviewed scan passes all ten checks
+PASS a factor can be added for the context (names adjustable)
+PASS persistence: the scan is there after a reload
+PASS a record with missing or broken parts renders on every tab without errors
+PASS example: three scans PE-EX-01…03 with stages reviewed / outcomes / outcomes
+PASS example: self-assessment 75%
+PASS example: audit 100% of the applicable checks
+PASS example: climate decided relevant in PE-EX-01, not relevant (with a reason) in PE-EX-02
+PASS example: PE-EX-01 outcomes go to SW-EX-01 as opportunity and threat; PE-EX-02 to SW-EX-02 and the bid risk plan
+PASS example: 17/17 top items with a source and an outcome on the dashboard
+PASS example: 2026 dates up to today, illustrative
+PASS example: open items are the two scans not reviewed yet
+PASS CSV: BOM, 29 columns, one row per scan
+PASS report: cover with the author, board, matrix, outcomes, audit and self-assessment
+PASS delete needs a second click
+PASS second click deletes
+PASS clear all (with its confirmation) empties the tool's key only
+PASS no page errors in the main run
+PASS home: the start note counts the items other tools hold
+PASS start previews list the Studio's PESTLE register (6) and SWOT items from PESTLE (3)
+PASS Studio preview uses its own factor and effect names
+PASS SWOT read with its own stage rule
+PASS start from the whole register: a new unsaved scan with every factor in its group, its id, no source yet
+PASS the Studio's generic wording is flagged (the scan needs specifics)
+PASS item source ids show a preview by the Studio's rule
+PASS start from a SWOT study: its PESTLE items become items with their evidence, source, date and factor
+PASS the source shows in the header with its preview
+PASS the other tools' stored data is unchanged (read only)
+PASS ?swot=&item= starts a new scan from that item
+PASS ?strat=* starts a scan from the whole register
+PASS the one-time hint cia-nav:pestle starts a scan and is removed
+PASS ?open= loads a saved scan
+PASS SWOT outcomes preview SW-EX-01 with SWOT's own stage
+PASS no errors with other tools' data
+PASS assistant: five suggested questions including 'useful' and 'PESTLE, SWOT or Porter'
+PASS assistant answers 'useful' with the stages
+PASS assistant answers 'which one' with 5.1, 5.3 and 7.2
+PASS assistant: 4–6 fixed FAQ answers plus two answers from the scans
+PASS Escape closes the assistant
+PASS keyboard: typing into the form and tabbing moves focus
+PASS no errors
+PASS guided tour layer is present (launch button)
+PASS 390 px: no page overflow on any tab in AR and EN (scan loaded)
+PASS 390 px: the board fits in two columns (Arabic: political on the right)
+PASS 390 px: no errors
+PASS hub: PESTLE URL, Audit & Improvement row and card
+PASS hub: 38 tools and Audit & Improvement 15
+PASS hub: adapter reads the example snapshot (75%, 17/17, 17/17, 1/3)
+PASS hub: TOOLINFO (12 questions, tools tab), NEWS and the request mapping
+PASS hub: grouped toolbox entry names the 1 tool left
+PASS hub: Advisor rules name PESTLE for strategy and KPIs, and risk
+PASS hub: knowledge topic links the method guide
+PASS hub: ciaOpenFile opens PESTLE in the overlay
+PASS hub: no errors
+
+104/104 passed

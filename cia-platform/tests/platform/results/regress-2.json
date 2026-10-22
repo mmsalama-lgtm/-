@@ -1,0 +1,244 @@
+{
+ "name": "regress-2",
+ "checks": 45,
+ "failed": 0,
+ "seconds": 135.9,
+ "rows": [
+  {
+   "label": "capa: stored state on first load matches",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "capa: stored state after the example (pfEx) matches exactly",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "capa: stored state after visiting every tab matches",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "capa: no errors (new)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "capa: unchanged file shows identical text on every tab (AR/EN)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "executive-cockpit-workspace: stored state on first load matches",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "executive-cockpit-workspace: stored state after the example (seeded) matches exactly",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "executive-cockpit-workspace: stored state after visiting every tab matches",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "executive-cockpit-workspace: no errors (new)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "executive-cockpit-workspace: unchanged file shows identical text on every tab (AR/EN)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ims-builder: stored state on first load matches",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ims-builder: stored state after the example (pkEx, asDemo) matches exactly",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ims-builder: stored state after visiting every tab matches",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ims-builder: no errors (new)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ims-builder: unchanged file shows identical text on every tab (AR/EN)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso22301: stored state on first load matches",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso22301: stored state after the example (asDemo) matches exactly",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso22301: stored state after visiting every tab matches",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso22301: no errors (new)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso22301: unchanged file shows identical text on every tab (AR/EN)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37000-governance: stored state on first load matches",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37000-governance: stored state after the example (asDemo) matches exactly",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37000-governance: stored state after visiting every tab matches",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37000-governance: no errors (new)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37000-governance: unchanged file shows identical text on every tab (AR/EN)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso42005: stored state on first load matches",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso42005: stored state after the example (pfEx) matches exactly",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso42005: stored state after visiting every tab matches",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso42005: no errors (new)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso42005: unchanged file shows identical text on every tab (AR/EN)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "lessons: stored state on first load matches",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "lessons: stored state after the example (pfEx) matches exactly",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "lessons: stored state after visiting every tab matches",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "lessons: no errors (new)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "lessons: unchanged file shows identical text on every tab (AR/EN)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pdca: stored state on first load matches",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pdca: stored state after the example (seeded) matches exactly",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pdca: stored state after visiting every tab matches",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pdca: no errors (new)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pdca: unchanged file shows identical text on every tab (AR/EN)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "rca: stored state on first load matches",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "rca: stored state after the example (pfEx) matches exactly",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "rca: stored state after visiting every tab matches",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "rca: no errors (new)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "rca: unchanged file shows identical text on every tab (AR/EN)",
+   "ok": true,
+   "detail": ""
+  }
+ ],
+ "modules": [
+  "capa",
+  "executive-cockpit-workspace",
+  "ims-builder",
+  "iso22301",
+  "iso37000-governance",
+  "iso42005",
+  "lessons",
+  "pdca",
+  "rca"
+ ]
+}

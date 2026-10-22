@@ -1,0 +1,1246 @@
+{
+ "name": "static",
+ "checks": 223,
+ "failed": 0,
+ "seconds": 15.2,
+ "rows": [
+  {
+   "label": "template has both kit blocks",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "a3: kit CSS block byte-identical to template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "a3: kit JS block byte-identical to template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "a3: each kit block appears once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "a3: guided tour layer present",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ai-regulatory: kit CSS block byte-identical to template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ai-regulatory: kit JS block byte-identical to template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ai-regulatory: each kit block appears once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ai-regulatory: guided tour layer present",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "capa: kit CSS block byte-identical to template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "capa: kit JS block byte-identical to template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "capa: each kit block appears once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "capa: guided tour layer present",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "compliance-anti-bribery: kit CSS block byte-identical to template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "compliance-anti-bribery: kit JS block byte-identical to template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "compliance-anti-bribery: each kit block appears once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "compliance-anti-bribery: guided tour layer present",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "dmaic: kit CSS block byte-identical to template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "dmaic: kit JS block byte-identical to template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "dmaic: each kit block appears once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "dmaic: guided tour layer present",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "excellence-efqm: kit CSS block byte-identical to template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "excellence-efqm: kit JS block byte-identical to template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "excellence-efqm: each kit block appears once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "excellence-efqm: guided tour layer present",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "executive-cockpit-workspace: kit CSS block byte-identical to template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "executive-cockpit-workspace: kit JS block byte-identical to template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "executive-cockpit-workspace: each kit block appears once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "executive-cockpit-workspace: guided tour layer present",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "fishbone: kit CSS block byte-identical to template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "fishbone: kit JS block byte-identical to template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "fishbone: each kit block appears once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "fishbone: guided tour layer present",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "five-whys: kit CSS block byte-identical to template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "five-whys: kit JS block byte-identical to template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "five-whys: each kit block appears once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "five-whys: guided tour layer present",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "fmea: kit CSS block byte-identical to template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "fmea: kit JS block byte-identical to template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "fmea: each kit block appears once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "fmea: guided tour layer present",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ims-builder: kit CSS block byte-identical to template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ims-builder: kit JS block byte-identical to template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ims-builder: each kit block appears once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ims-builder: guided tour layer present",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso10009: kit CSS block byte-identical to template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso10009: kit JS block byte-identical to template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso10009: each kit block appears once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso10009: guided tour layer present",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso14001: kit CSS block byte-identical to template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso14001: kit JS block byte-identical to template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso14001: each kit block appears once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso14001: guided tour layer present",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso21500: kit CSS block byte-identical to template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso21500: kit JS block byte-identical to template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso21500: each kit block appears once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso21500: guided tour layer present",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso22301: kit CSS block byte-identical to template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso22301: kit JS block byte-identical to template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso22301: each kit block appears once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso22301: guided tour layer present",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso27001: kit CSS block byte-identical to template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso27001: kit JS block byte-identical to template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso27001: each kit block appears once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso27001: guided tour layer present",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso27701: kit CSS block byte-identical to template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso27701: kit JS block byte-identical to template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso27701: each kit block appears once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso27701: guided tour layer present",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso31000-risk-studio: kit CSS block byte-identical to template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso31000-risk-studio: kit JS block byte-identical to template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso31000-risk-studio: each kit block appears once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso31000-risk-studio: guided tour layer present",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37000-governance: kit CSS block byte-identical to template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37000-governance: kit JS block byte-identical to template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37000-governance: each kit block appears once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37000-governance: guided tour layer present",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37001: kit CSS block byte-identical to template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37001: kit JS block byte-identical to template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37001: each kit block appears once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37001: guided tour layer present",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37301: kit CSS block byte-identical to template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37301: kit JS block byte-identical to template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37301: each kit block appears once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37301: guided tour layer present",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso42001: kit CSS block byte-identical to template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso42001: kit JS block byte-identical to template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso42001: each kit block appears once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso42001: guided tour layer present",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso42005: kit CSS block byte-identical to template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso42005: kit JS block byte-identical to template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso42005: each kit block appears once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso42005: guided tour layer present",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso45001: kit CSS block byte-identical to template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso45001: kit JS block byte-identical to template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso45001: each kit block appears once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso45001: guided tour layer present",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso9001: kit CSS block byte-identical to template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso9001: kit JS block byte-identical to template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso9001: each kit block appears once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso9001: guided tour layer present",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "kaqa: kit CSS block byte-identical to template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "kaqa: kit JS block byte-identical to template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "kaqa: each kit block appears once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "kaqa: guided tour layer present",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "lessons: kit CSS block byte-identical to template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "lessons: kit JS block byte-identical to template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "lessons: each kit block appears once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "lessons: guided tour layer present",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "operations-excellence: kit CSS block byte-identical to template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "operations-excellence: kit JS block byte-identical to template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "operations-excellence: each kit block appears once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "operations-excellence: guided tour layer present",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "p3o: kit CSS block byte-identical to template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "p3o: kit JS block byte-identical to template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "p3o: each kit block appears once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "p3o: guided tour layer present",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pareto: kit CSS block byte-identical to template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pareto: kit JS block byte-identical to template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pareto: each kit block appears once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pareto: guided tour layer present",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pdca: kit CSS block byte-identical to template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pdca: kit JS block byte-identical to template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pdca: each kit block appears once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pdca: guided tour layer present",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pestle: kit CSS block byte-identical to template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pestle: kit JS block byte-identical to template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pestle: each kit block appears once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pestle: guided tour layer present",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pmo-excellence: kit CSS block byte-identical to template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pmo-excellence: kit JS block byte-identical to template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pmo-excellence: each kit block appears once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pmo-excellence: guided tour layer present",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pmo-maturity: kit CSS block byte-identical to template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pmo-maturity: kit JS block byte-identical to template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pmo-maturity: each kit block appears once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pmo-maturity: guided tour layer present",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "rca: kit CSS block byte-identical to template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "rca: kit JS block byte-identical to template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "rca: each kit block appears once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "rca: guided tour layer present",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "smart-audit-improvement: kit CSS block byte-identical to template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "smart-audit-improvement: kit JS block byte-identical to template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "smart-audit-improvement: each kit block appears once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "smart-audit-improvement: guided tour layer present",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance: kit CSS block byte-identical to template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance: kit JS block byte-identical to template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance: each kit block appears once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance: guided tour layer present",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot: kit CSS block byte-identical to template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot: kit JS block byte-identical to template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot: each kit block appears once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot: guided tour layer present",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "every module carries the Explain Kit",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "PDCA tour layer identical to the ISO 9001 one apart from its CFG line",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "CAPA tour layer identical to the PDCA one apart from its CFG line",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "5 Whys tour layer identical to the CAPA one apart from its CFG line",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "Fishbone tour layer identical to the 5 Whys one apart from its CFG line",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "Pareto tour layer identical to the Fishbone one apart from its CFG line",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "RCA tour layer identical to the Pareto one apart from its CFG line",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "A3 tour layer identical to the RCA one apart from its CFG line",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "DMAIC tour layer identical to the A3 one apart from its CFG line",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ISO 10009 tour layer identical to the DMAIC one apart from its CFG line",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "FMEA tour layer identical to the DMAIC one apart from its CFG line",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "Lessons Learned tour layer identical to the FMEA one apart from its CFG line",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "SWOT tour layer identical to the Lessons Learned one apart from its CFG line",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "PESTLE tour layer identical to the SWOT one apart from its CFG line",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "a3: engine block appears once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "capa: engine block appears once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "dmaic: engine block appears once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "fishbone: engine block appears once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "five-whys: engine block appears once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "fmea: engine block appears once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso10009: engine block appears once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "lessons: engine block appears once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pareto: engine block appears once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pdca: engine block appears once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pestle: engine block appears once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "rca: engine block appears once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot: engine block appears once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "toolbox engine carried by PDCA, CAPA, 5 Whys, Fishbone, Pareto, RCA, A3, DMAIC, ISO 10009, FMEA, Lessons Learned, SWOT and PESTLE (thirteen files)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "toolbox engine block identical in every tool that carries it",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "index.html: every inline script passes node --check",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "modules/a3.html: every inline script passes node --check",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "modules/ai-regulatory.html: every inline script passes node --check",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "modules/capa.html: every inline script passes node --check",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "modules/compliance-anti-bribery.html: every inline script passes node --check",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "modules/dmaic.html: every inline script passes node --check",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "modules/excellence-efqm.html: every inline script passes node --check",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "modules/executive-cockpit-workspace.html: every inline script passes node --check",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "modules/fishbone.html: every inline script passes node --check",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "modules/five-whys.html: every inline script passes node --check",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "modules/fmea.html: every inline script passes node --check",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "modules/ims-builder.html: every inline script passes node --check",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "modules/iso10009.html: every inline script passes node --check",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "modules/iso14001.html: every inline script passes node --check",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "modules/iso21500.html: every inline script passes node --check",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "modules/iso22301.html: every inline script passes node --check",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "modules/iso27001.html: every inline script passes node --check",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "modules/iso27701.html: every inline script passes node --check",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "modules/iso31000-risk-studio.html: every inline script passes node --check",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "modules/iso37000-governance.html: every inline script passes node --check",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "modules/iso37001.html: every inline script passes node --check",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "modules/iso37301.html: every inline script passes node --check",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "modules/iso42001.html: every inline script passes node --check",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "modules/iso42005.html: every inline script passes node --check",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "modules/iso45001.html: every inline script passes node --check",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "modules/iso9001.html: every inline script passes node --check",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "modules/kaqa.html: every inline script passes node --check",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "modules/lessons.html: every inline script passes node --check",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "modules/operations-excellence.html: every inline script passes node --check",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "modules/p3o.html: every inline script passes node --check",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "modules/pareto.html: every inline script passes node --check",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "modules/pdca.html: every inline script passes node --check",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "modules/pestle.html: every inline script passes node --check",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "modules/pmo-excellence.html: every inline script passes node --check",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "modules/pmo-maturity.html: every inline script passes node --check",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "modules/rca.html: every inline script passes node --check",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "modules/smart-audit-improvement.html: every inline script passes node --check",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "modules/strategy-performance.html: every inline script passes node --check",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "modules/swot.html: every inline script passes node --check",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "templates/explain-kit-template.html: every inline script passes node --check",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "no file removed from the previous release",
+   "ok": true,
+   "detail": ""
+  }
+ ],
+ "kit_tools": [
+  "a3",
+  "ai-regulatory",
+  "capa",
+  "compliance-anti-bribery",
+  "dmaic",
+  "excellence-efqm",
+  "executive-cockpit-workspace",
+  "fishbone",
+  "five-whys",
+  "fmea",
+  "ims-builder",
+  "iso10009",
+  "iso14001",
+  "iso21500",
+  "iso22301",
+  "iso27001",
+  "iso27701",
+  "iso31000-risk-studio",
+  "iso37000-governance",
+  "iso37001",
+  "iso37301",
+  "iso42001",
+  "iso42005",
+  "iso45001",
+  "iso9001",
+  "kaqa",
+  "lessons",
+  "operations-excellence",
+  "p3o",
+  "pareto",
+  "pdca",
+  "pestle",
+  "pmo-excellence",
+  "pmo-maturity",
+  "rca",
+  "smart-audit-improvement",
+  "strategy-performance",
+  "swot"
+ ],
+ "no_kit": [],
+ "inline_scripts_checked": 282,
+ "changes": {
+  "changed": [
+   "index.html",
+   "modules/iso10009.html",
+   "tests/build/README.md",
+   "tests/build/cat_10009.py",
+   "tests/build/qt_host.js",
+   "tests/fmea/test_fmea.py",
+   "tests/iso10009/explain_regress.py",
+   "tests/iso10009/test_iso10009.py",
+   "tests/iso10009/test_iso10009_explain.py",
+   "tests/lessons/test_lessons.py",
+   "tests/platform/run_all.sh",
+   "tests/platform/summary.py",
+   "tests/platform/t_example.py",
+   "tests/platform/t_hub.py",
+   "tests/platform/t_static.py",
+   "tests/swot/test_swot.py"
+  ],
+  "added": [
+   "modules/pestle.html",
+   "tests/build/build_pestle.py",
+   "tests/build/data_pestle.py",
+   "tests/build/demo_pestle.py",
+   "tests/build/patch_10009_pestle.py",
+   "tests/build/patch_hub_pestle.py",
+   "tests/build/pestle_body.html",
+   "tests/build/pestle_example.js",
+   "tests/build/pestle_host.css",
+   "tests/build/pestle_host.js",
+   "tests/pestle/iso10009_regress.py",
+   "tests/pestle/test_pestle.py"
+  ],
+  "removed": [],
+  "unchanged": 219,
+  "sha256": {
+   "index.html": "c0288e61c1613dbc9e2005ef78e71db40222c47989d76e7cc30345096ce7b9a6",
+   "modules/iso10009.html": "f07385f653f27b06403c4b5104121f0c16435376deebe6951cf390afc08446de",
+   "modules/pestle.html": "44393a73bc74e65d92bf9ab198b3d9502253a6ecb9b98974c9c500ee715693b0",
+   "tests/build/README.md": "206277216de9f7d8b6526a1ee9b5e388b41f15dd20451554c5facafdd6814e7b",
+   "tests/build/build_pestle.py": "74e17f9dfc0defbaaa867e802ab674a95bc75325908bf546e0221485932e42f4",
+   "tests/build/cat_10009.py": "a83ef4d1e40f9d13bb8c800f3a6c4b8d378c3f87a8cee67c22873bda0031adba",
+   "tests/build/data_pestle.py": "3a9451390b83c186e0bc7f837f42e0d17d69743603a59f15b6c791dc54744906",
+   "tests/build/demo_pestle.py": "5977de23771850cf799f02bc014fc586ff814daf46624bb6ae60bacd75a433f2",
+   "tests/build/patch_10009_pestle.py": "783f2ed4c0d20eddd7d154be5886e810ff7d86418e34c2cf6e66e4c17e421961",
+   "tests/build/patch_hub_pestle.py": "46a55d6c1c8095ecec8b5d1fb7e47958a3313f4651c35fb2d2cc5cead6081997",
+   "tests/build/pestle_body.html": "19d38cd1e89af3a2bfe0514b310d8407f85871edef5583549c8f9ef2ce05565f",
+   "tests/build/pestle_example.js": "5addf21f726c8c710333a9cb79913ea14c47a35eb798c503b528612f06eb9232",
+   "tests/build/pestle_host.css": "ddbfda9bef693d37ac016ac86e24ca4cc1bcf2cc93e4831e903087f35d93f0b6",
+   "tests/build/pestle_host.js": "b7f0cdefd1ed2be46fe3e2e43704fd7cc511aa9fa32ac7448988dea0cef74993",
+   "tests/build/qt_host.js": "315b92394b1e912f058950ae4268a1669893fdf52bf333503b12ff1a12ea6df9",
+   "tests/fmea/test_fmea.py": "c3e787d417b620327475128ae361fa87088cc9c41e6c862f77f7496d464c7533",
+   "tests/iso10009/explain_regress.py": "36683776c9d5985f21e7cff5cd20e132410e85324f331c0f21c6a82b0e24dd17",
+   "tests/iso10009/test_iso10009.py": "c7a852b6b0bf3f3e87d6b0031202caf16575db19793fa001289c44ae24bcf447",
+   "tests/iso10009/test_iso10009_explain.py": "840858997a50d46ada910de655aa10ca477ddfeab42b5090047e330a90f2ce44",
+   "tests/lessons/test_lessons.py": "f12f3c890e9cbe1f2fd74dd5f5e844f69739912223feeccfaad16954ff6ba523",
+   "tests/pestle/iso10009_regress.py": "c73bb8d07a264ca1424101c5c67004ac2b6dd1c28c6564c37bc22fc96baf765e",
+   "tests/pestle/test_pestle.py": "da0b5a5b0a727a7ceadbc7b75769aa2cd4df86b8750d192dff115b4d4fdd0b19",
+   "tests/platform/run_all.sh": "4d9b2d77f3bef9f5020ee17da05bc4ab642f228bb99a814f1e9063f1eea791be",
+   "tests/platform/summary.py": "879f2e5d38fec47b57ff8bfeec9d5756511bd7c89182492a65db707129c511e2",
+   "tests/platform/t_example.py": "f91c3750dd6d58aa16577490bdd8743238e95a72a4ffdbff9f182d246d0f106b",
+   "tests/platform/t_hub.py": "f5a67278e44ab2aeeea388754c5124d0460591e4d62e91cca5d4197d6c1d5680",
+   "tests/platform/t_static.py": "84d6ee2b8d86953073192fc27d9577e1d109ca33f7784b6ddf09b76e7c832013",
+   "tests/swot/test_swot.py": "481a71e109865f859f6637944f220bc06552ce7ca7f9c4d36b93829d80f68042"
+  }
+ },
+ "tour_variants": {
+  "64b68023d4": 26,
+  "a3e63a3dd8": 1,
+  "5e88a24a87": 1,
+  "e8606e0bed": 1,
+  "2baac2a237": 1,
+  "7d247c3b25": 1,
+  "0e372797f8": 1,
+  "37636e4f57": 1,
+  "6851aa87da": 1,
+  "2af548e1d1": 1,
+  "406a033386": 1,
+  "453bd3c85f": 1,
+  "42ec80d184": 1
+ }
+}

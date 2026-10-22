@@ -1,0 +1,65 @@
+/* ===== SWOT tool — additions to the PDCA host styles and the CAPA, 5 Whys, Fishbone, Pareto, RCA, A3, DMAIC, FMEA and Lessons additions (same tokens) ===== */
+.sw-term{border-inline-start-color:#3563C9}
+.sw-from{border-inline-start-color:#1B2A4A}
+/* stage map: seven stages; four columns on tablets, one on phones */
+.sw-map{grid-template-columns:repeat(7,minmax(0,1fr))}
+.sw-map li{padding:7px 8px}
+.sw-map li b{font-size:12.5px}
+@media (max-width:1100px){.sw-map{grid-template-columns:repeat(4,minmax(0,1fr))}}
+@media (max-width:640px){.sw-map{grid-template-columns:1fr}}
+/* sections */
+.sw-sec .dm-pht{font-size:16.5px}
+.sw-tm{min-width:520px}
+.sw-ro{min-width:1040px}
+.sw-rv{min-width:640px}
+.sw-two{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.sw-qbox{border:1px solid var(--line,#DCE4EE);border-top:4px solid var(--qc);border-radius:12px;padding:8px 10px;min-width:0;background:#fff}
+.sw-qh{margin:2px 0 8px;color:var(--qc);font-size:15px}
+.sw-cards .dm-card{border-inline-start:4px solid var(--qc)}
+.sw-ocards .dm-card{border-inline-start:4px solid #7B5BB8}
+.sw-acards .dm-card{border-inline-start:4px solid #C9821A}
+.sw-links{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin-top:6px}
+.sw-links fieldset{border:1px solid var(--line,#DCE4EE);border-radius:10px;padding:6px 8px;margin:0;min-width:0}
+.sw-links legend{font-size:12.5px;font-weight:700;color:var(--ink-soft);padding:0 4px}
+.sw-lk{display:flex;gap:6px;align-items:flex-start;font-size:13px;padding:3px 0;overflow-wrap:anywhere;min-width:0;cursor:pointer}
+.sw-lk input{margin-top:3px;flex:none}
+.sw-vh{margin:14px 0 4px;font-size:14px;color:var(--ink)}
+/* the grid and the TOWS matrix (also drawn into the report) */
+.sw-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin:8px 0}
+.sw-q{border:1px solid var(--line,#DCE4EE);border-top:4px solid var(--qc);border-radius:10px;padding:8px 10px;min-width:0;background:#fff}
+.sw-q h4{margin:0 0 4px;display:flex;flex-wrap:wrap;gap:4px 8px;align-items:baseline;color:var(--qc);font-size:14px}
+.sw-q h4 small{color:var(--ink-soft);font-weight:400;font-size:11.5px}
+.sw-q ol{margin:0;padding:0;list-style:none;display:grid;gap:4px}
+.sw-q li{display:flex;gap:6px;align-items:baseline;font-size:13px;overflow-wrap:anywhere;min-width:0}
+.sw-q li span{flex:1;min-width:0}
+.sw-q code{font-family:Georgia,serif;font-weight:700;color:var(--qc)}
+.sw-q em{font-style:normal;color:var(--ink-soft);font-size:11.5px;white-space:nowrap}
+.sw-none,.sw-more{margin:2px 0;color:var(--muted,#7A869E);font-size:12.5px}
+.sw-tows{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin:8px 0}
+.sw-tw{border:1px solid var(--line,#DCE4EE);border-radius:10px;padding:8px 10px;min-width:0;background:#fff}
+.sw-tw h4{margin:0;font-family:Georgia,serif;color:#7B5BB8;font-size:15px}
+.sw-twd{margin:0 0 4px;font-size:12px;color:var(--ink-soft)}
+.sw-tw ul{margin:0;padding-inline-start:16px;font-size:13px;overflow-wrap:anywhere}
+.sw-tw li.bad{color:#B42318}
+.sw-tw code{font-family:Georgia,serif;font-weight:700}
+.sw-tw small{color:var(--ink-soft)}
+/* chart: never wider than the screen */
+.sw-chartw{overflow-x:auto;max-width:100%}
+.sw-chartw svg{max-width:100%;height:auto;display:block}
+@media (max-width:760px){.sw-two{grid-template-columns:1fr}.sw-links{grid-template-columns:1fr}}
+@media (max-width:640px){.sw-tm{min-width:460px}.sw-ro{min-width:1000px}.sw-rv{min-width:520px}.sw-q,.sw-tw{padding:6px 7px}.sw-q li{font-size:12.5px}}
+/* item cards: two compact columns; the links inside an option card */
+.sw-it .pd-fields{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+.sw-it .pd-f{min-width:0}
+.sw-it .pd-f.wide{grid-column:1/-1}
+.sw-it .pd-f input,.sw-it .pd-f select,.sw-it .pd-f textarea{padding:7px 9px;font-size:14px}
+.sw-links .sw-lk input[type=checkbox]{width:16px;height:16px;min-width:16px;flex:0 0 16px;padding:0;margin:3px 0 0;border:0}
+.sw-links .sw-lk span{flex:1 1 auto;min-width:0}
+@media (max-width:420px){.sw-it .pd-fields{grid-template-columns:1fr}}
+/* action cards: three compact columns; entry table columns that never collapse */
+.sw-ac .pd-fields{grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+.sw-ac .pd-f{min-width:0}
+.sw-ac .pd-f.wide{grid-column:1/-1}
+.sw-ro td:nth-child(1){min-width:110px}.sw-ro td:nth-child(2){min-width:210px}.sw-ro td:nth-child(3){min-width:220px}.sw-ro td:nth-child(4){min-width:160px}.sw-ro td:nth-child(5){min-width:160px}.sw-ro td:nth-child(6){min-width:130px}
+@media (max-width:760px){.sw-ac .pd-fields{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:420px){.sw-ac .pd-fields{grid-template-columns:1fr}}

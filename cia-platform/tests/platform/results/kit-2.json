@@ -1,0 +1,729 @@
+{
+ "name": "kit-2",
+ "checks": 142,
+ "failed": 0,
+ "seconds": 310.1,
+ "rows": [
+  {
+   "label": "capa ar: kit indexed sections and items",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "capa ar: all 7 sections and 19 items open",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "capa ar: kit text has no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "capa ar: every 'Assess this' lands (13 landed, 6 outside the assessment)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "capa ar: every 'Explain' link on the assessment opens its item (12 links)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "capa: explain-cl re-renders in English",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "capa: explain-cl re-renders back in Arabic, same text",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "capa: explain-std re-renders in English",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "capa: explain-std re-renders back in Arabic, same text",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "capa ar: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "capa en: kit indexed sections and items",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "capa en: all 7 sections and 19 items open",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "capa en: kit text has no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "capa en: every 'Assess this' lands (13 landed, 6 outside the assessment)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "capa en: every 'Explain' link on the assessment opens its item (12 links)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "capa en: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "executive-cockpit-workspace ar: kit indexed sections and items",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "executive-cockpit-workspace ar: all 3 sections and 7 items open",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "executive-cockpit-workspace ar: kit text has no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "executive-cockpit-workspace ar: every 'Assess this' lands (7 landed, 0 outside the assessment)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "executive-cockpit-workspace: clauses re-renders in English",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "executive-cockpit-workspace: clauses re-renders back in Arabic, same text",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "executive-cockpit-workspace: standard re-renders in English",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "executive-cockpit-workspace: standard re-renders back in Arabic, same text",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "executive-cockpit-workspace ar: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "executive-cockpit-workspace en: kit indexed sections and items",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "executive-cockpit-workspace en: all 3 sections and 7 items open",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "executive-cockpit-workspace en: kit text has no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "executive-cockpit-workspace en: every 'Assess this' lands (7 landed, 0 outside the assessment)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "executive-cockpit-workspace en: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ims-builder ar: kit indexed sections and items",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ims-builder ar: all 7 sections and 22 items open",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ims-builder ar: kit text has no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ims-builder ar: every 'Assess this' lands (22 landed, 0 outside the assessment)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ims-builder ar: every 'Explain' link on the assessment opens its item (2 links)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ims-builder: clauses re-renders in English",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ims-builder: clauses re-renders back in Arabic, same text",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ims-builder: standard re-renders in English",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ims-builder: standard re-renders back in Arabic, same text",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ims-builder ar: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ims-builder en: kit indexed sections and items",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ims-builder en: all 7 sections and 22 items open",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ims-builder en: kit text has no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ims-builder en: every 'Assess this' lands (22 landed, 0 outside the assessment)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ims-builder en: every 'Explain' link on the assessment opens its item (2 links)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ims-builder en: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso22301 ar: kit indexed sections and items",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso22301 ar: all 7 sections and 26 items open",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso22301 ar: kit text has no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso22301 ar: every 'Assess this' lands (23 landed, 3 outside the assessment)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso22301 ar: every 'Explain' link on the assessment opens its item (23 links)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso22301: guide re-renders in English",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso22301: guide re-renders back in Arabic, same text",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso22301: method re-renders in English",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso22301: method re-renders back in Arabic, same text",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso22301 ar: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso22301 en: kit indexed sections and items",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso22301 en: all 7 sections and 26 items open",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso22301 en: kit text has no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso22301 en: every 'Assess this' lands (23 landed, 3 outside the assessment)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso22301 en: every 'Explain' link on the assessment opens its item (23 links)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso22301 en: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37000-governance ar: kit indexed sections and items",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37000-governance ar: all 11 sections and 22 items open",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37000-governance ar: kit text has no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37000-governance ar: every 'Assess this' lands (22 landed, 0 outside the assessment)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37000-governance ar: every 'Explain' link on the assessment opens its item (22 links)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37000-governance: explain-cl re-renders in English",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37000-governance: explain-cl re-renders back in Arabic, same text",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37000-governance: explain-std re-renders in English",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37000-governance: explain-std re-renders back in Arabic, same text",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37000-governance ar: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37000-governance en: kit indexed sections and items",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37000-governance en: all 11 sections and 22 items open",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37000-governance en: kit text has no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37000-governance en: every 'Assess this' lands (22 landed, 0 outside the assessment)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37000-governance en: every 'Explain' link on the assessment opens its item (22 links)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37000-governance en: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso42005 ar: kit indexed sections and items",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso42005 ar: all 23 sections and 66 items open",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso42005 ar: kit text has no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso42005 ar: every 'Assess this' lands (58 landed, 0 outside the assessment)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso42005 ar: every 'Explain' link on the assessment opens its item (18 links)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso42005: clauses re-renders in English",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso42005: clauses re-renders back in Arabic, same text",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso42005: standard re-renders in English",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso42005: standard re-renders back in Arabic, same text",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso42005 ar: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso42005 en: kit indexed sections and items",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso42005 en: all 23 sections and 66 items open",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso42005 en: kit text has no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso42005 en: every 'Assess this' lands (58 landed, 0 outside the assessment)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso42005 en: every 'Explain' link on the assessment opens its item (18 links)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso42005 en: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "lessons ar: kit indexed sections and items",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "lessons ar: all 7 sections and 25 items open",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "lessons ar: kit text has no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "lessons ar: every 'Assess this' lands (12 landed, 13 outside the assessment)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "lessons ar: every 'Explain' link on the assessment opens its item (12 links)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "lessons: explain-cl re-renders in English",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "lessons: explain-cl re-renders back in Arabic, same text",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "lessons: explain-std re-renders in English",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "lessons: explain-std re-renders back in Arabic, same text",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "lessons ar: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "lessons en: kit indexed sections and items",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "lessons en: all 7 sections and 25 items open",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "lessons en: kit text has no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "lessons en: every 'Assess this' lands (12 landed, 13 outside the assessment)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "lessons en: every 'Explain' link on the assessment opens its item (12 links)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "lessons en: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pdca ar: kit indexed sections and items",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pdca ar: all 4 sections and 10 items open",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pdca ar: kit text has no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pdca ar: every 'Assess this' lands (0 landed, 0 outside the assessment)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pdca ar: every 'Explain' link on the assessment opens its item (0 links)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pdca: explain-cl re-renders in English",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pdca: explain-cl re-renders back in Arabic, same text",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pdca: explain-std re-renders in English",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pdca: explain-std re-renders back in Arabic, same text",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pdca ar: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pdca en: kit indexed sections and items",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pdca en: all 4 sections and 10 items open",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pdca en: kit text has no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pdca en: every 'Assess this' lands (0 landed, 0 outside the assessment)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pdca en: every 'Explain' link on the assessment opens its item (0 links)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pdca en: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "rca ar: kit indexed sections and items",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "rca ar: all 9 sections and 18 items open",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "rca ar: kit text has no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "rca ar: every 'Assess this' lands (12 landed, 6 outside the assessment)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "rca ar: every 'Explain' link on the assessment opens its item (12 links)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "rca: explain-cl re-renders in English",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "rca: explain-cl re-renders back in Arabic, same text",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "rca: explain-std re-renders in English",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "rca: explain-std re-renders back in Arabic, same text",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "rca ar: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "rca en: kit indexed sections and items",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "rca en: all 9 sections and 18 items open",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "rca en: kit text has no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "rca en: every 'Assess this' lands (12 landed, 6 outside the assessment)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "rca en: every 'Explain' link on the assessment opens its item (12 links)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "rca en: no errors",
+   "ok": true,
+   "detail": ""
+  }
+ ],
+ "modules": [
+  "capa",
+  "executive-cockpit-workspace",
+  "ims-builder",
+  "iso22301",
+  "iso37000-governance",
+  "iso42005",
+  "lessons",
+  "pdca",
+  "rca"
+ ]
+}

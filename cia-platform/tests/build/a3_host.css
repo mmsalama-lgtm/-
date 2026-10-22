@@ -1,0 +1,84 @@
+/* ===== A3 tool — additions to the PDCA host styles, CAPA's, 5 Whys', Fishbone's, Pareto's and RCA's additions (same tokens) ===== */
+.a3-term{border-inline-start-color:#B8901E}
+.a3-from{border-inline-start-color:#1B2A4A}
+.a3-from table{min-width:720px}
+.a3-half{border:1px solid var(--line);border-radius:var(--radius-lg);padding:4px 14px 12px;margin:14px 0 0;background:#FCFDFE}
+.a3-half>h3.a3-ht{display:flex;gap:10px;align-items:center;margin:10px 0 2px;font-size:15px;color:var(--ink)}
+.a3-half>h3.a3-ht i{font-style:normal;font-family:Georgia,serif;font-size:12px;color:#fff;background:var(--hc,#1B2A4A);border-radius:999px;padding:2px 10px}
+.a3-half>p.a3-hs{margin:0 0 4px;font-size:13px;color:var(--ink-soft)}
+.a3-halves{display:block}
+@media (min-width:1360px){.a3-halves{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:0 16px;align-items:start}}
+.a3-bn{display:inline-grid;place-items:center;width:26px;height:26px;border-radius:50%;background:var(--sc,#1B2A4A);color:#fff;font-family:Georgia,serif;font-size:13px;margin-inline-end:8px;vertical-align:middle}
+.a3-tbl{width:100%;border-collapse:collapse;font-size:14px}
+.a3-tbl th{font-size:12.5px;color:var(--ink-soft);text-align:start;padding:4px 6px;font-weight:600}
+.a3-tbl td{padding:4px 6px;vertical-align:top}
+.a3-tbl input,.a3-tbl textarea,.a3-tbl select{width:100%;font:inherit;font-size:14px;border:1px solid var(--line);border-radius:10px;padding:7px 9px;background:#fff;color:var(--ink)}
+.a3-tbl textarea{min-height:42px;resize:vertical;line-height:1.5;overflow:hidden}
+.a3-tbl input[type=number]{direction:ltr;text-align:end}
+.a3-tbl input:focus,.a3-tbl textarea:focus,.a3-tbl select:focus{outline:3px solid var(--gold);outline-offset:1px}
+.a3-tbl td.a3-x{width:44px}
+.a3-tbl td.c{text-align:center;direction:ltr;font-family:Georgia,serif;white-space:nowrap;padding-top:12px;font-weight:700}
+.a3-tbl .ca-x{border:1px solid var(--line);background:#fff;border-radius:999px;width:34px;height:34px;cursor:pointer;font-size:14px;color:#9A3412}
+.a3-tbl .a3-pv{font-size:12.5px;color:var(--ink-soft);background:#F3F7FB;border-radius:10px;padding:5px 9px;margin-top:5px;line-height:1.6}
+.a3-tbl .a3-pv:empty{display:none}
+.a3-tbl .a3-flag{display:block;font-size:12px;color:#9A3412;margin-top:3px;line-height:1.4}
+.a3-tbl .a3-flag:empty{display:none}
+.a3-tbl tr.a3-pf td{background:#FDF3EE}
+.a3-tbl tr.st-out textarea[data-k="t"]{text-decoration:line-through;color:var(--muted)}
+.a3-pts{min-width:340px;max-width:520px}
+.a3-pts td.a3-n{width:130px}
+.a3-tm{min-width:420px}
+.a3-cz{min-width:860px}
+.a3-cz td.a3-k{width:150px}
+.a3-cz td.a3-r{width:170px}
+.a3-cm{min-width:820px}
+.a3-cm td.a3-k{width:190px}
+.a3-pl{min-width:760px}
+.a3-pl td.a3-k{width:190px}
+.a3-pl td.a3-d{width:160px}
+.a3-pl td.a3-o{width:170px}
+.a3-rv{min-width:760px}
+.a3-rv td.a3-d{width:160px}
+.a3-rv td.a3-o{width:170px}
+.a3-add{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:8px}
+.a3-add .pd-btn{padding:6px 12px;font-size:13px}
+.a3-sub{font-size:13.5px;font-weight:700;margin:14px 0 4px;color:var(--ink)}
+.a3-rule{font-size:13.5px;line-height:1.7;background:#F3F7FB;border-radius:var(--radius);padding:8px 12px;margin:8px 0 0}
+.a3-rule b{font-family:Georgia,serif}
+.a3-pick{display:flex;flex-wrap:wrap;gap:8px 12px;align-items:flex-end;background:#F7F9FC;border:1px dashed var(--line);border-radius:var(--radius);padding:10px 12px;margin:6px 0 10px}
+.a3-pick .pd-f{margin:0;min-width:170px;flex:1 1 190px}
+.a3-pick .pd-btns{margin:0}
+.a3-pick .a3-pkpv{flex:1 1 100%;font-size:13px;color:var(--ink-soft);margin:0}
+.a3-pick .a3-pkpv:empty{display:none}
+.a3-chartw{border:1px solid var(--line);border-radius:var(--radius-lg);background:#fff;padding:8px;margin-top:8px}
+.a3-chartw svg{display:block;max-width:100%;height:auto;margin:0 auto}
+.a3-sugg{display:inline-block;font-size:13px;border-radius:999px;padding:3px 12px;background:#F3F7FB;color:var(--ink);margin:6px 0 0}
+.a3-sugg.met{background:#E5F4EA;color:#2F7D4B}.a3-sugg.part{background:#FCF1DE;color:#86520F}.a3-sugg.not{background:#FDECE3;color:#9A3412}
+/* ---- the live A3 page (A3 landscape proportions; on phones the seven blocks stack in order) ---- */
+.a3pw{margin-top:8px}
+.a3p{border:2px solid #1B2A4A;border-radius:6px;background:#fff;color:#1B2A4A;font-size:12px;line-height:1.5;aspect-ratio:1.414/1;display:flex;flex-direction:column}
+.a3p .a3p-h{display:flex;flex-wrap:wrap;gap:4px 14px;align-items:baseline;background:#1B2A4A;color:#fff;padding:6px 10px}
+.a3p .a3p-h b{font-family:Georgia,serif;font-size:14px}
+.a3p .a3p-h span{font-size:11px;color:#E9D8A6}
+.a3p .a3p-g{flex:1;display:grid;grid-template-columns:1fr 1fr}
+.a3p .a3p-c{display:flex;flex-direction:column;min-width:0;border-inline-start:1px solid #DCE4EE}
+.a3p .a3p-c:first-child{border-inline-start:0}
+.a3p .a3p-ht{font-size:10.5px;font-weight:700;letter-spacing:.04em;color:#B8901E;padding:4px 8px 0;text-transform:uppercase}
+.a3p .a3p-b{border-top:1px solid #DCE4EE;padding:4px 8px 6px;flex:1 1 auto}
+.a3p .a3p-b:first-of-type{border-top:0}
+.a3p .a3p-b h5{margin:0 0 2px;font-size:11.5px;display:flex;gap:6px;align-items:center}
+.a3p .a3p-b h5 i{font-style:normal;display:inline-grid;place-items:center;width:17px;height:17px;border-radius:50%;background:var(--bc,#1B2A4A);color:#fff;font-size:10px;font-family:Georgia,serif}
+.a3p .a3p-b p{margin:0 0 2px;overflow-wrap:anywhere}
+.a3p .a3p-b ul{margin:0;padding-inline-start:16px}
+.a3p .a3p-b li{overflow-wrap:anywhere}
+.a3p .a3p-b small{color:#4B5874}
+.a3p .a3p-b .mt{color:#7A869E;font-style:italic}
+.a3p .a3p-b svg{display:block;max-width:100%;height:auto;max-height:118px}
+.a3p .a3p-b table{border-collapse:collapse;width:100%;font-size:11px}
+.a3p .a3p-b td,.a3p .a3p-b th{border-bottom:1px solid #EEF2F7;padding:1px 4px;text-align:start;vertical-align:top}
+.a3p .a3p-b td[dir="ltr"]{white-space:nowrap}
+.a3p .a3p-b th{color:#4B5874;font-weight:600}
+.a3p .ok{color:#2F7D4B;font-weight:700}.a3p .bad{color:#B42318;font-weight:700}.a3p .warn{color:#86520F;font-weight:700}
+@media (max-width:900px){.a3p{aspect-ratio:auto}}
+@media (max-width:640px){.a3p .a3p-g{grid-template-columns:1fr}.a3p .a3p-c{border-inline-start:0;border-top:2px solid #1B2A4A}.a3p .a3p-c:first-child{border-top:0}.a3p{font-size:12.5px}}
+@media (max-width:560px){.a3-half{padding:2px 8px 10px}}

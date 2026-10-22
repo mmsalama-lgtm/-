@@ -1,0 +1,32 @@
+/* ===== Lessons Learned tool — additions to the PDCA host styles and the CAPA, 5 Whys, Fishbone, Pareto, RCA, A3, DMAIC and FMEA additions (same tokens) ===== */
+.ll-term{border-inline-start-color:#B8901E}
+.ll-from{border-inline-start-color:#1B2A4A}
+.ll-findc{border-inline-start:4px solid #3C9A5F}
+/* stage map: seven stages; four columns on tablets, one on phones */
+.ll-map{grid-template-columns:repeat(7,minmax(0,1fr))}
+.ll-map li{padding:7px 8px}
+.ll-map li b{font-size:12.5px}
+@media (max-width:1100px){.ll-map{grid-template-columns:repeat(4,minmax(0,1fr))}}
+@media (max-width:640px){.ll-map{grid-template-columns:1fr}}
+/* sections */
+.ll-sec .dm-pht{font-size:16.5px}
+.ll-vr{min-width:640px}
+.ll-sh{min-width:520px}
+.ll-cards .dm-card{border-inline-start:4px solid #B8901E}
+.ll-say{margin:10px 0 4px;font-weight:700;color:var(--ink);border-inline-start:4px solid #B8901E;padding:6px 12px;background:#FBF6EA;border-radius:8px;line-height:1.7}
+.ll-bad{border-color:#B42318!important;background:#FDF1EF}
+/* search and "read before you start" */
+.ll-find{list-style:none;margin:6px 0 0;padding:0;display:grid;gap:8px}
+.ll-find li{border:1px solid var(--line,#DCE4EE);border-radius:10px;padding:8px 10px;display:flex;flex-wrap:wrap;gap:6px 10px;align-items:center;min-width:0}
+.ll-find li>span{flex:1 1 260px;min-width:0;overflow-wrap:anywhere}
+.ll-find small{flex:1 1 100%;color:var(--ink-soft);font-size:12.5px}
+.ll-find q{flex:1 1 100%;font-size:13px;color:var(--ink);quotes:none;overflow-wrap:anywhere}
+.ll-rb{margin-top:14px;border-top:1px dashed var(--line,#DCE4EE);padding-top:10px}
+.ll-rb h3{font-weight:700;color:var(--ink);margin:0 0 6px}
+.ll-rbl{list-style:none;margin:8px 0 0;padding:0;display:grid;gap:10px}
+.ll-rbl li{min-width:0;overflow-wrap:anywhere}
+.ll-rbm{margin:2px 0;color:var(--ink-soft);font-size:13px}
+/* chart: never wider than the screen */
+.ll-chartw{overflow-x:auto;max-width:100%}
+.ll-chartw svg{max-width:100%;height:auto;display:block}
+@media (max-width:640px){.ll-vr{min-width:520px}.ll-sh{min-width:440px}}

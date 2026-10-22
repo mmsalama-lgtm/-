@@ -1,0 +1,158 @@
+PASS engine block present once in the eight toolbox files
+PASS engine block identical in the eight files and to tests/build/engine.js
+PASS dmaic.html cia-explain-kit-css byte-identical to the template
+PASS dmaic.html cia-explain-kit-js byte-identical to the template
+PASS tour script identical to a3.html apart from CFG
+PASS tour CSS identical to a3.html
+PASS tour CFG names dmaic and guards the example
+PASS storage key and schema documented at the top of the host script
+PASS DMAIC never writes another tool's key; no other tool writes the DMAIC key
+PASS sidebar buttons carry data-go and data-t
+PASS DM code badge and the DMAIC hero code
+PASS A3 carries the read-only DMAIC panel and only reads cia-dmaic:v1
+PASS RCA, PDCA and CAPA unchanged in this step (no DMAIC reference)
+PASS loads in Arabic RTL
+PASS header: home button, DM badge, Arabic brand line, language button
+PASS hero shows the academy logo and the author
+PASS related tools strip: A3, RCA, Pareto, Fishbone, 5 Whys, CAPA, PDCA
+PASS launch tiles for the nine tabs after home
+PASS sidebar icons are SVG with tinted tiles
+PASS AI tab is labelled under construction
+PASS method tab says once that DMAIC is a method, not a clause, and names the five phases
+PASS method tab cites 0.3.2 and the note to 9.1.3 (statistical techniques) as explanation, not requirement
+PASS method tab: cause unknown, known solution is a project, goal not moved, trusted measure, simple tools, gates by the sponsor
+PASS method tab: DMAIC uses the toolbox (Pareto, Fishbone, 5 Whys, RCA, A3, PDCA, CAPA)
+PASS term cards: ISO 9000:2026 3.10.2, 3.3.1, 3.11.4, 3.7.11, 4.2.7; Six Sigma / ISO 13053 not verified
+PASS method guide renders with roles and steps
+PASS clause guide index shows 8 sections and the cycle diagram
+PASS kit: 24 items, 12 linked to the 12 questions, 12 outside the assessment
+PASS every question has an item
+PASS 7.1.5.1: valid and reliable results, A.7.1.5, checked before the baseline, interpretive summary
+PASS 9.1.3: the note on statistical techniques, data not vote
+PASS GD-1: when DMAIC fits, marked as guidance
+PASS meta.verified names the date, the source files and what is not verified
+PASS ui labels set
+PASS 'Assess this' lands on question ME2, highlighted
+PASS item outside the assessment shows the note and a button to the project
+PASS 'Explain' back-link on each of the 12 questions
+PASS language switch re-renders the open method guide in English
+PASS and back to Arabic
+PASS no errors so far
+PASS 12 questions in 6 phases (Define, Measure, Analyse, Improve, Control, Gates)
+PASS answers saved and scored (3 of 24 = 13%), a score per phase
+PASS clear answers
+PASS five phases in order, each with a gate, and a phase map of five
+PASS new project is in Define
+PASS save without a title is refused
+PASS sponsor equal to the lead is flagged
+PASS five CTQs at most
+PASS a SIPOC with 4 steps is flagged (5 to 7 needed)
+PASS 5 steps clear the flag; the SIPOC table is drawn with five columns
+PASS seven steps at most
+PASS goal written after the analysis started is flagged and keeps the project in Define
+PASS goal before the analysis: Define complete, waiting for the gate
+PASS goal changed without a reason is flagged
+PASS a gate recorded under the lead's name does not count
+PASS sponsor's gate passed -> Measure; Define shown done on the map
+PASS a measurement that cannot be trusted is flagged
+PASS a check dated after the baseline is flagged (the check comes first)
+PASS rate data: defects and units shown, measured value hidden; chart asks for 4 points
+PASS computed baseline: 4 points, mean 6.75, median 7.5, defect rate 6.25% (10 of 160)
+PASS baseline figures shown with the rate per point
+PASS baseline run chart: 4 points, median and goal lines, mirrored for Arabic (first point on the right)
+PASS Measure gate passed -> Analyse
+PASS cause naming a person only is flagged
+PASS 'proved' with no data check is flagged and does not count
+PASS two-group rate check: 12% against 3%, difference 9.0 points, z shown, unlikely to be chance
+PASS cause proved with data -> Analyse complete, waiting for the gate
+PASS two-group mean check rules a cause out with data (SD field shown for means)
+PASS cause summary counts 1 proved, 0 hypothesis, 1 ruled out
+PASS Analyse gate passed -> Improve
+PASS solution not tied and not piloted is flagged
+PASS cause list offers only live causes, with the proved mark
+PASS pilot result computed against the goal (3.5 against 12 -> 4: met)
+PASS solution tied, piloted, risks controlled -> Improve complete
+PASS pilot starting after it ends is refused
+PASS Improve gate passed -> Control
+PASS control plan line without owner, frequency or reaction is flagged
+PASS complete control plan line
+PASS a different after-change measure is flagged
+PASS after-change result computed: 6 of 200 = 3% against 4 -> met
+PASS after-change run chart with the baseline median as reference, and the run reading
+PASS result recorded, standardisation asked for
+PASS hand-over dated and Control gate passed -> closed; map all done
+PASS after-change period starting after it ends is refused
+PASS saved with a DM-2026-NNN id
+PASS stored record keeps every phase
+PASS persists after reload
+PASS audit: 12 checks, all pass on the complete project
+PASS a stop decision at a gate stops the project
+PASS no errors in the project flow
+PASS keyboard: Tab moves from the title to the next field
+PASS keyboard: Enter on a sidebar button opens its tab
+PASS example: concrete closed (met), formwork in Analyse, calibration closed (partly met)
+PASS example links: A3-EX-01, RC-EX-01, PA-EX-02/k1, CA-EX-04, PD-EX-03; PA-EX-03/k4; CA-EX-02, PD-EX-02
+PASS concrete: baseline 20 of 335 (6.0%) over July–August, thermometer check before the baseline, after-change 2.4% against below 3%
+PASS concrete: chilled-water cause proved by comparing loads (z = 2.15), gate wait ruled out, plant check proved by RC-EX-01
+PASS concrete: pilot on one plant, met against the goal; control plan of three lines; next cycle PD-EX-03
+PASS formwork: measurement partly trusted (87%), one cause ruled out by data, no cause proved yet
+PASS example self-assessment 79%
+PASS records table lists three with flags and links
+PASS audit of the project in Analyse: cause fails, later checks do not apply yet, gates pass
+PASS dashboard: 3 projects, 67% goal met or partly met, 100% gates, 79% assessed
+PASS dashboard: two open items on the project in Analyse
+PASS report: cover with the author, three projects with phase maps, SIPOC, gates, audit, open items, self-assessment
+PASS report carries the baseline and after-change run charts
+PASS CSV: BOM, header, three rows, baseline and computed result columns
+PASS HTML report downloads
+PASS CSV downloads
+PASS English example loads in English
+PASS English run chart LTR (first point on the left)
+PASS clear all removes the data after confirmation
+PASS a record with missing parts renders every tab without errors or undefined/NaN
+PASS home strip counts what can be started from
+PASS A3 preview: three A3s with their stage (A3's rule), goal, result and current condition
+PASS prefill from A3: links, lead, sponsor, problem, measure; goal left for the lead
+PASS prefill message: nothing written to A3, the A3's goal and result quoted
+PASS header preview of the A3 uses its stage, goal and current condition
+PASS RCA preview lists the investigations with RCA's stages
+PASS prefill from RCA: proved root causes come in proved by the linked analysis
+PASS prefill from Pareto: category, period, Pareto baseline; message quotes value and share
+PASS baseline chart drawn from the Pareto analysis, the chosen category marked
+PASS pick preview uses Fishbone's stage rule
+PASS Fishbone cause added with its method and id; verified there, so proved by the linked analysis
+PASS picking again does not duplicate
+PASS 5 Whys and RCA causes added
+PASS unknown id says so
+PASS each picked cause card shows a preview
+PASS the analysis date is set when causes are picked
+PASS start buttons open RCA, Fishbone and 5 Whys with ?capa= outside the hub
+PASS header previews: RCA stage, CAPA stage, PDCA cycle
+PASS Open RCA and A3 (?open=), PDCA and CAPA open in a new tab outside the hub
+PASS no other tool's stored state changed
+PASS ?a3= opens a prefilled project on the project tab
+PASS ?rca= prefills from RCA
+PASS ?pareto=&cat= prefills from Pareto
+PASS ?open= opens the project
+PASS hub hint cia-nav:dmaic opens the project and is removed
+PASS A3 panel lists the DMAIC project on A3-EX-01
+PASS A3 'Open in DMAIC' asks for dmaic.html?open=
+PASS no errors in the link flows
+PASS DMAIC opens in the hub overlay
+PASS inside the hub the 'save first' note shows
+PASS inside the hub 'Start an RCA investigation' opens RCA in the overlay
+PASS assistant suggests 'Is DMAIC only for Six Sigma experts?' and 'DMAIC, A3 or PDCA — which one?'
+PASS answer: a structured way of thinking, simple tools
+PASS typed question finds the measurement answer
+PASS gate answer
+PASS status answer reads the data (none yet)
+PASS assistant answers 6 static + 2 dynamic questions
+PASS guided tour layer present (ar)
+PASS guided tour layer present (en)
+PASS 390 px: no horizontal overflow on any tab or a filled project
+PASS 390 px: the phase map stacks its five phases in order, full width
+PASS 390 px: the five phases stack in order
+PASS 390 px: run charts drawn at phone width (360) and fit the screen
+PASS 390 px: no errors
+
+156/156 passed

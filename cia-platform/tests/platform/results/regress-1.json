@@ -1,0 +1,270 @@
+{
+ "name": "regress-1",
+ "checks": 50,
+ "failed": 0,
+ "seconds": 178.4,
+ "rows": [
+  {
+   "label": "ai-regulatory: stored state on first load matches",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ai-regulatory: stored state after the example (pfEx) matches exactly",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ai-regulatory: stored state after visiting every tab matches",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ai-regulatory: no errors (new)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ai-regulatory: unchanged file shows identical text on every tab (AR/EN)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "excellence-efqm: stored state on first load matches",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "excellence-efqm: stored state after the example (pfEx, asDemo, qsDemo, rvDemo) matches exactly",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "excellence-efqm: stored state after visiting every tab matches",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "excellence-efqm: no errors (new)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "excellence-efqm: unchanged file shows identical text on every tab (AR/EN)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "fmea: stored state on first load matches",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "fmea: stored state after the example (pfEx) matches exactly",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "fmea: stored state after visiting every tab matches",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "fmea: no errors (new)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "fmea: unchanged file shows identical text on every tab (AR/EN)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso21500: stored state on first load matches",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso21500: stored state after the example (pfEx, asDemo) matches exactly",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso21500: stored state after visiting every tab matches",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso21500: no errors (new)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso21500: unchanged file shows identical text on every tab (AR/EN)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso31000-risk-studio: stored state on first load matches",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso31000-risk-studio: stored state after the example (asDemo) matches exactly",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso31000-risk-studio: stored state after visiting every tab matches",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso31000-risk-studio: no errors (new)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso31000-risk-studio: unchanged file shows identical text on every tab (AR/EN)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso42001: stored state on first load matches",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso42001: stored state after the example (pfEx, asDemo) matches exactly",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso42001: stored state after visiting every tab matches",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso42001: no errors (new)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso42001: unchanged file shows identical text on every tab (AR/EN)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "kaqa: stored state on first load matches",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "kaqa: stored state after the example (pfEx, asDemo, qsDemo, rvDemo) matches exactly",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "kaqa: stored state after visiting every tab matches",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "kaqa: no errors (new)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "kaqa: unchanged file shows identical text on every tab (AR/EN)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pareto: stored state on first load matches",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pareto: stored state after the example (pfEx) matches exactly",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pareto: stored state after visiting every tab matches",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pareto: no errors (new)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pareto: unchanged file shows identical text on every tab (AR/EN)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pmo-maturity: stored state on first load matches",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pmo-maturity: stored state after the example (pfEx, asDemo) matches exactly",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pmo-maturity: stored state after visiting every tab matches",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pmo-maturity: no errors (new)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pmo-maturity: unchanged file shows identical text on every tab (AR/EN)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot: stored state on first load matches",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot: stored state after the example (pfEx) matches exactly",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot: stored state after visiting every tab matches",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot: no errors (new)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot: unchanged file shows identical text on every tab (AR/EN)",
+   "ok": true,
+   "detail": ""
+  }
+ ],
+ "modules": [
+  "ai-regulatory",
+  "excellence-efqm",
+  "fmea",
+  "iso21500",
+  "iso31000-risk-studio",
+  "iso42001",
+  "kaqa",
+  "pareto",
+  "pmo-maturity",
+  "swot"
+ ]
+}

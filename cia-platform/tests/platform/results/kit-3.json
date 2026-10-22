@@ -1,0 +1,709 @@
+{
+ "name": "kit-3",
+ "checks": 138,
+ "failed": 0,
+ "seconds": 339.2,
+ "rows": [
+  {
+   "label": "compliance-anti-bribery ar: kit indexed sections and items",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "compliance-anti-bribery ar: all 8 sections and 21 items open",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "compliance-anti-bribery ar: kit text has no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "compliance-anti-bribery ar: every 'Assess this' lands (21 landed, 0 outside the assessment)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "compliance-anti-bribery: clauses re-renders in English",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "compliance-anti-bribery: clauses re-renders back in Arabic, same text",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "compliance-anti-bribery: standard re-renders in English",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "compliance-anti-bribery: standard re-renders back in Arabic, same text",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "compliance-anti-bribery ar: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "compliance-anti-bribery en: kit indexed sections and items",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "compliance-anti-bribery en: all 8 sections and 21 items open",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "compliance-anti-bribery en: kit text has no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "compliance-anti-bribery en: every 'Assess this' lands (21 landed, 0 outside the assessment)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "compliance-anti-bribery en: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "fishbone ar: kit indexed sections and items",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "fishbone ar: all 5 sections and 15 items open",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "fishbone ar: kit text has no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "fishbone ar: every 'Assess this' lands (10 landed, 5 outside the assessment)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "fishbone ar: every 'Explain' link on the assessment opens its item (10 links)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "fishbone: explain-cl re-renders in English",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "fishbone: explain-cl re-renders back in Arabic, same text",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "fishbone: explain-std re-renders in English",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "fishbone: explain-std re-renders back in Arabic, same text",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "fishbone ar: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "fishbone en: kit indexed sections and items",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "fishbone en: all 5 sections and 15 items open",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "fishbone en: kit text has no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "fishbone en: every 'Assess this' lands (10 landed, 5 outside the assessment)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "fishbone en: every 'Explain' link on the assessment opens its item (10 links)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "fishbone en: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso10009 ar: kit indexed sections and items",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso10009 ar: all 17 sections and 82 items open",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso10009 ar: kit text has no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso10009 ar: every 'Assess this' lands (21 landed, 61 outside the assessment)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso10009 ar: every 'Explain' link on the assessment opens its item (16 links)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso10009: explain-cl re-renders in English",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso10009: explain-cl re-renders back in Arabic, same text",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso10009: explain-std re-renders in English",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso10009: explain-std re-renders back in Arabic, same text",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso10009 ar: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso10009 en: kit indexed sections and items",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso10009 en: all 17 sections and 82 items open",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso10009 en: kit text has no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso10009 en: every 'Assess this' lands (21 landed, 61 outside the assessment)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso10009 en: every 'Explain' link on the assessment opens its item (16 links)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso10009 en: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso27001 ar: kit indexed sections and items",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso27001 ar: all 11 sections and 123 items open",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso27001 ar: kit text has no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso27001 ar: every 'Assess this' lands (35 landed, 88 outside the assessment)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso27001 ar: every 'Explain' link on the assessment opens its item (35 links)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso27001: explain-cl re-renders in English",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso27001: explain-cl re-renders back in Arabic, same text",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso27001: explain-std re-renders in English",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso27001: explain-std re-renders back in Arabic, same text",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso27001 ar: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso27001 en: kit indexed sections and items",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso27001 en: all 11 sections and 123 items open",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso27001 en: kit text has no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso27001 en: every 'Assess this' lands (35 landed, 88 outside the assessment)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso27001 en: every 'Explain' link on the assessment opens its item (35 links)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso27001 en: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37001 ar: kit indexed sections and items",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37001 ar: all 7 sections and 46 items open",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37001 ar: kit text has no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37001 ar: every 'Assess this' lands (43 landed, 3 outside the assessment)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37001 ar: every 'Explain' link on the assessment opens its item (34 links)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37001: explain-cl re-renders in English",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37001: explain-cl re-renders back in Arabic, same text",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37001: explain-std re-renders in English",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37001: explain-std re-renders back in Arabic, same text",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37001 ar: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37001 en: kit indexed sections and items",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37001 en: all 7 sections and 46 items open",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37001 en: kit text has no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37001 en: every 'Assess this' lands (43 landed, 3 outside the assessment)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37001 en: every 'Explain' link on the assessment opens its item (34 links)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37001 en: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso45001 ar: kit indexed sections and items",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso45001 ar: all 7 sections and 40 items open",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso45001 ar: kit text has no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso45001 ar: every 'Assess this' lands (37 landed, 3 outside the assessment)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso45001 ar: every 'Explain' link on the assessment opens its item (31 links)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso45001: explain-cl re-renders in English",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso45001: explain-cl re-renders back in Arabic, same text",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso45001: explain-std re-renders in English",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso45001: explain-std re-renders back in Arabic, same text",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso45001 ar: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso45001 en: kit indexed sections and items",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso45001 en: all 7 sections and 40 items open",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso45001 en: kit text has no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso45001 en: every 'Assess this' lands (37 landed, 3 outside the assessment)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso45001 en: every 'Explain' link on the assessment opens its item (31 links)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso45001 en: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "operations-excellence ar: kit indexed sections and items",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "operations-excellence ar: all 8 sections and 9 items open",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "operations-excellence ar: kit text has no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "operations-excellence ar: every 'Assess this' lands (9 landed, 0 outside the assessment)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "operations-excellence: clauses re-renders in English",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "operations-excellence: clauses re-renders back in Arabic, same text",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "operations-excellence: standard re-renders in English",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "operations-excellence: standard re-renders back in Arabic, same text",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "operations-excellence ar: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "operations-excellence en: kit indexed sections and items",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "operations-excellence en: all 8 sections and 9 items open",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "operations-excellence en: kit text has no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "operations-excellence en: every 'Assess this' lands (9 landed, 0 outside the assessment)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "operations-excellence en: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pestle ar: kit indexed sections and items",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pestle ar: all 7 sections and 26 items open",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pestle ar: kit text has no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pestle ar: every 'Assess this' lands (16 landed, 10 outside the assessment)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pestle ar: every 'Explain' link on the assessment opens its item (12 links)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pestle: explain-cl re-renders in English",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pestle: explain-cl re-renders back in Arabic, same text",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pestle: explain-std re-renders in English",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pestle: explain-std re-renders back in Arabic, same text",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pestle ar: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pestle en: kit indexed sections and items",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pestle en: all 7 sections and 26 items open",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pestle en: kit text has no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pestle en: every 'Assess this' lands (16 landed, 10 outside the assessment)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pestle en: every 'Explain' link on the assessment opens its item (12 links)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pestle en: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "smart-audit-improvement ar: kit indexed sections and items",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "smart-audit-improvement ar: all 5 sections and 74 items open",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "smart-audit-improvement ar: kit text has no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "smart-audit-improvement ar: every 'Assess this' lands (74 landed, 0 outside the assessment)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "smart-audit-improvement: clauses re-renders in English",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "smart-audit-improvement: clauses re-renders back in Arabic, same text",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "smart-audit-improvement: standard re-renders in English",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "smart-audit-improvement: standard re-renders back in Arabic, same text",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "smart-audit-improvement ar: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "smart-audit-improvement en: kit indexed sections and items",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "smart-audit-improvement en: all 5 sections and 74 items open",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "smart-audit-improvement en: kit text has no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "smart-audit-improvement en: every 'Assess this' lands (74 landed, 0 outside the assessment)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "smart-audit-improvement en: no errors",
+   "ok": true,
+   "detail": ""
+  }
+ ],
+ "modules": [
+  "compliance-anti-bribery",
+  "fishbone",
+  "iso10009",
+  "iso27001",
+  "iso37001",
+  "iso45001",
+  "operations-excellence",
+  "pestle",
+  "smart-audit-improvement"
+ ]
+}

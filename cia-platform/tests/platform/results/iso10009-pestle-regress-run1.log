@@ -1,0 +1,10 @@
+PASS ISO 10009 stored state after the example is identical
+PASS CSV is byte-identical
+PASS audit of every storyboard is identical (5.2 steps do not become linkable)
+PASS self-assessment score is identical
+PASS 5.2 PESTLE: level 'in' → 'own'
+PASS coverage counts: dedicated 7 → 8, inside 13 → 12, the rest unchanged
+PASS default report: differences only in the 5.2 coverage row
+PASS no errors in either version
+
+8/8 passed

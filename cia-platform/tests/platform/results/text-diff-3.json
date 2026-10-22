@@ -1,0 +1,103 @@
+{
+ "compliance-anti-bribery": {
+  "file_changed": false,
+  "tabs": {}
+ },
+ "fishbone": {
+  "file_changed": false,
+  "tabs": {}
+ },
+ "iso10009": {
+  "file_changed": true,
+  "tabs": {
+   "ar:dash": {
+    "added": 2,
+    "removed": 2,
+    "added_sample": [
+     "8",
+     "12"
+    ],
+    "removed_sample": [
+     "7",
+     "13"
+    ]
+   },
+   "ar:explain-cl": {
+    "added": 1,
+    "removed": 1,
+    "added_sample": [
+     "5.2"
+    ],
+    "removed_sample": [
+     "5.2"
+    ]
+   },
+   "ar:home": {
+    "added": 2,
+    "removed": 2,
+    "added_sample": [
+     "8",
+     "12"
+    ],
+    "removed_sample": [
+     "7",
+     "13"
+    ]
+   },
+   "en:dash": {
+    "added": 2,
+    "removed": 2,
+    "added_sample": [
+     "8",
+     "12"
+    ],
+    "removed_sample": [
+     "7",
+     "13"
+    ]
+   },
+   "en:explain-cl": {
+    "added": 1,
+    "removed": 1,
+    "added_sample": [
+     "5.2"
+    ],
+    "removed_sample": [
+     "5.2"
+    ]
+   },
+   "en:home": {
+    "added": 2,
+    "removed": 2,
+    "added_sample": [
+     "8",
+     "12"
+    ],
+    "removed_sample": [
+     "7",
+     "13"
+    ]
+   }
+  }
+ },
+ "iso27001": {
+  "file_changed": false,
+  "tabs": {}
+ },
+ "iso37001": {
+  "file_changed": false,
+  "tabs": {}
+ },
+ "iso45001": {
+  "file_changed": false,
+  "tabs": {}
+ },
+ "operations-excellence": {
+  "file_changed": false,
+  "tabs": {}
+ },
+ "smart-audit-improvement": {
+  "file_changed": false,
+  "tabs": {}
+ }
+}

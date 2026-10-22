@@ -1,0 +1,30 @@
+Fishbone step (2026-10-11): checksum diff of this package against the uploaded cia-platform.zip (5 Whys release).
+tests/platform/results/ is excluded (test output). SHA-256 of each changed or added file.
+
+changed (9):
+  index.html  28464498bcb6257a509c37a4c57e8de4d32242ec614c9a286ded9c94be96d296
+  modules/capa.html  8bd2904ae05cc4dcca93ac575e28f3c47e2c1161ba55c45aa7ebe57f13376113
+  modules/five-whys.html  10c287679d25e92a9872eca49c1d80083709d1342c7b56af1292e15a5d86c513
+  tests/build/README.md  6de7b21fdfc6b5f08f9b996580e543f5b04eec7636b0b548e3b0813d42531207
+  tests/platform/run_all.sh  cc27ee57a89ef673381b35684905ebf0a0d9b799d732429f75e9d6ef98d8bc3a
+  tests/platform/summary.py  4b141e9aad16cd4798d23650d222aaca7c32e3ffb96e2509dc44ef0c2e8a6bf7
+  tests/platform/t_example.py  ed22cd93831ecc2d9fdc4c80420b182e67d3f24f3743711d824ceeee06332090
+  tests/platform/t_hub.py  39e233b1540970c41b45bd7b681135aedcd37cbf148861d3cc1e8147224efdee
+  tests/platform/t_static.py  42673a76df423ce7e2e37253f5cc4ec783209691690dfd76bc99ce0221055be0
+added (14):
+  modules/fishbone.html  900040b05296a9a4dc90934ec9a8c7adbbd2c2667d1eb61a0fb5c4d328f55b3c
+  tests/build/build_fish.py  6150a3993b953e4c75574104655f6c7f365afbc743b8323b57fcd0e4747390c8
+  tests/build/data_fish.py  6f25f3873d2f66f7da669bddc73a0377d14e6cad436515ece07dc9ddc6b3ba54
+  tests/build/demo_fish.py  7c9503cc4af84d3f9ad5491b235b2d7752906b0e9ff6965ca3008b41937e62f9
+  tests/build/fish_body.html  0f4b9eef341c544fd792fe34ea6f05f61e56f9df64fecea6247c4974e37ec59e
+  tests/build/fish_example.js  b844220770485369b43d89b591a593d99d6297ba72f30dff2e9c3f43851fdbb6
+  tests/build/fish_host.css  e727328f2afe2280bfcf70f929658ab6fc32850e8346e566d6cfd59e25d85753
+  tests/build/fish_host.js  ac489975600ec40fd5b3e43b1322b66301822c144004d83ab4bdaa1bd4509d90
+  tests/build/patch_capa_fish.py  d65ce7f54c9c59ea29a408de73ec3722bbf47cfb7aa66d948978e9a346a83fc4
+  tests/build/patch_hub_fish.py  3343948e19ceafeeb680f410e123a58ed98e7a801bddfbdb9199bc23c42144f3
+  tests/build/patch_why5_fish.py  e1a60c4ae0a6ef927328c742a9d1b7f474631a8026bdc3181aa5465a5e2ca4af
+  tests/fish/capa_regress.py  0a568e0c7a587711ffd959f9ad7ecd2d3cb71bf7c23f797038abd272fe8440d5
+  tests/fish/test_fish.py  ecc61a7bddbb97e2bec879799d928afa127b51efaa917f0cde7df38f455c5ced
+  tests/fish/why5_regress.py  24a2a80f1f8f8232ee0aa808de5672f5c2e0d142e7c1726eb478110adceb369f
+removed (0): none
+unchanged: 102 files

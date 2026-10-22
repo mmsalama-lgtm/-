@@ -1,0 +1,143 @@
+PASS engine block present once in the seven toolbox files
+PASS engine block identical in the seven files and to tests/build/engine.js
+PASS a3.html cia-explain-kit-css byte-identical to the template
+PASS a3.html cia-explain-kit-js byte-identical to the template
+PASS tour script identical to rca.html apart from CFG
+PASS tour CSS identical to rca.html
+PASS tour CFG names a3 and guards the example
+PASS storage key and schema documented at the top of the host script
+PASS A3 never writes another tool's key; no other tool writes the A3 key
+PASS sidebar buttons carry data-go and data-t
+PASS A3 code badge and the A3 hero code
+PASS RCA carries the read-only A3 panel and only reads cia-a3:v1
+PASS PDCA and CAPA unchanged in this step (no A3 reference)
+PASS loads in Arabic RTL
+PASS header: home button, A3 badge, Arabic brand line, language button
+PASS hero shows the academy logo and the author
+PASS related tools strip: PDCA, RCA, CAPA, Pareto, Fishbone, 5 Whys
+PASS launch tiles for the nine tabs after home
+PASS sidebar icons are SVG with tinted tiles
+PASS method tab says once that A3 is a method, not a clause, and names the seven parts
+PASS method tab cites 0.3.2 with the uploaded wording (Plan, Do, Check, Act) and says the introduction sets no requirement
+PASS method tab: page limit a discipline, one owner and a coach, facts not adjectives, goal before causes, tested countermeasures
+PASS method tab: A3 is a container that uses the toolbox (Pareto, Fishbone, 5 Whys, RCA, PDCA, CAPA)
+PASS term cards: ISO 9000:2026 3.7.11, 3.7.17, 3.2.3, 3.8.6, 4.2.7, marked as interpretive summary
+PASS method guide renders with roles and steps
+PASS clause guide index shows 8 sections and the cycle diagram
+PASS kit: 19 items, 12 linked to the 12 questions, 7 outside the assessment
+PASS every question has an item
+PASS GD-4: the goal before the causes, marked as guidance
+PASS 6.2.1 item: measurable, 3.7.11, interpretive summary
+PASS meta.verified names the date, the source files and what is not verified
+PASS ui labels set
+PASS 'Assess this' lands on question PL3, highlighted
+PASS item outside the assessment shows the note and a button to the A3 sheet
+PASS 'Explain' back-link on each of the 12 questions
+PASS language switch re-renders the open method guide in English
+PASS and back to Arabic
+PASS no errors so far
+PASS 12 questions in 5 stages
+PASS answers saved and scored (3 of 24 = 13%)
+PASS clear answers
+PASS seven numbered blocks on two halves, header, coach reviews and the live page
+PASS first half holds blocks 1-4, second half 5-7
+PASS new A3 is a draft
+PASS save without a title is refused
+PASS coach equal to the owner is flagged
+PASS background complete -> stage 'Background written'
+PASS chart asks for two points
+PASS bar chart drawn from the data points
+PASS run chart drawn (line and points)
+PASS chart mirrored for Arabic (first point on the right)
+PASS 12 data points at most
+PASS current condition complete -> 'Current condition shown'
+PASS goal written after the analysis started is flagged and blocks the stage
+PASS gap hint and direction computed
+PASS goal before the analysis -> 'Goal set'
+PASS goal changed without a reason is flagged
+PASS with a written reason the goal stands
+PASS cause naming a person only is flagged
+PASS a proved cause needs evidence
+PASS proved cause -> 'Causes proved', code R1
+PASS countermeasure not tied and not tested is flagged
+PASS cause list offers the root causes with a proved mark
+PASS tied and tested -> 'Countermeasures chosen', code CM1
+PASS plan line without a date does not complete the plan
+PASS plan complete -> 'Plan set'
+PASS a different follow-up measure is flagged
+PASS computed result: partly met (12 -> 7 against 4)
+PASS computed result: met
+PASS follow-up done -> 'Effect checked', standardisation asked for
+PASS a review under the owner's name is flagged and does not count
+PASS coach review after the follow-up -> 'Reviewed with the coach'
+PASS live A3 page shows the title, owner, coach, the seven blocks and the result
+PASS live page in Arabic: RTL with the Plan half on the right
+PASS follow-up start after its end is refused
+PASS saved with an A3-2026-NNN id
+PASS stored record keeps every block
+PASS persists after reload
+PASS audit: 12 checks, all pass on the complete A3
+PASS no errors in the sheet flow
+PASS keyboard: Tab moves from the title to the next field
+PASS keyboard: Enter on a sidebar button opens its tab
+PASS example: three A3s — concrete reviewed (partly met), lifting plan set (follow-up running), documents reviewed (met)
+PASS example links: RC-EX-01, PA-EX-02, CA-EX-04, PD-EX-03; RC-EX-02; RC-EX-03 and CA-EX-03
+PASS concrete goal below 3% by 2026-08-31, written 2026-06-02 before the analysis 2026-06-04, follow-up Jul–Aug at 6
+PASS lifting countermeasures tested on Tower B before the others
+PASS example self-assessment 75%
+PASS records table lists three with flags and links
+PASS audit of the running A3: follow-up, standardised and review do not apply yet
+PASS dashboard: 3 A3s, 67% goal met or partly met, 100% tied, 100% goal before analysis
+PASS dashboard: one open item (waiting for the follow-up)
+PASS report: cover with the author, three A3 pages, detail of blocks, audit, open items, self-assessment
+PASS report page CSS prints on A3 landscape and carries the SVG charts
+PASS CSV: BOM, header, three rows, computed result column
+PASS HTML report downloads
+PASS CSV downloads
+PASS English example after reload of the example
+PASS English example loads in English
+PASS English page LTR with the Plan half on the left
+PASS clear all removes the data after confirmation
+PASS a record with missing parts renders every tab without errors or undefined/NaN
+PASS home strip counts what can be started from
+PASS RCA preview: three investigations with their stage (RCA's rule), roots and criterion
+PASS prefill from RCA: links, area, owner, two proved root causes, analysis date; goal left for the owner
+PASS prefill message says nothing was written and quotes the RCA criterion
+PASS CAPA preview lists the records with CAPA's stages
+PASS prefill from CAPA: capa id, owner, root cause as a hypothesis
+PASS prefill from Pareto: value as baseline, period, ranked categories as data points
+PASS Pareto-linked chart drawn
+PASS pick preview uses Fishbone's stage rule
+PASS Fishbone root cause added with its method and id
+PASS picking again does not duplicate
+PASS 5 Whys and RCA root causes added
+PASS unknown id says so
+PASS each picked cause row shows a preview
+PASS start buttons open RCA, Fishbone and 5 Whys with ?capa= outside the hub
+PASS header previews: RCA stage and criterion, CAPA stage, PDCA cycle
+PASS Open RCA (?open=), PDCA and CAPA open in a new tab outside the hub
+PASS no other tool's stored state changed
+PASS ?rca= opens a prefilled A3 on the sheet
+PASS ?capa= prefills from CAPA
+PASS ?pareto=&cat= prefills from Pareto
+PASS ?open= opens the A3
+PASS hub hint cia-nav:a3 opens the A3 and is removed
+PASS RCA panel lists the A3 on RC-EX-01
+PASS RCA 'Open in A3' asks for a3.html?open=
+PASS no errors in the link flows
+PASS A3 opens in the hub overlay
+PASS inside the hub the 'save first' note shows
+PASS inside the hub 'Start an RCA investigation' opens RCA in the overlay
+PASS assistant suggests 'Is an A3 just a form?' and 'A3, RCA or PDCA — which one?'
+PASS answer: the page limit is a discipline
+PASS typed question finds the goal answer
+PASS coach answer
+PASS status answer reads the data (none yet)
+PASS assistant answers 6 static + 2 dynamic questions
+PASS guided tour layer present (ar)
+PASS guided tour layer present (en)
+PASS 390 px: no horizontal overflow on any tab or the filled sheet
+PASS 390 px: the A3 page stacks its seven blocks in order
+PASS 390 px: no errors
+
+141/141 passed

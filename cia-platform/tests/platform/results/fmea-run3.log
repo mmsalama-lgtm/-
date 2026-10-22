@@ -1,0 +1,122 @@
+PASS engine block present once in the ten toolbox files
+PASS engine block identical in the ten files and to tests/build/engine.js
+PASS fmea.html cia-explain-kit-css byte-identical to the template
+PASS fmea.html cia-explain-kit-js byte-identical to the template
+PASS tour script identical to dmaic.html apart from CFG
+PASS tour CSS identical to dmaic.html
+PASS tour CFG names fmea and guards the example
+PASS storage key and schema documented at the top of the host script
+PASS the host writes only its own key (TBX.save/drop on STORE, language key only)
+PASS DMAIC's own stage rule is carried (DMR) and other tools' stage rules (rcaStage, fishStage, why5Stage, a3Stage, paStage, capaStage)
+PASS Explain Kit data: EXPLAIN_FMEA with meta.verified, ISO 10009 7.3, 6.3, 7.1 and C.1, and 'not verified' references
+PASS Explain Kit ui labels set (roles, wheelT, purpose, smap, assess, assessOff, offGo, actCtx)
+PASS author name on the page and the report
+PASS method honesty on the method tab: FMEA is not a requirement
+PASS DMAIC carries the read-only FMEA panel (cia-fmea:v1 read, cia-nav:fmea hint)
+PASS ISO 10009 guide: 7.3 is a dedicated platform tool (own: fmea) with cia-fmea:v1 and cia-nav:fmea
+PASS loads with no errors
+PASS Arabic by default, right to left
+PASS title names FMEA and the author
+PASS ten sidebar buttons, each with data-go and data-t
+PASS header: home button, FM badge, hero logo and the author line
+PASS related tools strip lists DMAIC, A3, RCA, Pareto, Fishbone, 5 Whys, CAPA, PDCA and ISO 10009
+PASS ar: every tab opens
+PASS en: every tab opens
+PASS English is left to right
+PASS kit: 8 sections and 22 items
+PASS kit: every one of the 12 questions is explained by an item
+PASS kit: the clause guide renders
+PASS kit: the method guide renders with the term card
+PASS assessment: 12 questions in four areas
+PASS assessment: 'Explain' back-links on the questions
+PASS assessment: score per area and overall (3/24 → 13%)
+PASS assessment persists after reload
+PASS validation: a study needs a title
+PASS stage: scoped once title, scope, facilitator, owner and three roles are in
+PASS scales: the default scales fill the 30 empty cells
+PASS scales rule: agreed after the first rating → warning and stage stays 'scoped'
+PASS scales rule: agreed before the rating → 'scales agreed'
+PASS structure: three steps → 'structure mapped'
+PASS computed priority number S×O×D
+PASS action priority by the written rule: severity 9 is high whatever its number (36); S×O 36 with D 7 high; S×O 15 with D 5 low
+PASS apOf: S×O 21 → medium; S 7 with D 7 → medium; S 8 × O 5 = 40 → high
+PASS the card shows the computed number and the priority chip
+PASS the written meaning of the chosen level shows under the rating
+PASS stage: every step analysed → 'analysed'
+PASS high rows with no action → warning naming them
+PASS flag: a failure mode written as "human error" is flagged and blocks the analysis stage
+PASS flag: a cause that names a person only is flagged
+PASS severity rule: lowered by a prevention control → flagged and counted
+PASS severity rule: the study cannot reach 'done' with that re-rating
+PASS severity rule: unchanged severity → no flag
+PASS stage: every high row has an owned action → 'actions planned'
+PASS re-rating: done without new ratings and evidence → flagged
+PASS severity rule: lowered by a design or process change → allowed
+PASS stage: all actions done and re-rated → 'done and re-rated'
+PASS review warning: no review after the last change
+PASS stage: a dated review after the last change → 'reviewed'
+PASS stage map: seven stages, all done
+PASS save: an id FM-2026-001 and the study stored under cia-fmea:v1
+PASS validation: an action done before the first rating is refused
+PASS heat map: a 10 × 10 grid of cells in each chart
+PASS heat map: counts in the cells (three rows before, two re-rated after)
+PASS heat map mirrored for Arabic: occurrence 1 on the right
+PASS heat map left to right in English: occurrence 1 on the left
+PASS before/after chart: before and after bars for the re-rated rows
+PASS records: a row per study with stage and actions
+PASS audit tab: a row per study and 12 checks
+PASS audit: the scripted study passes every applicable check
+PASS example: three studies FM-EX-01 … FM-EX-03 and 75% self-assessment
+PASS example stages: concrete reviewed, lifting held at the structure by a person-only cause, calibration reviewed
+PASS audit: FM-EX-01 passes every applicable check
+PASS audit: FM-EX-02 fails only 'no human error'
+PASS audit: FM-EX-03 links its CAPA record (nonconformity source) and passes
+PASS example: lifting rows of severity 10 are high whatever their number (R5: 40, R2: 100)
+PASS example: severity lowered 8 → 6 only by a change (tag lines)
+PASS dashboard: studies, high rows acted on 100%, re-rated 67%, audit and self-assessment
+PASS dashboard: the heat map of all rows
+PASS dashboard: rows by action priority
+PASS report: cover with the author, each study, its scales, analysis table, heat maps, before/after chart, actions, reviews and audit
+PASS CSV: byte-order mark, header and a line per study
+PASS assistant: answers the priority-number question with severity first
+PASS assistant: answers FMEA, RCA or DMAIC
+PASS assistant: six fixed answers and two dynamic ones
+PASS home: offers to start from DMAIC, RCA or Pareto only when this tool is empty
+PASS start preview: DMAIC projects with their stage by DMAIC's own rule, SIPOC steps and proved causes
+PASS prefill from DM-EX-01: seven SIPOC steps, rows from its proved causes, no ratings copied, unsaved
+PASS prefill from RC-EX-02: the failure as the mode, root causes as causes from RCA
+PASS prefill from Pareto PA-EX-02 / k1: the category as a mode with its occurrence evidence
+PASS DMAIC link preview by DMAIC's rule
+PASS steps taken read-only from the DMAIC SIPOC
+PASS cause picked from rca RC-EX-02 with a preview, added as a row
+PASS cause picked from fish FB-EX-01 with a preview, added as a row
+PASS cause picked from why5 W5-EX-01 with a preview, added as a row
+PASS the row's own preview of its linked analysis
+PASS starts: Fishbone, 5 Whys, RCA, DMAIC (?rca=) and A3 (?rca=) open through their own requests
+PASS PDCA and CAPA previews
+PASS PDCA and CAPA open in a new tab outside the hub
+PASS nothing was written to the other tools, and the starts did not save a study
+PASS ?dmaic= starts a study from the project
+PASS ?pareto=&cat= starts a study from the category
+PASS ?open= opens the study
+PASS the one-time hint opens the study and is removed
+PASS DMAIC panel lists FM-EX-01 on DM-EX-01
+PASS ISO 10009 guide: 7.3 FMEA reads cia-fmea:v1 for its record list
+PASS ISO 10009 guide: 7.3 is a dedicated platform tool
+PASS clear all (confirmed) empties this tool only
+PASS a record with missing or broken parts renders everywhere without errors
+PASS keyboard: a sidebar button opens its tab with Enter
+PASS tour: offered on the first visit
+PASS 390 px: no horizontal page scroll on the study (Arabic)
+PASS 390 px: the heat map fits the screen
+PASS 390 px: the stage map stacks in one column
+PASS 390 px: dashboard without page scroll, no errors
+PASS hub: FMEA URL, Audit & Improvement row and card
+PASS hub: 38 tools and Audit & Improvement 15 (PESTLE step)
+PASS hub: adapter reads the example snapshot (75%, 3/3, 2/3)
+PASS hub: TOOLINFO, NEWS and the request mapping
+PASS hub: grouped toolbox entry names the 1 tool left (PESTLE step)
+PASS hub: ciaOpenFile opens FMEA in the overlay
+PASS hub: no errors
+
+120/120 passed

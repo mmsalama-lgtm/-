@@ -1,0 +1,42 @@
+{
+ "ai-regulatory": {
+  "file_changed": false,
+  "tabs": {}
+ },
+ "excellence-efqm": {
+  "file_changed": false,
+  "tabs": {}
+ },
+ "fmea": {
+  "file_changed": false,
+  "tabs": {}
+ },
+ "iso21500": {
+  "file_changed": false,
+  "tabs": {}
+ },
+ "iso31000-risk-studio": {
+  "file_changed": false,
+  "tabs": {}
+ },
+ "iso42001": {
+  "file_changed": false,
+  "tabs": {}
+ },
+ "kaqa": {
+  "file_changed": false,
+  "tabs": {}
+ },
+ "pareto": {
+  "file_changed": false,
+  "tabs": {}
+ },
+ "pmo-maturity": {
+  "file_changed": false,
+  "tabs": {}
+ },
+ "swot": {
+  "file_changed": false,
+  "tabs": {}
+ }
+}

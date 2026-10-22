@@ -1,0 +1,115 @@
+PASS engine block present once in the eleven toolbox files
+PASS engine block identical in the eleven files and to tests/build/engine.js
+PASS lessons.html cia-explain-kit-css byte-identical to the template
+PASS lessons.html cia-explain-kit-js byte-identical to the template
+PASS tour script identical to fmea.html apart from CFG
+PASS tour CSS identical to fmea.html
+PASS tour CFG names lessons and guards the example
+PASS storage key and schema documented at the top of the host script
+PASS the host writes only its own key (TBX.save/drop on STORE, language key only)
+PASS other tools' rules are carried read-only: DMR, FMR, pdcaStage, rcaStage, a3Stage, capaStage
+PASS Explain Kit data: EXPLAIN_LESSONS with meta.verified, 7.1.6, 10.2.1, 3.2.4, ISO 10009 clause 15 and 'not verified' references
+PASS Explain Kit ui labels set (roles, wheelT, purpose, smap, assess, assessOff, offGo, actCtx)
+PASS author name on the page and the report
+PASS method honesty on the method tab: lessons learned is a practice, not a requirement
+PASS FMEA carries the read-only lessons panel (cia-lessons:v1 read, cia-nav:lessons hint)
+PASS loads with no errors
+PASS Arabic by default, right to left
+PASS title names the tool and the author
+PASS ten sidebar buttons, each with data-go and data-t
+PASS header: home button, LL badge, hero logo and the author line
+PASS related tools strip lists FMEA, DMAIC, A3, RCA, Pareto, Fishbone, 5 Whys, CAPA, PDCA and ISO 10009
+PASS ar: every tab opens
+PASS en: every tab opens
+PASS English is left to right
+PASS kit: 7 sections and 25 items
+PASS kit: every one of the 12 questions is explained by exactly one item
+PASS kit: the clause guide renders
+PASS kit: the method guide renders with the term card (practice, not a requirement)
+PASS assessment: 12 questions in four areas
+PASS assessment: 'Explain' back-links on the questions
+PASS assessment: score per area and overall (3/24 → 13%)
+PASS assessment persists after reload
+PASS validation: a lesson needs a title
+PASS stage: captured once title, type, date, owner, event and evidence are in
+PASS cause rule: written here for a severe event → 'not analysed' warning and the stage stays 'captured'
+PASS cause rule: written here for an event that is not severe → allowed with the 'not analysed' note → 'cause linked'
+PASS blame rule: a lesson that blames a person is flagged and blocks 'lesson written'
+PASS rule: When…, do…, because… with its scope → 'lesson written', and the sentence shows
+PASS action without owner or date → flagged, stage stays 'lesson written'
+PASS an owned and dated action → 'actions planned'
+PASS done without evidence of the change → flagged, still 'actions planned'
+PASS done with evidence → 'embedded'
+PASS verification dated before the last action → warning, not verified
+PASS verification 'applied, partly' → warning, not verified
+PASS verification after the actions, 'applied and worked', with evidence → 'verified'
+PASS sharing → 'shared'; the stage map shows seven stages, all done
+PASS validation: a verification before the date of the event is refused
+PASS save: an id LL-2026-001 and the lesson stored under cia-lessons:v1
+PASS the source 'none' with a cause written here is listed as 'not analysed' (info)
+PASS audit tab: a row per lesson and 11 checks
+PASS audit: the scripted lesson passes every applicable check
+PASS example: three lessons LL-EX-01 … LL-EX-03 and 71% self-assessment
+PASS example stages: concrete shared, lifting (a success) shared, calibration embedded and waiting for verification
+PASS audit: LL-EX-01 passes every check, with its CAPA link (a nonconformity source)
+PASS audit: LL-EX-02 passes every applicable check; no CAPA needed for a success
+PASS audit: LL-EX-03 fails only 'verified after the actions'; sharing does not apply yet
+PASS open items: only LL-EX-03 'check on the next project'
+PASS dashboard: embedded 100%, verified 67%, shared 67%, actions 9/9, self-assessment 71%
+PASS dashboard: stage and type bars and the stage × type chart
+PASS chart mirrored for Arabic: bars grow from the right
+PASS chart left to right in English: bars grow from the left
+PASS search: with no filter only the hint shows
+PASS search by text (Arabic letters folded) finds the concrete lesson
+PASS search by stage finds the calibration lesson
+PASS search by type finds the success
+PASS read before you start: the project type lists the two building lessons with their rules and verification
+PASS report: cover with the author, the chart, read-before-you-start for the chosen type, three lessons with actions, verification, sharing and audit
+PASS CSV: byte-order mark, header and a line per lesson
+PASS assistant: answers when a lesson is learned
+PASS assistant: answers lessons, CAPA or FMEA
+PASS assistant: six fixed answers and two dynamic ones
+PASS home: offers to start from another tool only when this tool is empty
+PASS start preview from rca: RC-EX-01 with its stage by its own rule
+PASS start preview from a3: A3-EX-02 with its stage by its own rule
+PASS start preview from dmaic: DM-EX-01 with its stage by its own rule
+PASS start preview from fmea: FM-EX-01 with its stage by its own rule
+PASS start preview from capa: CA-EX-02 with its stage by its own rule
+PASS start preview from pdca: PD-EX-01 with its stage by its own rule
+PASS start preview from DMAIC lists closed or stopped projects only (DM-EX-02 is open)
+PASS prefill from RC-EX-02: a near miss, the event and the root causes as the linked cause, severe, unsaved
+PASS the linked cause is read-only, with a preview by RCA's own rule
+PASS prefill from FM-EX-02: the re-rated rows' causes, including a person-only cause → blame flag
+PASS prefill from CA-EX-02: an audit finding, nonconformity source with its CAPA link
+PASS prefill from PD-EX-01: the cycle's lessons field as a draft rule
+PASS source preview by A3's own rule
+PASS take the cause from the source (read-only)
+PASS FMEA-row action: preview of the study by FMEA's own rule and 'Open in FMEA'
+PASS 'Open in FMEA' and 'Open the source' use the tools' own ?open= requests
+PASS CAPA preview by CAPA's own rule
+PASS nothing was written to the other tools, and the starts did not save a lesson
+PASS ?rca= starts a lesson from the investigation
+PASS ?fmea= starts a lesson from the study
+PASS ?open= opens the lesson
+PASS the one-time hint opens the lesson and is removed
+PASS the ISO 10009 link opens the guide on its clause guide
+PASS FMEA panel lists LL-EX-01 on FM-EX-01, LL-EX-02 on FM-EX-02 and LL-EX-03 on FM-EX-03
+PASS 'Open in Lessons Learned' asks for lessons.html?open=LL-EX-01
+PASS clear all (confirmed) empties this tool only
+PASS a record with missing or broken parts renders everywhere without errors
+PASS keyboard: a sidebar button opens its tab with Enter
+PASS tour: the layer is present on the first visit
+PASS 390 px: no horizontal page scroll on the lesson (Arabic)
+PASS 390 px: the stage map stacks in one column
+PASS 390 px: the chart fits the screen
+PASS 390 px: dashboard without page scroll, no errors
+PASS hub: Lessons Learned URL, Audit & Improvement row and card
+PASS hub: 38 tools and Audit & Improvement 15 (PESTLE step)
+PASS hub: adapter reads the example snapshot (71%, 3/3, 2/3)
+PASS hub: TOOLINFO, NEWS and the request mapping
+PASS hub: grouped toolbox entry names the 1 tool left (PESTLE step)
+PASS hub: Advisor rules name Lessons Learned for repeated findings, skills, audit findings and projects
+PASS hub: ciaOpenFile opens Lessons Learned in the overlay
+PASS hub: no errors
+
+113/113 passed

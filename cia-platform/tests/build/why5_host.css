@@ -1,0 +1,49 @@
+/* ===== 5 Whys tool — additions to the PDCA host styles and the CAPA additions (same tokens) ===== */
+.w5-term{border-inline-start-color:#3563C9}
+.w5-from{border-inline-start-color:#C2410C}
+.w5-from table{min-width:720px}
+.w5-sec{margin-top:6px}
+.w5-team{width:100%;border-collapse:collapse;font-size:14px;min-width:300px}
+.w5-team th{font-size:12.5px;color:var(--ink-soft);text-align:start;padding:4px 6px;font-weight:600}
+.w5-team td{padding:4px 6px;vertical-align:middle}
+.w5-team td:nth-child(3),.w5-team td:nth-child(4){width:1%;white-space:nowrap}
+.w5-team input[type=text]{width:100%;font:inherit;font-size:14px;border:1px solid var(--line);border-radius:10px;padding:8px 10px;background:#fff;color:var(--ink)}
+.w5-team input[type=checkbox]{width:20px;height:20px;accent-color:#3563C9}
+.w5-team .ca-x{border:1px solid var(--line);background:#fff;border-radius:999px;width:34px;height:34px;cursor:pointer;font-size:14px;color:#9A3412}
+.w5-team input:focus{outline:3px solid var(--gold);outline-offset:1px}
+.w5-chain{border:1px solid var(--line);border-inline-start:4px solid var(--cc,#3563C9);border-radius:var(--radius-lg);padding:12px 14px;margin:12px 0;background:#fff}
+.w5-chead{display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:space-between;margin:0 0 8px}
+.w5-chead b{font-size:15px}
+.w5-chead input{flex:1;min-width:180px;font:inherit;font-size:14px;border:1px solid var(--line);border-radius:10px;padding:7px 10px}
+.w5-why{display:grid;grid-template-columns:44px 1fr;gap:8px 10px;padding:10px 0;border-top:1px dashed var(--line)}
+.w5-why:first-of-type{border-top:0}
+.w5-n{width:40px;height:40px;border-radius:50%;display:grid;place-items:center;background:var(--cc,#3563C9);color:#fff;font-family:Georgia,serif;font-weight:700;font-size:14px}
+.w5-why .w5-q{font-size:13px;color:var(--ink-soft);margin:0 0 4px;line-height:1.6}
+.w5-why .w5-g{display:grid;grid-template-columns:1.4fr 1fr 170px 36px;gap:8px;align-items:start}
+.w5-why textarea,.w5-why input,.w5-why select{width:100%;font:inherit;font-size:14px;border:1px solid var(--line);border-radius:10px;padding:8px 10px;background:#fff;color:var(--ink)}
+.w5-why textarea{min-height:44px;resize:vertical;line-height:1.5}
+.w5-why textarea:focus,.w5-why input:focus,.w5-why select:focus,.w5-chead input:focus{outline:3px solid var(--gold);outline-offset:1px}
+.w5-why.st-no .w5-n{background:#B42318}
+.w5-why.st-chk .w5-n{background:#C9821A}
+.w5-why .ca-x{border:1px solid var(--line);background:#fff;border-radius:999px;width:34px;height:34px;cursor:pointer;font-size:14px;color:#9A3412}
+.w5-lbl{display:block;font-size:12px;color:var(--muted);margin:0 0 2px}
+.w5-stop{margin-top:8px}
+.w5-stop label{display:block;font-size:13px;font-weight:600;margin:0 0 4px}
+.w5-stop textarea{width:100%;font:inherit;font-size:14px;border:1px solid var(--line);border-radius:10px;padding:8px 10px;min-height:42px}
+.w5-cbtn{display:flex;flex-wrap:wrap;gap:8px;margin-top:6px}
+.w5-rev{background:#F3F7FB;border-radius:var(--radius);padding:10px 14px;margin:8px 0 0;font-size:14px;line-height:1.8}
+.w5-rev ol{margin:4px 0 0;padding-inline-start:20px}
+.w5-rev li span{color:var(--muted);font-size:12.5px;margin-inline-end:6px}
+.w5-warn{background:#FCF1DE;border:1px solid #EAD3A6;color:#86520F;border-radius:var(--radius);padding:8px 12px;font-size:13.5px;margin:6px 0 0}
+.w5-warn[hidden]{display:none}
+.w5-bad{background:#FDECE3;border-color:#F4C2AE;color:#9A3412}
+.w5-chk{display:flex;gap:8px;align-items:flex-start;font-size:14px;margin-top:8px}
+.w5-chk input{width:20px;height:20px;accent-color:#3C9A5F;flex:none;margin-top:2px}
+.w5-cap{margin-top:10px;border:1px dashed var(--line);border-radius:var(--radius);padding:10px 12px;background:#fff}
+.w5-cap h4{margin:0 0 6px;font-size:14px}
+.w5-cap ul{margin:0;padding:0;list-style:none}
+.w5-cap li{display:flex;flex-wrap:wrap;gap:6px;align-items:center;border-bottom:1px solid var(--line);padding:6px 0;font-size:13.5px}
+.w5-cap li:last-child{border-bottom:0}
+.w5-cap li q{flex:1 1 220px;quotes:none;color:var(--ink)}
+@media (max-width:760px){.w5-why .w5-g{grid-template-columns:1fr}.w5-why .w5-g>:last-child{justify-self:end}.w5-why .w5-g>:last-child .w5-lbl{display:none}}
+@media (max-width:560px){.w5-team td,.w5-team th{padding:4px 3px}.w5-team th{font-size:11.5px}.w5-why{grid-template-columns:34px 1fr}.w5-n{width:32px;height:32px;font-size:12.5px}.w5-chain{padding:10px}}

@@ -1,0 +1,84 @@
+/* ===== DMAIC tool — additions to the PDCA host styles, CAPA's, 5 Whys', Fishbone's, Pareto's, RCA's and A3's additions (same tokens) ===== */
+.dm-term{border-inline-start-color:#1E8C93}
+.dm-from{border-inline-start-color:#1B2A4A}
+.dm-from table{min-width:720px}
+/* phase map: five phases with their gate; one column on phones, in order */
+.dm-mapw{margin:4px 0 12px}
+.dm-map{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:8px}
+.dm-map li{display:flex;gap:8px;align-items:center;border:1px solid var(--line);border-radius:12px;padding:8px 10px;background:#fff;min-width:0}
+.dm-map li i{font-style:normal;flex:none;display:inline-grid;place-items:center;width:30px;height:30px;border-radius:50%;background:#EEF1F6;color:var(--ink-soft);font-family:Georgia,serif;font-weight:700}
+.dm-map li span{display:flex;flex-direction:column;min-width:0}
+.dm-map li b{font-size:13.5px}
+.dm-map li small{font-size:11.5px;color:var(--ink-soft);line-height:1.4}
+.dm-map li em{font-style:normal;margin-inline-start:auto;color:#C9D2DF;font-size:13px}
+.dm-map li em.ok{color:#3C9A5F}.dm-map li em.no{color:#B42318}
+.dm-map li.done i,.dm-map li.cur i,.dm-map li.wait i,.dm-map li.rework i{background:var(--pc);color:#fff}
+.dm-map li.done{border-color:var(--pc)}
+.dm-map li.cur,.dm-map li.wait,.dm-map li.rework{border:2px solid var(--pc);box-shadow:0 0 0 3px #F5EBD6}
+.dm-map li.stop{border-color:#B42318;background:#FDECE3}
+.dm-map li.todo{opacity:.75}
+@media (max-width:900px){.dm-map{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media (max-width:640px){.dm-map{grid-template-columns:1fr}}
+/* phases */
+.dm-ph{border:1px solid var(--line);border-top:4px solid var(--pc,#1B2A4A);border-radius:var(--radius-lg);padding:6px 14px 14px;margin:16px 0 0;background:#FCFDFE}
+.dm-pht{display:flex;gap:10px;align-items:center;margin:10px 0 2px;font-size:17px;color:var(--ink)}
+.dm-pht i{font-style:normal;display:inline-grid;place-items:center;width:32px;height:32px;border-radius:50%;background:var(--pc,#1B2A4A);color:#fff;font-family:Georgia,serif;font-size:15px}
+.dm-phs{margin:0 0 6px;font-size:13.5px;color:var(--ink-soft);line-height:1.7}
+.dm-blk{border-top:1px dashed var(--line);padding:8px 0 4px;margin-top:8px}
+.dm-blk h4{margin:4px 0 6px;font-size:14.5px;color:var(--ink)}
+.dm-ctq{min-width:420px}
+.dm-stp{min-width:300px;max-width:640px}
+.dm-pts{min-width:360px;max-width:640px}
+.dm-pts td.a3-n{width:120px}
+.dm-pts td.dm-calc{text-align:center;font-family:Georgia,serif;color:var(--ink-soft);padding-top:12px;width:90px}
+.k-rate .dm-m,.k-meas .dm-r{display:none}
+.dm-cp{min-width:860px}
+.dm-sipw{overflow-x:auto;margin-top:10px}
+.dm-sip{width:100%;min-width:560px;border-collapse:collapse;font-size:13px;background:#fff}
+.dm-sip th{background:#1B2A4A;color:#fff;font-family:Georgia,serif;padding:5px 8px;text-align:center}
+.dm-sip td{border:1px solid var(--line);padding:6px 8px;vertical-align:top;line-height:1.55}
+.dm-sip .dm-sipl td{font-size:11.5px;color:var(--ink-soft);background:#F7F9FC;text-align:center}
+.dm-sip ol{margin:0;padding-inline-start:18px}
+.dm-sip .mt{color:var(--muted)}
+.dm-stats{margin-top:10px}
+.dm-st{display:flex;flex-wrap:wrap;gap:8px}
+.dm-st span{display:flex;flex-direction:column;background:#F3F7FB;border-radius:10px;padding:6px 12px;min-width:88px}
+.dm-st small{font-size:11.5px;color:var(--ink-soft)}
+.dm-st b{font-family:Georgia,serif;font-size:16px}
+/* cards: causes with their data check, solutions with their pilot */
+.dm-cards{display:flex;flex-direction:column;gap:10px}
+.dm-card{border:1px solid var(--line);border-inline-start:4px solid #1B2A4A;border-radius:var(--radius-lg);padding:8px 12px 10px;background:#fff}
+.dm-so{border-inline-start-color:#C9821A}
+.dm-card.st-out{border-inline-start-color:#9AA5B8;background:#FAFBFC}
+.dm-card.st-out textarea[data-k="t"]{text-decoration:line-through;color:var(--muted)}
+.dm-card.a3-pf{background:#FDF3EE}
+.dm-ch{display:flex;gap:8px;align-items:center;margin-bottom:2px}
+.dm-ch .dm-code{font-family:Georgia,serif;font-size:15px}
+.dm-ch .ca-x{margin-inline-start:auto;border:1px solid var(--line);background:#fff;border-radius:999px;width:34px;height:34px;cursor:pointer;font-size:14px;color:#9A3412}
+.dm-ch .ca-chip:empty,.dm-ch .a3-sugg:empty{display:none}
+.dm-card textarea,.dm-card input,.dm-card select{width:100%;font:inherit;font-size:14px;border:1px solid var(--line);border-radius:10px;padding:7px 9px;background:#fff;color:var(--ink)}
+.dm-card textarea{min-height:42px;resize:vertical;line-height:1.5;overflow:hidden}
+.dm-card input[type=number]{text-align:end}
+.dm-card textarea:focus,.dm-card input:focus,.dm-card select:focus{outline:3px solid var(--gold);outline-offset:1px}
+.dm-card .a3-pv{font-size:12.5px;color:var(--ink-soft);background:#F3F7FB;border-radius:10px;padding:5px 9px;margin-top:5px;line-height:1.6}
+.dm-card .a3-pv:empty{display:none}
+.dm-card .a3-flag{display:block;font-size:12.5px;color:#9A3412;margin-top:4px;line-height:1.5}
+.dm-card .a3-flag:empty{display:none}
+.dm-chk{background:#F7F9FC;border-radius:var(--radius);padding:4px 10px 8px;margin-top:8px}
+.dm-cz .dm-grp,.dm-cz .dm-ckres{display:none}
+.dm-cz[data-kind="rate"] .dm-grp,.dm-cz[data-kind="mean"] .dm-grp{display:grid}
+.dm-cz[data-kind="rate"] .dm-ckres,.dm-cz[data-kind="mean"] .dm-ckres,.dm-cz[data-kind="link"] .dm-ckres{display:block}
+.dm-cz .dm-f-sa,.dm-cz .dm-f-sb,.dm-cz .k-m{display:none}
+.dm-cz[data-kind="mean"] .dm-f-sa,.dm-cz[data-kind="mean"] .dm-f-sb{display:block}
+.dm-cz[data-kind="mean"] .k-m{display:inline}.dm-cz[data-kind="mean"] .k-r{display:none}
+.dm-ckres{margin:6px 0 0;font-size:13.5px;line-height:1.7;color:var(--ink)}
+/* gates */
+.dm-gate{margin-top:12px;border:1px solid #EAD3A6;background:#FFFBF2;border-radius:var(--radius-lg);padding:6px 12px 10px}
+.dm-gate h4{margin:6px 0 2px;font-size:14.5px;display:flex;gap:8px;align-items:center}
+.dm-gate .dm-gd{color:#B8901E}
+.dm-gate.passed{border-color:#BFE0C9;background:#F3FAF5}
+.dm-gate.passed .dm-gd{color:#3C9A5F}
+.dm-gnote{margin:6px 0 0;font-size:13px;color:#86520F}
+.dm-gnote:empty{display:none}
+.dm-gnote.ok{color:#2F7D4B}
+@media (max-width:560px){.dm-ph{padding:4px 8px 10px}.dm-card{padding:8px 8px 10px}.dm-pts{min-width:0}.dm-pts td{padding:3px 3px}.dm-pts td.a3-n{width:62px}.dm-pts td.dm-calc{width:44px}.dm-pts td.a3-x{width:38px}.dm-pts input{padding:7px 6px}.dm-pts th{font-size:11.5px;padding:3px}}

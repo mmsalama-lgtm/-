@@ -1,0 +1,96 @@
+PASS engine block present once in the nine toolbox files
+PASS engine block identical in the nine files and to tests/build/engine.js
+PASS iso10009.html cia-explain-kit-css byte-identical to the template
+PASS iso10009.html cia-explain-kit-js byte-identical to the template
+PASS tour script identical to dmaic.html apart from CFG
+PASS tour CSS identical to dmaic.html
+PASS tour CFG names iso10009 and guards the example
+PASS storage key and schema documented at the top of the host script
+PASS author name in the page
+PASS catalogue: 53 reviewed tools with unique ids and clause numbers
+PASS catalogue: clauses 5 to 16 each have tools
+PASS catalogue: Table C.1 values within the allowed sets
+PASS catalogue: CTQ trees (13.6) carry only the capability level, as in Table C.1
+PASS catalogue: Table C.1 spot checks (SWOT, FMEA, OEE, Five whys, Six Sigma, TQM)
+PASS catalogue: Annex A spot checks (SWOT Plan/Act in A.1; SIPOC Do in A.2 and A.3; FMEA Do in A.3 only; Pareto Check by range in A.1 and A.3)
+PASS every platform link names a tab that exists in its tool
+PASS kit: an item for every one of the 53 tools
+PASS kit: Annex items A.1–A.3, B.1–B.3 and C.1 present
+PASS kit: verified line names the uploaded ISO 10009 file and the date
+PASS kit: ISO 10017 marked not verified
+PASS ar 1280: direction
+PASS ar 1280: every tab renders with no bad words, no empty pane and no overflow
+PASS ar 1280: no console or page errors
+PASS ar 390: direction
+PASS ar 390: every tab renders with no bad words, no empty pane and no overflow
+PASS ar 390: no console or page errors
+PASS en 1280: direction
+PASS en 1280: every tab renders with no bad words, no empty pane and no overflow
+PASS en 1280: no console or page errors
+PASS en 390: direction
+PASS en 390: every tab renders with no bad words, no empty pane and no overflow
+PASS en 390: no console or page errors
+PASS kit: item 13.7 opens in the drawer with the Pareto chart
+PASS kit: the 13.7 item carries its platform flag
+PASS kit: “Assess this” on 14.6 lands on question DT2
+PASS kit: an item outside the assessment shows the note and a button to the navigator
+PASS kit: the button opens the tool navigator
+PASS assessment: “Explain” back-links on the questions
+PASS navigator: problem solving, process improvement, Do → five whys and fishbone first
+PASS navigator: shows at most 12 cards with reasons
+PASS navigator: one person → fishbone warns it needs a team
+PASS navigator: reading-only capability → trained tools are flagged
+PASS navigator: platform-only shows only own / in / here tools
+PASS navigator: choices are saved
+PASS navigator: reset clears the choices
+PASS library: 53 tool cards
+PASS library: “other relevant tools” listed under the clauses
+PASS library: search finds the Pareto chart
+PASS library: clause 14 shows its six tools
+PASS library: eight dedicated platform tools (7.3 FMEA since the FMEA step, 5.1 SWOT and 5.2 PESTLE since their steps)
+PASS adding a tool opens the storyboard with the step in its phase
+PASS the fishbone step offers the Fishbone records read-only
+PASS validation: a storyboard needs a title
+PASS validation: a step with no tool stops the save
+PASS validation: review before start stops the save
+PASS save: the storyboard is stored with an id and its two steps
+PASS stage: Plan while the Plan step is not done
+PASS storyboard page shows the four quadrants
+PASS open items are shown under the page
+PASS persistence: the storyboard survives a reload
+PASS example: three storyboards
+PASS example: stages reviewed, Check, Plan
+PASS audit: QT-EX-01 passes every check
+PASS audit: QT-EX-02 lacks a reason on one step and, since 7.3 FMEA is a dedicated tool, a link from its done FMEA step; the rest pass or do not apply yet
+PASS audit: QT-EX-03 needs more data for benchmarking
+PASS example: self-assessment 72%
+PASS audit tab: a row per storyboard and 12 checks
+PASS record links: a missing record is shown as not in this browser
+PASS record links: previews read from Pareto, Fishbone, 5 Whys, RCA and DMAIC
+PASS dashboard: platform usage counts the toolbox records read from this browser
+PASS dashboard: coverage shows 23 of 53 tools on the platform
+PASS coverage: 8 dedicated / 12 inside / 3 here / 11 related / 19 not yet (PESTLE step)
+PASS this tool wrote only its own key (other tools' stored state untouched by it)
+PASS calculator: NPS 14 / 4 / 2 gives +60
+PASS calculator: OEE 85 × 90 × 98 gives 75%
+PASS calculator: COQ total 1,690,000 with poor quality 74%
+PASS calculator: a percentage above 100 is refused
+PASS calculator: the NPS result becomes a Check step of the storyboard
+PASS report: cover with the author and the 53-row coverage table
+PASS report: each storyboard with its page and audit
+PASS CSV: header and one row per step
+PASS CSV: 27 step rows for the example
+PASS ?open= opens the storyboard in the form
+PASS ?tool= opens the tool's full card in the clause guide (step 10.1)
+PASS hub hint opens the requested tool's card once
+PASS assistant: answers the certification question
+PASS assistant: answers which tools are on the platform
+PASS keyboard: sub-sections switch with Enter
+PASS clear all empties this tool only
+PASS no console or page errors in the flows
+PASS hub: the guide opens in the overlay
+PASS hub: a platform link opens the strategy studio on its SWOT tab
+PASS hub: a record link opens Pareto through its one-time hint
+PASS hub: ciaOpenFile without a tab still opens the tool (older callers)
+PASS hub: no errors
+== iso10009: 95/95 passed

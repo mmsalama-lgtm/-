@@ -1,0 +1,212 @@
+</head>
+<body>
+<header class="topbar">
+  <div class="wrap">
+    <div class="brand">
+      <img class="brand-logo" data-logo alt="">
+      <div class="brand-mark" aria-hidden="true">PA</div>
+      <div><b id="brandName" data-i="toolName"></b><span id="brandBy" data-i="brand"></span></div>
+    </div>
+    <div class="bar-right">
+      <button class="lang" id="langBtn" type="button">
+        <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.8 2.5 15 0 18M12 3c-2.5 2.8-2.5 15 0 18"/></svg>
+        <span id="langLabel"></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="app">
+<aside class="side" id="side" aria-label="Tabs">
+  <div class="sg" data-i="sgLearn"></div>
+  <button type="button" data-go="home" data-t="home" aria-selected="true"><span class="ic" style="background:#1B2A4A18;color:#1B2A4A" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 11 12 4l9 7"/><path d="M5 10v10h14V10"/></svg></span><span class="tl" data-i="nHome"></span></button>
+  <button type="button" data-go="explain-std" data-t="explain-std"><span class="ic" style="background:#1E8C9318;color:#1E8C93" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h11l5 5v11H4z"/><path d="M15 4v5h5M8 13h8M8 17h5"/></svg></span><span class="tl" data-i="nStd"></span></button>
+  <button type="button" data-go="explain-cl" data-t="explain-cl"><span class="ic" style="background:#1E8C9318;color:#1E8C93" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5h4M8 21h8"/></svg></span><span class="tl" data-i="nCl"></span></button>
+  <div class="sg" data-i="sgWork"></div>
+  <button type="button" data-go="assess" data-t="assess"><span class="ic" style="background:#C9821A18;color:#C9821A" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3a9 9 0 1 0 9 9"/><path d="M12 7v5l3 3"/></svg></span><span class="tl" data-i="nAssess"></span></button>
+  <button type="button" data-go="tools" data-t="tools"><span class="ic" style="background:#3563C918;color:#3563C9" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3 4 6v6c0 4.4 3.4 7.7 8 9 4.6-1.3 8-4.6 8-9V6z"/><path d="m9 12 2 2 4-4"/></svg></span><span class="tl" data-i="nTools"></span></button>
+  <button type="button" data-go="docs" data-t="docs"><span class="ic" style="background:#7B5BB818;color:#7B5BB8" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 10h18M9 10v10"/></svg></span><span class="tl" data-i="nDocs"></span><span class="bd" id="cntDocs"></span></button>
+  <button type="button" data-go="audit" data-t="audit"><span class="ic" style="background:#C2410C18;color:#C2410C" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 4h6l1 2h3v15H5V6h3z"/><path d="m9 13 2 2 4-4"/></svg></span><span class="tl" data-i="nAudit"></span></button>
+  <div class="sg" data-i="sgOut"></div>
+  <button type="button" data-go="dash" data-t="dash"><span class="ic" style="background:#3C9A5F18;color:#3C9A5F" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg></span><span class="tl" data-i="nDash"></span></button>
+  <button type="button" data-go="report" data-t="report"><span class="ic" style="background:#B8901E18;color:#B8901E" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3h9l4 4v14H6z"/><path d="M12 10v7M9 14l3 3 3-3"/></svg></span><span class="tl" data-i="nReport"></span></button>
+  <button type="button" data-go="ai" data-t="ai"><span class="ic" style="background:#7A869E18;color:#7A869E" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l1.8 4.7 4.7 1.8-4.7 1.8L12 16l-1.8-4.7-4.7-1.8 4.7-1.8z"/><path d="M19 15l.7 1.8 1.8.7-1.8.7L19 20l-.7-1.8-1.8-.7 1.8-.7z"/></svg></span><span class="tl" data-i="nAi"></span><span class="bd" data-i="soon"></span></button>
+</aside>
+
+<main id="main">
+
+<div class="tabpane on" data-tab="home"><div class="wrap">
+  <div class="hero">
+    <div class="hero-grid">
+      <img class="hero-logo" data-logo alt="">
+      <div class="std-code">Pareto<small data-i="homeCode"></small></div>
+      <h1 id="heroH1" data-i="homeH1"></h1>
+      <p class="lede" id="heroLede" data-i="homeLede"></p>
+      <div><span class="edition-tag"><i></i><span data-i="heroTag"></span></span></div>
+      <div class="author"><span data-i="prep"></span> <strong data-i="authorName"></strong></div>
+      <p class="pd-note" data-i="homeNote"></p>
+    </div>
+  </div>
+  <div class="pd-launch-h"><h2 data-i="cycleT"></h2><p data-i="cycleS"></p></div>
+  <nav class="launch" aria-label="Toolkit"><div class="launch-grid" id="launchGrid">
+    <a href="#explain-std"><span class="li" style="background:#1E8C9318;color:#1E8C93" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h11l5 5v11H4z"/><path d="M15 4v5h5M8 13h8M8 17h5"/></svg></span><span><b data-i="nStd"></b><small data-i="tStd"></small></span></a>
+    <a href="#explain-cl"><span class="li" style="background:#1E8C9318;color:#1E8C93" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5h4M8 21h8"/></svg></span><span><b data-i="nCl"></b><small data-i="tCl"></small></span></a>
+    <a href="#assess"><span class="li" style="background:#C9821A18;color:#C9821A" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3a9 9 0 1 0 9 9"/><path d="M12 7v5l3 3"/></svg></span><span><b data-i="nAssess"></b><small data-i="tAssess"></small></span></a>
+    <a href="#tools"><span class="li" style="background:#3563C918;color:#3563C9" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3 4 6v6c0 4.4 3.4 7.7 8 9 4.6-1.3 8-4.6 8-9V6z"/><path d="m9 12 2 2 4-4"/></svg></span><span><b data-i="nTools"></b><small data-i="tTools"></small></span></a>
+    <a href="#docs"><span class="li" style="background:#7B5BB818;color:#7B5BB8" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 10h18M9 10v10"/></svg></span><span><b data-i="nDocs"></b><small data-i="tDocs"></small></span></a>
+    <a href="#audit"><span class="li" style="background:#C2410C18;color:#C2410C" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 4h6l1 2h3v15H5V6h3z"/><path d="m9 13 2 2 4-4"/></svg></span><span><b data-i="nAudit"></b><small data-i="tAudit"></small></span></a>
+    <a href="#dash"><span class="li" style="background:#3C9A5F18;color:#3C9A5F" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg></span><span><b data-i="nDash"></b><small data-i="tDash"></small></span></a>
+    <a href="#report"><span class="li" style="background:#B8901E18;color:#B8901E" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3h9l4 4v14H6z"/><path d="M12 10v7M9 14l3 3 3-3"/></svg></span><span><b data-i="nReport"></b><small data-i="tReport"></small></span></a>
+    <a href="#ai"><span class="li" style="background:#7A869E18;color:#7A869E" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l1.8 4.7 4.7 1.8-4.7 1.8L12 16l-1.8-4.7-4.7-1.8 4.7-1.8z"/><path d="M19 15l.7 1.8 1.8.7-1.8.7L19 20l-.7-1.8-1.8-.7 1.8-.7z"/></svg></span><span><b data-i="nAi"></b><small data-i="tAi"></small></span></a>
+  </div></nav>
+  <div class="ca-home-imp" id="homeImp" hidden><span id="homeImpT"></span><button class="pd-btn ghost" type="button" id="homeImpGo" data-i="hmGo"></button></div>
+  <div class="hs-grid" id="homeStd"></div>
+  <p class="pd-foot" data-i="foot"></p>
+</div></div>
+
+<div class="tabpane" data-tab="explain-std"><div class="wrap" style="padding-top:24px">
+  <section class="pd-card ca-term pa-term" id="paTerm" aria-labelledby="paTermT">
+    <h2 id="paTermT" data-i="termT"></h2>
+    <p data-i="termP1"></p>
+    <p data-i="termP2"></p>
+    <div class="ca-defs" id="caDefs"></div>
+    <p class="ca-is" data-i="termIs"></p>
+  </section>
+  <section class="block"><div class="wrap" id="ex-std-box"></div></section>
+</div></div>
+
+<div class="tabpane" data-tab="explain-cl"><div class="wrap" style="padding-top:24px">
+  <section class="block"><div class="wrap" id="ex-cl-box"></div></section>
+</div></div>
+
+<div class="tabpane" data-tab="assess"><div class="wrap" style="padding-top:24px">
+  <section class="pd-card">
+    <h2 data-i="asT"></h2>
+    <p class="pd-sub" data-i="asS"></p>
+    <div class="pd-two" style="align-items:center">
+      <div class="pd-gauge" id="asGauge" role="img" aria-live="polite"><i id="asPct">0%</i></div>
+      <div id="asStages"></div>
+    </div>
+  </section>
+  <section class="pd-card">
+    <div id="asList"></div>
+    <div class="pd-btns">
+      <button class="pd-btn ghost" type="button" id="asReset" data-i="asReset"></button>
+      <span class="pd-ok" id="asMsg" role="status"></span>
+    </div>
+  </section>
+</div></div>
+
+<div class="tabpane" data-tab="tools"><div class="wrap" style="padding-top:24px">
+  <section class="pd-card ca-imp pa-from" id="bdBox">
+    <h2 data-i="bdT"></h2>
+    <p class="pd-sub" data-i="bdS"></p>
+    <div class="pa-bset">
+      <div class="pd-f"><label for="bdSrc" data-i="bdSrc"></label><select id="bdSrc"></select></div>
+      <div class="pd-f"><label for="bdBy" data-i="bdBy"></label><select id="bdBy"></select></div>
+      <p class="ca-hint" id="bdPer"></p>
+    </div>
+    <div class="pd-btns" style="margin:0 0 10px">
+      <button class="pd-btn ghost" type="button" id="bdPrev" data-i="bdPrev"></button>
+      <button class="pd-btn" type="button" id="bdUse" data-i="bdUse" hidden></button>
+      <span class="pd-ok" id="bdMsg" role="status"></span>
+    </div>
+    <div class="pd-tw" id="bdTable" hidden></div>
+  </section>
+  <section class="pd-card">
+    <h2 id="tlT" data-i="tlT"></h2>
+    <p class="pd-sub" data-i="tlS"></p>
+    <ol class="ca-steps" id="caSteps" aria-label="Stages"></ol>
+    <form id="rec-form" novalidate>
+      <input type="hidden" id="rid">
+      <div class="pd-fields" id="hdrFields"></div>
+      <div id="stages"></div>
+      <div class="pd-err" id="recErr" role="alert"></div>
+      <div class="pd-btns">
+        <button class="pd-btn" type="submit" id="saveBtn" data-i="save"></button>
+        <button class="pd-btn ghost" type="button" id="newBtn" data-i="newRec"></button>
+        <span class="pd-badge" id="curStage"></span>
+        <span class="pd-ok" id="recOk" role="status"></span>
+      </div>
+    </form>
+  </section>
+</div></div>
+
+<div class="tabpane" data-tab="docs"><div class="wrap" style="padding-top:24px">
+  <section class="pd-card pd-ex" id="exBox">
+    <h2 data-i="exT"></h2>
+    <p class="pd-sub" data-i="exS"></p>
+    <div class="pd-btns">
+      <button class="pd-btn" type="button" id="pfEx" data-i="exLoad"></button>
+      <button class="pd-btn warn" type="button" id="pfReset" data-i="exClear"></button>
+      <span class="pd-ok" id="exMsg" role="status"></span>
+    </div>
+  </section>
+  <section class="pd-card">
+    <h2 data-i="dT"></h2>
+    <p class="pd-sub" data-i="dS"></p>
+    <div class="pd-btns" style="margin:0 0 12px"><button class="pd-btn ghost" type="button" id="dCsv" data-i="csv"></button></div>
+    <div class="pd-tw" id="docsBox"></div>
+  </section>
+</div></div>
+
+<div class="tabpane" data-tab="audit"><div class="wrap" style="padding-top:24px">
+  <section class="pd-card">
+    <h2 data-i="auT"></h2>
+    <p class="pd-sub" data-i="auS"></p>
+    <div class="pd-kpis" id="auKpis"></div>
+    <div class="pd-tw" id="auBox"></div>
+  </section>
+</div></div>
+
+<div class="tabpane" data-tab="dash"><div class="wrap" style="padding-top:24px">
+  <section class="pd-card">
+    <h2 data-i="dashT"></h2>
+    <p class="pd-sub" data-i="dashS"></p>
+    <div class="pd-kpis" id="dKpis"></div>
+  </section>
+  <div class="pd-two">
+    <section class="pd-card"><h2 data-i="byStage"></h2><div id="dStage"></div></section>
+    <section class="pd-card"><h2 data-i="byVerdict"></h2><div id="dVerdict"></div></section>
+  </div>
+  <div class="pd-two">
+    <section class="pd-card"><h2 data-i="byNext"></h2><div id="dNext"></div></section>
+    <section class="pd-card"><h2 data-i="byAssess"></h2><div id="dAssess"></div></section>
+  </div>
+  <section class="pd-card"><h2 data-i="openT"></h2><ul class="ca-list" id="dOpen"></ul></section>
+</div></div>
+
+<div class="tabpane" data-tab="report"><div class="wrap" style="padding-top:24px">
+  <section class="pd-card">
+    <h2 data-i="rpT"></h2>
+    <p class="pd-sub" data-i="rpS"></p>
+    <div class="pd-btns" style="margin:0 0 6px">
+      <button class="pd-btn" type="button" id="rpHtml" data-i="rpHtml"></button>
+      <button class="pd-btn ghost" type="button" id="rpCsv" data-i="csv"></button>
+    </div>
+    <p class="pd-sub" data-i="rpNote"></p>
+    <div class="pd-err" id="rpErr" role="alert"></div>
+  </section>
+  <section class="pd-card"><h2 data-i="rpPrev"></h2><div id="rpPrev"></div></section>
+</div></div>
+
+<div class="tabpane" data-tab="ai"><div class="wrap" style="padding-top:24px">
+  <section class="pd-ph">
+    <h2 class="pd-h1" style="font-size:24px" data-i="aiT"></h2>
+    <p class="pd-lede" data-i="aiS"></p>
+    <ul data-i-list="aiList"></ul>
+  </section>
+</div></div>
+
+</main>
+</div>
+<button class="cb-fab" id="cbFab" type="button" aria-expanded="false" aria-controls="cb"><span class="dot"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12z"/><path d="M8.5 10.5h.01M12 10.5h.01M15.5 10.5h.01"/></svg></span><span class="lbl" id="cbFabLbl"></span></button>
+<section class="cb" id="cb" role="dialog" aria-labelledby="cbTitle" hidden>
+  <div class="cb-h"><span class="av"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l7 3v5c0 4.5-3 8-7 10-4-2-7-5.5-7-10V6z"/><path d="M9 12l2 2 4-4"/></svg></span>
+    <div><b id="cbTitle"></b><small id="cbSub"></small></div><span class="sp"></span>
+    <button type="button" id="cbNew"></button><button type="button" id="cbClose"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>
+  <div class="cb-body" id="cbBody" aria-live="polite"></div>
+  <div class="cb-sug" id="cbSug"></div>
+  <form class="cb-in" id="cbForm"><label class="sr" for="cbIn" id="cbInL"></label><textarea id="cbIn" rows="1"></textarea><button type="submit" id="cbSend"></button></form>
+  <div class="cb-f" id="cbFoot"></div>
+</section>

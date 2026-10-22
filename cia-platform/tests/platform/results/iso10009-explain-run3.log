@@ -1,0 +1,93 @@
+PASS inventory: 16 clauses, titles match the guide's clauses 5–16
+PASS inventory: 70 subclauses
+PASS inventory: every reviewed-tool subclause is a tool of the guide (53)
+PASS inventory: 12 'other relevant tools' lists, one per clause 5–16, all in the guide
+PASS inventory: every name in the 'other relevant tools' lists is covered by the guide (word match)
+PASS inventory: names counted (49) and every guide entry explained (OTX aligned with OTHER)
+PASS inventory: 53 tables, each belongs to a tool of the guide (5.4.2 → 5.4)
+PASS inventory: 17 figures in the body and B.1–B.3
+PASS inventory: Annex A tables A.1–A.3 and the three contexts of the guide
+PASS inventory: Table C.1 has 53 rows; with TQM 16.3 → 16.2 they are the guide's tools
+PASS inventory: bibliography of 91 references
+PASS cards: every tool has 5–8 steps and the card blocks in both languages
+PASS cards: chain codes before/after are tools of the guide and never the tool itself
+PASS quiz: 36 questions, 3 per clause 5–16, answer index valid
+PASS paths: five paths of 4–8 tools
+PASS terms: ISO 9000:2026 numbers given for every term
+PASS no text of the standard: the card note says interpretive summary
+PASS the paths key is separate from the store
+PASS ar: contents list clauses 1–4, 5–16, Annexes A–C, map and paths
+PASS ar: inventory figures shown on the contents
+PASS ar: clauses 1–4 — four aims with examples and the terms table
+PASS ar: every clause 5–16 has its tools, other tools explained, three questions and prev/next
+PASS ar: every one of the 53 cards has all blocks, its steps, chain, apply buttons, breadcrumb and source line
+PASS ar: the radar chart card names Table 13.3 (clause 13 numbering)
+PASS ar: next goes 5.1 → 5.2
+PASS ar: previous goes back to 5.1
+PASS ar: breadcrumb opens the clause
+PASS en: contents list clauses 1–4, 5–16, Annexes A–C, map and paths
+PASS en: inventory figures shown on the contents
+PASS en: clauses 1–4 — four aims with examples and the terms table
+PASS en: every clause 5–16 has its tools, other tools explained, three questions and prev/next
+PASS en: every one of the 53 cards has all blocks, its steps, chain, apply buttons, breadcrumb and source line
+PASS en: the radar chart card names Table 13.3 (clause 13 numbering)
+PASS en: next goes 5.1 → 5.2
+PASS en: previous goes back to 5.1
+PASS en: breadcrumb opens the clause
+PASS Annex A s: four phases with every entry of the table
+PASS Annex A p: four phases with every entry of the table
+PASS Annex A c: four phases with every entry of the table
+PASS Annex A: the range 13.1–13.6 expands to the five reviewed tools 13.2–13.6
+PASS Annex A: highlight marks the tool and counts its places
+PASS Annex A: a tool opens its card
+PASS Annex B: three figure summaries and six building steps
+PASS Annex B: the button opens the storyboard
+PASS Annex C: 53 rows
+PASS Annex C: sorting by capability descending puts the nine ••• tools first
+PASS Annex C: filter •• gives 20 tools
+PASS Annex C: platform filter gives the eight dedicated tools (5.1 SWOT and 5.2 PESTLE since their steps)
+PASS Annex C: the 16.3 / 16.2 note is shown
+PASS Annex C: competence matrix CSV has the 29 tools needing •• or •••
+PASS map: a row per linked platform tool, plus this guide and the not-yet list
+PASS map: the not-yet list has every tool not on the platform
+PASS map outside the hub: a platform tool opens in a new tab
+PASS paths: five paths, nothing stored yet
+PASS paths: ticking writes only the paths key
+PASS paths: progress shows 1 of 5
+PASS paths: continue opens the next unstudied tool
+PASS paths: the card shows the path and the studied button
+PASS quiz: a wrong answer shows the right one and the reason
+PASS quiz: nothing stored
+PASS search: FMEA finds 7.3 and keeps focus in the box
+PASS search: Arabic/English names (Hoshin → 8.2)
+PASS search: finds an other relevant tool (APQP) and leads to its clause
+PASS copy link: ?tool=7.3#explain-cl copied
+PASS library: cards gain steps, auditor lines and a full-card button
+PASS library: full card opens the clause guide on the tool
+PASS ?tool= accepts the tool id too
+PASS ?tool= with an unknown code falls back to the page
+PASS standard guide: six reading steps and a diagram with 12 clause nodes
+PASS standard guide: a diagram node opens its clause
+PASS standard guide: a reading step opens Annex A
+PASS standard guide: diagram nodes work with the keyboard
+PASS report: appendix only when asked; the default report has none
+PASS report: ticking the box downloads the report with the appendix
+PASS assistant: six new questions find their answers
+PASS assistant: older questions still answered (certification, PDCA, dots)
+PASS assistant: competence answer counts 20 •• and 9 ••• from the catalogue
+PASS assistant: other-tools answer counts 49 names in 12 lists
+PASS assistant: paths answer reads the progress
+PASS assistant: answer links to the clause guide tab
+PASS no errors (Arabic run)
+PASS ar 390 px: no horizontal scroll in any view
+PASS ar 390 px: no errors
+PASS en 390 px: no horizontal scroll in any view
+PASS en 390 px: no errors
+PASS hub: the SWOT card's apply button opens the strategy studio on its tab
+PASS hub: the link map opens FMEA in the overlay
+PASS hub: the ISO 10009 knowledge topic has a second link to the clause guide
+PASS hub: TOOLINFO keeps 16 questions and the navigator start; NEWS has the update
+PASS hub: the second link opens the guide on the clause guide tab
+PASS hub: no errors
+
+== iso10009-explain: 91/91 passed

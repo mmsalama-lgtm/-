@@ -1,0 +1,75 @@
+PASS loads in Arabic RTL
+PASS kit renders standard guide when its tab opens
+PASS clause guide index shows 4 stages
+PASS opening Plan shows PL1-PL3 (kit drawer)
+PASS no JS errors on load (ar)
+PASS tab home shows and is selected
+PASS tab explain-std shows and is selected
+PASS tab explain-cl shows and is selected
+PASS tab assess shows and is selected
+PASS tab tools shows and is selected
+PASS tab docs shows and is selected
+PASS tab audit shows and is selected
+PASS tab dash shows and is selected
+PASS tab report shows and is selected
+PASS tab ai shows and is selected
+PASS no JS errors after tab sweep
+PASS toggle to English sets LTR
+PASS English brand text
+PASS kit re-renders in English
+PASS toggle back to Arabic
+PASS assessment answers persisted
+PASS gauge value correct (15%)
+PASS empty save is refused
+PASS missing reference refused
+PASS valid plan saves with id
+PASS stage badge is Plan
+PASS result without 'target met' refused
+PASS closing a missed-target cycle is refused
+PASS adjust decision saves; stage becomes Act
+PASS closing a met-target cycle saves
+PASS closed stage badge
+PASS no JS errors after save
+PASS record appears in Documents
+PASS sidebar count badge is 1
+PASS open loads record into tool
+PASS audit table lists the record
+PASS audit KPI tiles present
+PASS dashboard has 7 KPI tiles
+PASS HTML report named PDCA-report-*.html
+PASS report carries author name مدثر سلامه
+PASS report includes record and source line
+PASS CSV has header and record row
+PASS record persists after reload
+PASS first delete click arms confirmation
+PASS second click deletes
+PASS no JS errors through full flow
+PASS home button back to the hub is present
+PASS Arabic brand line in AR
+PASS language button reads English in AR
+PASS sidebar uses SVG icons
+PASS launch grid has 9 tiles
+PASS related tools strip has 4 links
+PASS example loads 3 linked cycles
+PASS example stages: closed, check, act
+PASS example self-assessment is 65%
+PASS no errors with example data on every tab
+PASS clear all removes the stored data
+PASS a record without stage objects renders without errors
+PASS full tour covers all 9 sections after home
+PASS tour has no empty titles and no errors
+PASS English loads LTR
+PASS keyboard can switch tabs (focus next + Enter)
+PASS no horizontal scroll at 390px on home (sw=390)
+PASS no horizontal scroll at 390px on explain-std (sw=390)
+PASS no horizontal scroll at 390px on explain-cl (sw=390)
+PASS no horizontal scroll at 390px on assess (sw=390)
+PASS no horizontal scroll at 390px on tools (sw=390)
+PASS no horizontal scroll at 390px on docs (sw=390)
+PASS no horizontal scroll at 390px on audit (sw=390)
+PASS no horizontal scroll at 390px on dash (sw=390)
+PASS no horizontal scroll at 390px on report (sw=390)
+PASS no horizontal scroll at 390px on ai (sw=390)
+PASS no JS errors in English/mobile run
+
+73/73 passed

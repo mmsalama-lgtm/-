@@ -1,0 +1,47 @@
+# DMAIC step 2026-10-16 — checksum diff against the uploaded A3 package (SHA-256)
+
+## changed
+d53605769ff0205044bdca08bd86d8931b56b5bf6a2121be0a5ed4ec3f20a338  index.html
+3d8091fd53033d35815079681b95b967d2f57bee129972bbe8b978b5f1e3a1ec  modules/a3.html
+ef3119524293a3e5315227a51babb3597c6d560acb55cf64debb05cdf6d407c4  tests/build/README.md
+0dca8bec9bf6469f7609694c2745526b77063d98d426263dfad8e53a92c16fbb  tests/platform/run_all.sh
+c1782c53f95029d8a48b07008a7d38490e93fc8a698b9f865d30644a9d82fd6a  tests/platform/summary.py
+3a1e9a9db84d4873813247ca4bb3181248d70da494749e772c730fa08ac5c7c9  tests/platform/t_example.py
+93d75260f54865afce4a8a01226f1de6874dea29f6ec5301524d117d86090016  tests/platform/t_hub.py
+e05c92822231c2f4533031f306f3d6faed093de751cb99eb3a748cf18aa6efae  tests/platform/t_static.py
+
+## added
+70a0a719641e9268656411214bc4a27e6668deec616b74094f79c37eed8383f1  modules/dmaic.html
+d0fcb55160fb8e8ba6c465de7ad42a4afb5e9879d35632a18bfbcac0fb2cbe27  tests/build/build_dmaic.py
+fe065072bf4b5c4763727ab959e1cac420854635174a544af8c8378d572166da  tests/build/data_dmaic.py
+fd429d50642b3c6eb71776b21efdbe4d2e9e958b31311707866502e183dbe3e3  tests/build/demo_dmaic.py
+bee15d2ae2375e223da7208ace3d7825fe0769faa9421f5d1b79034165494d3e  tests/build/dmaic_body.html
+4ed72af689a6e09b2d3b1e4dfbf41543ba2064df441ad1a4a5088639006dca17  tests/build/dmaic_example.js
+ec3003067776c1eae288b2d28a56dcbbdcc6acd2b45a5f3b650d8918329699f2  tests/build/dmaic_host.css
+7d7caef609d15bd2737109163b5589fa8d1f7aca53ba88bbe930997a9a629948  tests/build/dmaic_host.js
+2b63fae79d19b3c188651abfaa43e3c39dd8e5bb1b87592b045828719561eee7  tests/build/patch_a3_dmaic.py
+f239068fd57287e7d7955400b94a619b7adf759a29913c50dba10a22fc13f93d  tests/build/patch_hub_dmaic.py
+842152edf799b7e4233b7650115aeee91387a2e21ac444b60a080e3cbe9a621a  tests/dmaic/a3_regress.py
+ae3dd0c6def873357404692da3b52e35951d5df498728be444fafce9d0f6d4cf  tests/dmaic/test_dmaic.py
+
+## removed
+tests/platform/results/kit-2.json
+tests/platform/results/kit-3.json
+tests/platform/results/regress-2.json
+tests/platform/results/regress-3.json
+tests/platform/results/sweep-2.json
+tests/platform/results/sweep-3.json
+tests/platform/results/t_kit-2.log
+tests/platform/results/t_kit-3.log
+tests/platform/results/t_regress-2.log
+tests/platform/results/t_regress-3.log
+tests/platform/results/t_sweep-2.log
+tests/platform/results/t_sweep-3.log
+tests/platform/results/t_tour-2.log
+tests/platform/results/t_tour-3.log
+tests/platform/results/text-diff-2.json
+tests/platform/results/text-diff-3.json
+tests/platform/results/tour-2.json
+tests/platform/results/tour-3.json
+
+## test results refreshed: 34 files in tests/platform/results/

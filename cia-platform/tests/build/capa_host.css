@@ -1,0 +1,57 @@
+
+/* ===== CAPA tool — additions to the PDCA host styles (same tokens) ===== */
+.ca-term{border-inline-start:4px solid #C2410C}
+.ca-term h2{font-size:19px}
+.ca-term p{margin:0 0 10px;font-size:15px;line-height:1.75}
+.ca-defs{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:10px;margin:12px 0 8px}
+.ca-defs div{background:var(--bg);border-radius:var(--radius);padding:10px 12px;border-top:3px solid var(--dc,#1B2A4A)}
+.ca-defs b{display:block;font-size:14.5px;margin-bottom:2px}
+.ca-defs code{font-family:Georgia,serif;font-size:12.5px;color:var(--muted);direction:ltr;unicode-bidi:isolate}
+.ca-defs span{display:block;font-size:13.5px;color:var(--ink-soft);line-height:1.6;margin-top:4px}
+.ca-is{font-size:12.5px;color:var(--muted);margin:6px 0 0}
+.ca-steps{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 14px;padding:0;list-style:none}
+.ca-steps li{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);border-radius:999px;padding:5px 12px;font-size:13px;background:#fff;color:var(--ink-soft)}
+.ca-steps li i{width:9px;height:9px;border-radius:50%;background:var(--line)}
+.ca-steps li.done{color:var(--ink)}
+.ca-steps li.done i{background:#3C9A5F}
+.ca-steps li.cur{border-color:var(--sc,#1B2A4A);color:var(--ink);font-weight:700;box-shadow:inset 0 0 0 1px var(--sc,#1B2A4A)}
+.ca-steps li.cur i{background:var(--sc,#1B2A4A)}
+.ca-steps li.bad{border-color:#C2410C;color:#9A3412;font-weight:700}
+.ca-steps li.bad i{background:#C2410C}
+.ca-acts{width:100%;border-collapse:collapse;font-size:14px;min-width:620px}
+.ca-acts th{font-size:12.5px;color:var(--ink-soft);text-align:start;padding:4px 6px;font-weight:600}
+.ca-acts td{padding:4px 6px;vertical-align:top}
+.ca-acts input,.ca-acts select,.ca-acts textarea{width:100%;font:inherit;font-size:14px;border:1px solid var(--line);border-radius:10px;padding:8px 10px;background:#fff;color:var(--ink)}
+.ca-acts textarea{min-height:42px;resize:vertical;line-height:1.5}
+.ca-acts input:focus,.ca-acts select:focus,.ca-acts textarea:focus{outline:3px solid var(--gold);outline-offset:1px}
+.ca-acts tr.late td:first-child{box-shadow:inset 3px 0 0 #C2410C}
+.ca-acts .ca-x{border:1px solid var(--line);background:#fff;border-radius:999px;width:34px;height:34px;cursor:pointer;font-size:14px;color:#9A3412}
+.ca-actw{overflow-x:auto;position:relative}
+.ca-hint{font-size:13px;color:var(--muted);margin:6px 0 0}
+.ca-pd{display:flex;gap:8px;align-items:center}
+.ca-pd input{flex:1}
+.ca-pd .pd-btn{padding:8px 14px;font-size:13.5px;white-space:nowrap}
+.ca-pdinfo{font-size:13px;color:var(--ink-soft);margin-top:4px;min-height:1em}
+.ca-reopen{background:#FDECE3;border:1px solid #F4C2AE;color:#9A3412;border-radius:var(--radius);padding:10px 14px;font-size:14px;margin:10px 0 0}
+.ca-reopen .pd-btn{margin-top:8px}
+.ca-hist{margin:10px 0 0;padding-inline-start:18px;font-size:13.5px;color:var(--ink-soft)}
+.ca-chip{display:inline-block;border-radius:999px;padding:2px 9px;font-size:12px;font-weight:700;margin:2px 4px 2px 0;white-space:nowrap}
+.ca-chip.bad{background:#FDECE3;color:#9A3412}
+.ca-chip.warn{background:#FCF1DE;color:#86520F}
+.ca-chip.info{background:#E7EEFB;color:#27458F}
+.ca-chip.ok{background:#E5F4EA;color:#2F7D4B}
+.ca-imp{border-inline-start:4px solid #C9821A}
+.ca-imp table{min-width:760px}
+.ca-imp td small{color:var(--muted)}
+.ca-imp .ca-ch{display:inline-flex;border:1px solid var(--line);border-radius:999px;overflow:hidden}
+.ca-imp .ca-ch button{border:0;background:#fff;padding:5px 10px;font:inherit;font-size:12.5px;cursor:pointer;color:var(--ink)}
+.ca-imp .ca-ch button[aria-pressed="true"]{background:var(--ink);color:#fff}
+.ca-home-imp{display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between;background:#FCF1DE;border:1px solid #EAD3A6;border-radius:var(--radius-lg);padding:12px 16px;margin:18px 0 0;font-size:14.5px}
+.ca-home-imp[hidden]{display:none}
+.ca-list{margin:0;padding:0;list-style:none}
+.ca-list li{border-bottom:1px solid var(--line);padding:8px 0;font-size:14px;display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.ca-list li:last-child{border-bottom:0}
+.ca-list li b{font-family:Georgia,serif;direction:ltr;unicode-bidi:isolate}
+.ca-tpl{border:1px dashed var(--line);background:#fff;border-radius:999px;padding:4px 12px;font:inherit;font-size:12.5px;cursor:pointer;color:var(--ink-soft);margin-top:6px}
+.ex-aq legend .ex-qx{margin-inline-start:8px;vertical-align:middle}
+@media (max-width:560px){.ca-pd{flex-wrap:wrap}.ca-pd .pd-btn{width:100%}}

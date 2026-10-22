@@ -1,0 +1,12 @@
+PASS stored state after the example is identical
+PASS report without the appendix is byte-identical (apart from the 5.1 and 5.2 coverage rows changed by the SWOT and PESTLE steps)
+PASS CSV is byte-identical
+PASS audit of every storyboard is identical
+PASS self-assessment score is identical
+PASS the appendix box is there and unticked by default
+PASS learning-path key absent until a tool is marked
+PASS marking a tool writes only cia-iso10009-paths:v1
+PASS self-check answers are not stored
+PASS no errors in either version
+
+== iso10009-explain-regress: 10/10 passed

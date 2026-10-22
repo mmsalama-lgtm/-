@@ -1,0 +1,38 @@
+{
+ "capa": {
+  "file_changed": false,
+  "tabs": {}
+ },
+ "executive-cockpit-workspace": {
+  "file_changed": false,
+  "tabs": {}
+ },
+ "ims-builder": {
+  "file_changed": false,
+  "tabs": {}
+ },
+ "iso22301": {
+  "file_changed": false,
+  "tabs": {}
+ },
+ "iso37000-governance": {
+  "file_changed": false,
+  "tabs": {}
+ },
+ "iso42005": {
+  "file_changed": false,
+  "tabs": {}
+ },
+ "lessons": {
+  "file_changed": false,
+  "tabs": {}
+ },
+ "pdca": {
+  "file_changed": false,
+  "tabs": {}
+ },
+ "rca": {
+  "file_changed": false,
+  "tabs": {}
+ }
+}

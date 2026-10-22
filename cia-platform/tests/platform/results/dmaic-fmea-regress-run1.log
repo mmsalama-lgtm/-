@@ -1,0 +1,13 @@
+PASS DMAIC stored state after the example is identical
+PASS DMAIC report HTML is identical
+PASS DMAIC CSV is identical
+PASS DMAIC stored state after a scripted project and an answer is identical
+PASS DMAIC automatic audit results are identical
+PASS no errors in either version
+PASS with no FMEA data, the text of every tab is identical (AR/EN, including the three example forms)
+PASS the panel lists FM-EX-01 on DM-EX-01 and FM-EX-03 on DM-EX-03 with rows and actions, and stays hidden on DM-EX-02
+PASS 'Open in FMEA' asks for fmea.html?open=FM-EX-01 outside the hub
+PASS reading the FMEA data changes neither DMAIC's nor FMEA's stored state
+PASS no errors with the FMEA data present
+
+11/11 passed

@@ -1,0 +1,270 @@
+{
+ "name": "regress-0",
+ "checks": 50,
+ "failed": 0,
+ "seconds": 162.3,
+ "rows": [
+  {
+   "label": "a3: stored state on first load matches",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "a3: stored state after the example (pfEx) matches exactly",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "a3: stored state after visiting every tab matches",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "a3: no errors (new)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "a3: unchanged file shows identical text on every tab (AR/EN)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "dmaic: stored state on first load matches",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "dmaic: stored state after the example (pfEx) matches exactly",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "dmaic: stored state after visiting every tab matches",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "dmaic: no errors (new)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "dmaic: unchanged file shows identical text on every tab (AR/EN)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "five-whys: stored state on first load matches",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "five-whys: stored state after the example (pfEx) matches exactly",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "five-whys: stored state after visiting every tab matches",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "five-whys: no errors (new)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "five-whys: unchanged file shows identical text on every tab (AR/EN)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso14001: stored state on first load matches",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso14001: stored state after the example (asDemo) matches exactly",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso14001: stored state after visiting every tab matches",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso14001: no errors (new)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso14001: unchanged file shows identical text on every tab (AR/EN)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso27701: stored state on first load matches",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso27701: stored state after the example (pfEx, asDemo) matches exactly",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso27701: stored state after visiting every tab matches",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso27701: no errors (new)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso27701: unchanged file shows identical text on every tab (AR/EN)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37301: stored state on first load matches",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37301: stored state after the example (asDemo) matches exactly",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37301: stored state after visiting every tab matches",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37301: no errors (new)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37301: unchanged file shows identical text on every tab (AR/EN)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso9001: stored state on first load matches",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso9001: stored state after the example (asDemo) matches exactly",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso9001: stored state after visiting every tab matches",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso9001: no errors (new)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso9001: unchanged file shows identical text on every tab (AR/EN)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "p3o: stored state on first load matches",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "p3o: stored state after the example (pfEx, asDemo) matches exactly",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "p3o: stored state after visiting every tab matches",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "p3o: no errors (new)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "p3o: unchanged file shows identical text on every tab (AR/EN)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pmo-excellence: stored state on first load matches",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pmo-excellence: stored state after the example (pfEx, asDemo) matches exactly",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pmo-excellence: stored state after visiting every tab matches",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pmo-excellence: no errors (new)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pmo-excellence: unchanged file shows identical text on every tab (AR/EN)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance: stored state on first load matches",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance: stored state after the example (pfEx) matches exactly",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance: stored state after visiting every tab matches",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance: no errors (new)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance: unchanged file shows identical text on every tab (AR/EN)",
+   "ok": true,
+   "detail": ""
+  }
+ ],
+ "modules": [
+  "a3",
+  "dmaic",
+  "five-whys",
+  "iso14001",
+  "iso27701",
+  "iso37301",
+  "iso9001",
+  "p3o",
+  "pmo-excellence",
+  "strategy-performance"
+ ]
+}

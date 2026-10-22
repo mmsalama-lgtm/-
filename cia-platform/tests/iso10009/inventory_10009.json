@@ -1,0 +1,953 @@
+{
+ "source": "10009.pdf",
+ "edition": "BS ISO 10009:2024 (first edition 2024-06)",
+ "built": "2026-10-16",
+ "clauses": [
+  [
+   "1",
+   "Scope"
+  ],
+  [
+   "2",
+   "Normative references"
+  ],
+  [
+   "3",
+   "Terms and definitions"
+  ],
+  [
+   "4",
+   "Quality tools"
+  ],
+  [
+   "5",
+   "Strategy"
+  ],
+  [
+   "6",
+   "Process approach and planning"
+  ],
+  [
+   "7",
+   "Risk and opportunity"
+  ],
+  [
+   "8",
+   "Objectives and objective management"
+  ],
+  [
+   "9",
+   "Customer focus/perception"
+  ],
+  [
+   "10",
+   "Process performance"
+  ],
+  [
+   "11",
+   "Inventory management/preservation"
+  ],
+  [
+   "12",
+   "Detection and prevention"
+  ],
+  [
+   "13",
+   "Process control tools"
+  ],
+  [
+   "14",
+   "Corrective action/problem analysis"
+  ],
+  [
+   "15",
+   "Improvement"
+  ],
+  [
+   "16",
+   "Families of management tools"
+  ]
+ ],
+ "subclauses": [
+  [
+   "4.1",
+   "General"
+  ],
+  [
+   "4.2",
+   "Review"
+  ],
+  [
+   "5.1",
+   "SWOT analysis"
+  ],
+  [
+   "5.2",
+   "PESTLE analysis"
+  ],
+  [
+   "5.3",
+   "Porter’s five or six forces"
+  ],
+  [
+   "5.4",
+   "Vision and mission statements"
+  ],
+  [
+   "5.4.1",
+   "Vision"
+  ],
+  [
+   "5.4.2",
+   "Mission"
+  ],
+  [
+   "5.5",
+   "Other relevant tools"
+  ],
+  [
+   "6.1",
+   "SIPOC/COPIS (useful for identifying processes)"
+  ],
+  [
+   "6.2",
+   "Turtle diagram"
+  ],
+  [
+   "6.3",
+   "Control plan"
+  ],
+  [
+   "6.4",
+   "Flow diagram/swim lane diagram/cross-functional flow chart"
+  ],
+  [
+   "6.5",
+   "Authority matrix/RACI/RASCI"
+  ],
+  [
+   "6.6",
+   "Other relevant tools"
+  ],
+  [
+   "7.1",
+   "SWIFT"
+  ],
+  [
+   "7.2",
+   "Risk register/risk assessment"
+  ],
+  [
+   "7.3",
+   "Failure mode and effects analysis (FMEA)"
+  ],
+  [
+   "7.4",
+   "Traffic light/heat map"
+  ],
+  [
+   "7.5",
+   "Other relevant tools"
+  ],
+  [
+   "8.1",
+   "Kaizen"
+  ],
+  [
+   "8.2",
+   "Hoshin Kanri (also known as the “X-matrix”)"
+  ],
+  [
+   "8.3",
+   "Management by objectives (MBO)"
+  ],
+  [
+   "8.4",
+   "Other relevant tools"
+  ],
+  [
+   "9.1",
+   "Quality function deployment (QFD)"
+  ],
+  [
+   "9.2",
+   "Net promoter score (NPS)"
+  ],
+  [
+   "9.3",
+   "Kano model"
+  ],
+  [
+   "9.4",
+   "Pugh matrix / Decision matrix"
+  ],
+  [
+   "9.5",
+   "Other relevant tools"
+  ],
+  [
+   "10.1",
+   "Theory of constraints (ToC)"
+  ],
+  [
+   "10.2",
+   "Value stream management (VSM)"
+  ],
+  [
+   "10.3",
+   "Process wastes/muda"
+  ],
+  [
+   "10.4",
+   "Work breakdown structure (WBS)"
+  ],
+  [
+   "10.5",
+   "Spaghetti diagram"
+  ],
+  [
+   "10.6",
+   "5S"
+  ],
+  [
+   "10.7",
+   "Overall equipment effectiveness (OEE)"
+  ],
+  [
+   "10.8",
+   "Production levelling (Heijunka)"
+  ],
+  [
+   "10.9",
+   "Other relevant tools"
+  ],
+  [
+   "11.1",
+   "Kanban"
+  ],
+  [
+   "11.2",
+   "Just-in-time (JIT)"
+  ],
+  [
+   "11.3",
+   "Other relevant tools"
+  ],
+  [
+   "12.1",
+   "Error proofing/poka-yoke"
+  ],
+  [
+   "12.2",
+   "Visual aid"
+  ],
+  [
+   "12.3",
+   "Cost of quality (COQ)"
+  ],
+  [
+   "12.4",
+   "Other relevant tools"
+  ],
+  [
+   "13.1",
+   "General"
+  ],
+  [
+   "13.2",
+   "Box plot"
+  ],
+  [
+   "13.3",
+   "Pie chart"
+  ],
+  [
+   "13.4",
+   "Radar chart/spider diagram"
+  ],
+  [
+   "13.5",
+   "Pre-control"
+  ],
+  [
+   "13.6",
+   "Critical to quality (CTQ) trees"
+  ],
+  [
+   "13.7",
+   "Pareto chart"
+  ],
+  [
+   "13.8",
+   "Gage repeatability and reproducibility (GR&R)"
+  ],
+  [
+   "13.9",
+   "Other relevant tools"
+  ],
+  [
+   "14.1",
+   "Root cause analysis (RCA)"
+  ],
+  [
+   "14.2",
+   "Decision tree"
+  ],
+  [
+   "14.3",
+   "Fault tree analysis (FTA)"
+  ],
+  [
+   "14.4",
+   "Five whys analysis"
+  ],
+  [
+   "14.5",
+   "Fishbone/Ishikawa diagrams"
+  ],
+  [
+   "14.6",
+   "Is/is not analysis"
+  ],
+  [
+   "14.7",
+   "Other relevant tools"
+  ],
+  [
+   "15.1",
+   "Benchmarking"
+  ],
+  [
+   "15.2",
+   "Affinity diagram"
+  ],
+  [
+   "15.3",
+   "Quality circles / QC circles"
+  ],
+  [
+   "15.4",
+   "Brainstorming"
+  ],
+  [
+   "15.5",
+   "Six Thinking Hats"
+  ],
+  [
+   "15.6",
+   "Other relevant tools"
+  ],
+  [
+   "16.1",
+   "Six Sigma programme"
+  ],
+  [
+   "16.2",
+   "Total quality management (TQM)"
+  ],
+  [
+   "16.3",
+   "Other relevant tools"
+  ]
+ ],
+ "other": {
+  "5.5": [
+   "context of the organization (COTO) diagram/matrix/log",
+   "ISO/PAS 24644‑1",
+   "committee of sponsoring organizations framework (COSO) shown in Figure 1"
+  ],
+  "6.6": [
+   "the IDEF0 Functional Modelling method, which was designed to model the decisions, actions and activities of an organization or system",
+   "quality plans (see ISO 10005)",
+   "advanced process and quality plan (APQP)",
+   "success path method (SPM)"
+  ],
+  "7.5": [
+   "success path method (SPM)",
+   "failure mode, effects, and criticality analysis (FMECA)",
+   "FMEA for monitoring and system response (FMEA-MSR)"
+  ],
+  "8.4": [
+   "balanced scorecard (BSC)"
+  ],
+  "9.5": [
+   "lost business analysis",
+   "mystery shopper",
+   "customer surveys",
+   "potential gain in the customer value (PGCV) index",
+   "focus groups",
+   "customer relationship management (CRM)",
+   "ISO 10004",
+   "checklists",
+   "TRIZ"
+  ],
+  "10.9": [
+   "single-minute exchange of die (SMED)",
+   "total productive maintenance",
+   "Kraljic model",
+   "materials requirements planning (MRP)",
+   "enterprise resource planning (ERP)",
+   "Agile/SCRUM",
+   "robotic process automation (RPA)",
+   "Reliability – Availability – Maintainability"
+  ],
+  "11.3": [
+   "first-in first-out (FIFO) and last in first out (LIFO)",
+   "cycle counts",
+   "inventory turns"
+  ],
+  "12.4": [
+   "checklists",
+   "ISO 10014"
+  ],
+  "13.9": [
+   "analytic hierarchy process (AHP)",
+   "ISO 5725-2"
+  ],
+  "14.7": [
+   "the solution effect",
+   "Lewin’s force field analysis",
+   "8D and A3 charts",
+   "relationship diagram–entity relationship diagrams",
+   "mind mapping"
+  ],
+  "15.6": [
+   "Plan-Do-Check-Act (PDCA)",
+   "capability maturity model (CMM)",
+   "suggestion schemes",
+   "PICK chart",
+   "Crawford slip method/use of self-adhesive notes and also SCRUM techniques, see Reference",
+   "BCG (Boston Consulting Group) Matrix",
+   "Waterfall chart, see Reference"
+  ],
+  "16.3": [
+   "Toyota Production System (TPS)",
+   "Dynamic work design (DWD)"
+  ]
+ },
+ "tables": [
+  [
+   "5.1",
+   "5.1"
+  ],
+  [
+   "5.2",
+   "5.2"
+  ],
+  [
+   "5.3",
+   "5.3"
+  ],
+  [
+   "5.4",
+   "5.4.2"
+  ],
+  [
+   "6.1",
+   "6.1"
+  ],
+  [
+   "6.2",
+   "6.2"
+  ],
+  [
+   "6.3",
+   "6.3"
+  ],
+  [
+   "6.4",
+   "6.4"
+  ],
+  [
+   "6.5",
+   "6.5"
+  ],
+  [
+   "7.1",
+   "7.1"
+  ],
+  [
+   "7.2",
+   "7.2"
+  ],
+  [
+   "7.3",
+   "7.3"
+  ],
+  [
+   "7.4",
+   "7.4"
+  ],
+  [
+   "8.1",
+   "8.1"
+  ],
+  [
+   "8.2",
+   "8.2"
+  ],
+  [
+   "8.3",
+   "8.3"
+  ],
+  [
+   "9.1",
+   "9.1"
+  ],
+  [
+   "9.2",
+   "9.2"
+  ],
+  [
+   "9.3",
+   "9.3"
+  ],
+  [
+   "9.4",
+   "9.4"
+  ],
+  [
+   "10.1",
+   "10.1"
+  ],
+  [
+   "10.2",
+   "10.2"
+  ],
+  [
+   "10.3",
+   "10.3"
+  ],
+  [
+   "10.4",
+   "10.4"
+  ],
+  [
+   "10.5",
+   "10.5"
+  ],
+  [
+   "10.6",
+   "10.6"
+  ],
+  [
+   "10.7",
+   "10.7"
+  ],
+  [
+   "10.8",
+   "10.8"
+  ],
+  [
+   "11.1",
+   "11.1"
+  ],
+  [
+   "11.2",
+   "11.2"
+  ],
+  [
+   "12.1",
+   "12.1"
+  ],
+  [
+   "12.2",
+   "12.2"
+  ],
+  [
+   "12.3",
+   "12.3"
+  ],
+  [
+   "13.1",
+   "13.2"
+  ],
+  [
+   "13.2",
+   "13.3"
+  ],
+  [
+   "13.3",
+   "13.4"
+  ],
+  [
+   "13.4",
+   "13.5"
+  ],
+  [
+   "13.5",
+   "13.6"
+  ],
+  [
+   "13.6",
+   "13.7"
+  ],
+  [
+   "13.7",
+   "13.8"
+  ],
+  [
+   "14.1",
+   "14.1"
+  ],
+  [
+   "14.2",
+   "14.2"
+  ],
+  [
+   "14.3",
+   "14.3"
+  ],
+  [
+   "14.4",
+   "14.4"
+  ],
+  [
+   "14.5",
+   "14.5"
+  ],
+  [
+   "14.6",
+   "14.6"
+  ],
+  [
+   "15.1",
+   "15.1"
+  ],
+  [
+   "15.2",
+   "15.2"
+  ],
+  [
+   "15.3",
+   "15.3"
+  ],
+  [
+   "15.4",
+   "15.4"
+  ],
+  [
+   "15.5",
+   "15.5"
+  ],
+  [
+   "16.1",
+   "16.1"
+  ],
+  [
+   "16.2",
+   "16.2"
+  ]
+ ],
+ "figures": [
+  [
+   "1",
+   "5.5"
+  ],
+  [
+   "2",
+   "6.2"
+  ],
+  [
+   "3",
+   "6.4"
+  ],
+  [
+   "4",
+   "8.2"
+  ],
+  [
+   "5",
+   "9.1"
+  ],
+  [
+   "6",
+   "9.3"
+  ],
+  [
+   "7",
+   "10.2"
+  ],
+  [
+   "8",
+   "10.5"
+  ],
+  [
+   "9",
+   "13.2"
+  ],
+  [
+   "10",
+   "13.3"
+  ],
+  [
+   "11",
+   "13.4"
+  ],
+  [
+   "12",
+   "13.6"
+  ],
+  [
+   "13",
+   "13.7"
+  ],
+  [
+   "14",
+   "14.2"
+  ],
+  [
+   "15",
+   "14.3"
+  ],
+  [
+   "16",
+   "14.4"
+  ],
+  [
+   "17",
+   "14.5"
+  ],
+  [
+   "B.1",
+   "B"
+  ],
+  [
+   "B.2",
+   "B"
+  ],
+  [
+   "B.3",
+   "B"
+  ]
+ ],
+ "annex": {
+  "A": [
+   "A.1",
+   "A.2",
+   "A.3"
+  ],
+  "B": [
+   "B.1",
+   "B.2",
+   "B.3"
+  ],
+  "C1": [
+   "5.1",
+   "5.2",
+   "5.3",
+   "5.4",
+   "6.1",
+   "6.2",
+   "6.3",
+   "6.4",
+   "6.5",
+   "7.1",
+   "7.2",
+   "7.3",
+   "7.4",
+   "8.1",
+   "8.2",
+   "8.3",
+   "9.1",
+   "9.2",
+   "9.3",
+   "9.4",
+   "10.1",
+   "10.2",
+   "10.3",
+   "10.4",
+   "10.5",
+   "10.6",
+   "10.7",
+   "10.8",
+   "11.1",
+   "11.2",
+   "12.1",
+   "12.2",
+   "12.3",
+   "13.2",
+   "13.3",
+   "13.4",
+   "13.5",
+   "13.6",
+   "13.7",
+   "13.8",
+   "14.1",
+   "14.2",
+   "14.3",
+   "14.4",
+   "14.5",
+   "14.6",
+   "15.1",
+   "15.2",
+   "15.3",
+   "15.4",
+   "15.5",
+   "16.1",
+   "16.3"
+  ]
+ },
+ "bibliography": {
+  "n": 91,
+  "cited": {
+   "10.1": [
+    47
+   ],
+   "10.2": [
+    48
+   ],
+   "10.4": [
+    50
+   ],
+   "10.6": [
+    49,
+    51
+   ],
+   "10.7": [
+    51
+   ],
+   "10.8": [
+    53
+   ],
+   "10.9": [
+    54,
+    55,
+    56,
+    57,
+    58
+   ],
+   "11.3": [
+    59,
+    60
+   ],
+   "12.3": [
+    61,
+    62,
+    63,
+    65
+   ],
+   "12.4": [
+    37
+   ],
+   "13.5": [
+    65,
+    91
+   ],
+   "13.8": [
+    2,
+    23
+   ],
+   "13.9": [
+    66
+   ],
+   "14.1": [
+    70
+   ],
+   "14.7": [
+    67,
+    69,
+    70,
+    71
+   ],
+   "15.1": [
+    15,
+    72,
+    78
+   ],
+   "15.3": [
+    16,
+    73
+   ],
+   "15.4": [
+    71,
+    74,
+    76
+   ],
+   "15.5": [
+    75
+   ],
+   "15.6": [
+    79,
+    80,
+    81,
+    82,
+    84
+   ],
+   "16.1": [
+    12,
+    84,
+    85,
+    86,
+    87,
+    88
+   ],
+   "16.2": [
+    17
+   ],
+   "16.3": [
+    89,
+    90
+   ],
+   "4.2": [
+    27
+   ],
+   "5.1": [
+    30,
+    31,
+    32,
+    33
+   ],
+   "5.3": [
+    29,
+    30
+   ],
+   "6.4": [
+    3,
+    34,
+    35
+   ],
+   "6.6": [
+    3,
+    19,
+    20,
+    36,
+    38,
+    39
+   ],
+   "7.3": [
+    18,
+    21,
+    22
+   ],
+   "7.4": [
+    89,
+    90
+   ],
+   "7.5": [
+    38,
+    39
+   ],
+   "8.3": [
+    40,
+    42,
+    43
+   ],
+   "8.4": [
+    41,
+    42
+   ],
+   "9.1": [
+    11,
+    43
+   ],
+   "9.5": [
+    6,
+    37,
+    44,
+    45,
+    46
+   ]
+  }
+ }
+}

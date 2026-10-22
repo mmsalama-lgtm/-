@@ -1,0 +1,13 @@
+PASS A3 stored state after the example is identical
+PASS A3 report HTML is identical
+PASS A3 CSV is identical
+PASS A3 stored state after a scripted record and an answer is identical
+PASS A3 automatic audit results are identical
+PASS no errors in either version
+PASS with no DMAIC data, the text of every tab is identical (AR/EN, including the three example forms)
+PASS the panel lists DM-EX-01 on A3-EX-01 with its goal and result, and stays hidden on A3-EX-02 and A3-EX-03
+PASS 'Open in DMAIC' asks for dmaic.html?open=DM-EX-01 outside the hub
+PASS reading the DMAIC data changes neither A3's nor DMAIC's stored state
+PASS no errors with the DMAIC data present
+
+11/11 passed

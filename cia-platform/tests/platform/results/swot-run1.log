@@ -1,0 +1,110 @@
+PASS engine block present once in the twelve toolbox files
+PASS engine block identical in the twelve files and to tests/build/engine.js
+PASS swot.html cia-explain-kit-css byte-identical to the template
+PASS swot.html cia-explain-kit-js byte-identical to the template
+PASS tour script identical to lessons.html apart from CFG
+PASS tour CSS identical to lessons.html
+PASS tour CFG names swot and guards the example
+PASS storage key and schema documented at the top of the host script
+PASS the host writes only its own key (TBX.save/drop on STORE, language key only)
+PASS other tools' rules are carried read-only: ssTKV, ssIds, SSO, paRank/paStage, FMR, LLR
+PASS Explain Kit data: EXPLAIN_SWOT with meta.verified, 4.1, 4.2, 6.1.1, 6.1.2, 6.1.3, 6.2, 9.3.2, 3.1.2, 3.1.4, 5.1, 5.2, 5.3 and 'not verified'
+PASS Explain Kit ui labels set (roles, wheelT, purpose, smap, assess, assessOff, offGo, actCtx)
+PASS every self-assessment question is reached from the kit
+PASS method guide says once that SWOT is a technique, not a requirement
+PASS author name on the page and the report
+PASS sidebar buttons carry data-go and data-t
+PASS opens in Arabic, RTL, on the home tab
+PASS ten tabs in the sidebar in the agreed order
+PASS home: code badge, author, launch tiles and the related-tools strip
+PASS AI tab is a placeholder labelled under construction
+PASS every tab renders in AR and EN with no undefined/NaN/[object Object]
+PASS English switches to LTR and the title
+PASS clause guide renders the sections
+PASS method guide shows the term box and the kit
+PASS kit: assess hook knows every question and refuses others
+PASS 12 questions in 4 groups on a 0–2 scale
+PASS an answer is saved under cia-swot:v1 and scored
+PASS an empty study is a draft
+PASS saving with no title is refused
+PASS title, reference, scope, decision, date and facilitator → scoped
+PASS one person with an item: the one-person flag
+PASS three roles with an outside input → team complete
+PASS a weakness written "lack of…" with no evidence is flagged
+PASS an opinion-only top item keeps the study before 'quadrants with evidence'
+PASS with evidence the "lack of" flag goes
+PASS an internal source (KPI) in an external quadrant is flagged as misplaced
+PASS a placement note accepts the item → quadrants with evidence; ranks complete → ranked
+PASS an item with no rank keeps the study at 'quadrants with evidence'
+PASS rank by weight fills ranks inside each quadrant (heavier first)
+PASS the grid shows the four quadrants with top items
+PASS an option with no links is flagged (link both quadrants)
+PASS an SO option linking a strength and both opportunities is valid; W and T still uncovered
+PASS changing the option type redraws its item lists (W and T)
+PASS every top item in an option → TOWS options
+PASS the TOWS matrix lists the options by type
+PASS actions with owner and date, but the top threat has no risk entry → still options
+PASS a risk entry for the top threat → actions and risks
+PASS an FMEA destination with an unknown study says so (read-only preview)
+PASS a review dated before the analysis is refused on save
+PASS a review after the analysis with what changed, and a next date → reviewed
+PASS saved under SW-2026-001 with every part
+PASS audit: the reviewed study passes all ten checks
+PASS a passed review date counts as kept when a review was held before it
+PASS persistence: the study is there after a reload
+PASS a record with missing or broken parts renders on every tab without errors
+PASS example: three studies SW-EX-01…03 with stages reviewed / actions / actions
+PASS example: self-assessment 71%
+PASS example: audit 100% of the applicable checks
+PASS example: open items are the opinion-only item and the two studies not reviewed yet
+PASS example: 26/26 top items with evidence on the dashboard
+PASS example: 2026 dates up to today, illustrative
+PASS the chart of sources (evidence against opinion) is drawn
+PASS records: three rows with open / delete buttons and the source link of SW-EX-03
+PASS CSV: BOM, 23 columns, one row per study
+PASS report: cover with the author, grid, TOWS, actions, reviews, audit and self-assessment
+PASS delete needs a second click
+PASS second click deletes
+PASS clear all (with its confirmation) empties the tool's key only
+PASS no page errors in the main run
+PASS home: the start note counts the records other tools hold
+PASS start previews list rows from the Strategy Studio (SWOT, TOWS, PESTLE), lessons, Pareto vital few and FMEA high rows
+PASS Strategy Studio preview uses its own category names
+PASS FMEA high rows read with FMEA's own action priority
+PASS lessons read with the Lessons Learned stage rule
+PASS start from the whole Strategy Studio grid: a new unsaved study with every item in its quadrant and its source id
+PASS start from a TOWS option: the option with its linked SWOT items on both sides
+PASS start from an FMEA high row: a threat with S/O/D evidence, risk source and the study id
+PASS start from a Pareto vital-few category: a weakness with the figure and its share as evidence
+PASS start from a success lesson: a strength with the lesson's evidence
+PASS item source ids show a preview by the other tool's rule
+PASS the source shows in the header with its preview
+PASS the other tools' stored data is unchanged (read only)
+PASS ?fmea=&row= starts a new study from that row
+PASS ?strat=* starts a study from the whole Strategy Studio grid
+PASS the one-time hint cia-nav:swot starts a study and is removed
+PASS ?open= loads a saved study
+PASS FMEA ids named by the lifting study preview with FMEA's own stage
+PASS no errors with other tools' data
+PASS assistant: five suggested questions including 'what makes a SWOT useful' and 'SWOT, PESTLE or risk register'
+PASS assistant answers 'useful' with the stages
+PASS assistant answers 'which one' with PESTLE, Porter and the risk register
+PASS assistant: 4–6 fixed FAQ answers plus two answers from the studies
+PASS Escape closes the assistant
+PASS keyboard: typing into the form and tabbing moves focus
+PASS no errors
+PASS guided tour layer is present (launch button)
+PASS 390 px: no page overflow on any tab in AR and EN (study loaded)
+PASS 390 px: the grid fits and keeps two columns (Arabic: strengths on the right)
+PASS 390 px: no errors
+PASS hub: SWOT URL, Audit & Improvement row and card
+PASS hub: 38 tools and Audit & Improvement 15 (PESTLE step)
+PASS hub: adapter reads the example snapshot (71%, 26/26, 3/3, 1/3)
+PASS hub: TOOLINFO (12 questions, tools tab), NEWS and the request mapping
+PASS hub: grouped toolbox entry names the 1 tool left (PESTLE step)
+PASS hub: Advisor rules name SWOT for strategy and KPIs, risk, and KPIs not linked to strategy
+PASS hub: knowledge topic links the method guide
+PASS hub: ciaOpenFile opens SWOT in the overlay
+PASS hub: no errors
+
+108/108 passed

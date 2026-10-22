@@ -1,0 +1,192 @@
+PASS engine block present once in pdca.html, capa.html, five-whys.html and fishbone.html
+PASS engine block identical in the four files
+PASS engine block identical to tests/build/engine.js
+PASS fishbone.html cia-explain-kit-css byte-identical to the template
+PASS fishbone.html cia-explain-kit-js byte-identical to the template
+PASS tour script identical to five-whys.html apart from CFG
+PASS tour CSS identical to five-whys.html
+PASS tour CFG names fishbone and guards the example
+PASS storage key and schema documented at the top of the host script
+PASS Fishbone never writes another tool's key; CAPA and 5 Whys never write the Fishbone key
+PASS loads in Arabic RTL
+PASS method tab says once that Fishbone is a method, not a clause, and names 10.2.1 b) 2) and b) 3) and A.10.2
+PASS method tab: categories are prompts, a cause is a candidate until evidence supports it, 5 Whys or data confirms
+PASS the explanation is marked as interpretive summary
+PASS method guide renders (kit) with the roles and the steps
+PASS clause guide index shows 5 clauses
+PASS clause guide draws the cycle diagram
+PASS opening 10.2 shows 10.2.1 b 1 … b 3, the method rules GD-1 … GD-5 and A.10.2
+PASS requirements are marked as interpretive summaries
+PASS method rules are marked as guidance, not normative text
+PASS kit: 15 items, 10 linked to the 10 questions, 5 outside the assessment
+PASS every question has an item
+PASS meta.verified names the date and the source files
+PASS ui labels set (roles, wheelT, purpose, smap, assess, assessOff, offGo, actCtx)
+PASS 'Assess this' lands on question VR2, highlighted
+PASS item outside the assessment shows the note and a button to the analysis
+PASS the note's button opens the Fishbone analysis tab
+PASS 'Explain' back-link on each of the 10 questions
+PASS 'Explain' on VR3 opens GD-5 (confirm before acting)
+PASS no JS errors on load and kit use (ar)
+PASS tab home shows and is selected
+PASS tab explain-std shows and is selected
+PASS tab explain-cl shows and is selected
+PASS tab assess shows and is selected
+PASS tab tools shows and is selected
+PASS tab docs shows and is selected
+PASS tab audit shows and is selected
+PASS tab dash shows and is selected
+PASS tab report shows and is selected
+PASS tab ai shows and is selected
+PASS sidebar buttons carry data-go and data-t
+PASS toggle to English sets LTR
+PASS kit re-renders the open method tab in English
+PASS English method card: not a clause, prompts not a fixed list, candidate until evidence
+PASS toggle back to Arabic re-renders again
+PASS assessment answers persisted under cia-fish:v1
+PASS gauge value correct (15%)
+PASS score per stage group shown (4 groups)
+PASS 10 questions on a 0–2 scale
+PASS a new form starts with the six 6M bones and no causes
+PASS bone names are the 6M prompts
+PASS the diagram is drawn even when empty (head, spine, six bones)
+PASS empty save is refused (title)
+PASS missing effect refused
+PASS valid analysis saves with id FB-2026-001, stage Effect defined
+PASS the head of the fish shows the effect
+PASS changing the set to 4S renames the bones in order and keeps the cause
+PASS back to 6M: six bones again, cause still on bone 2
+PASS with a cause the stage is Causes mapped
+PASS the diagram draws the cause on its bone
+PASS sub-cause, ruled-out cause and votes appear on the diagram
+PASS a ruled-out cause is struck through on the diagram
+PASS the diagram is mirrored in Arabic (head on the left, direction rtl)
+PASS a ruled-out cause cannot be selected
+PASS a fourth selection is refused (three at most)
+PASS selected causes carry numbered gold markers on the diagram
+PASS selecting a cause that names a person shows the person-only warning
+PASS unselecting clears the warning and leaves two causes to verify
+PASS with selected causes the stage is Causes selected
+PASS audit: four bones with causes pass; a candidate without evidence passes (only supported causes need it); verification fails
+PASS a data verification with a result turns the row green
+PASS choosing 5 Whys shows the list and says when none exist
+PASS a 5 Whys verification without a linked analysis is not verified
+PASS 'only partly' shows the incomplete-test note
+PASS all selected causes verified, root written and tested: stage Root cause verified
+PASS review dated before the analysis is refused
+PASS a reviewer from the team is flagged
+PASS reviewed (stage) but the audit fails the independent review
+PASS an outside reviewer passes; only the reference and the four-part effect still fail
+PASS all eleven checks pass on a complete analysis
+PASS saved record: ids, statuses, votes, the sub-cause and both verifications
+PASS second analysis saves as FB-2026-002
+PASS no JS errors after the analysis flow
+PASS records list both analyses with stage, causes line and flags
+PASS sidebar count badge is 2
+PASS open loads the analysis into the form, with its bones and selections
+PASS audit table lists the analyses with 11 checks
+PASS audit KPI tiles present (4)
+PASS dashboard has 11 KPI tiles, stage and cause-status bars and an open-items list
+PASS HTML report named Fishbone-report-*.html
+PASS report has the cover, each diagram as SVG, the cause table with evidence, selected causes, audit, open items and sources
+PASS report uses the shared engine frame (same CSS as PDCA, CAPA and 5 Whys)
+PASS CSV header and rows
+PASS analyses persist after reload
+PASS first delete click arms confirmation
+PASS second click deletes
+PASS no JS errors through the full flow
+PASS home button back to the hub is present
+PASS code badge FB and Arabic brand line in AR
+PASS language button reads English in AR
+PASS hero shows the academy logo and 'إعداد مدثر سلامه'
+PASS sidebar uses SVG icons with tinted tiles (10)
+PASS launch grid has 9 tiles
+PASS related tools strip: CAPA, 5 Whys, PDCA, Smart Audit
+PASS AI tab is a placeholder labelled under construction
+PASS example loads 3 analyses linked to CA-EX-02, CA-EX-04 and CA-EX-03
+PASS example stages: reviewed, reviewed, verified (waiting for review)
+PASS the concrete analysis verifies both selected causes with 5 Whys W5-EX-03
+PASS the calibration analysis verifies with data; the drawings analysis uses 4S
+PASS example dates are in 2026 and labelled illustrative
+PASS example self-assessment is 75%
+PASS example audit: only the missing review of FB-EX-03 fails
+PASS example: home has content and no undefined/NaN/[object Object]
+PASS example: explain-std has content and no undefined/NaN/[object Object]
+PASS example: explain-cl has content and no undefined/NaN/[object Object]
+PASS example: assess has content and no undefined/NaN/[object Object]
+PASS example: tools has content and no undefined/NaN/[object Object]
+PASS example: docs has content and no undefined/NaN/[object Object]
+PASS example: audit has content and no undefined/NaN/[object Object]
+PASS example: dash has content and no undefined/NaN/[object Object]
+PASS example: report has content and no undefined/NaN/[object Object]
+PASS example: ai has content and no undefined/NaN/[object Object]
+PASS no errors with example data on every tab
+PASS assistant button and panel present
+PASS assistant: Fishbone or 5 Whys?
+PASS assistant answers the categories question
+PASS assistant lists open items from the data
+PASS assistant has 4–6 method answers plus two that read the data
+PASS clear all removes the stored data
+PASS analyses with missing or broken parts render without errors
+PASS full tour covers all 9 sections after home
+PASS tour has no empty titles and no errors
+PASS without CAPA data the preview says so
+PASS home shows the CAPA records whose method is Fishbone and have no analysis yet (2: CA-EX-02, CA-EX-04)
+PASS preview lists the 4 CAPA records with their stage and method
+PASS 'start from this record' prefills reference, CAPA link, PDCA link and the effect
+PASS the CAPA cause analysis lines become candidate causes on the matching 6M bones (4)
+PASS the prefill message says nothing was written to CAPA
+PASS the CAPA record and the PDCA cycle names are read and shown
+PASS a CAPA line on a category outside 6M (supplier) adds that bone
+PASS the prefilled analysis saves
+PASS CAPA and PDCA data were only read
+PASS outside the hub 'Open CAPA' and 'Open PDCA' open new tabs
+PASS 'Analyse with 5 Whys' opens 5 Whys prefilled from the CAPA record (?capa=)
+PASS the 5 Whys list reads the analyses in this browser (3 + empty choice)
+PASS choosing an analysis shows its preview (id, stage, root cause)
+PASS the Fishbone record keeps the 5 Whys id; the 5 Whys data is only read
+PASS 'Open in 5 Whys' opens the linked analysis (?open=)
+PASS 5 Whys shows, read-only, the Fishbone analysis that verifies a cause with it
+PASS 5 Whys hides the panel for an analysis no Fishbone links to
+PASS CAPA: new record (method 5 Whys) shows the 5 Whys button only; both panels hidden
+PASS CAPA: method Fishbone shows the 'Open the Fishbone tool' button and hides the 5 Whys one
+PASS CAPA: the cause section lists the Fishbone analysis naming CA-EX-02 (5 Whys panel stays hidden)
+PASS CAPA: 'Use this root cause' copies the Fishbone root cause into the form field
+PASS CAPA: nothing is stored until the user saves
+PASS CAPA: after saving, the record holds the copied root cause
+PASS CAPA never writes the Fishbone or 5 Whys keys
+PASS CAPA: CA-EX-04 lists both its 5 Whys analysis (W5-EX-03) and its Fishbone analysis (FB-EX-02)
+PASS CAPA: the 5 Whys 'Use this root cause' still works as before
+PASS CAPA: a 5 Whys record with no Fishbone analysis shows no Fishbone panel
+PASS CAPA outside the hub: links open Fishbone in a new tab on the analysis or prefilled from the record
+PASS Fishbone opens the analysis named in ?open=
+PASS Fishbone starts a new analysis from the CAPA record in ?capa=
+PASS outside the hub the record's 'PDCA ↗' opens PDCA in a new tab
+PASS no errors in the link checks
+PASS in the hub, 'Open in Fishbone' opens the tool in the overlay on that analysis
+PASS the Fishbone navigation hint is removed after use
+PASS inside the hub the verification shows the 'save first' note
+PASS in the hub, 'Open in 5 Whys' from a selected cause opens 5 Whys on W5-EX-03
+PASS in the hub, 5 Whys' 'Open in Fishbone' goes back to FB-EX-02
+PASS in the hub, 'Open CAPA' opens CAPA in the overlay
+PASS no errors in the hub link checks
+PASS English loads LTR
+PASS keyboard can switch tabs (focus next + Enter)
+PASS form fields reachable by keyboard
+PASS at 390 px the diagram switches to the stacked list of bones
+PASS the stacked list marks the selected causes
+PASS no horizontal scroll at 390px on home (sw=390)
+PASS no horizontal scroll at 390px on explain-std (sw=390)
+PASS no horizontal scroll at 390px on explain-cl (sw=390)
+PASS no horizontal scroll at 390px on assess (sw=390)
+PASS no horizontal scroll at 390px on tools (sw=390)
+PASS no horizontal scroll at 390px on docs (sw=390)
+PASS no horizontal scroll at 390px on audit (sw=390)
+PASS no horizontal scroll at 390px on dash (sw=390)
+PASS no horizontal scroll at 390px on report (sw=390)
+PASS no horizontal scroll at 390px on ai (sw=390)
+PASS English example text has no Arabic in the analyses
+PASS at 1280 px in English the SVG shows, left to right with the head on the right
+PASS no JS errors in English/mobile run
+
+190/190 passed

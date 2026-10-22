@@ -1,0 +1,219 @@
+{
+ "name": "regress-3",
+ "checks": 40,
+ "failed": 0,
+ "seconds": 147.7,
+ "rows": [
+  {
+   "label": "compliance-anti-bribery: stored state on first load matches",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "compliance-anti-bribery: stored state after the example (pfEx, mtDemo) matches exactly",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "compliance-anti-bribery: stored state after visiting every tab matches",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "compliance-anti-bribery: no errors (new)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "compliance-anti-bribery: unchanged file shows identical text on every tab (AR/EN)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "fishbone: stored state on first load matches",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "fishbone: stored state after the example (pfEx) matches exactly",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "fishbone: stored state after visiting every tab matches",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "fishbone: no errors (new)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "fishbone: unchanged file shows identical text on every tab (AR/EN)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso10009: stored state on first load matches",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso10009: stored state after the example (pfEx) matches exactly",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso10009: stored state after visiting every tab matches",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso10009: no errors (new)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso27001: stored state on first load matches",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso27001: stored state after the example (asDemo) matches exactly",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso27001: stored state after visiting every tab matches",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso27001: no errors (new)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso27001: unchanged file shows identical text on every tab (AR/EN)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37001: stored state on first load matches",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37001: stored state after the example (asDemo) matches exactly",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37001: stored state after visiting every tab matches",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37001: no errors (new)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37001: unchanged file shows identical text on every tab (AR/EN)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso45001: stored state on first load matches",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso45001: stored state after the example (asDemo) matches exactly",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso45001: stored state after visiting every tab matches",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso45001: no errors (new)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso45001: unchanged file shows identical text on every tab (AR/EN)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "operations-excellence: stored state on first load matches",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "operations-excellence: stored state after the example (pfEx) matches exactly",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "operations-excellence: stored state after visiting every tab matches",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "operations-excellence: no errors (new)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "operations-excellence: unchanged file shows identical text on every tab (AR/EN)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pestle: new in this release (no previous version to compare)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "smart-audit-improvement: stored state on first load matches",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "smart-audit-improvement: stored state after the example (pfEx) matches exactly",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "smart-audit-improvement: stored state after visiting every tab matches",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "smart-audit-improvement: no errors (new)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "smart-audit-improvement: unchanged file shows identical text on every tab (AR/EN)",
+   "ok": true,
+   "detail": ""
+  }
+ ],
+ "modules": [
+  "compliance-anti-bribery",
+  "fishbone",
+  "iso10009",
+  "iso27001",
+  "iso37001",
+  "iso45001",
+  "operations-excellence",
+  "pestle",
+  "smart-audit-improvement"
+ ]
+}

@@ -1,0 +1,74 @@
+# Checksum diff against the uploaded cia-platform.zip (2026-10-11, 5 Whys step)
+
+changed: 9 (+28 test result files) | added: 11 (+6 test result files) | removed: 9
+
+## Changed
+fc83a6d764128af02e764ad0984d321453176c112faccbb3bf6fa65dd22be9be  index.html
+4e65d5d1f45fde1d68f1e6ea5aa75d72419dd35d7cb734b0a8eda37500d5d7ce  modules/capa.html
+7fd8dadd68b9a79575d95602aa98041f4b46b777bb4959a9b4fa72bc1cc7b8b3  tests/build/README.md
+d53e303417981dda89103ed06b038daf8bad5997896ed1fde39673c07dc7a7eb  tests/platform/run_all.sh
+d67123d05b790579810dfd4452edd3b2cc95cd09975ca3dc6ac9761b4e0dfd85  tests/platform/summary.py
+26220cd1d1506ff1b8c5e46f65fff811316c101f56ed0f8799f16cc9994a40d3  tests/platform/t_example.py
+ac2a0158b518939cc829dcc320429e98685ae9f2e201f4dfa9450731b1e126e8  tests/platform/t_hub.py
+cca5490bf73e44ec303a2d62f15522af416f73708b8969063841a39d9ed5c2ea  tests/platform/t_regress.py
+aa38e3f9ca7218992e6096f0afa8101ae0e86534d7724ed7cb6ed1955fdfca77  tests/platform/t_static.py
+
+## Added
+227e35e0168bb6b9ffc9b9941591447b3f2bda2d84339e942c13431f5739105a  modules/five-whys.html
+ec98c7353b08b283fd55a4fecda9e513fd4a631765a94268af2724ea6f4906da  tests/build/build_why5.py
+aefae909edcfe6308db3137f240f8a6cd1d1802c3d660a888ad319968fb08a79  tests/build/data_why5.py
+35504aee2027073779f2c90e6cac37c762083d59f3fb9f27f3d065a44a81e432  tests/build/demo_why5.py
+8fa0e4ec65b9c2b404b2b0b06d9b3ea355a78310563b4d9739e8c0ba5739cd23  tests/build/patch_capa_why5.py
+8c72594123bd255e49a2a1fa46f57b0b00d611b5a409a0edb6e1dbcbf9d55393  tests/build/patch_hub_why5.py
+cf4f66d616afc5fa6879d6735cf1927a5d76a2a452264ee5b0d9ee9300e50943  tests/build/why5_body.html
+28cd12ef2f4650f53dd6a803b0bf1b70dec3dceb3244a0b951ff0b040622f0f1  tests/build/why5_host.css
+097db9d4f54827b5e3c9ca0b665068566523bd16806c277f168d93a2a3a688dc  tests/build/why5_host.js
+f66fb33d18bedf6d0d3c083aa8bec5d897d508665bcd3405c548ddc60bbba435  tests/why5/capa_regress.py
+9f675b62b03e8319bc29448abe67a6ebcf4a300f376a0efbd6d1626293059323  tests/why5/test_why5.py
+
+## Removed
+tests/platform/results/kit-2.json
+tests/platform/results/regress-2.json
+tests/platform/results/sweep-2.json
+tests/platform/results/t_kit-2.log
+tests/platform/results/t_regress-2.log
+tests/platform/results/t_sweep-2.log
+tests/platform/results/t_tour-2.log
+tests/platform/results/text-diff-2.json
+tests/platform/results/tour-2.json
+
+## Test result files refreshed or added
+tests/platform/results/example.json
+tests/platform/results/example.log
+tests/platform/results/hub-home.json
+tests/platform/results/hub.json
+tests/platform/results/hub.log
+tests/platform/results/kit-0.json
+tests/platform/results/kit-1.json
+tests/platform/results/regress-0.json
+tests/platform/results/regress-1.json
+tests/platform/results/regress-hub.json
+tests/platform/results/regress-hub.log
+tests/platform/results/static.json
+tests/platform/results/static.log
+tests/platform/results/summary.txt
+tests/platform/results/sweep-0.json
+tests/platform/results/sweep-1.json
+tests/platform/results/t_kit-0.log
+tests/platform/results/t_kit-1.log
+tests/platform/results/t_regress-0.log
+tests/platform/results/t_regress-1.log
+tests/platform/results/t_sweep-0.log
+tests/platform/results/t_sweep-1.log
+tests/platform/results/t_tour-0.log
+tests/platform/results/t_tour-1.log
+tests/platform/results/text-diff-0.json
+tests/platform/results/text-diff-1.json
+tests/platform/results/tour-0.json
+tests/platform/results/tour-1.json
+tests/platform/results/capa-why5-regress-run1.log
+tests/platform/results/hub-home.log
+tests/platform/results/text-diff-capa-why5.json
+tests/platform/results/why5-run1.log
+tests/platform/results/why5-run2.log
+tests/platform/results/why5-run3.log
