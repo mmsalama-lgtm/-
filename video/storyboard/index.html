@@ -1,0 +1,408 @@
+<meta charset="utf-8">
+<title>سكريبت فيديو أكاديمية التحسين المستمر</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=Noto+Kufi+Arabic:wght@600;700;800&display=swap">
+<style>
+/* Layout: a production storyboard. Each scene is a sheet: timecode and voice-over on one side, the real platform screens on the other. */
+:root{
+  --bg:#F3F4F8; --sheet:#FFFFFF; --ink:#1B2A4A; --text:#26324B; --muted:#5E6880; --rule:#DCE0EA;
+  --gold:#A9820F; --gold-strong:#B8901E; --gold-tint:#FBF4DF; --navy-tint:#E9EDF6; --on-navy:#FFFFFF; --navy:#1B2A4A;
+  --ok:#1E7A4F; --ok-tint:#E3F3EA;
+  --display:"Noto Kufi Arabic","IBM Plex Sans Arabic",Tahoma,sans-serif;
+  --body:"IBM Plex Sans Arabic","Segoe UI",Tahoma,sans-serif;
+  --mono:ui-monospace,"SFMono-Regular",Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0C1322; --sheet:#131C30; --ink:#E9EDF6; --text:#D5DBE8; --muted:#97A1B6; --rule:#26314A;
+  --gold:#E2BE5A; --gold-strong:#D6B04A; --gold-tint:#2A2717; --navy-tint:#1A2540; --on-navy:#FFFFFF; --navy:#22355E;
+  --ok:#6BCB98; --ok-tint:#16301F; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0C1322; --sheet:#131C30; --ink:#E9EDF6; --text:#D5DBE8; --muted:#97A1B6; --rule:#26314A;
+  --gold:#E2BE5A; --gold-strong:#D6B04A; --gold-tint:#2A2717; --navy-tint:#1A2540; --on-navy:#FFFFFF; --navy:#22355E;
+  --ok:#6BCB98; --ok-tint:#16301F; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--text);font-family:var(--body);font-size:16px;line-height:1.75;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.page{max-width:1120px;margin:0 auto;padding-block:32px 64px;display:grid;gap:28px}
+h1,h2,h3{font-family:var(--display);color:var(--ink);text-wrap:balance;line-height:1.35;margin:0}
+h1{font-size:clamp(28px,4.4vw,42px);font-weight:800}
+h2{font-size:clamp(21px,2.6vw,26px);font-weight:700}
+h3{font-size:18px;font-weight:700}
+p{margin:0}
+a{color:var(--gold)}
+:focus-visible{outline:3px solid var(--gold-strong);outline-offset:2px;border-radius:6px}
+.ltr{direction:ltr;unicode-bidi:isolate;font-family:var(--mono);font-size:.92em}
+
+/* header */
+.head{display:grid;gap:14px}
+.kicker{font-size:13px;font-weight:700;letter-spacing:.04em;color:var(--gold)}
+.lede{max-width:68ch;color:var(--muted);font-size:17px}
+.meta{display:flex;flex-wrap:wrap;gap:10px;margin-top:4px}
+.chip{display:inline-flex;align-items:baseline;gap:8px;background:var(--sheet);border:1px solid var(--rule);border-radius:999px;padding:6px 14px;font-size:14px}
+.chip b{font-family:var(--display);color:var(--ink);font-variant-numeric:tabular-nums}
+
+/* timeline strip: widths follow scene durations (seconds) */
+.strip{background:var(--sheet);border:1px solid var(--rule);border-radius:16px;padding:16px;display:grid;gap:10px}
+.strip-bar{display:flex;gap:3px;height:44px;border-radius:10px;overflow:hidden}
+.strip-bar a{display:flex;align-items:center;justify-content:center;background:var(--navy-tint);color:var(--ink);text-decoration:none;font-weight:700;font-size:13px;font-variant-numeric:tabular-nums;min-width:0}
+.strip-bar a.live{background:var(--navy);color:var(--on-navy)}
+.strip-bar a.end{background:var(--gold-strong);color:#1B2A4A}
+.strip-bar a:hover{filter:brightness(1.08)}
+.strip-legend{display:flex;flex-wrap:wrap;gap:16px;font-size:13px;color:var(--muted)}
+.strip-legend i{display:inline-block;width:12px;height:12px;border-radius:3px;vertical-align:-1px;margin-inline-end:6px}
+
+/* scene sheet */
+.scene{background:var(--sheet);border:1px solid var(--rule);border-radius:18px;padding:clamp(18px,3vw,28px);display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);gap:clamp(18px,3vw,32px);scroll-margin-top:16px}
+.scene.wide{grid-template-columns:minmax(0,1fr)}
+.s-text{display:grid;gap:14px;align-content:start;min-width:0}
+.s-top{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.tc{font-family:var(--mono);font-size:13px;background:var(--ink);color:var(--sheet);border-radius:8px;padding:3px 10px;direction:ltr;font-variant-numeric:tabular-nums}
+.sn{font-size:13px;color:var(--muted);font-weight:600}
+.vo{background:var(--gold-tint);border-radius:12px;padding:16px 18px;font-size:18.5px;line-height:1.95;color:var(--ink);font-weight:500}
+.vo strong{font-weight:700}
+.label{font-size:12.5px;font-weight:700;letter-spacing:.04em;color:var(--muted);margin-bottom:2px}
+.onscreen{font-family:var(--display);font-weight:700;color:var(--ink);font-size:16px}
+.dir{color:var(--muted);font-size:15px}
+.quote{border-inline-start:3px solid var(--gold-strong);padding-inline-start:14px;color:var(--text);font-size:15px}
+.quote cite{display:block;font-style:normal;color:var(--muted);font-size:12.5px;margin-top:4px}
+.s-media{display:grid;gap:12px;align-content:start;min-width:0}
+figure{margin:0;display:grid;gap:6px}
+figure img{display:block;width:100%;height:auto;border-radius:10px;border:1px solid var(--rule);background:var(--navy-tint)}
+figcaption{font-size:13px;color:var(--muted)}
+.pair{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.shoot{border:1.5px dashed var(--rule);border-radius:12px;padding:18px;display:grid;gap:8px;align-content:center;min-height:180px;background:repeating-linear-gradient(-45deg,transparent 0 10px,var(--navy-tint) 10px 11px)}
+.shoot b{font-family:var(--display);color:var(--ink)}
+.gallery{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.gallery figcaption b{display:block;color:var(--ink);font-size:13.5px}
+.trust{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.trust div{background:var(--navy-tint);border-radius:12px;padding:14px}
+.trust b{display:block;font-family:var(--display);color:var(--ink);font-size:15px}
+.trust span{font-size:14px;color:var(--muted)}
+
+/* end card */
+.endcard{background:var(--navy);color:var(--on-navy);border-radius:18px;padding:clamp(20px,4vw,36px);display:grid;grid-template-columns:auto minmax(0,1fr);gap:clamp(18px,4vw,36px);align-items:center}
+.endcard h2{color:var(--on-navy)}
+.endcard p{color:#D8DEEA}
+.qr{background:#fff;border-radius:14px;padding:10px;width:clamp(150px,22vw,210px)}
+.qr img{display:block;width:100%;height:auto}
+.endcard .url{font-family:var(--mono);direction:ltr;unicode-bidi:isolate;font-size:15px;color:#F3D98B;word-break:break-all}
+.btn{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--rule);background:var(--sheet);color:var(--ink);border-radius:999px;padding:8px 16px;font:inherit;font-weight:700;font-size:14px;cursor:pointer}
+.endcard .btn{background:rgba(255,255,255,.1);border-color:rgba(255,255,255,.3);color:#fff}
+.row{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.qr2{display:flex;gap:14px;align-items:center;background:rgba(255,255,255,.07);border-radius:12px;padding:12px}
+.qr2 img{width:88px;height:88px;background:#fff;border-radius:8px;padding:4px}
+.qr2 p{font-size:14px}
+
+/* sections */
+.panel{background:var(--sheet);border:1px solid var(--rule);border-radius:18px;padding:clamp(18px,3vw,28px);display:grid;gap:16px}
+.panel>p{max-width:72ch;color:var(--muted)}
+.table-wrap{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:15px;min-width:620px}
+th,td{text-align:start;padding:12px 10px;border-bottom:1px solid var(--rule);vertical-align:top}
+th{font-size:13px;color:var(--muted);font-weight:700}
+.pill{display:inline-block;border-radius:999px;padding:2px 10px;font-size:12.5px;font-weight:700;white-space:nowrap}
+.pill.done{background:var(--ok-tint);color:var(--ok)}
+.pill.fine{background:var(--navy-tint);color:var(--ink)}
+.notes{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.notes div{border-top:2px solid var(--gold-strong);padding-top:10px}
+.notes b{display:block;color:var(--ink);font-family:var(--display);font-size:15px}
+.notes span{font-size:14.5px;color:var(--text)}
+details{border:1px solid var(--rule);border-radius:12px;padding:12px 16px}
+summary{cursor:pointer;font-weight:700;color:var(--ink)}
+.fullvo{white-space:pre-line;font-size:16.5px;line-height:2;margin-top:12px}
+.toast{position:fixed;inset-inline:0;bottom:calc(20px + env(safe-area-inset-bottom,0px));margin:auto;width:max-content;max-width:90vw;background:var(--ink);color:var(--sheet);border-radius:999px;padding:8px 18px;font-weight:700;font-size:14px}
+
+@media (max-width:860px){
+  .scene{grid-template-columns:minmax(0,1fr)}
+  .gallery{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .endcard{grid-template-columns:minmax(0,1fr);justify-items:start}
+}
+@media (max-width:520px){
+  .pair,.trust,.notes{grid-template-columns:minmax(0,1fr)}
+  .strip-bar a span{display:none}
+  .vo{font-size:17px}
+}
+@media (prefers-reduced-motion:no-preference){ .strip-bar a{transition:filter .15s} html{scroll-behavior:smooth} }
+</style>
+
+<main class="page">
+  <header class="head">
+    <span class="kicker">أكاديمية التحسين المستمر · سكريبت الفيديو التعريفي</span>
+    <h1>من الامتثال إلى الأداء</h1>
+    <p class="lede">سكريبت فيديو دعائي وتوعوي للمنصة: يعرّف الناس والشركات بها، ويدعوهم إلى تجربة التقييم الذاتي، ثم إلى إرسال آرائهم لنطوّر بها الإصدار القادم. كل الصور هنا شاشات حقيقية من المنصة، ببيانات المثال التوضيحية.</p>
+    <div class="meta">
+      <span class="chip">المدة <b>3:50</b></span>
+      <span class="chip">التعليق الصوتي <b>≈ 375</b> كلمة</span>
+      <span class="chip">المشاهد <b>10</b></span>
+      <span class="chip">اللغة <b>فصحى مبسّطة</b></span>
+      <span class="chip">الرابط <b class="ltr">moddathersalamaeng-sudo.github.io/-</b></span>
+    </div>
+  </header>
+
+  <nav class="strip" aria-label="تسلسل المشاهد">
+    <div class="strip-bar">
+      <a href="#s1" class="live" style="flex:18" title="الخطّاف 0:00"><span>1</span></a>
+      <a href="#s2" class="live" style="flex:24" title="المشكلة 0:18"><span>2</span></a>
+      <a href="#s3" style="flex:23" title="الكشف 0:42"><span>3</span></a>
+      <a href="#s4" style="flex:15" title="المرشد 1:05"><span>4</span></a>
+      <a href="#s5" style="flex:40" title="داخل الأداة 1:20"><span>5</span></a>
+      <a href="#s6" style="flex:45" title="المنظومات السبع 2:00"><span>6</span></a>
+      <a href="#s7" style="flex:15" title="لوحة القيادة 2:45"><span>7</span></a>
+      <a href="#s8" style="flex:15" title="الثقة 3:00"><span>8</span></a>
+      <a href="#s9" style="flex:15" title="الدعم 3:15"><span>9</span></a>
+      <a href="#s10" class="end" style="flex:20" title="الدعوة 3:30"><span>10</span></a>
+    </div>
+    <div class="strip-legend">
+      <span><i style="background:var(--navy)"></i>تصوير حي أو موشن جرافيك</span>
+      <span><i style="background:var(--navy-tint)"></i>شاشات المنصة</span>
+      <span><i style="background:var(--gold-strong)"></i>الدعوة وشاشة النهاية</span>
+      <span>عرض كل مقطع بحسب مدته</span>
+    </div>
+  </nav>
+
+  <!-- 1 -->
+  <section class="scene" id="s1">
+    <div class="s-text">
+      <div class="s-top"><span class="tc">0:00 – 0:18</span><span class="sn">المشهد 1</span></div>
+      <h2>الخطّاف</h2>
+      <div><div class="label">التعليق الصوتي</div>
+        <p class="vo">موعد التدقيق بعد شهر.<br>والأسئلة نفسها تتكرر في كل منشأة:<br>هل نحن جاهزون؟ أين الفجوات؟ ومن أين نبدأ؟</p></div>
+      <div><div class="label">على الشاشة</div><p class="onscreen">«التدقيق بعد 30 يوماً»</p></div>
+      <div><div class="label">الصوت</div><p class="dir">دقات ساعة خفيفة، ثم موسيقى منخفضة متوترة.</p></div>
+    </div>
+    <div class="s-media">
+      <div class="shoot"><b>لقطة تصوير حي</b><span class="dir">مكتب في المساء، ملفات مكدّسة، وتقويم عليه دائرة حمراء حول «زيارة التدقيق». مدير جودة يقلّب أوراقاً، وعلى شاشته نص مواصفة طويل بالإنجليزية.</span></div>
+    </div>
+  </section>
+
+  <!-- 2 -->
+  <section class="scene" id="s2">
+    <div class="s-text">
+      <div class="s-top"><span class="tc">0:18 – 0:42</span><span class="sn">المشهد 2</span></div>
+      <h2>المشكلة</h2>
+      <div><div class="label">التعليق الصوتي</div>
+        <p class="vo">مواصفات كثيرة، ونصوص معقدة، وشروح متفرقة.<br>فريق الجودة يجتهد، والإدارة تريد رقماً واضحاً، والمدقق يريد دليلاً.<br>وبين هذا كله يضيع الوقت، ويتأخر التحسين.</p></div>
+      <div><div class="label">على الشاشة</div><p class="onscreen">«مواصفات كثيرة · نصوص معقدة · شروح متفرقة»</p></div>
+    </div>
+    <div class="s-media">
+      <div class="shoot"><b>موشن جرافيك</b><span class="dir">عناوين المواصفات تتراكم على الشاشة: ISO 9001 و14001 و45001 و27001 و31000 وEFQM وP3M3… ثم اجتماع إدارة يسأل «ما نسبتنا؟»، ومدقق يطلب «أين الدليل؟».</span></div>
+    </div>
+  </section>
+
+  <!-- 3 -->
+  <section class="scene" id="s3">
+    <div class="s-text">
+      <div class="s-top"><span class="tc">0:42 – 1:05</span><span class="sn">المشهد 3</span></div>
+      <h2>الكشف عن المنصة</h2>
+      <div><div class="label">التعليق الصوتي</div>
+        <p class="vo">لهذا بنينا <strong>أكاديمية التحسين المستمر</strong>: منصة واحدة، من الامتثال إلى الأداء.<br>ثمانٍ وثلاثون أداة تفاعلية، في سبع منظومات مترابطة، بأكثر من ألف ومئة سؤال تقييم، ومئتين وأربعة وسبعين نموذجاً جاهزاً، وكلها بالعربية والإنجليزية.</p></div>
+      <div><div class="label">على الشاشة</div><p class="onscreen">38 · 7 · 1105 · 274 · 23 ثم «عربي · English»</p></div>
+      <div><div class="label">الصورة</div><p class="dir">الفوضى تتوقف وتتحول الشاشة إلى بياض نظيف، ثم الشعار، ثم الصفحة الرئيسية، ثم شريط الأرقام يعدّ تصاعدياً. لقطة لزر «English» يقلب الصفحة بين اللغتين.</p></div>
+      <p class="quote">أدوات تفاعلية لأنظمة إدارة ISO والحوكمة والمخاطر وإدارة المشاريع والتميّز المؤسسي. تعرّف على المتطلب، وقِس موقعك منه، واخرج بخطة يستطيع فريقك تنفيذها.<cite>من الصفحة الرئيسية للمنصة</cite></p>
+    </div>
+    <div class="s-media">
+      <figure><img src="img/01-hub-hero.jpg" alt="الصفحة الرئيسية للمنصة بعنوان من الامتثال إلى الأداء وأزرار البدء" width="1440" height="900"><figcaption>الصفحة الرئيسية</figcaption></figure>
+      <figure><img src="img/02-hub-counters.jpg" alt="شريط الأرقام: 38 أداة، 7 منظومات، 1105 سؤال، 274 نموذجاً، 23 مواصفة ونموذجاً" width="1136" height="112"><figcaption>شريط الأرقام، محسوب من الأدوات نفسها</figcaption></figure>
+    </div>
+  </section>
+
+  <!-- 4 -->
+  <section class="scene" id="s4">
+    <div class="s-text">
+      <div class="s-top"><span class="tc">1:05 – 1:20</span><span class="sn">المشهد 4</span></div>
+      <h2>المرشد: من أين أبدأ؟</h2>
+      <div><div class="label">التعليق الصوتي</div>
+        <p class="vo">لا تعرف من أين تبدأ؟<br>أجب عن أربعة عشر سؤالاً قصيراً في «المرشد»، فيقترح عليك الأدوات المناسبة لمنشأتك، ويشرح سبب كل اختيار، ويعطيك خطة بداية لتسعين يوماً.</p></div>
+      <div><div class="label">على الشاشة</div><p class="onscreen">«14 سؤالاً ← أدواتك المناسبة ← خطة 90 يوماً»</p></div>
+      <p class="quote">14 سؤالاً قصيراً، تحصل بعدها على الأدوات المناسبة وأسباب اختيارها وخطة بداية بسيطة لتسعين يوماً.<cite>من صفحة «المرشد»</cite></p>
+    </div>
+    <div class="s-media">
+      <div class="pair">
+        <figure><img src="img/04-advisor-question.jpg" alt="سؤال من المرشد: في أي قطاع تعمل منشأتك؟" width="1440" height="900"><figcaption>السؤال الأول من 14</figcaption></figure>
+        <figure><img src="img/05-advisor-results.jpg" alt="نتائج المرشد: الأدوات الموصى بها مرتبة بنسبة الملاءمة" width="1440" height="900"><figcaption>الأدوات الموصى بها بنسبة الملاءمة</figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5 -->
+  <section class="scene" id="s5">
+    <div class="s-text">
+      <div class="s-top"><span class="tc">1:20 – 2:00</span><span class="sn">المشهد 5</span></div>
+      <h2>رحلة داخل الأداة: ISO 9001:2026 مثالاً</h2>
+      <div><div class="label">التعليق الصوتي</div>
+        <p class="vo">وكل أداة تسير معك بالطريقة نفسها.<br><strong>تعلّم:</strong> كل بند مشروح بلغة بسيطة، بمثال تطبيقي، وبما يطلبه المدقق، وبما تغيّر في إصدار ألفين وستة وعشرين.<br><strong>قيّم:</strong> أجب بنداً بنداً بحسب الأدلة الموجودة لديك فعلاً، لا بحسب الانطباع.<br>ثم <strong>خذ النتيجة:</strong> نسبة جاهزية لكل محور، وفجوات مرتبة بالأولوية، وخطة عمل بمسؤولين ومواعيد.<br>ومعها قائمة تدقيق جاهزة، ونماذج معبأة بأمثلة تطبيقية تعدّلها وتستخدمها فوراً.</p></div>
+      <div><div class="label">على الشاشة</div><p class="onscreen">تعلّم ← قيّم ← حلّل ← نفّذ</p></div>
+      <p class="quote">40 سؤالاً بمقياس نضج من 0 إلى 4 · قائمة تحقق من 63 بنداً فرعياً · 14 نموذجاً معبأً بأمثلة قابلة للتعديل.<cite>من الصفحة الرئيسية لأداة ISO 9001:2026</cite></p>
+    </div>
+    <div class="s-media">
+      <div class="pair">
+        <figure><img src="img/07-iso9001-clauses.jpg" alt="بنود المواصفة على دورة PDCA" width="1440" height="900"><figcaption>تعلّم: البنود على دورة PDCA</figcaption></figure>
+        <figure><img src="img/07b-iso9001-changes.jpg" alt="ما الذي تغيّر في إصدار 2026" width="1440" height="900"><figcaption>تعلّم: ما الجديد في 2026</figcaption></figure>
+        <figure><img src="img/08-iso9001-assess.jpg" alt="التقييم الذاتي للجاهزية" width="1440" height="900"><figcaption>قيّم: التقييم الذاتي بالأدلة</figcaption></figure>
+        <figure><img src="img/09-iso9001-report.jpg" alt="تقرير الجاهزية بنسبة لكل محور ورادار" width="1440" height="900"><figcaption>النتيجة: الجاهزية لكل محور</figcaption></figure>
+        <figure><img src="img/09b-iso9001-report-plan.jpg" alt="خطة العمل والجدول الزمني" width="1440" height="900"><figcaption>النتيجة: خطة العمل والجدول الزمني</figcaption></figure>
+        <figure><img src="img/11-iso9001-templates.jpg" alt="النماذج والأمثلة التطبيقية" width="1440" height="900"><figcaption>نفّذ: النماذج بأمثلة تطبيقية</figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6 -->
+  <section class="scene wide" id="s6">
+    <div class="s-text">
+      <div class="s-top"><span class="tc">2:00 – 2:45</span><span class="sn">المشهد 6</span></div>
+      <h2>اتساع المنصة: المنظومات السبع</h2>
+      <div><div class="label">التعليق الصوتي</div>
+        <p class="vo">والمنصة لا تقف عند الجودة.<br><strong>أنظمة الإدارة:</strong> البيئة، والسلامة والصحة المهنية، وأمن المعلومات، والخصوصية، واستمرارية الأعمال، والامتثال ومكافحة الرشوة، والذكاء الاصطناعي، ومنشئ يدمجها كلها في نظام متكامل واحد.<br><strong>الحوكمة والمخاطر المؤسسية</strong>، بخرائط حرارية ونضج يُقاس.<br><strong>الاستراتيجية:</strong> من تحليل SWOT وPESTLE إلى خريطة الاستراتيجية، وقاموس مؤشرات أداء تتحدث حالته تلقائياً.<br><strong>مكاتب إدارة المشاريع:</strong> نضج P3M3، ومطابقة ISO 21500، وتصميم المكتب وفق P3O، تجتمع كلها في مؤشر تميّز واحد.<br><strong>التميّز المؤسسي:</strong> نموذج EFQM، وجائزة الملك عبدالعزيز للجودة بإصدارها الرابع.<br><strong>وصندوق أدوات التحسين:</strong> PDCA، والإجراءات التصحيحية، ولماذا الخمس، وعظمة السمكة، وباريتو، وA3، وDMAIC، وFMEA. أدوات مترابطة ينتقل فيها السبب الجذري من أداة إلى أخرى حتى يُغلق الإجراء.</p></div>
+      <div><div class="label">الصورة والإيقاع</div><p class="dir">يبدأ بعجلة «المنظومات السبع»، ثم لقطة سريعة لكل منظومة (نحو 5 ثوانٍ)، والانتقالات على ضربات الموسيقى. اسم المنظومة وعدد أدواتها يظهر مع كل لقطة: الأيزو 11 · الحوكمة والمخاطر 4 · مكتب المشاريع 4 · التميّز 2 · الاستراتيجية 1 · التدقيق والتحسين 15 · المستشار الذكي 1.</p></div>
+    </div>
+    <figure><img src="img/03-hub-wheel.jpg" alt="عجلة المنظومات السبع في الصفحة الرئيسية مع أدوات منظومة الأيزو" width="1440" height="900"><figcaption>عجلة المنظومات السبع: الرقم في كل قطاع هو عدد أدوات المنظومة</figcaption></figure>
+    <div class="gallery">
+      <figure><img src="img/ims-matrix-ar.webp" alt="مصفوفة النظام المتكامل" width="1413" height="882"><figcaption><b>منشئ النظام المتكامل</b>البنود 4–10 مقابل المواصفات المختارة</figcaption></figure>
+      <figure><img src="img/iso27001-soa-ar.webp" alt="بيان قابلية التطبيق لأمن المعلومات" width="1413" height="882"><figcaption><b>ISO/IEC 27001</b>ضوابط الملحق A وبيان قابلية التطبيق</figcaption></figure>
+      <figure><img src="img/iso31000-heatmap-ar.webp" alt="خرائط حرارة المخاطر" width="1413" height="882"><figcaption><b>استوديو المخاطر · ISO 31000</b>المخاطر قبل الضوابط وبعدها</figcaption></figure>
+      <figure><img src="img/iso37000-radar-ar.webp" alt="رادار نضج الحوكمة" width="1413" height="882"><figcaption><b>نضج الحوكمة · ISO 37000</b>النضج العام ونتيجة كل محور</figcaption></figure>
+      <figure><img src="img/str-map-ar.webp" alt="خريطة الاستراتيجية" width="1413" height="882"><figcaption><b>استوديو الاستراتيجية والأداء</b>خريطة الاستراتيجية ملوّنة حسب الإنجاز</figcaption></figure>
+      <figure><img src="img/pmoexc-index-ar.webp" alt="مؤشر التميّز لمكاتب إدارة المشاريع" width="1413" height="882"><figcaption><b>التميّز في مكاتب المشاريع</b>مؤشر واحد من P3M3 وISO 21500 وP3O</figcaption></figure>
+      <figure><img src="img/kaqa-verdict-ar.webp" alt="نتيجة تقييم جائزة الملك عبدالعزيز للجودة" width="1413" height="882"><figcaption><b>جائزة الملك عبدالعزيز للجودة</b>الدرجة المعتمدة والمستوى المتوقع</figcaption></figure>
+      <figure><img src="img/aud-dashboard-ar.webp" alt="لوحة مركز التدقيق والتحسين الذكي" width="1413" height="882"><figcaption><b>مركز التدقيق والتحسين</b>مؤشرات السجلات وتقادم الإجراءات</figcaption></figure>
+    </div>
+  </section>
+
+  <!-- 7 -->
+  <section class="scene" id="s7">
+    <div class="s-text">
+      <div class="s-top"><span class="tc">2:45 – 3:00</span><span class="sn">المشهد 7</span></div>
+      <h2>لوحة القيادة</h2>
+      <div><div class="label">التعليق الصوتي</div>
+        <p class="vo">وكل النتائج تجتمع في لوحة أداء واحدة، وفي مؤشر صحة مؤسسية واحد يقرؤه المدير التنفيذي ومجلس الإدارة في لحظة.</p></div>
+      <div><div class="label">على الشاشة</div><p class="onscreen">«مؤشر صحة مؤسسية واحد»</p></div>
+      <p class="quote">مؤشر صحة المنشأة عبر ثماني ركائز مرجّحة.<cite>من معرض الأدوات · منصة القيادة ومساحة عمل المنشأة</cite></p>
+    </div>
+    <div class="s-media">
+      <figure><img src="img/w8-ohi-ar.webp" alt="مؤشر صحة المنشأة عبر ثماني ركائز" width="1413" height="882"><figcaption>منصة القيادة ومساحة عمل المنشأة</figcaption></figure>
+    </div>
+  </section>
+
+  <!-- 8 -->
+  <section class="scene" id="s8">
+    <div class="s-text">
+      <div class="s-top"><span class="tc">3:00 – 3:15</span><span class="sn">المشهد 8</span></div>
+      <h2>الثقة</h2>
+      <div><div class="label">التعليق الصوتي</div>
+        <p class="vo">بياناتك تبقى في متصفحك ولا تُرسل إلى أي خادم. وتبدأ مجاناً، دون تسجيل.<br>وبصراحة: التقييم الذاتي ليس شهادة، لكنه الطريق الأقصر إليها.</p></div>
+      <div><div class="label">على الشاشة</div><p class="onscreen">«بياناتك في متصفحك · دون تسجيل · ابدأ مجاناً»</p></div>
+      <div><div class="label">الصورة</div><p class="dir">أيقونات تظهر واحدة تلو الأخرى: قفل، ومتصفح، وكرة أرضية، وختم بجانبه سهم إلى الأمام.</p></div>
+    </div>
+    <div class="s-media">
+      <div class="trust">
+        <div><b>بياناتك عندك</b><span>تُحفظ في متصفحك، ولا تُرسل إلى أي خادم.</span></div>
+        <div><b>مجانية للتجربة</b><span>افتح أي أداة وابدأ، دون تسجيل.</span></div>
+        <div><b>عربي وإنجليزي</b><span>كل أداة باللغتين، بزر واحد.</span></div>
+        <div><b>هل نتيجة التقييم الذاتي شهادة؟</b><span>لا. الشهادة تصدرها جهة إشهاد معتمدة بعد تدقيق فعلي. الأدوات تساعدك على الاستعداد وقياس التقدم.</span></div>
+      </div>
+      <p class="dir">مقتطفات من «لماذا المنصة» و«الأسئلة الشائعة» في الصفحة الرئيسية.</p>
+    </div>
+  </section>
+
+  <!-- 9 -->
+  <section class="scene" id="s9">
+    <div class="s-text">
+      <div class="s-top"><span class="tc">3:15 – 3:30</span><span class="sn">المشهد 9</span></div>
+      <h2>الدعم والخبرة</h2>
+      <div><div class="label">التعليق الصوتي</div>
+        <p class="vo">وإن احتجت مساعدة، فاسأل المساعد الذكي داخل الأداة، أو اطلب استشارة أو تدريباً لفريقك من المنصة مباشرة.<br>وخلف المنصة خبرة تتجاوز ستة عشر عاماً: أكثر من خمس وثلاثين منشأة أُهّلت للإشهاد، وأكثر من خمسمئة متخصص تدرّبوا.</p></div>
+      <div><div class="label">على الشاشة</div><p class="onscreen">«+16 عاماً · مدقق رئيسي في 11 مواصفة · +35 منشأة · +500 متخصص»</p></div>
+      <p class="quote">استشاري في أنظمة الجودة والصحة والسلامة والبيئة والأنظمة المتكاملة بخبرة تتجاوز 16 عامًا، ومدقق رئيسي معتمد في 11 مواصفة أيزو، أهّل أكثر من 35 منشأة للحصول على الشهادات ودرّب أكثر من 500 متخصص في المنطقة.<cite>من قسم «من نحن»</cite></p>
+    </div>
+    <div class="s-media">
+      <div class="pair">
+        <figure><img src="img/12-ask-ai.jpg" alt="المساعد الذكي داخل أداة ISO 9001 يجيب إجابة فورية" width="1440" height="900"><figcaption>«اسأل أيزو AI»: إجابة فورية من الأداة</figcaption></figure>
+        <figure><img src="img/13-request-form.jpg" alt="نموذج طلب استشارة أو تدريب" width="1440" height="900"><figcaption>«اطلب خدمة»: استشارة أو تدريب</figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- 10 -->
+  <section class="scene" id="s10">
+    <div class="s-text">
+      <div class="s-top"><span class="tc">3:30 – 3:50</span><span class="sn">المشهد 10</span></div>
+      <h2>الدعوة والختام</h2>
+      <div><div class="label">التعليق الصوتي</div>
+        <p class="vo">المنصة بُنيت لك، وتكبر برأيك.<br>جرّبها، وقيّم منشأتك، ثم اضغط «شاركنا رأيك» وقل لنا ماذا ينقصها. كل ملاحظة تصلنا تصنع الإصدار القادم.<br><strong>أكاديمية التحسين المستمر… من الامتثال، إلى الأداء.</strong></p></div>
+      <div><div class="label">على الشاشة</div><p class="onscreen">«جرّب · قيّم · شاركنا رأيك» ثم شاشة النهاية</p></div>
+      <div><div class="label">الصورة</div><p class="dir">يد تضغط «اعثر على الأدوات المناسبة لك»، ثم الزر الذهبي «شاركنا رأيك» أعلى الأداة، ثم نموذج الرأي. الموسيقى تصل إلى ذروتها ثم تهدأ مع آخر جملة.</p></div>
+    </div>
+    <div class="s-media">
+      <figure><img src="img/15-tool-bar-feedback.jpg" alt="شريط الأداة وفيه زر شاركنا رأيك الذهبي" width="1440" height="64"><figcaption>الزر الذهبي «شاركنا رأيك» أعلى كل أداة (جديد)</figcaption></figure>
+      <figure><img src="img/14-feedback-form.jpg" alt="نموذج شاركنا رأيك" width="1440" height="900"><figcaption>نموذج «شاركنا رأيك»: الأداة، والتقييم، وما ينقصها</figcaption></figure>
+    </div>
+  </section>
+
+  <!-- end card -->
+  <section class="endcard" id="end" aria-labelledby="endT">
+    <div class="qr"><img src="img/qr-home.svg" alt="رمز QR لرابط المنصة" width="370" height="370"></div>
+    <div style="display:grid;gap:12px;min-width:0">
+      <span class="kicker" style="color:#F3D98B">شاشة النهاية</span>
+      <h2 id="endT">أكاديمية التحسين المستمر</h2>
+      <p>من الامتثال إلى الأداء. امسح الرمز وابدأ التقييم.</p>
+      <p class="url" id="url">https://moddathersalamaeng-sudo.github.io/-/#home</p>
+      <p class="url">moddathersalama.eng@gmail.com</p>
+      <div class="row"><button class="btn" type="button" data-copy="https://moddathersalamaeng-sudo.github.io/-/#home">نسخ الرابط</button></div>
+      <div class="qr2"><img src="img/qr-feedback.svg" alt="رمز QR لرابط شاركنا رأيك" width="88" height="88">
+        <p>رمز اختياري يفتح نموذج «شاركنا رأيك» مباشرة، ويعمل بعد رفع تحديث المنصة.<br><span class="ltr" style="color:#F3D98B">…/-/#feedback</span></p></div>
+    </div>
+  </section>
+
+  <!-- platform changes -->
+  <section class="panel" id="done" aria-labelledby="doneT">
+    <h2 id="doneT">ما تم في المنصة قبل التصوير</h2>
+    <p>راجعت ملاحظات المراجعة كلها على نسخة الأرشيف، وعدّلت ما يحتاج إلى تعديل، واختبرت الباقي في المتصفح. التغييرات في 8 ملفات فقط، والبريد كما هو دون تغيير.</p>
+    <div class="table-wrap"><table>
+      <thead><tr><th>الملاحظة</th><th>ما وجدته وما تم</th><th>الحالة</th></tr></thead>
+      <tbody>
+        <tr><td>لا توجد قناة لآراء الناس</td><td>أضفت «شاركنا رأيك»: تبويب ثالث في «اطلب خدمة» (الأداة، والتقييم من 5، والدور، وما أفادك، وما ينقصها)، وزر ذهبي أعلى كل أداة يختار الأداة المفتوحة تلقائياً، وأزرار في الرئيسية و«من نحن» والتذييل، وسؤال في الأسئلة الشائعة، ورابط مباشر <span class="ltr">#feedback</span>. يصل الرأي إلى البريدين نفسيهما بطريقة طلبات الاستشارة.</td><td><span class="pill done">تم</span></td></tr>
+        <tr><td>المساعد الذكي على GitHub Pages</td><td>بعد الاختبار: يعمل خارج Claude بإجابات فورية من قاعدة معرفة الأداة (41 سؤالاً في أداة 9001)، ويحوّل الأسئلة الأخرى إلى البريد. الإجابات المفتوحة بالذكاء الاصطناعي متاحة داخل Claude فقط. لذلك صياغة السكريبت «اسأل المساعد الذكي» دقيقة.</td><td><span class="pill fine">سليم</span></td></tr>
+        <tr><td>حجم الملفات</td><td>GitHub Pages يضغط الملفات عند التحميل: الرئيسية نحو 240 ك.ب، وأكبر أداة نحو 475 ك.ب. مقبول على الجوال ولا يحتاج تعديلاً الآن.</td><td><span class="pill fine">سليم</span></td></tr>
+        <tr><td>زر «منصة التدريب»</td><td>مخفي تلقائياً ما دام الرابط فارغاً، ويظهر وحده عندما تضيف رابط منصة التدريب.</td><td><span class="pill fine">سليم</span></td></tr>
+        <tr><td>كتابة «ايزو»</td><td>صححتها إلى «أيزو» في 13 موضعاً في 7 أدوات (الأزرار والنصوص فقط، دون كلمات البحث).</td><td><span class="pill done">تم</span></td></tr>
+        <tr><td>البريد الإلكتروني</td><td>بقي كما هو بطلبك.</td><td><span class="pill fine">كما هو</span></td></tr>
+      </tbody>
+    </table></div>
+    <p>الاختبارات بعد التعديل: الفحص الثابت 222/222، والصفحة الرئيسية 438/438، ومقارنة الرئيسية بالنسخة السابقة 40/40، وفي الأدوات السبع المعدلة 2378 فحصاً ناجحاً.</p>
+  </section>
+
+  <!-- production notes -->
+  <section class="panel" id="notes" aria-labelledby="notesT">
+    <h2 id="notesT">ملاحظات الإنتاج</h2>
+    <div class="notes">
+      <div><b>تسجيل الشاشة</b><span>من المنصة نفسها بعد رفع التحديث، بدقة 1440×900 أو أعلى، والواجهة بالعربية وبيانات المثال التوضيحية. صور معرض الأدوات جاهزة بالعربية والإنجليزية في مجلد <span class="ltr">assets/shots</span>.</span></div>
+      <div><b>المقاسات</b><span>نسخة أفقية 16:9 لليوتيوب ولينكدإن، ونسخة رأسية 9:16 من نحو 45 ثانية من المشاهد 1 و3 و5 و10.</span></div>
+      <div><b>الترجمة</b><span>ترجمة إنجليزية مدمجة، لأن جمهوراً كبيراً يشاهد بلا صوت.</span></div>
+      <div><b>الصوت البشري</b><span>فصحى سلسة بصوت رجل أو امرأة. ويمكن إعداد نسخة مصرية أو سعودية للحملات المحلية.</span></div>
+      <div><b>الدقة</b><span>كل الأرقام من المنصة نفسها: 38 أداة، و7 منظومات، و1105 أسئلة، و274 نموذجاً، و23 مواصفة ونموذجاً، و14 سؤالاً في المرشد.</span></div>
+      <div><b>شاشة النهاية</b><span>رمز QR للرابط الرئيسي ثابت. رمز «شاركنا رأيك» اختياري، يُستخدم بعد رفع التحديث فقط.</span></div>
+    </div>
+    <details id="fullvo">
+      <summary>نص التعليق الصوتي كاملاً للمعلق</summary>
+      <div class="row" style="margin-top:10px"><button class="btn" type="button" id="copyVo">نسخ النص كاملاً</button></div>
+      <p class="fullvo" id="voText"></p>
+    </details>
+  </section>
+</main>
+<div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+
+<script>
+(function(){
+  const vo=[...document.querySelectorAll(".scene .vo")].map(p=>p.innerText.trim()).join("\n\n");
+  document.getElementById("voText").textContent=vo;
+  const toast=document.getElementById("toast"); let t;
+  const say=m=>{toast.textContent=m; toast.hidden=false; clearTimeout(t); t=setTimeout(()=>toast.hidden=true,1800);};
+  const copy=async(text,el)=>{ try{ await navigator.clipboard.writeText(text); say("تم النسخ"); }
+    catch(e){ const r=document.createRange(); r.selectNodeContents(el); const s=getSelection(); s.removeAllRanges(); s.addRange(r); say("حدد النص وانسخه"); } };
+  document.querySelectorAll("[data-copy]").forEach(b=>b.addEventListener("click",()=>copy(b.dataset.copy,document.getElementById("url"))));
+  document.getElementById("copyVo").addEventListener("click",()=>copy(vo,document.getElementById("voText")));
+  const h=location.hash.slice(1); if(h){ const el=document.getElementById(h); if(el) el.scrollIntoView(); }
+})();
+</script>
