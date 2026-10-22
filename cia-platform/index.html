@@ -320,6 +320,11 @@ footer strong{color:var(--ink)}
 .modBack:hover{background:rgba(255,255,255,.18)}
 .modBack svg{display:block}
 [dir="rtl"] .modBack svg{transform:scaleX(-1)}
+.modFb{margin-inline-start:auto;flex:0 0 auto;display:inline-flex;align-items:center;gap:7px;background:var(--gold);border:0;color:#1B2A4A;border-radius:999px;padding:8px 14px;font:inherit;font-weight:700;font-size:13.5px;cursor:pointer}
+.modFb:hover{filter:brightness(1.06)}
+.modFb svg{display:block}
+@media (max-width:560px){.modFb span{display:none}.modFb{padding:8px 10px}}
+.modBar .modName{min-width:0}
 .modName{font-family:var(--display);font-size:15.5px;font-weight:600;opacity:.92;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .modFrame{flex:1 1 auto;width:100%;border:0;background:var(--bg)}
 .trainBtn{display:inline-flex;align-items:center;gap:7px;border-radius:999px;padding:8px 14px;font-size:13.5px;font-weight:700;border:1px solid var(--line);background:var(--surface);color:var(--ink);cursor:pointer;text-decoration:none}
@@ -1142,6 +1147,10 @@ html.drw-on .toTop{display:none}
       <span id="modBackLabel"></span>
     </button>
     <span class="modName" id="modName"></span>
+    <button class="modFb" id="modFb" type="button">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12z"/><path d="m9.5 11.5 1.8 1.8 3.4-3.6"/></svg>
+      <span id="modFbLabel"></span>
+    </button>
   </div>
   <iframe class="modFrame" id="modFrame" title="module" name="modFrame"></iframe>
   <div class="modMiss" id="modMiss" role="alert" hidden></div>
@@ -1233,7 +1242,7 @@ html.drw-on .toTop{display:none}
   <section id="fqcta" class="band" data-view="home" aria-labelledby="fqtT">
     <div class="wrap fq-grid">
       <div class="rv"><span class="sec-k" id="fqtK"></span><h2 id="fqtT" style="font-family:var(--display);margin:0 0 14px;font-size:clamp(24px,3vw,32px)"></h2><div class="faq" id="fqtList"></div><a class="fq-all" href="#faq" id="fqtAll"></a></div>
-      <div class="cta2 rv"><h3 id="ctaT"></h3><p id="ctaP"></p><div class="row"><a class="btn gold" href="#request" data-rq="consult" id="ctaC"></a><a class="btn" href="#request" data-rq="training" id="ctaTr"></a></div></div>
+      <div class="cta2 rv"><h3 id="ctaT"></h3><p id="ctaP"></p><div class="row"><a class="btn gold" href="#request" data-rq="consult" id="ctaC"></a><a class="btn" href="#request" data-rq="training" id="ctaTr"></a><a class="btn" href="#feedback" data-rq="feedback" id="ctaFb"></a></div></div>
     </div>
   </section>
 
@@ -1367,7 +1376,7 @@ html.drw-on .toTop{display:none}
           <div class="contact">
             <a class="btn gold" id="mailBtn" href="#" target="_blank" rel="noopener">
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg><span id="mailLbl"></span></a>
-            <a class="btn" href="#request" data-rq="consult" id="aRqC"></a><a class="btn" href="#request" data-rq="training" id="aRqT"></a>
+            <a class="btn" href="#request" data-rq="consult" id="aRqC"></a><a class="btn" href="#request" data-rq="training" id="aRqT"></a><a class="btn" href="#feedback" data-rq="feedback" id="aRqF"></a>
             <button class="btn" type="button" id="copyBtn"><span class="ltr" id="emailTxt"></span></button>
           </div>
         </div>
@@ -1991,7 +2000,8 @@ const UI = {
       ["Does the platform include the official text of the standards?","No. The tools explain the requirements in their own words for understanding and training. The official text is sold by ISO and by your national standards body."],
       ["Can I use it on a phone?","Yes. The platform works in any modern browser on phones and tablets. For long registers and templates, a computer screen is more comfortable."],
       ["How do I change the language?","Use the language button at the top of the page. Your choice carries across every tool."],
-      ["How do I request consultation or training?","Use Request a service on this page. Your request reaches Modather Salama and the Academy mailbox, and you get a reply by your preferred channel."]],
+      ["How do I request consultation or training?","Use Request a service on this page. Your request reaches Modather Salama and the Academy mailbox, and you get a reply by your preferred channel."],
+      ["How do I send feedback or suggest a tool?","Use Share your feedback: in the footer, in Request a service, or the gold button at the top of any open tool. Choose the tool, rate it and tell us what is missing. Every note is read and decides what we build next."]],
     cTitle:"Verification & Compliance", cSub:"Legal, trademark and certification notices for the tools, in one place.",
     cGeneral:"The tools explain standards for understanding and training. They do not reproduce or replace the official texts, and a self-assessment is not certification or formal recognition. ISO standards are copyright of ISO.",
     cOpen:"Open tool",
@@ -2055,7 +2065,8 @@ const UI = {
       ["هل تحتوي المنصة على النص الرسمي للمواصفات؟","لا. تشرح الأدوات المتطلبات بصياغة مستقلة لأغراض الفهم والتدريب. النص الرسمي يُشترى من ISO أو من جهة التقييس الوطنية في بلدك."],
       ["هل أستطيع استخدامها من الجوال؟","نعم، تعمل المنصة على أي متصفح حديث في الجوال والجهاز اللوحي. وللسجلات الطويلة والنماذج تكون شاشة الحاسب أريح."],
       ["كيف أغيّر اللغة؟","من زر اللغة أعلى الصفحة، وينتقل اختيارك إلى كل الأدوات."],
-      ["كيف أطلب استشارة أو تدريباً؟","من قسم «اطلب خدمة» في هذه الصفحة. يصل طلبك إلى مدثر سلامه وإلى بريد الأكاديمية، ويأتيك الرد بالوسيلة التي تفضلها."]],
+      ["كيف أطلب استشارة أو تدريباً؟","من قسم «اطلب خدمة» في هذه الصفحة. يصل طلبك إلى مدثر سلامه وإلى بريد الأكاديمية، ويأتيك الرد بالوسيلة التي تفضلها."],
+      ["كيف أرسل رأيي أو أقترح أداة؟","من «شاركنا رأيك»: في تذييل الصفحة، أو في قسم «اطلب خدمة»، أو من الزر الذهبي أعلى أي أداة مفتوحة. اختر الأداة وقيّمها واكتب ما ينقصها. نقرأ كل ملاحظة، وهي التي تحدد ما نطوره بعد ذلك."]],
     cTitle:"التحقق والامتثال", cSub:"التنويهات القانونية والعلامات التجارية وحدود الإشهاد لكل أداة، في مكان واحد.",
     cGeneral:"تشرح الأدوات المواصفات لأغراض الفهم والتدريب، ولا تنقل نصوصها الرسمية ولا تغني عنها. والتقييم الذاتي ليس إشهاداً ولا اعترافاً رسمياً. حقوق مواصفات ISO محفوظة لمنظمة ISO.",
     cOpen:"افتح الأداة",
@@ -2147,7 +2158,8 @@ function renderText(){
   set("cTitle",u.cTitle); set("cSub",u.cSub); set("cGeneral",u.cGeneral);
   set("aName",u.name); set("aRole",u.aRole); set("aBio",u.aBio); set("aMission",u.aMission);
   set("mailLbl",u.mail); set("emailTxt",EMAIL); $("mailBtn").href = mailto(L==="ar"?"أكاديمية التحسين المستمر — استفسار":"Continual Improvement Academy — enquiry");
-  set("cta3",RQ[L].quick.consult); set("aRqC",RQ[L].quick.consult); set("aRqT",RQ[L].quick.training);
+  set("cta3",RQ[L].quick.consult); set("aRqC",RQ[L].quick.consult); set("aRqT",RQ[L].quick.training); set("aRqF",RQ[L].quick.feedback);
+  set("modFbLabel",RQ[L].quick.feedback); $("modFb").title=RQ[L].quick.feedback;
   document.querySelectorAll("[data-rq]").forEach(a=>a.onclick=e=>{e.preventDefault(); rqOpen(a.dataset.rq);});
   set("modBackLabel",u.backHub);
   set("trainLabel",u.training);
@@ -2426,6 +2438,8 @@ function showView(v){
 function route(hash, push, keep){
   hash = String(hash||"").replace(/^#/,"");
   if(/^m=/.test(hash)) return;
+  const fbm = hash.match(/^feedback(?:\/([\w-]+))?$/);
+  if(fbm){ rqOpen("feedback", fbm[1]); return; }
   let target = null, v = VIEW_ALIAS[hash];
   if(!v){ target = document.getElementById(hash); v = viewOf(target); if(!v){ v = "home"; target = null; } }
   const changed = v!==curView; showView(v); closeMenu();
@@ -2459,7 +2473,18 @@ const RQ_SIZES=[O2("s","Under 50 employees","أقل من 50 موظفاً"),O2("m
 const RQ_LANGS=[O2("ar","Arabic","العربية"),O2("en","English","الإنجليزية"),O2("both","Both","كلاهما")];
 const RQ_CONTACT=[O2("email","Email","البريد الإلكتروني"),O2("phone","Phone call","اتصال هاتفي"),O2("wa","WhatsApp","واتساب")];
 
+/* Feedback: one short form, delivered to the same two mailboxes as the requests. */
+const FB_TOOLS=[O2("hub","The platform in general","المنصة بشكل عام"),...SYSTEMS.flatMap(sy=>sy.mods.map(m=>O2(m.k,m.name.en,m.name.ar)))];
 const RQ_FORMS={
+ feedback:{code:"F", fields:[
+  {k:"tool",t:"select",req:1,full:1,l:{en:"Which tool is your feedback about?",ar:"عن أي أداة رأيك؟"},opts:FB_TOOLS},
+  {k:"rate",t:"select",req:1,l:{en:"Overall rating",ar:"تقييمك العام"},opts:[O2("5","5 — Excellent","5 — ممتازة"),O2("4","4 — Very good","4 — جيدة جداً"),O2("3","3 — Good","3 — جيدة"),O2("2","2 — Needs work","2 — تحتاج إلى تحسين"),O2("1","1 — Poor","1 — ضعيفة")]},
+  {k:"rec",t:"select",l:{en:"Would you recommend it to a colleague?",ar:"هل تنصح بها زميلاً؟"},opts:[O2("y","Yes","نعم"),O2("m","Maybe","ربما"),O2("n","No","لا")]},
+  {k:"frole",t:"select",l:{en:"Your role",ar:"دورك"},opts:[O2("qhse","Quality / HSE / IMS manager","مدير جودة / سلامة / نظام متكامل"),O2("grc","Compliance, risk or governance","الامتثال أو المخاطر أو الحوكمة"),O2("aud","Auditor","مدقق"),O2("pmo","PMO or strategy team","مكتب المشاريع أو الاستراتيجية"),O2("exc","Excellence team","فريق التميّز"),O2("exec","Executive or board member","قيادة تنفيذية أو عضو مجلس"),O2("cons","Consultant or trainer","استشاري أو مدرب"),O2("stu","Student or trainee","طالب أو متدرب"),O2("ot","Other","أخرى")]},
+  {k:"useful",t:"textarea",full:1,l:{en:"What helped you most?",ar:"ما أكثر ما أفادك؟"},ph:{en:"A clause explanation, the self-assessment, the report, a template…",ar:"شرح بند، أو التقييم الذاتي، أو التقرير، أو نموذج…"}},
+  {k:"improve",t:"textarea",req:1,full:1,l:{en:"What is missing, or what should we improve?",ar:"ما الذي ينقصها، أو ما الذي نحسّنه؟"},ph:{en:"A standard or tool to add, something unclear, an error you noticed…",ar:"مواصفة أو أداة تريد إضافتها، أو شرح غير واضح، أو خطأ لاحظته…"}},
+  {k:"name",t:"text",l:{en:"Name (optional)",ar:"الاسم (اختياري)"},ac:"name"},
+  {k:"email",t:"email",l:{en:"Email (optional, if you would like a reply)",ar:"البريد الإلكتروني (اختياري، إن أردت رداً)"},ac:"email"}]},
  consult:{code:"C", fields:[
   {k:"name",t:"text",req:1,l:{en:"Full name",ar:"الاسم الكامل"},ac:"name"},
   {k:"org",t:"text",req:1,l:{en:"Organization",ar:"المنشأة"},ac:"organization"},
@@ -2530,14 +2555,35 @@ const RQ={
   foot:"أُرسل من بوابة أكاديمية التحسين المستمر",quick:{consult:"اطلب استشارة",training:"اطلب تدريباً"}}
 };
 
-let rqKind="consult", rqData={consult:{},training:{}}, rqLast=null;
-try{ const c=JSON.parse(localStorage.getItem("cia-rq-contact")||"{}"); ["consult","training"].forEach(k=>Object.assign(rqData[k],c)); }catch(e){}
+Object.assign(RQ.en,{titleF:"Share your feedback",subF:"Tell us what helped and what is missing. Every note is read, and it decides what we build next. It takes two minutes.",
+  consentF:"I agree that my feedback is sent by email and used to improve the platform.",
+  sideTF:"What happens to your feedback",sideF:[["1","Send","Your email app or Gmail opens with your feedback ready; press Send."],["2","Read","Modather Salama reads every note personally."],["3","Build","Recurring requests go into the next updates of the platform."]],
+  doneTF:"Your feedback is ready",donePF:"Your email app should now be open with your feedback addressed to both mailboxes. Press Send to complete it. If nothing opened, use one of the options below.",
+  sentTF:"Thank you for your feedback",sentPF:"Your feedback has reached both mailboxes. Thank you for helping us improve the platform.",
+  againF:"New feedback",editF:"Edit feedback",copyF:"Copy feedback text"});
+Object.assign(RQ.en.tabs,{feedback:"Share your feedback"}); Object.assign(RQ.en.submit,{feedback:"Send feedback"});
+Object.assign(RQ.en.subj,{feedback:"Platform feedback"}); Object.assign(RQ.en.intro,{feedback:"Here is my feedback on the platform:"});
+Object.assign(RQ.en.quick,{feedback:"Share your feedback"});
+Object.assign(RQ.ar,{titleF:"شاركنا رأيك",subF:"قل لنا ما الذي أفادك وما الذي ينقص المنصة. نقرأ كل ملاحظة، وهي التي تحدد ما نطوره بعد ذلك. لن تستغرق أكثر من دقيقتين.",
+  consentF:"أوافق على إرسال رأيي بالبريد الإلكتروني واستخدامه في تطوير المنصة.",
+  sideTF:"ماذا يحدث لرأيك",sideF:[["1","الإرسال","يفتح تطبيق البريد أو Gmail ورأيك جاهز؛ اضغط «إرسال»."],["2","القراءة","يقرأ مدثر سلامه كل ملاحظة بنفسه."],["3","التطوير","تدخل الطلبات المتكررة في التحديثات القادمة للمنصة."]],
+  doneTF:"رأيك جاهز للإرسال",donePF:"يُفترض أن تطبيق البريد فُتح الآن ورأيك موجّه إلى البريدين. اضغط «إرسال» لإتمامه. إذا لم يُفتح شيء فاستخدم أحد الخيارات أدناه.",
+  sentTF:"شكراً على رأيك",sentPF:"وصل رأيك إلى البريدين. شكراً لأنك تساعدنا على تطوير المنصة.",
+  againF:"رأي جديد",editF:"تعديل الرأي",copyF:"نسخ نص الرأي"});
+Object.assign(RQ.ar.tabs,{feedback:"شاركنا رأيك"}); Object.assign(RQ.ar.submit,{feedback:"إرسال رأيي"});
+Object.assign(RQ.ar.subj,{feedback:"رأي في المنصة"}); Object.assign(RQ.ar.intro,{feedback:"هذا رأيي في المنصة:"});
+Object.assign(RQ.ar.quick,{feedback:"شاركنا رأيك"});
+const ICO_F=`<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12z"/><path d="m9.5 11.5 1.8 1.8 3.4-3.6"/></svg>`;
+
+let rqKind="consult", rqData={consult:{},training:{},feedback:{}}, rqLast=null;
+try{ const c=JSON.parse(localStorage.getItem("cia-rq-contact")||"{}"); ["consult","training"].forEach(k=>Object.assign(rqData[k],c)); Object.assign(rqData.feedback,{name:c.name,email:c.email}); }catch(e){}
 const rqOptLabel=(f,v)=>{const o=(f.opts||[]).find(x=>x[0]===v); return o?o[1][L]:v;};
 
 function renderRequest(){
   const u=RQ[L], box=$("rqForm"); if(!box) return;
-  $("qTitle").textContent=u.title; $("qSub").textContent=u.sub;
-  $("rqSwitch").innerHTML=["consult","training"].map(k=>`<button type="button" role="tab" aria-selected="${rqKind===k}" data-k="${k}">${k==="consult"?ICO_C:ICO_T}<span>${esc(u.tabs[k])}</span></button>`).join("");
+  const fb=rqKind==="feedback";
+  $("qTitle").textContent=fb?u.titleF:u.title; $("qSub").textContent=fb?u.subF:u.sub;
+  $("rqSwitch").innerHTML=["consult","training","feedback"].map(k=>`<button type="button" role="tab" aria-selected="${rqKind===k}" data-k="${k}">${k==="consult"?ICO_C:k==="training"?ICO_T:ICO_F}<span>${esc(u.tabs[k])}</span></button>`).join("");
   $("rqSwitch").querySelectorAll("button").forEach(b=>b.onclick=()=>{rqCollect(); rqKind=b.dataset.k; rqLast=null; $("rqDone").hidden=true; document.querySelector(".rq-grid").hidden=false; renderRequest();});
   const F=RQ_FORMS[rqKind], d=rqData[rqKind];
   const lab=f=>`${esc(f.l[L])}${f.req?` <b class="rq-star" aria-hidden="true">*</b>`:""}`;
@@ -2551,13 +2597,13 @@ function renderRequest(){
     else if(f.t==="textarea") h+=`<textarea id="${id}" name="${f.k}" rows="4" ${f.req?"required":""} placeholder="${esc(f.ph?f.ph[L]:"")}">${esc(v||"")}</textarea>`;
     else h+=`<input id="${id}" name="${f.k}" type="${f.t}" ${f.t==="email"||f.t==="tel"||f.t==="number"||f.t==="month"?'dir="ltr"':""} ${f.min?`min="${f.min}"`:""} ${f.ac?`autocomplete="${f.ac}"`:""} ${f.req?"required":""} value="${esc(v||"")}" placeholder="${esc(typeof f.ph==="string"?f.ph:(f.ph?f.ph[L]:""))}">`;
     h+=`<small class="rq-msg"></small></label>`; });
-  h+=`</div><label class="rq-consent" data-f="consent"><input type="checkbox" id="rqConsent" ${d.consent?"checked":""}><span>${esc(u.consent)} <b class="rq-star">*</b></span><small class="rq-msg"></small></label>
+  h+=`</div><label class="rq-consent" data-f="consent"><input type="checkbox" id="rqConsent" ${d.consent?"checked":""}><span>${esc(fb?u.consentF:u.consent)} <b class="rq-star">*</b></span><small class="rq-msg"></small></label>
    <div class="rq-actions"><button class="btn primary" type="submit" id="rqSubmit">${esc(u.submit[rqKind])} ${ARROW}</button><span class="rq-note">* ${esc(u.req)}</span></div>`;
   box.innerHTML=h;
   box.querySelectorAll(".rq-chip").forEach(b=>b.onclick=()=>{b.setAttribute("aria-pressed",b.getAttribute("aria-pressed")!=="true"); rqCollect(); rqClear(b.closest("[data-f]"));});
   box.querySelectorAll("input,select,textarea").forEach(el=>el.addEventListener("input",()=>{rqCollect(); rqClear(el.closest("[data-f]"));}));
   box.onsubmit=e=>{e.preventDefault(); rqSubmit();};
-  $("rqSide").innerHTML=`<h3>${esc(u.sideT)}</h3><ol>${u.side.map(s=>`<li><i>${s[0]}</i><div><b>${esc(s[1])}</b><span>${esc(s[2])}</span></div></li>`).join("")}</ol><div class="rq-to"><span>${esc(u.to)}</span>${RQ_TO.map(e=>`<code class="ltr">${esc(e)}</code>`).join("")}</div>`;
+  $("rqSide").innerHTML=`<h3>${esc(fb?u.sideTF:u.sideT)}</h3><ol>${(fb?u.sideF:u.side).map(s=>`<li><i>${s[0]}</i><div><b>${esc(s[1])}</b><span>${esc(s[2])}</span></div></li>`).join("")}</ol><div class="rq-to"><span>${esc(u.to)}</span>${RQ_TO.map(e=>`<code class="ltr">${esc(e)}</code>`).join("")}</div>`;
   if(rqLast && !$("rqDone").hidden) rqShowDone(rqLast);
 }
 function rqCollect(){
@@ -2583,7 +2629,8 @@ function rqRef(){ const d=new Date(), p=n=>String(n).padStart(2,"0"); return `CI
 function rqCompose(ref){
   const u=RQ[L], F=RQ_FORMS[rqKind], d=rqData[rqKind];
   const val=f=>{const v=d[f.k]; if(f.t==="chips") return (v||[]).map(x=>rqOptLabel(f,x)).join(", "); if(f.t==="select") return v?rqOptLabel(f,v):""; return v||"";};
-  const subject=`[CIA] ${u.subj[rqKind]} — ${d.org||d.name} — ${ref}`;
+  const who=rqKind==="feedback"?`${rqOptLabel(F.fields[0],d.tool)} · ${d.rate}/5`:(d.org||d.name);
+  const subject=`[CIA] ${u.subj[rqKind]} — ${who} — ${ref}`;
   let body=`${u.hello}\n\n${u.intro[rqKind]}\n\n${u.ref}: ${ref}\n`;
   F.fields.forEach(f=>{ const v=val(f); if(!v) return; body+= f.t==="textarea"?`\n${f.l[L]}:\n${v}\n`:`${f.l[L]}: ${v}\n`; });
   body+=`\n—\n${u.foot} · ${new Date().toISOString().slice(0,16).replace("T"," ")}`;
@@ -2596,7 +2643,7 @@ function rqCompose(ref){
 async function rqSubmit(){
   rqCollect(); if(!rqValidate()) return;
   const u=RQ[L], d=rqData[rqKind];
-  try{ localStorage.setItem("cia-rq-contact",JSON.stringify({name:d.name,org:d.org,email:d.email,phone:d.phone,country:d.country,city:d.city})); }catch(e){}
+  if(rqKind!=="feedback"){ try{ localStorage.setItem("cia-rq-contact",JSON.stringify({name:d.name,org:d.org,email:d.email,phone:d.phone,country:d.country,city:d.city})); }catch(e){} }
   const m=rqCompose(rqRef()); rqLast={...m,kind:rqKind,sent:false};
   if(FORM_ENDPOINT){
     const btn=$("rqSubmit"); btn.disabled=true; btn.textContent=u.sending;
@@ -2611,7 +2658,8 @@ async function rqSubmit(){
   const a=$("rqDone").querySelector("[data-mailapp]"); if(a) a.click();
 }
 function rqShowDone(m){
-  const u=RQ[L], box=$("rqDone");
+  const u0=RQ[L], box=$("rqDone");
+  const u=m.kind==="feedback"?{...u0,doneT:u0.doneTF,doneP:u0.donePF,sentT:u0.sentTF,sentP:u0.sentPF,again:u0.againF,edit:u0.editF,copy:u0.copyF}:u0;
   box.innerHTML=`<div class="rq-done-in"><span class="rq-ok" aria-hidden="true"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m5 12 5 5 9-10"/></svg></span>
    <div><h3>${esc(m.sent?u.sentT:u.doneT)}</h3><p>${esc(m.sent?u.sentP:u.doneP)}</p><p class="rq-ref">${esc(u.ref)}: <b class="ltr">${esc(m.ref)}</b></p>
    ${m.sent?"":`<div class="rq-btns"><a class="btn primary" data-mailapp href="${m.mailto}" target="_blank" rel="noopener">${ICO_M}${esc(u.mailApp)}</a><a class="btn gold" href="${m.gmail}" target="_blank" rel="noopener">${esc(u.gmail)} ${EXT}</a><a class="btn" href="${m.outlook}" target="_blank" rel="noopener">${esc(u.outlook)} ${EXT}</a><button class="btn" type="button" data-copy>${esc(u.copy)}</button></div>`}
@@ -2623,7 +2671,8 @@ function rqShowDone(m){
   box.querySelector("[data-new]").onclick=()=>{ const keep=rqData[rqKind]; rqData[rqKind]={name:keep.name,org:keep.org,email:keep.email,phone:keep.phone,country:keep.country,city:keep.city}; rqLast=null; box.hidden=true; document.querySelector(".rq-grid").hidden=false; renderRequest(); };
   box.scrollIntoView({behavior:"smooth",block:"center"});
 }
-function rqOpen(kind){ rqCollect(); rqKind=kind; rqLast=null; $("rqDone").hidden=true; document.querySelector(".rq-grid").hidden=false; renderRequest(); route("#request"); }
+function rqOpen(kind,tool){ rqCollect(); rqKind=RQ_FORMS[kind]?kind:"consult"; rqLast=null;
+  if(rqKind==="feedback" && tool && FB_TOOLS.some(o=>o[0]===tool)) rqData.feedback.tool=tool; $("rqDone").hidden=true; document.querySelector(".rq-grid").hidden=false; renderRequest(); route("#request"); }
 const ICO_C=`<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12z"/></svg>`;
 const ICO_T=`<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M2 9l10-5 10 5-10 5z"/><path d="M6 11v5c3 2.5 9 2.5 12 0v-5"/></svg>`;
 const ICO_M=`<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>`;
@@ -2711,6 +2760,7 @@ document.addEventListener("click", e=>{
   e.preventDefault(); openModule(a.dataset.mod, undefined, a.dataset.anchor);
 });
 $("modBack").onclick = ()=>closeModule();
+$("modFb").onclick = ()=>{ const k=$("modFrame").dataset.k; closeModule(false); rqOpen("feedback",k); };
 window.addEventListener("popstate", ()=>{
   const m = location.hash.match(/^#m=([\w-]+)(?:\/([\w-]+))?/);
   if(m && URLS[m[1]]) { openModule(m[1], false, m[2]); return; }
@@ -4573,7 +4623,7 @@ UI.en.nav = [["home","Home"],["advisor","Advisor"],["start","Start here"],["dash
 UI.ar.nav = [["home","الرئيسية"],["advisor","المرشد"],["start","ابدأ هنا"],["dash","لوحة الأداء"],["tools","الأدوات"],["systems","المنظومات"],["learn","المعرفة"],["refs","المراجع الرسمية"],["faq","الأسئلة الشائعة"],["request","اطلب خدمة"],["about","من نحن"]];
 /* the desktop bar keeps nine items; "Start here" and FAQ stay in the phone menu, the footer and the command search */
 UI.en.navTop = UI.en.nav.filter(([h])=>h!=="start" && h!=="faq"); UI.ar.navTop = UI.ar.nav.filter(([h])=>h!=="start" && h!=="faq");
-UI.en.fLinks = [["start","Start here"], ...UI.en.fLinks]; UI.ar.fLinks = [["start","ابدأ هنا"], ...UI.ar.fLinks];
+UI.en.fLinks = [["start","Start here"], ...UI.en.fLinks, ["feedback","Share your feedback"]]; UI.ar.fLinks = [["start","ابدأ هنا"], ...UI.ar.fLinks, ["feedback","شاركنا رأيك"]];
 UI.en.tour.steps = [["#heroAdv","Find the right tools","Answer 14 short questions and get the tools that fit your organization, with a simple starting plan."], ...UI.en.tour.steps,
   ["#refs .sec-head","Official references","The official sites of the bodies behind the standards and models, checked and grouped in one place."]];
 UI.ar.tour.steps = [["#heroAdv","اعثر على الأدوات المناسبة","أجب عن 14 سؤالاً قصيراً لتحصل على الأدوات المناسبة لمنشأتك مع خطة بداية بسيطة."], ...UI.ar.tour.steps,
@@ -4789,7 +4839,7 @@ function renderHowRefs(){
         ${used.length?`<div class="used" aria-label="${esc(h.refUsed)}">${used.map(t=>`<a href="${URLS[t.k]}" data-mod="${t.k}" data-modname="${esc(t.title[L])}" title="${esc(t.title[L])}">${esc(t.pre+" "+t.code)}</a>`).join("")}</div>`:""}</article>`; }).join("")}</div></div>`; }).join("");
   $("fqtK").textContent = h.fqtK; $("fqtT").textContent = h.fqtT; $("fqtAll").innerHTML = `${esc(h.fqtAll)} ${ARROW}`;
   $("fqtList").innerHTML = u.faq.slice(0,4).map(f=>`<details><summary><span>${esc(f[0])}</span>${CHEV}</summary><p>${esc(f[1])}</p></details>`).join("");
-  $("ctaT").textContent = h.ctaT; $("ctaP").textContent = h.ctaP; $("ctaC").textContent = h.ctaC; $("ctaTr").textContent = h.ctaTr;
+  $("ctaT").textContent = h.ctaT; $("ctaP").textContent = h.ctaP; $("ctaC").textContent = h.ctaC; $("ctaTr").textContent = h.ctaTr; $("ctaFb").textContent = RQ[L].quick.feedback;
   document.querySelectorAll("#fqcta [data-rq]").forEach(a=>a.onclick = e=>{ e.preventDefault(); rqOpen(a.dataset.rq); });
   const sb = $("srchBtn"); if(sb){ sb.setAttribute("aria-label", h.search+" (Ctrl K)"); sb.querySelector(".t").textContent = h.search; }
   const tt = $("toTop"); if(tt) tt.setAttribute("aria-label", h.toTop);
