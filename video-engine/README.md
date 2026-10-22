@@ -25,7 +25,7 @@ curl -L -o turbo.tar.bz2 https://github.com/k2-fsa/sherpa-onnx/releases/download
 curl -L -o std.rnnn https://raw.githubusercontent.com/richardpl/arnndn-models/master/std.rnnn
 npm i playwright@1.48.2 roughjs@4.6.6   # المتصفح: /opt/pw-browsers/chromium_headless_shell-*/chrome-linux/headless_shell
 ```
-الخطوط موجودة في `fonts/` (Aref Ruqaa وCairo وCaveat، من Google Fonts بترخيص OFL)، واللوجو في `logo.png`.
+الخطوط موجودة في `fonts/` (Aref Ruqaa وCairo وCaveat، من Google Fonts بترخيص OFL)، واللوجو في `logo.png`. من الحلقة 05 اللوجو الجديد هو `logo2.png`، و`make_ep05.py` بيحطّه مكان القديم.
 
 ## مقاس 16:9 (من الحلقة 03)
 `make_ep03.py` بيحوّل المحرك لمقاس 1920×1080: بيغيّر الـviewBox، ومكان اللوجو (الدايرة في النص، وفي الركن 140px على بعد 50px من الحواف، وفي الختام 400px)، والترجمة على y=992، والعدّاد على y=1056.
