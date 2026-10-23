@@ -62,7 +62,13 @@ check("A3 never writes another tool's key; no other tool writes the A3 key",
 check("sidebar buttons carry data-go and data-t", all(f'data-go="{t}" data-t="{t}"' in a3 for t in TABS))
 check("A3 code badge and the A3 hero code", '<div class="brand-mark" aria-hidden="true">A3</div>' in a3 and '<div class="std-code">A3<small' in a3)
 check("RCA carries the read-only A3 panel and only reads cia-a3:v1", 'A3_KEY="cia-a3:v1"' in src["rca"] and 'id="a3Box"' in src["rca"] and not re.search(r"setItem\(A3_KEY", src["rca"]))
-check("PDCA and CAPA unchanged in this step (no A3 reference)", "cia-a3" not in src["pdca"] and "cia-a3" not in src["capa"])
+def own(s):
+    """the tool's own code: without the shared blocks of step 15 (organization kit, readers, link panels)"""
+    for i in ("cia-org-js", "cia-readers-js", "cia-linkui-js", "cia-links-cfg"):
+        a = s.find('<script id="%s"' % i)
+        if a >= 0: s = s[:a] + s[s.find("</script>", a) + 9:]
+    return s
+check("PDCA and CAPA unchanged in this step (no A3 reference)", "cia-a3" not in own(src["pdca"]) and "cia-a3" not in own(src["capa"]))
 
 with sync_playwright() as p:
     b = p.chromium.launch()

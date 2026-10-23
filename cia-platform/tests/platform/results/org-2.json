@@ -1,0 +1,500 @@
+{
+ "name": "org-2",
+ "checks": 96,
+ "failed": 0,
+ "seconds": 106.7,
+ "rows": [
+  {
+   "label": "capa: the organization profile kit runs (CIAORG) and finds no profile",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "capa: the report branding is wrapped by the kit",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "capa: no profile → no fill bar and no suggestions on any tab",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "capa: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "capa: no profile → report output (rd) byte-identical to the previous release",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "capa: no profile → report output (rep) byte-identical to the previous release",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "capa: with a profile the report carries the organization cover (rd, rep)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "capa: with a profile, visiting every tab leaves the stored state unchanged (same content; a tool may re-save its keys in its own order)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "capa: suggestion field #f-area lists the profile's values",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "capa: no errors with a profile",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "executive-cockpit-workspace: the organization profile kit runs (CIAORG) and finds no profile",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "executive-cockpit-workspace: the report branding is wrapped by the kit",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "executive-cockpit-workspace: no profile → no fill bar and no suggestions on any tab",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "executive-cockpit-workspace: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "executive-cockpit-workspace: no profile → report output (bh) byte-identical to the previous release",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "executive-cockpit-workspace: with a profile the report carries the organization cover (bh)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "executive-cockpit-workspace: with a profile, visiting every tab leaves the stored state unchanged (same content; a tool may re-save its keys in its own order)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "executive-cockpit-workspace: suggestion field [data-ok=\"owner\"] lists the profile's values",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "executive-cockpit-workspace: tab orgprofile organization fields already filled (example) → no fill bar",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "executive-cockpit-workspace: no errors with a profile",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ims-builder: the organization profile kit runs (CIAORG) and finds no profile",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ims-builder: the report branding is wrapped by the kit",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ims-builder: no profile → no fill bar and no suggestions on any tab",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ims-builder: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ims-builder: no profile → report output (bh) byte-identical to the previous release",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ims-builder: with a profile the report carries the organization cover (bh)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ims-builder: with a profile, visiting every tab leaves the stored state unchanged (same content; a tool may re-save its keys in its own order)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ims-builder: tab picker organization fields already filled (example) → no fill bar",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ims-builder: no errors with a profile",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso22301: the organization profile kit runs (CIAORG) and finds no profile",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso22301: the report branding is wrapped by the kit",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso22301: no profile → no fill bar and no suggestions on any tab",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso22301: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso22301: no profile → report output (bh) byte-identical to the previous release",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso22301: with a profile the report carries the organization cover (bh)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso22301: with a profile, visiting every tab leaves the stored state unchanged (same content; a tool may re-save its keys in its own order)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso22301: tab assess organization fields already filled (example) → no fill bar",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso22301: no errors with a profile",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37000-governance: the organization profile kit runs (CIAORG) and finds no profile",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37000-governance: the report branding is wrapped by the kit",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37000-governance: no profile → no fill bar and no suggestions on any tab",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37000-governance: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37000-governance: no profile → report output (bh) byte-identical to the previous release",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37000-governance: with a profile the report carries the organization cover (bh)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37000-governance: with a profile, visiting every tab leaves the stored state unchanged (same content; a tool may re-save its keys in its own order)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37000-governance: tab assess organization fields already filled (example) → no fill bar",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37000-governance: no errors with a profile",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso42005: the organization profile kit runs (CIAORG) and finds no profile",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso42005: the report branding is wrapped by the kit",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso42005: no profile → no fill bar and no suggestions on any tab",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso42005: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso42005: no profile → report output (bh) byte-identical to the previous release",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso42005: with a profile the report carries the organization cover (bh)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso42005: with a profile, visiting every tab leaves the stored state unchanged (same content; a tool may re-save its keys in its own order)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso42005: tab profile organization fields already filled (example) → no fill bar",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso42005: no errors with a profile",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "lessons: the organization profile kit runs (CIAORG) and finds no profile",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "lessons: the report branding is wrapped by the kit",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "lessons: no profile → no fill bar and no suggestions on any tab",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "lessons: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "lessons: no profile → report output (rd) byte-identical to the previous release",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "lessons: no profile → report output (rep) byte-identical to the previous release",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "lessons: with a profile the report carries the organization cover (rd, rep)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "lessons: with a profile, visiting every tab leaves the stored state unchanged (same content; a tool may re-save its keys in its own order)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "lessons: suggestion field #f-area lists the profile's values",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "lessons: no errors with a profile",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pdca: the organization profile kit runs (CIAORG) and finds no profile",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pdca: the report branding is wrapped by the kit",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pdca: no profile → no fill bar and no suggestions on any tab",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pdca: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pdca: no profile → report output (rd) byte-identical to the previous release",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pdca: no profile → report output (rep) byte-identical to the previous release",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pdca: with a profile the report carries the organization cover (rd, rep)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pdca: with a profile, visiting every tab leaves the stored state unchanged (same content; a tool may re-save its keys in its own order)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pdca: suggestion field #h-owner lists the profile's values",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pdca: no errors with a profile",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "rca: the organization profile kit runs (CIAORG) and finds no profile",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "rca: the report branding is wrapped by the kit",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "rca: no profile → no fill bar and no suggestions on any tab",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "rca: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "rca: no profile → report output (rd) byte-identical to the previous release",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "rca: no profile → report output (rep) byte-identical to the previous release",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "rca: with a profile the report carries the organization cover (rd, rep)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "rca: with a profile, visiting every tab leaves the stored state unchanged (same content; a tool may re-save its keys in its own order)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "rca: suggestion field #f-area lists the profile's values",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "rca: no errors with a profile",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot: the organization profile kit runs (CIAORG) and finds no profile",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot: the report branding is wrapped by the kit",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot: no profile → no fill bar and no suggestions on any tab",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot: no profile → report output (rd) byte-identical to the previous release",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot: no profile → report output (rep) byte-identical to the previous release",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot: with a profile the report carries the organization cover (rd, rep)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot: with a profile, visiting every tab leaves the stored state unchanged (same content; a tool may re-save its keys in its own order)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot: suggestion field #f-owner lists the profile's values",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot: no errors with a profile",
+   "ok": true,
+   "detail": ""
+  }
+ ],
+ "modules": [
+  "capa",
+  "executive-cockpit-workspace",
+  "ims-builder",
+  "iso22301",
+  "iso37000-governance",
+  "iso42005",
+  "lessons",
+  "pdca",
+  "rca",
+  "swot"
+ ]
+}

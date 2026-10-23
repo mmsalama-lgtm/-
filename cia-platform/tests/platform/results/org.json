@@ -1,0 +1,56 @@
+{
+ "name": "org",
+ "checks": 9,
+ "failed": 0,
+ "seconds": 14.5,
+ "rows": [
+  {
+   "label": "pmo-excellence: the organization profile kit runs (CIAORG) and finds no profile",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pmo-excellence: the report branding is wrapped by the kit",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pmo-excellence: no profile → no fill bar and no suggestions on any tab",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pmo-excellence: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pmo-excellence: no profile → report output (bh) byte-identical to the previous release",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pmo-excellence: with a profile the report carries the organization cover (bh)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pmo-excellence: with a profile, visiting every tab leaves the stored state unchanged (same content; a tool may re-save its keys in its own order)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pmo-excellence: tab profile organization fields already filled (example) → no fill bar",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pmo-excellence: no errors with a profile",
+   "ok": true,
+   "detail": ""
+  }
+ ],
+ "modules": [
+  "pmo-excellence"
+ ]
+}

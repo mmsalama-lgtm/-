@@ -98,10 +98,10 @@ PASS 390 px: no page overflow on any tab in AR and EN (study loaded)
 PASS 390 px: the grid fits and keeps two columns (Arabic: strengths on the right)
 PASS 390 px: no errors
 PASS hub: SWOT URL, Audit & Improvement row and card
-PASS hub: 38 tools and Audit & Improvement 15 (PESTLE step)
+PASS hub: 39 tools and Audit & Improvement 16 (Stakeholder step)
 PASS hub: adapter reads the example snapshot (71%, 26/26, 3/3, 1/3)
 PASS hub: TOOLINFO (12 questions, tools tab), NEWS and the request mapping
-PASS hub: grouped toolbox entry names the 1 tool left (PESTLE step)
+PASS hub: the toolbox is complete, no grouped toolbox entry (Stakeholder step)
 PASS hub: Advisor rules name SWOT for strategy and KPIs, risk, and KPIs not linked to strategy
 PASS hub: knowledge topic links the method guide
 PASS hub: ciaOpenFile opens SWOT in the overlay

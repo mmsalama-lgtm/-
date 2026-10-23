@@ -1,0 +1,62 @@
+PASS ar 1280px: #profile opens the organization profile
+PASS ar 1280px: no undefined/NaN/[object Object]
+PASS ar 1280px: no horizontal overflow
+PASS ar 1280px: header button invites registration
+PASS ar 1280px: the note says the profile stays in this browser until the shared-platform phase
+PASS ar 1280px: every section is there (7)
+PASS ar 1280px: every field has a label
+PASS ar 1280px: no console errors
+PASS en 1280px: #profile opens the organization profile
+PASS en 1280px: no undefined/NaN/[object Object]
+PASS en 1280px: no horizontal overflow
+PASS en 1280px: header button invites registration
+PASS en 1280px: the note says the profile stays in this browser until the shared-platform phase
+PASS en 1280px: every section is there (7)
+PASS en 1280px: every field has a label
+PASS en 1280px: no console errors
+PASS ar 390px: #profile opens the organization profile
+PASS ar 390px: no undefined/NaN/[object Object]
+PASS ar 390px: no horizontal overflow
+PASS ar 390px: header button invites registration
+PASS ar 390px: the note says the profile stays in this browser until the shared-platform phase
+PASS ar 390px: every section is there (7)
+PASS ar 390px: every field has a label
+PASS ar 390px: no console errors
+PASS en 390px: #profile opens the organization profile
+PASS en 390px: no undefined/NaN/[object Object]
+PASS en 390px: no horizontal overflow
+PASS en 390px: header button invites registration
+PASS en 390px: the note says the profile stays in this browser until the shared-platform phase
+PASS en 390px: every section is there (7)
+PASS en 390px: every field has a label
+PASS en 390px: no console errors
+PASS save with no name is refused with a message on the field
+PASS a wrong email is refused
+PASS unsaved changes are shown
+PASS saved: cia-org:v1 holds the documented schema (v1, every field)
+PASS saved: the values typed
+PASS header button shows the organization's name
+PASS cover preview shows the name and 'prepared for … · prepared by …'
+PASS a 1600×900 PNG is resized in the browser to 512 px at most
+PASS the stored logo is 300 KB or less
+PASS the logo is previewed on a light and a dark background
+PASS the saved profile carries the logo; the header button shows it
+PASS an SVG logo is kept as a vector
+PASS SVG cleaned: no script, no event attribute, no foreignObject
+PASS SVG cleaned: no external reference
+PASS a file that is not a supported image is refused with a message
+PASS remove the logo
+PASS export JSON: the saved profile, same schema
+PASS import JSON fills the form (not saved until Save)
+PASS import JSON drops a logo that is not an image data URL
+PASS a broken JSON file changes nothing
+PASS import from the Executive Cockpit shows a preview first
+PASS after confirming, the English name goes to its box; nothing changes in the cockpit
+PASS the cockpit import is saved only by Save
+PASS clear (after confirmation) deletes cia-org:v1 and resets the button
+PASS no console errors in the profile workflow
+PASS home: the first-visit prompt invites registration
+PASS home: 'later' hides the prompt for good
+PASS home: no prompt once a profile exists; header shows the English name
+PASS header button opens the profile with the saved values
+== hub-profile: 61/61 passed

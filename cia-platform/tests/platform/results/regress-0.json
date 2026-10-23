@@ -1,8 +1,8 @@
 {
  "name": "regress-0",
- "checks": 50,
+ "checks": 40,
  "failed": 0,
- "seconds": 162.3,
+ "seconds": 128.2,
  "rows": [
   {
    "label": "a3: stored state on first load matches",
@@ -21,11 +21,6 @@
   },
   {
    "label": "a3: no errors (new)",
-   "ok": true,
-   "detail": ""
-  },
-  {
-   "label": "a3: unchanged file shows identical text on every tab (AR/EN)",
    "ok": true,
    "detail": ""
   },
@@ -50,11 +45,6 @@
    "detail": ""
   },
   {
-   "label": "dmaic: unchanged file shows identical text on every tab (AR/EN)",
-   "ok": true,
-   "detail": ""
-  },
-  {
    "label": "five-whys: stored state on first load matches",
    "ok": true,
    "detail": ""
@@ -71,11 +61,6 @@
   },
   {
    "label": "five-whys: no errors (new)",
-   "ok": true,
-   "detail": ""
-  },
-  {
-   "label": "five-whys: unchanged file shows identical text on every tab (AR/EN)",
    "ok": true,
    "detail": ""
   },
@@ -100,11 +85,6 @@
    "detail": ""
   },
   {
-   "label": "iso14001: unchanged file shows identical text on every tab (AR/EN)",
-   "ok": true,
-   "detail": ""
-  },
-  {
    "label": "iso27701: stored state on first load matches",
    "ok": true,
    "detail": ""
@@ -121,11 +101,6 @@
   },
   {
    "label": "iso27701: no errors (new)",
-   "ok": true,
-   "detail": ""
-  },
-  {
-   "label": "iso27701: unchanged file shows identical text on every tab (AR/EN)",
    "ok": true,
    "detail": ""
   },
@@ -150,11 +125,6 @@
    "detail": ""
   },
   {
-   "label": "iso37301: unchanged file shows identical text on every tab (AR/EN)",
-   "ok": true,
-   "detail": ""
-  },
-  {
    "label": "iso9001: stored state on first load matches",
    "ok": true,
    "detail": ""
@@ -171,11 +141,6 @@
   },
   {
    "label": "iso9001: no errors (new)",
-   "ok": true,
-   "detail": ""
-  },
-  {
-   "label": "iso9001: unchanged file shows identical text on every tab (AR/EN)",
    "ok": true,
    "detail": ""
   },
@@ -200,11 +165,6 @@
    "detail": ""
   },
   {
-   "label": "p3o: unchanged file shows identical text on every tab (AR/EN)",
-   "ok": true,
-   "detail": ""
-  },
-  {
    "label": "pmo-excellence: stored state on first load matches",
    "ok": true,
    "detail": ""
@@ -225,32 +185,22 @@
    "detail": ""
   },
   {
-   "label": "pmo-excellence: unchanged file shows identical text on every tab (AR/EN)",
+   "label": "stakeholders: stored state on first load matches",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "strategy-performance: stored state on first load matches",
+   "label": "stakeholders: stored state after the example (pfEx) matches exactly",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "strategy-performance: stored state after the example (pfEx) matches exactly",
+   "label": "stakeholders: stored state after visiting every tab matches",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "strategy-performance: stored state after visiting every tab matches",
-   "ok": true,
-   "detail": ""
-  },
-  {
-   "label": "strategy-performance: no errors (new)",
-   "ok": true,
-   "detail": ""
-  },
-  {
-   "label": "strategy-performance: unchanged file shows identical text on every tab (AR/EN)",
+   "label": "stakeholders: no errors (new)",
    "ok": true,
    "detail": ""
   }
@@ -265,6 +215,6 @@
   "iso9001",
   "p3o",
   "pmo-excellence",
-  "strategy-performance"
+  "stakeholders"
  ]
 }

@@ -63,7 +63,13 @@ check("DMAIC never writes another tool's key; no other tool writes the DMAIC key
 check("sidebar buttons carry data-go and data-t", all(f'data-go="{t}" data-t="{t}"' in dm for t in TABS))
 check("DM code badge and the DMAIC hero code", '<div class="brand-mark" aria-hidden="true">DM</div>' in dm and '<div class="std-code">DMAIC<small' in dm)
 check("A3 carries the read-only DMAIC panel and only reads cia-dmaic:v1", 'DM_KEY="cia-dmaic:v1"' in src["a3"] and 'id="dmBox"' in src["a3"] and not re.search(r"setItem\(DM_KEY", src["a3"]))
-check("RCA, PDCA and CAPA unchanged in this step (no DMAIC reference)", all("cia-dmaic" not in src[f] for f in ("rca", "pdca", "capa", "pareto", "fishbone", "five-whys")))
+def own(s):
+    """the tool's own code: without the shared blocks of step 15 (organization kit, readers, link panels)"""
+    for i in ("cia-org-js", "cia-readers-js", "cia-linkui-js", "cia-links-cfg"):
+        a = s.find('<script id="%s"' % i)
+        if a >= 0: s = s[:a] + s[s.find("</script>", a) + 9:]
+    return s
+check("RCA, PDCA and CAPA unchanged in this step (no DMAIC reference)", all("cia-dmaic" not in own(src[f]) for f in ("rca", "pdca", "capa", "pareto", "fishbone", "five-whys")))
 
 with sync_playwright() as p:
     b = p.chromium.launch()

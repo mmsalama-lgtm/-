@@ -1,0 +1,12 @@
+/* CIA organization profile kit v1 — the fill bar shown above a tool's organization fields, and the print cover */
+.cia-org-bar{display:flex;align-items:center;flex-wrap:wrap;gap:8px 12px;margin:0 0 12px;padding:10px 12px;border:1px solid #E6CF8A;border-inline-start:4px solid #B8901E;border-radius:12px;background:#FBF4DF;color:#1B2A4A;font-size:14px;line-height:1.5}
+.cia-org-bar img{width:28px;height:28px;object-fit:contain;border-radius:6px;background:#fff;flex:none}
+.cia-org-bar i{font-style:normal;flex:none}
+.cia-org-bar span{flex:1 1 220px;min-width:0}
+.cia-org-bar button{font:inherit;font-size:13.5px;border-radius:999px;cursor:pointer}
+.cia-org-bar .cia-org-go{background:#1B2A4A;color:#fff;border:0;padding:6px 14px;font-weight:700}
+.cia-org-bar .cia-org-go:focus-visible,.cia-org-bar .cia-org-x:focus-visible{outline:3px solid #B8901E;outline-offset:2px}
+.cia-org-bar .cia-org-x{background:transparent;border:1px solid #D9C27A;color:#5A4A12;width:30px;height:30px;padding:0}
+@media (prefers-color-scheme:dark){.cia-org-bar{background:#2A2614;border-color:#6B5A22;color:#F2E9CC}.cia-org-bar .cia-org-go{background:#E6CF8A;color:#1B2A4A}.cia-org-bar .cia-org-x{color:#E6CF8A;border-color:#6B5A22}}
+.cia-org-print{display:none}
+@media print{.cia-org-print{display:block}.cia-org-bar{display:none!important}}

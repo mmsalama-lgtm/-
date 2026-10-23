@@ -1,16 +1,9 @@
 {
- "report": [
-  "-<span class=\"lv\" style=\"color:#3563C9\">جزء من أداة في المنصة</span>",
-  "-<br>",
-  "-<small>استوديو الاستراتيجية والأداء</small>",
-  "+<span class=\"lv\" style=\"color:#2F7D4B\">أداة مستقلة في المنصة</span>",
-  "+<br>",
-  "+<small>مسح PESTLE · استوديو الاستراتيجية والأداء</small>"
- ],
+ "report": [],
  "coverage": {
   "old": [
-   7,
-   13,
+   8,
+   12,
    3,
    11,
    19

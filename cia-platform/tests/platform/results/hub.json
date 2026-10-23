@@ -1,8 +1,8 @@
 {
  "name": "hub",
- "checks": 438,
+ "checks": 446,
  "failed": 0,
- "seconds": 88.8,
+ "seconds": 83.9,
  "rows": [
   {
    "label": "hub ar 1280 view home: shows",
@@ -565,22 +565,22 @@
    "detail": ""
   },
   {
-   "label": "38 toolkit cards in the data",
+   "label": "39 toolkit cards in the data",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "38 toolkit cards on the page",
+   "label": "39 toolkit cards on the page",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "wheel: Audit & Improvement counts 15 tools",
+   "label": "wheel: Audit & Improvement counts 16 tools",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "wheel: the seven segments add up to 38",
+   "label": "wheel: the seven segments add up to 39",
    "ok": true,
    "detail": ""
   },
@@ -595,17 +595,17 @@
    "detail": ""
   },
   {
-   "label": "the toolbox entry counts 1 tool still to come, PDCA, CAPA, 5 Whys, Fishbone, Pareto, RCA, A3, DMAIC, FMEA, Lessons Learned, SWOT and PESTLE live",
+   "label": "the toolbox is complete: the PDCA card says so",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "one grouped 'coming soon' entry for the toolbox",
+   "label": "no grouped 'coming soon' entry for the toolbox any more",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "hub links all 38 tools",
+   "label": "hub links all 39 tools",
    "ok": true,
    "detail": ""
   },
@@ -1370,6 +1370,26 @@
    "detail": ""
   },
   {
+   "label": "overlay opens stakeholders",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "stakeholders: no errors inside the overlay",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "stakeholders: home button present",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "stakeholders: home button closes the overlay",
+   "ok": true,
+   "detail": ""
+  },
+  {
    "label": "card link opens PDCA and sets #m=pdca",
    "ok": true,
    "detail": ""
@@ -1721,6 +1741,16 @@
   },
   {
    "label": "guide ar pestle#explain-std: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "guide ar stakeholders#explain-std lands on its tab",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "guide ar stakeholders#explain-std: no errors",
    "ok": true,
    "detail": ""
   },
@@ -2111,6 +2141,16 @@
   },
   {
    "label": "guide en pestle#explain-std: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "guide en stakeholders#explain-std lands on its tab",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "guide en stakeholders#explain-std: no errors",
    "ok": true,
    "detail": ""
   },

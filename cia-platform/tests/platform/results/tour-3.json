@@ -2,7 +2,7 @@
  "name": "tour-3",
  "checks": 126,
  "failed": 0,
- "seconds": 188.1,
+ "seconds": 143.0,
  "rows": [
   {
    "label": "compliance-anti-bribery ar: tour API present",
@@ -220,7 +220,7 @@
    "detail": ""
   },
   {
-   "label": "iso27001 ar: full tour finishes (19 steps)",
+   "label": "iso27001 ar: full tour finishes (18 steps)",
    "ok": true,
    "detail": ""
   },

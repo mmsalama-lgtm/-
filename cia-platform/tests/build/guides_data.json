@@ -1,0 +1,1220 @@
+{
+"a3": {
+"explain-std": {
+"ar": {
+"vis": true,
+"lab": "دليل المنهجية",
+"len": 6793
+},
+"en": {
+"vis": true,
+"lab": "Method guide",
+"len": 8633
+}
+},
+"explain-cl": {
+"ar": {
+"vis": true,
+"lab": "دليل البنود",
+"len": 1139
+},
+"en": {
+"vis": true,
+"lab": "Clause guide",
+"len": 1492
+}
+}
+},
+"ai-regulatory": {
+"standard": {
+"ar": {
+"vis": true,
+"lab": "الأطر التنظيمية",
+"len": 7809
+},
+"en": {
+"vis": true,
+"lab": "The frameworks",
+"len": 9320
+}
+},
+"clauses": {
+"ar": {
+"vis": true,
+"lab": "دليل الأطر والالتزامات",
+"len": 3940
+},
+"en": {
+"vis": true,
+"lab": "Framework guide",
+"len": 4710
+}
+}
+},
+"capa": {
+"explain-std": {
+"ar": {
+"vis": true,
+"lab": "دليل المنهجية",
+"len": 4223
+},
+"en": {
+"vis": true,
+"lab": "Method guide",
+"len": 5470
+}
+},
+"explain-cl": {
+"ar": {
+"vis": true,
+"lab": "دليل البنود",
+"len": 925
+},
+"en": {
+"vis": true,
+"lab": "Clause guide",
+"len": 1122
+}
+}
+},
+"compliance-anti-bribery": {
+"standard": {
+"ar": {
+"vis": true,
+"lab": "شرح المنهجية",
+"len": 3472
+},
+"en": {
+"vis": true,
+"lab": "Method guide",
+"len": 4456
+}
+},
+"clauses": {
+"ar": {
+"vis": true,
+"lab": "دليل البنود",
+"len": 1316
+},
+"en": {
+"vis": true,
+"lab": "Clause guide",
+"len": 1674
+}
+}
+},
+"dmaic": {
+"explain-std": {
+"ar": {
+"vis": true,
+"lab": "دليل المنهجية",
+"len": 6865
+},
+"en": {
+"vis": true,
+"lab": "Method guide",
+"len": 8884
+}
+},
+"explain-cl": {
+"ar": {
+"vis": true,
+"lab": "دليل البنود",
+"len": 1205
+},
+"en": {
+"vis": true,
+"lab": "Clause guide",
+"len": 1568
+}
+}
+},
+"excellence-efqm": {
+"standard": {
+"ar": {
+"vis": true,
+"lab": "شرح النموذج",
+"len": 4013
+},
+"en": {
+"vis": true,
+"lab": "The model explained",
+"len": 4872
+}
+},
+"clauses": {
+"ar": {
+"vis": true,
+"lab": "دليل المعايير وRADAR",
+"len": 3214
+},
+"en": {
+"vis": true,
+"lab": "Criteria & RADAR guide",
+"len": 4073
+}
+}
+},
+"executive-cockpit-workspace": {
+"standard": {
+"ar": {
+"vis": true,
+"lab": "شرح المنهجية",
+"len": 2075
+},
+"en": {
+"vis": true,
+"lab": "Methodology",
+"len": 2656
+}
+},
+"clauses": {
+"ar": {
+"vis": true,
+"lab": "دليل المؤشرات",
+"len": 595
+},
+"en": {
+"vis": true,
+"lab": "Indicator guide",
+"len": 765
+}
+}
+},
+"fishbone": {
+"explain-std": {
+"ar": {
+"vis": true,
+"lab": "دليل المنهجية",
+"len": 5893
+},
+"en": {
+"vis": true,
+"lab": "Method guide",
+"len": 7541
+}
+},
+"explain-cl": {
+"ar": {
+"vis": true,
+"lab": "دليل البنود",
+"len": 830
+},
+"en": {
+"vis": true,
+"lab": "Clause guide",
+"len": 1036
+}
+}
+},
+"five-whys": {
+"explain-std": {
+"ar": {
+"vis": true,
+"lab": "دليل المنهجية",
+"len": 4678
+},
+"en": {
+"vis": true,
+"lab": "Method guide",
+"len": 6015
+}
+},
+"explain-cl": {
+"ar": {
+"vis": true,
+"lab": "دليل البنود",
+"len": 833
+},
+"en": {
+"vis": true,
+"lab": "Clause guide",
+"len": 1045
+}
+}
+},
+"fmea": {
+"explain-std": {
+"ar": {
+"vis": true,
+"lab": "دليل المنهجية",
+"len": 7284
+},
+"en": {
+"vis": true,
+"lab": "Method guide",
+"len": 9230
+}
+},
+"explain-cl": {
+"ar": {
+"vis": true,
+"lab": "دليل البنود",
+"len": 1403
+},
+"en": {
+"vis": true,
+"lab": "Clause guide",
+"len": 1761
+}
+}
+},
+"ims-builder": {
+"standard": {
+"ar": {
+"vis": true,
+"lab": "شرح المواصفة",
+"len": 3559
+},
+"en": {
+"vis": true,
+"lab": "About IMS",
+"len": 4418
+}
+},
+"clauses": {
+"ar": {
+"vis": true,
+"lab": "دليل البنود المشترك",
+"len": 1890
+},
+"en": {
+"vis": true,
+"lab": "Common clause guide",
+"len": 2331
+}
+}
+},
+"iso10009": {
+"explain-std": {
+"ar": {
+"vis": true,
+"lab": "دليل المواصفة",
+"len": 6651
+},
+"en": {
+"vis": true,
+"lab": "Standard guide",
+"len": 8183
+}
+},
+"explain-cl": {
+"ar": {
+"vis": true,
+"lab": "دليل البنود والأدوات",
+"len": 4050
+},
+"en": {
+"vis": true,
+"lab": "Clause and tool guide",
+"len": 4843
+}
+}
+},
+"iso14001": {
+"explain-std": {
+"ar": {
+"vis": true,
+"lab": "شرح منهجي للمواصفة",
+"len": 5154
+},
+"en": {
+"vis": true,
+"lab": "A method guide to the standard",
+"len": 6941
+}
+},
+"explain-cl": {
+"ar": {
+"vis": true,
+"lab": "دليل البنود وسلم النضج",
+"len": 1494
+},
+"en": {
+"vis": true,
+"lab": "Clauses guide and maturity scale",
+"len": 1987
+}
+},
+"standard": {
+"ar": {
+"vis": true,
+"lab": "المواصفة",
+"len": 8466
+},
+"en": {
+"vis": true,
+"lab": "The standard",
+"len": 10280
+}
+},
+"clauses": {
+"ar": {
+"vis": true,
+"lab": "البنود والشرح",
+"len": 2368
+},
+"en": {
+"vis": true,
+"lab": "Clauses explained",
+"len": 2978
+}
+}
+},
+"iso21500": {
+"standard": {
+"ar": {
+"vis": true,
+"lab": "شرح السلسلة",
+"len": 4124
+},
+"en": {
+"vis": true,
+"lab": "The series explained",
+"len": 5162
+}
+},
+"clauses": {
+"ar": {
+"vis": true,
+"lab": "دليل الممارسات والمتطلبات",
+"len": 2662
+},
+"en": {
+"vis": true,
+"lab": "Standards & practices guide",
+"len": 3281
+}
+}
+},
+"iso22301": {
+"standard": {
+"ar": {
+"vis": true,
+"lab": "المواصفة",
+"len": 7537
+},
+"en": {
+"vis": true,
+"lab": "The standard",
+"len": 9032
+}
+},
+"clauses": {
+"ar": {
+"vis": true,
+"lab": "شرح البنود",
+"len": 2018
+},
+"en": {
+"vis": true,
+"lab": "Clauses explained",
+"len": 2486
+}
+},
+"guide": {
+"ar": {
+"vis": true,
+"lab": "دليل البنود",
+"len": 610
+},
+"en": {
+"vis": true,
+"lab": "Clause guide",
+"len": 741
+}
+}
+},
+"iso27001": {
+"explain-std": {
+"ar": {
+"vis": true,
+"lab": "شرح منهجي للمواصفة",
+"len": 5026
+},
+"en": {
+"vis": true,
+"lab": "A method guide to the standard",
+"len": 6329
+}
+},
+"explain-cl": {
+"ar": {
+"vis": true,
+"lab": "دليل البنود والضوابط",
+"len": 2821
+},
+"en": {
+"vis": true,
+"lab": "Clause and control guide",
+"len": 3595
+}
+},
+"standard": {
+"ar": {
+"vis": true,
+"lab": "المواصفة",
+"len": 7435
+},
+"en": {
+"vis": true,
+"lab": "The standard",
+"len": 8916
+}
+},
+"clauses": {
+"ar": {
+"vis": true,
+"lab": "شرح البنود",
+"len": 2093
+},
+"en": {
+"vis": true,
+"lab": "Clauses explained",
+"len": 2511
+}
+}
+},
+"iso27701": {
+"standard": {
+"ar": {
+"vis": true,
+"lab": "المواصفة",
+"len": 6939
+},
+"en": {
+"vis": true,
+"lab": "The standard",
+"len": 8468
+}
+},
+"clauses": {
+"ar": {
+"vis": true,
+"lab": "شرح البنود والضوابط",
+"len": 4547
+},
+"en": {
+"vis": true,
+"lab": "Clause & control guide",
+"len": 5466
+}
+}
+},
+"iso31000-risk-studio": {
+"explain-std": {
+"ar": {
+"vis": true,
+"lab": "شرح المنهجية",
+"len": 4503
+},
+"en": {
+"vis": true,
+"lab": "Method explained",
+"len": 5753
+}
+},
+"explain-cl": {
+"ar": {
+"vis": true,
+"lab": "دليل المراحل",
+"len": 1835
+},
+"en": {
+"vis": true,
+"lab": "Stage guide",
+"len": 2296
+}
+},
+"standard": {
+"ar": {
+"vis": true,
+"lab": "المواصفة",
+"len": 6212
+},
+"en": {
+"vis": true,
+"lab": "The standard",
+"len": 7668
+}
+},
+"clauses": {
+"ar": {
+"vis": true,
+"lab": "المبادئ والإطار والعملية",
+"len": 1641
+},
+"en": {
+"vis": true,
+"lab": "Principles, framework & process",
+"len": 2242
+}
+}
+},
+"iso37000-governance": {
+"explain-std": {
+"ar": {
+"vis": true,
+"lab": "شرح منهجي للمواصفة",
+"len": 4785
+},
+"en": {
+"vis": true,
+"lab": "A method guide to the standard",
+"len": 6126
+}
+},
+"explain-cl": {
+"ar": {
+"vis": true,
+"lab": "دليل المبادئ وسلم النضج",
+"len": 1769
+},
+"en": {
+"vis": true,
+"lab": "Principles guide and maturity scale",
+"len": 2266
+}
+},
+"standard": {
+"ar": {
+"vis": true,
+"lab": "المواصفة",
+"len": 4740
+},
+"en": {
+"vis": true,
+"lab": "The standard",
+"len": 5709
+}
+},
+"clauses": {
+"ar": {
+"vis": true,
+"lab": "المبادئ الإحدى عشرة",
+"len": 1786
+},
+"en": {
+"vis": true,
+"lab": "The eleven principles",
+"len": 2157
+}
+}
+},
+"iso37001": {
+"explain-std": {
+"ar": {
+"vis": true,
+"lab": "شرح المنهجية",
+"len": 3059
+},
+"en": {
+"vis": true,
+"lab": "Method explained",
+"len": 3822
+}
+},
+"explain-cl": {
+"ar": {
+"vis": true,
+"lab": "دليل البنود",
+"len": 2276
+},
+"en": {
+"vis": true,
+"lab": "Clause guide",
+"len": 2889
+}
+},
+"standard": {
+"ar": {
+"vis": true,
+"lab": "المواصفة",
+"len": 9397
+},
+"en": {
+"vis": true,
+"lab": "The standard",
+"len": 11207
+}
+},
+"clauses": {
+"ar": {
+"vis": true,
+"lab": "شرح البنود",
+"len": 2024
+},
+"en": {
+"vis": true,
+"lab": "Clauses explained",
+"len": 2370
+}
+}
+},
+"iso37301": {
+"explain-std": {
+"ar": {
+"vis": true,
+"lab": "شرح المنهجية",
+"len": 2614
+},
+"en": {
+"vis": true,
+"lab": "Method explained",
+"len": 3223
+}
+},
+"explain-cl": {
+"ar": {
+"vis": true,
+"lab": "دليل البنود",
+"len": 1410
+},
+"en": {
+"vis": true,
+"lab": "Clause guide",
+"len": 1684
+}
+},
+"standard": {
+"ar": {
+"vis": true,
+"lab": "المواصفة",
+"len": 8626
+},
+"en": {
+"vis": true,
+"lab": "The standard",
+"len": 10443
+}
+},
+"clauses": {
+"ar": {
+"vis": true,
+"lab": "شرح البنود",
+"len": 1944
+},
+"en": {
+"vis": true,
+"lab": "Clauses explained",
+"len": 2353
+}
+}
+},
+"iso42001": {
+"standard": {
+"ar": {
+"vis": true,
+"lab": "المواصفة",
+"len": 6147
+},
+"en": {
+"vis": true,
+"lab": "The standard",
+"len": 7155
+}
+},
+"clauses": {
+"ar": {
+"vis": true,
+"lab": "شرح البنود والضوابط",
+"len": 3893
+},
+"en": {
+"vis": true,
+"lab": "Clause & control guide",
+"len": 4691
+}
+}
+},
+"iso42005": {
+"standard": {
+"ar": {
+"vis": true,
+"lab": "المواصفة",
+"len": 7694
+},
+"en": {
+"vis": true,
+"lab": "The standard",
+"len": 9212
+}
+},
+"clauses": {
+"ar": {
+"vis": true,
+"lab": "دليل عملية التقييم",
+"len": 3616
+},
+"en": {
+"vis": true,
+"lab": "Impact assessment process guide",
+"len": 4516
+}
+}
+},
+"iso45001": {
+"explain-std": {
+"ar": {
+"vis": true,
+"lab": "شرح منهجي للمواصفة",
+"len": 5097
+},
+"en": {
+"vis": true,
+"lab": "A method guide to the standard",
+"len": 6456
+}
+},
+"explain-cl": {
+"ar": {
+"vis": true,
+"lab": "دليل البنود 4–10",
+"len": 2221
+},
+"en": {
+"vis": true,
+"lab": "Clause guide 4–10",
+"len": 2850
+}
+},
+"standard": {
+"ar": {
+"vis": true,
+"lab": "المواصفة",
+"len": 9716
+},
+"en": {
+"vis": true,
+"lab": "The standard",
+"len": 11460
+}
+},
+"clauses": {
+"ar": {
+"vis": true,
+"lab": "شرح البنود",
+"len": 2739
+},
+"en": {
+"vis": true,
+"lab": "Clauses explained",
+"len": 3380
+}
+}
+},
+"iso9001": {
+"explain-std": {
+"ar": {
+"vis": true,
+"lab": "شرح منهجي للمواصفة",
+"len": 4894
+},
+"en": {
+"vis": true,
+"lab": "A method guide to the standard",
+"len": 6346
+}
+},
+"explain-cl": {
+"ar": {
+"vis": true,
+"lab": "دليل البنود وسلم النضج",
+"len": 1497
+},
+"en": {
+"vis": true,
+"lab": "Clauses guide and maturity scale",
+"len": 2019
+}
+},
+"standard": {
+"ar": {
+"vis": true,
+"lab": "المواصفة",
+"len": 12110
+},
+"en": {
+"vis": true,
+"lab": "The standard",
+"len": 15577
+}
+},
+"clauses": {
+"ar": {
+"vis": true,
+"lab": "البنود والشرح",
+"len": 3235
+},
+"en": {
+"vis": true,
+"lab": "Clauses explained",
+"len": 4125
+}
+}
+},
+"kaqa": {
+"standard": {
+"ar": {
+"vis": true,
+"lab": "شرح النموذج",
+"len": 3906
+},
+"en": {
+"vis": true,
+"lab": "The model",
+"len": 4953
+}
+},
+"clauses": {
+"ar": {
+"vis": true,
+"lab": "دليل المعايير",
+"len": 2425
+},
+"en": {
+"vis": true,
+"lab": "Criteria guide",
+"len": 3103
+}
+}
+},
+"lessons": {
+"explain-std": {
+"ar": {
+"vis": true,
+"lab": "دليل المنهجية",
+"len": 7456
+},
+"en": {
+"vis": true,
+"lab": "Method guide",
+"len": 9571
+}
+},
+"explain-cl": {
+"ar": {
+"vis": true,
+"lab": "دليل البنود",
+"len": 1266
+},
+"en": {
+"vis": true,
+"lab": "Clause guide",
+"len": 1562
+}
+}
+},
+"operations-excellence": {
+"standard": {
+"ar": {
+"vis": true,
+"lab": "شرح المنهجية",
+"len": 2485
+},
+"en": {
+"vis": true,
+"lab": "Methodology",
+"len": 3158
+}
+},
+"clauses": {
+"ar": {
+"vis": true,
+"lab": "دليل المراحل",
+"len": 773
+},
+"en": {
+"vis": true,
+"lab": "Phase guide",
+"len": 999
+}
+}
+},
+"p3o": {
+"standard": {
+"ar": {
+"vis": true,
+"lab": "شرح P3O",
+"len": 3634
+},
+"en": {
+"vis": true,
+"lab": "P3O explained",
+"len": 4630
+}
+},
+"clauses": {
+"ar": {
+"vis": true,
+"lab": "دليل تصميم المكتب",
+"len": 2493
+},
+"en": {
+"vis": true,
+"lab": "Office design guide",
+"len": 3170
+}
+}
+},
+"pareto": {
+"explain-std": {
+"ar": {
+"vis": true,
+"lab": "دليل المنهجية",
+"len": 5965
+},
+"en": {
+"vis": true,
+"lab": "Method guide",
+"len": 7382
+}
+},
+"explain-cl": {
+"ar": {
+"vis": true,
+"lab": "دليل البنود",
+"len": 872
+},
+"en": {
+"vis": true,
+"lab": "Clause guide",
+"len": 1085
+}
+}
+},
+"pdca": {
+"explain-std": {
+"ar": {
+"vis": true,
+"lab": "شرح المنهجية",
+"len": 1837
+},
+"en": {
+"vis": true,
+"lab": "Method overview",
+"len": 2251
+}
+},
+"explain-cl": {
+"ar": {
+"vis": true,
+"lab": "خطوات الشرح",
+"len": 393
+},
+"en": {
+"vis": true,
+"lab": "Step guide",
+"len": 443
+}
+}
+},
+"pestle": {
+"explain-std": {
+"ar": {
+"vis": true,
+"lab": "دليل المنهجية",
+"len": 7618
+},
+"en": {
+"vis": true,
+"lab": "Method guide",
+"len": 9628
+}
+},
+"explain-cl": {
+"ar": {
+"vis": true,
+"lab": "دليل البنود",
+"len": 1227
+},
+"en": {
+"vis": true,
+"lab": "Clause guide",
+"len": 1550
+}
+}
+},
+"pmo-excellence": {
+"standard": {
+"ar": {
+"vis": true,
+"lab": "شرح الأطر الثلاثة",
+"len": 3520
+},
+"en": {
+"vis": true,
+"lab": "The three frameworks explained",
+"len": 4428
+}
+},
+"clauses": {
+"ar": {
+"vis": true,
+"lab": "المجالات عبر العدسات",
+"len": 3842
+},
+"en": {
+"vis": true,
+"lab": "Domains through the three lenses",
+"len": 4303
+}
+}
+},
+"pmo-maturity": {
+"standard": {
+"ar": {
+"vis": true,
+"lab": "شرح النموذج",
+"len": 5692
+},
+"en": {
+"vis": true,
+"lab": "Model explained",
+"len": 7394
+}
+},
+"clauses": {
+"ar": {
+"vis": true,
+"lab": "دليل المنظورات والمستويات",
+"len": 3622
+},
+"en": {
+"vis": true,
+"lab": "Perspective & level guide",
+"len": 4369
+}
+}
+},
+"rca": {
+"explain-std": {
+"ar": {
+"vis": true,
+"lab": "دليل المنهجية",
+"len": 7188
+},
+"en": {
+"vis": true,
+"lab": "Method guide",
+"len": 9387
+}
+},
+"explain-cl": {
+"ar": {
+"vis": true,
+"lab": "دليل البنود",
+"len": 1221
+},
+"en": {
+"vis": true,
+"lab": "Clause guide",
+"len": 1513
+}
+}
+},
+"smart-audit-improvement": {
+"standard": {
+"ar": {
+"vis": true,
+"lab": "شرح المواصفة",
+"len": 3365
+},
+"en": {
+"vis": true,
+"lab": "The standard",
+"len": 4392
+}
+},
+"clauses": {
+"ar": {
+"vis": true,
+"lab": "دليل البنود",
+"len": 2278
+},
+"en": {
+"vis": true,
+"lab": "Clause guide",
+"len": 2850
+}
+}
+},
+"stakeholders": {
+"explain-std": {
+"ar": {
+"vis": true,
+"lab": "دليل المنهجية",
+"len": 7610
+},
+"en": {
+"vis": true,
+"lab": "Method guide",
+"len": 9850
+}
+},
+"explain-cl": {
+"ar": {
+"vis": true,
+"lab": "دليل البنود",
+"len": 1227
+},
+"en": {
+"vis": true,
+"lab": "Clause guide",
+"len": 1560
+}
+}
+},
+"strategy-performance": {
+"standard": {
+"ar": {
+"vis": true,
+"lab": "شرح المنهجية",
+"len": 2742
+},
+"en": {
+"vis": true,
+"lab": "Method guide",
+"len": 3586
+}
+},
+"clauses": {
+"ar": {
+"vis": true,
+"lab": "دليل المراحل",
+"len": 1005
+},
+"en": {
+"vis": true,
+"lab": "Stage guide",
+"len": 1286
+}
+}
+},
+"swot": {
+"explain-std": {
+"ar": {
+"vis": true,
+"lab": "دليل المنهجية",
+"len": 6884
+},
+"en": {
+"vis": true,
+"lab": "Method guide",
+"len": 8863
+}
+},
+"explain-cl": {
+"ar": {
+"vis": true,
+"lab": "دليل البنود",
+"len": 1238
+},
+"en": {
+"vis": true,
+"lab": "Clause guide",
+"len": 1558
+}
+}
+}
+}

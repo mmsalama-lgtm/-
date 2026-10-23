@@ -71,6 +71,8 @@ for k in sorted(old):
         check(f"{k}: no page errors (new)", not new[k], new[k][:2]); continue
     for part in old[k]:
         a, c = old[k][part], new[k].get(part)
+        if part == "text" and isinstance(a, dict) and isinstance(c, dict):   # step 15: the explanation tabs carry the ISO 10009 line (Part C)
+            a = {t: v for t, v in a.items() if not t.startswith("explain")}; c = {t: v for t, v in c.items() if not t.startswith("explain")}
         check(f"{k} {part} identical", a == c, "" if a == c else (str(a)[:150] + " | " + str(c)[:150]))
 f = [r for r in results if not r[1]]
 print(f"\n{len(results) - len(f)}/{len(results)} passed"); sys.exit(1 if f else 0)

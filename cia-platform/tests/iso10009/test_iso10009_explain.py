@@ -267,7 +267,7 @@ with sync_playwright() as p:
     g2 = pg.evaluate("document.querySelectorAll('a.kguide[data-mod=\"iso10009\"][data-anchor=\"explain-cl\"]').length")
     check("hub: the ISO 10009 knowledge topic has a second link to the clause guide", g2 == 1 and 'guide2:{k:"iso10009",a:"explain-cl"' in open(os.path.join(ROOT, "index.html"), encoding="utf-8").read(), g2)
     check("hub: TOOLINFO keeps 16 questions and the navigator start; NEWS has the update", pg.evaluate("TOOLINFO.iso10009.q===16 && TOOLINFO.iso10009.start==='tools'") and
-          pg.evaluate("NEWS.filter(n=>n.k==='iso10009').length") == 2 and pg.evaluate("NEWS[0].k") == "pestle")
+          pg.evaluate("NEWS.filter(n=>n.k==='iso10009').length") == 2 and pg.evaluate("NEWS[0].k") == "stakeholders")
     pg.evaluate("document.querySelector('#kpath a.kguide[data-mod=\"iso10009\"][data-anchor=\"explain-cl\"]').click()"); pg.wait_for_function("()=>document.getElementById('modFrame').dataset.k==='iso10009'", timeout=8000); pg.wait_for_timeout(900)
     check("hub: the second link opens the guide on the clause guide tab", pg.evaluate(fw + ".curTab") == "explain-cl")
     check("hub: no errors", not [x for x in errs if "frame" not in x.lower()], errs[:3])

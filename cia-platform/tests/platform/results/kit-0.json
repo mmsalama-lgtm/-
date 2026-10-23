@@ -1,8 +1,8 @@
 {
  "name": "kit-0",
- "checks": 158,
+ "checks": 160,
  "failed": 0,
- "seconds": 463.5,
+ "seconds": 339.3,
  "rows": [
   {
    "label": "a3 ar: kit indexed sections and items",
@@ -725,72 +725,82 @@
    "detail": ""
   },
   {
-   "label": "strategy-performance ar: kit indexed sections and items",
+   "label": "stakeholders ar: kit indexed sections and items",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "strategy-performance ar: all 6 sections and 12 items open",
+   "label": "stakeholders ar: all 6 sections and 23 items open",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "strategy-performance ar: kit text has no undefined/NaN/[object Object]",
+   "label": "stakeholders ar: kit text has no undefined/NaN/[object Object]",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "strategy-performance ar: every 'Assess this' lands (12 landed, 0 outside the assessment)",
+   "label": "stakeholders ar: every 'Assess this' lands (16 landed, 7 outside the assessment)",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "strategy-performance: clauses re-renders in English",
+   "label": "stakeholders ar: every 'Explain' link on the assessment opens its item (12 links)",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "strategy-performance: clauses re-renders back in Arabic, same text",
+   "label": "stakeholders: explain-cl re-renders in English",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "strategy-performance: standard re-renders in English",
+   "label": "stakeholders: explain-cl re-renders back in Arabic, same text",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "strategy-performance: standard re-renders back in Arabic, same text",
+   "label": "stakeholders: explain-std re-renders in English",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "strategy-performance ar: no errors",
+   "label": "stakeholders: explain-std re-renders back in Arabic, same text",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "strategy-performance en: kit indexed sections and items",
+   "label": "stakeholders ar: no errors",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "strategy-performance en: all 6 sections and 12 items open",
+   "label": "stakeholders en: kit indexed sections and items",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "strategy-performance en: kit text has no undefined/NaN/[object Object]",
+   "label": "stakeholders en: all 6 sections and 23 items open",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "strategy-performance en: every 'Assess this' lands (12 landed, 0 outside the assessment)",
+   "label": "stakeholders en: kit text has no undefined/NaN/[object Object]",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "strategy-performance en: no errors",
+   "label": "stakeholders en: every 'Assess this' lands (16 landed, 7 outside the assessment)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "stakeholders en: every 'Explain' link on the assessment opens its item (12 links)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "stakeholders en: no errors",
    "ok": true,
    "detail": ""
   }
@@ -805,6 +815,6 @@
   "iso9001",
   "p3o",
   "pmo-excellence",
-  "strategy-performance"
+  "stakeholders"
  ]
 }

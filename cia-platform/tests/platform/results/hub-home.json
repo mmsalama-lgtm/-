@@ -1,8 +1,8 @@
 {
  "name": "hub-home",
- "checks": 568,
+ "checks": 572,
  "failed": 0,
- "seconds": 156.7,
+ "seconds": 150.5,
  "rows": [
   {
    "label": "screenshots: 10–14 screens in Arabic and English",
@@ -230,7 +230,7 @@
    "detail": ""
   },
   {
-   "label": "counter tools = 38 (computed from the data)",
+   "label": "counter tools = 39 (computed from the data)",
    "ok": true,
    "detail": ""
   },
@@ -240,7 +240,7 @@
    "detail": ""
   },
   {
-   "label": "counter q = 1105 (computed from the data)",
+   "label": "counter q = 1117 (computed from the data)",
    "ok": true,
    "detail": ""
   },
@@ -260,7 +260,7 @@
    "detail": ""
   },
   {
-   "label": "request forms unchanged (fields, options, recipients, texts)",
+   "label": "request forms unchanged (fields, options, recipients, texts; the author name written as مدثر سلامه)",
    "ok": true,
    "detail": ""
   },
@@ -1320,12 +1320,22 @@
    "detail": ""
   },
   {
-   "label": "card 38: opens w8#modreg in the overlay",
+   "label": "card 38: opens stakeholders#tools in the overlay",
    "ok": true,
    "detail": ""
   },
   {
    "label": "card 38: the tool's home button closes the overlay",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "card 39: opens w8#modreg in the overlay",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "card 39: the tool's home button closes the overlay",
    "ok": true,
    "detail": ""
   },
@@ -1785,7 +1795,7 @@
    "detail": ""
   },
   {
-   "label": "wheel panel system 6: lists its 15 tools",
+   "label": "wheel panel system 6: lists its 16 tools",
    "ok": true,
    "detail": ""
   },
@@ -1945,6 +1955,16 @@
    "detail": ""
   },
   {
+   "label": "panel 6.16: opens stakeholders#tools in the overlay",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "panel 6.16: the tool's home button closes the overlay",
+   "ok": true,
+   "detail": ""
+  },
+  {
    "label": "wheel panel system 7: lists its 1 tools",
    "ok": true,
    "detail": ""
@@ -2040,7 +2060,7 @@
    "detail": ""
   },
   {
-   "label": "new on the platform 1: opens pestle in the overlay",
+   "label": "new on the platform 1: opens stakeholders in the overlay",
    "ok": true,
    "detail": ""
   },
@@ -2050,7 +2070,7 @@
    "detail": ""
   },
   {
-   "label": "new on the platform 2: opens swot in the overlay",
+   "label": "new on the platform 2: opens pestle in the overlay",
    "ok": true,
    "detail": ""
   },
@@ -2060,7 +2080,7 @@
    "detail": ""
   },
   {
-   "label": "new on the platform 3: opens lessons in the overlay",
+   "label": "new on the platform 3: opens swot in the overlay",
    "ok": true,
    "detail": ""
   },
@@ -2070,7 +2090,7 @@
    "detail": ""
   },
   {
-   "label": "new on the platform 4: opens iso10009 in the overlay",
+   "label": "new on the platform 4: opens lessons in the overlay",
    "ok": true,
    "detail": ""
   },
@@ -2080,7 +2100,7 @@
    "detail": ""
   },
   {
-   "label": "new on the platform 5: opens fmea in the overlay",
+   "label": "new on the platform 5: opens iso10009 in the overlay",
    "ok": true,
    "detail": ""
   },
@@ -2090,7 +2110,7 @@
    "detail": ""
   },
   {
-   "label": "tool of the week: opens fmea#tools in the overlay",
+   "label": "tool of the week: opens p3o#profile in the overlay",
    "ok": true,
    "detail": ""
   },
@@ -2835,7 +2855,7 @@
    "detail": ""
   },
   {
-   "label": "first screen readable within about 2 s (slow 4G, 4x CPU): hero text on screen at 541 ms (first paint 384 ms, largest paint 588 ms)",
+   "label": "first screen readable within about 2 s (slow 4G, 4x CPU): hero text on screen at 534 ms (first paint 416 ms, largest paint 600 ms)",
    "ok": true,
    "detail": ""
   },
@@ -2846,14 +2866,20 @@
   }
  ],
  "weight": {
-  "index_html_bytes": 829374,
-  "index_html_gzip_bytes": 242877,
-  "screenshots_total_bytes": 1172680,
+  "index_html_bytes": 1039457,
+  "index_html_gzip_bytes": 304340,
+  "screenshots_total_bytes": 1428868,
   "screenshots": {
    "aud-dashboard-ar.webp": 50274,
    "aud-dashboard-en.webp": 58940,
    "exc-results-ar.webp": 39144,
    "exc-results-en.webp": 47512,
+   "guide-cl-ar.webp": 24206,
+   "guide-cl-en.webp": 35106,
+   "guide-item-ar.webp": 38794,
+   "guide-item-en.webp": 48778,
+   "guide-std-ar.webp": 47488,
+   "guide-std-en.webp": 61816,
    "ims-matrix-ar.webp": 48196,
    "ims-matrix-en.webp": 61958,
    "iso27001-soa-ar.webp": 43762,
@@ -2880,11 +2906,11 @@
    "w8-ohi-en.webp": 23780
   },
   "og_home_jpg_bytes": 77902,
-  "phone_first_paint_ms": 384,
-  "phone_hero_text_ms": 541,
-  "phone_largest_paint_ms": 588,
-  "phone_load_ms": 2625,
-  "phone_document_transfer_bytes": 244738
+  "phone_first_paint_ms": 416,
+  "phone_hero_text_ms": 534,
+  "phone_largest_paint_ms": 600,
+  "phone_load_ms": 3034,
+  "phone_document_transfer_bytes": 306433
  },
  "profiles": {
   "contractor preparing for Aramco/SEC": [

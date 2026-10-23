@@ -1,8 +1,8 @@
 {
  "name": "kit-1",
- "checks": 160,
+ "checks": 158,
  "failed": 0,
- "seconds": 472.9,
+ "seconds": 365.9,
  "rows": [
   {
    "label": "ai-regulatory ar: kit indexed sections and items",
@@ -725,82 +725,72 @@
    "detail": ""
   },
   {
-   "label": "swot ar: kit indexed sections and items",
+   "label": "strategy-performance ar: kit indexed sections and items",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar: all 7 sections and 28 items open",
+   "label": "strategy-performance ar: all 6 sections and 12 items open",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar: kit text has no undefined/NaN/[object Object]",
+   "label": "strategy-performance ar: kit text has no undefined/NaN/[object Object]",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar: every 'Assess this' lands (16 landed, 12 outside the assessment)",
+   "label": "strategy-performance ar: every 'Assess this' lands (12 landed, 0 outside the assessment)",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar: every 'Explain' link on the assessment opens its item (12 links)",
+   "label": "strategy-performance: clauses re-renders in English",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot: explain-cl re-renders in English",
+   "label": "strategy-performance: clauses re-renders back in Arabic, same text",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot: explain-cl re-renders back in Arabic, same text",
+   "label": "strategy-performance: standard re-renders in English",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot: explain-std re-renders in English",
+   "label": "strategy-performance: standard re-renders back in Arabic, same text",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot: explain-std re-renders back in Arabic, same text",
+   "label": "strategy-performance ar: no errors",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar: no errors",
+   "label": "strategy-performance en: kit indexed sections and items",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en: kit indexed sections and items",
+   "label": "strategy-performance en: all 6 sections and 12 items open",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en: all 7 sections and 28 items open",
+   "label": "strategy-performance en: kit text has no undefined/NaN/[object Object]",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en: kit text has no undefined/NaN/[object Object]",
+   "label": "strategy-performance en: every 'Assess this' lands (12 landed, 0 outside the assessment)",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en: every 'Assess this' lands (16 landed, 12 outside the assessment)",
-   "ok": true,
-   "detail": ""
-  },
-  {
-   "label": "swot en: every 'Explain' link on the assessment opens its item (12 links)",
-   "ok": true,
-   "detail": ""
-  },
-  {
-   "label": "swot en: no errors",
+   "label": "strategy-performance en: no errors",
    "ok": true,
    "detail": ""
   }
@@ -815,6 +805,6 @@
   "kaqa",
   "pareto",
   "pmo-maturity",
-  "swot"
+  "strategy-performance"
  ]
 }

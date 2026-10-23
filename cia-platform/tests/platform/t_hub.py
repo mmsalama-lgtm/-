@@ -43,25 +43,25 @@ with sync_playwright() as p:
     pg.goto(BASE + "/index.html", wait_until="load"); pg.wait_for_timeout(600)
     # ---- counts and wheel
     n_tk = pg.evaluate("TOOLKITS.length")
-    R.check("38 toolkit cards in the data", n_tk == 38, n_tk)
+    R.check("39 toolkit cards in the data", n_tk == 39, n_tk)
     pg.evaluate("showView('tools')"); pg.wait_for_timeout(150)
-    R.check("38 toolkit cards on the page", pg.evaluate("document.querySelectorAll('#tools a[data-mod]').length") >= 38,
+    R.check("39 toolkit cards on the page", pg.evaluate("document.querySelectorAll('#tools a[data-mod]').length") >= 39,
             pg.evaluate("document.querySelectorAll('#tools a[data-mod]').length"))
     per = pg.evaluate("wStats().per.map((x,i)=>[SYSTEMS[i].id,x.n])")
-    R.check("wheel: Audit & Improvement counts 15 tools", dict(per).get("aud") == 15, per)
-    R.check("wheel: the seven segments add up to 38", sum(n for _, n in per) == 38, per)
+    R.check("wheel: Audit & Improvement counts 16 tools", dict(per).get("aud") == 16, per)
+    R.check("wheel: the seven segments add up to 39", sum(n for _, n in per) == 39, per)
     pg.evaluate("showView('home')"); pg.wait_for_timeout(150)
     nums = pg.evaluate("[...document.querySelectorAll('#wheel .wseg .num')].map(e=>+e.textContent)")
     R.check("wheel shows the same counts", nums == [n for _, n in per], [nums, per])
     txt = pg.evaluate("document.body.innerText")
     R.check("no text still says 25 to 35 tools", not re.search(r"\b(2[56789]|3[012345])\s*(tool|أدا|أدوات)", txt), re.findall(r".{20}\b(?:2[56789]|3[012345])\b.{20}", txt)[:3])
-    R.check("the toolbox entry counts 1 tool still to come, PDCA, CAPA, 5 Whys, Fishbone, Pareto, RCA, A3, DMAIC, FMEA, Lessons Learned, SWOT and PESTLE live", "1 tool · PDCA, CAPA, 5 Whys, Fishbone, Pareto, RCA, A3, DMAIC, FMEA, Lessons Learned, SWOT and PESTLE are live" in pg.evaluate("JSON.stringify(SOON.find(s=>s.k==='citbox'))"))
+    R.check("the toolbox is complete: the PDCA card says so", "stakeholder analysis are live: the toolbox is complete" in pg.evaluate("JSON.stringify(TOOLKITS.find(t=>t.k==='pdca'))"))
     soon = pg.evaluate("(typeof SOON!=='undefined'?SOON:[]).filter(s=>s.k==='citbox').length")
-    R.check("one grouped 'coming soon' entry for the toolbox", soon == 1, soon)
+    R.check("no grouped 'coming soon' entry for the toolbox any more", soon == 0, soon)
 
     # ---- every tool opens in the overlay, home button closes it
     keys = pg.evaluate("Object.keys(URLS)")
-    R.check("hub links all 38 tools", len(keys) == 38 and "pestle" in keys and "swot" in keys and "lessons" in keys and "fmea" in keys and "iso10009" in keys and "dmaic" in keys and "a3" in keys and "capa" in keys and "why5" in keys and "fish" in keys and "pareto" in keys and "rca" in keys, keys)
+    R.check("hub links all 39 tools", len(keys) == 39 and "stakeholders" in keys and "pestle" in keys and "swot" in keys and "lessons" in keys and "fmea" in keys and "iso10009" in keys and "dmaic" in keys and "a3" in keys and "capa" in keys and "why5" in keys and "fish" in keys and "pareto" in keys and "rca" in keys, keys)
     for k in keys:
         pg.evaluate(f"openModule('{k}')")
         try:
@@ -118,7 +118,7 @@ with sync_playwright() as p:
         pg.evaluate("showView('learn')"); pg.wait_for_timeout(150)
         guides = pg.evaluate("[...document.querySelectorAll('#kpath a.kguide')].map(a=>[a.dataset.mod,a.dataset.anchor])")
         if lang == "ar":
-            need = {("pdca", "explain-cl"), ("capa", "explain-cl"), ("why5", "explain-std"), ("fish", "explain-std"), ("pareto", "explain-std"), ("rca", "explain-std"), ("a3", "explain-std"), ("dmaic", "explain-std"), ("iso10009", "explain-std"), ("iso10009", "explain-cl"), ("fmea", "explain-std"), ("lessons", "explain-std"), ("swot", "explain-std"), ("pestle", "explain-std"), ("iso9001", "explain-cl"), ("iso14001", "explain-cl"), ("iso45001", "explain-cl"),
+            need = {("pdca", "explain-cl"), ("capa", "explain-cl"), ("why5", "explain-std"), ("fish", "explain-std"), ("pareto", "explain-std"), ("rca", "explain-std"), ("a3", "explain-std"), ("dmaic", "explain-std"), ("iso10009", "explain-std"), ("iso10009", "explain-cl"), ("fmea", "explain-std"), ("lessons", "explain-std"), ("swot", "explain-std"), ("pestle", "explain-std"), ("stakeholders", "explain-std"), ("iso9001", "explain-cl"), ("iso14001", "explain-cl"), ("iso45001", "explain-cl"),
                     ("iso27001", "explain-cl"), ("iso22301", "guide"), ("iso37301", "explain-cl"), ("iso37001", "explain-cl"),
                     ("iso31000", "explain-cl"), ("iso37000", "explain-cl")}
             R.check("knowledge centre has the new guide links", need <= set(map(tuple, guides)), sorted(need - set(map(tuple, guides))))

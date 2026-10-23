@@ -1,8 +1,8 @@
 {
  "name": "sweep-1",
- "checks": 3208,
+ "checks": 3424,
  "failed": 0,
- "seconds": 102.5,
+ "seconds": 75.0,
  "rows": [
   {
    "label": "ai-regulatory ar 1280: sidebar lists tabs",
@@ -14825,1229 +14825,2309 @@
    "detail": ""
   },
   {
-   "label": "swot ar 1280: sidebar lists tabs",
+   "label": "strategy-performance ar 1280: sidebar lists tabs",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 1280 #home: pane shows",
+   "label": "strategy-performance ar 1280 #home: pane shows",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 1280 #home: switch under 1 s",
+   "label": "strategy-performance ar 1280 #home: switch under 1 s",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 1280 #home: pane not empty",
+   "label": "strategy-performance ar 1280 #home: pane not empty",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 1280 #home: no undefined/NaN/[object Object]",
+   "label": "strategy-performance ar 1280 #home: no undefined/NaN/[object Object]",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 1280 #home: no horizontal overflow",
+   "label": "strategy-performance ar 1280 #home: no horizontal overflow",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 1280 #home: no errors",
+   "label": "strategy-performance ar 1280 #home: no errors",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 1280 #explain-std: pane shows",
+   "label": "strategy-performance ar 1280 #profile: pane shows",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 1280 #explain-std: switch under 1 s",
+   "label": "strategy-performance ar 1280 #profile: switch under 1 s",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 1280 #explain-std: pane not empty",
+   "label": "strategy-performance ar 1280 #profile: pane not empty",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 1280 #explain-std: no undefined/NaN/[object Object]",
+   "label": "strategy-performance ar 1280 #profile: no undefined/NaN/[object Object]",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 1280 #explain-std: no horizontal overflow",
+   "label": "strategy-performance ar 1280 #profile: no horizontal overflow",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 1280 #explain-std: no errors",
+   "label": "strategy-performance ar 1280 #profile: no errors",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 1280 #explain-cl: pane shows",
+   "label": "strategy-performance ar 1280 #swot: pane shows",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 1280 #explain-cl: switch under 1 s",
+   "label": "strategy-performance ar 1280 #swot: switch under 1 s",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 1280 #explain-cl: pane not empty",
+   "label": "strategy-performance ar 1280 #swot: pane not empty",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 1280 #explain-cl: no undefined/NaN/[object Object]",
+   "label": "strategy-performance ar 1280 #swot: no undefined/NaN/[object Object]",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 1280 #explain-cl: no horizontal overflow",
+   "label": "strategy-performance ar 1280 #swot: no horizontal overflow",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 1280 #explain-cl: no errors",
+   "label": "strategy-performance ar 1280 #swot: no errors",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 1280 #assess: pane shows",
+   "label": "strategy-performance ar 1280 #pestle: pane shows",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 1280 #assess: switch under 1 s",
+   "label": "strategy-performance ar 1280 #pestle: switch under 1 s",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 1280 #assess: pane not empty",
+   "label": "strategy-performance ar 1280 #pestle: pane not empty",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 1280 #assess: no undefined/NaN/[object Object]",
+   "label": "strategy-performance ar 1280 #pestle: no undefined/NaN/[object Object]",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 1280 #assess: no horizontal overflow",
+   "label": "strategy-performance ar 1280 #pestle: no horizontal overflow",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 1280 #assess: no errors",
+   "label": "strategy-performance ar 1280 #pestle: no errors",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 1280 #tools: pane shows",
+   "label": "strategy-performance ar 1280 #tows: pane shows",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 1280 #tools: switch under 1 s",
+   "label": "strategy-performance ar 1280 #tows: switch under 1 s",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 1280 #tools: pane not empty",
+   "label": "strategy-performance ar 1280 #tows: pane not empty",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 1280 #tools: no undefined/NaN/[object Object]",
+   "label": "strategy-performance ar 1280 #tows: no undefined/NaN/[object Object]",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 1280 #tools: no horizontal overflow",
+   "label": "strategy-performance ar 1280 #tows: no horizontal overflow",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 1280 #tools: no errors",
+   "label": "strategy-performance ar 1280 #tows: no errors",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 1280 #docs: pane shows",
+   "label": "strategy-performance ar 1280 #obj: pane shows",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 1280 #docs: switch under 1 s",
+   "label": "strategy-performance ar 1280 #obj: switch under 1 s",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 1280 #docs: pane not empty",
+   "label": "strategy-performance ar 1280 #obj: pane not empty",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 1280 #docs: no undefined/NaN/[object Object]",
+   "label": "strategy-performance ar 1280 #obj: no undefined/NaN/[object Object]",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 1280 #docs: no horizontal overflow",
+   "label": "strategy-performance ar 1280 #obj: no horizontal overflow",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 1280 #docs: no errors",
+   "label": "strategy-performance ar 1280 #obj: no errors",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 1280 #audit: pane shows",
+   "label": "strategy-performance ar 1280 #map: pane shows",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 1280 #audit: switch under 1 s",
+   "label": "strategy-performance ar 1280 #map: switch under 1 s",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 1280 #audit: pane not empty",
+   "label": "strategy-performance ar 1280 #map: pane not empty",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 1280 #audit: no undefined/NaN/[object Object]",
+   "label": "strategy-performance ar 1280 #map: no undefined/NaN/[object Object]",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 1280 #audit: no horizontal overflow",
+   "label": "strategy-performance ar 1280 #map: no horizontal overflow",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 1280 #audit: no errors",
+   "label": "strategy-performance ar 1280 #map: no errors",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 1280 #dash: pane shows",
+   "label": "strategy-performance ar 1280 #kpi: pane shows",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 1280 #dash: switch under 1 s",
+   "label": "strategy-performance ar 1280 #kpi: switch under 1 s",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 1280 #dash: pane not empty",
+   "label": "strategy-performance ar 1280 #kpi: pane not empty",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 1280 #dash: no undefined/NaN/[object Object]",
+   "label": "strategy-performance ar 1280 #kpi: no undefined/NaN/[object Object]",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 1280 #dash: no horizontal overflow",
+   "label": "strategy-performance ar 1280 #kpi: no horizontal overflow",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 1280 #dash: no errors",
+   "label": "strategy-performance ar 1280 #kpi: no errors",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 1280 #report: pane shows",
+   "label": "strategy-performance ar 1280 #trend: pane shows",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 1280 #report: switch under 1 s",
+   "label": "strategy-performance ar 1280 #trend: switch under 1 s",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 1280 #report: pane not empty",
+   "label": "strategy-performance ar 1280 #trend: pane not empty",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 1280 #report: no undefined/NaN/[object Object]",
+   "label": "strategy-performance ar 1280 #trend: no undefined/NaN/[object Object]",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 1280 #report: no horizontal overflow",
+   "label": "strategy-performance ar 1280 #trend: no horizontal overflow",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 1280 #report: no errors",
+   "label": "strategy-performance ar 1280 #trend: no errors",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 1280 #ai: pane shows",
+   "label": "strategy-performance ar 1280 #init: pane shows",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 1280 #ai: switch under 1 s",
+   "label": "strategy-performance ar 1280 #init: switch under 1 s",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 1280 #ai: pane not empty",
+   "label": "strategy-performance ar 1280 #init: pane not empty",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 1280 #ai: no undefined/NaN/[object Object]",
+   "label": "strategy-performance ar 1280 #init: no undefined/NaN/[object Object]",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 1280 #ai: no horizontal overflow",
+   "label": "strategy-performance ar 1280 #init: no horizontal overflow",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 1280 #ai: no errors",
+   "label": "strategy-performance ar 1280 #init: no errors",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 390: sidebar lists tabs",
+   "label": "strategy-performance ar 1280 #raid: pane shows",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 390 #home: pane shows",
+   "label": "strategy-performance ar 1280 #raid: switch under 1 s",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 390 #home: switch under 1 s",
+   "label": "strategy-performance ar 1280 #raid: pane not empty",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 390 #home: pane not empty",
+   "label": "strategy-performance ar 1280 #raid: no undefined/NaN/[object Object]",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 390 #home: no undefined/NaN/[object Object]",
+   "label": "strategy-performance ar 1280 #raid: no horizontal overflow",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 390 #home: no horizontal overflow",
+   "label": "strategy-performance ar 1280 #raid: no errors",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 390 #home: no errors",
+   "label": "strategy-performance ar 1280 #dash: pane shows",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 390 #explain-std: pane shows",
+   "label": "strategy-performance ar 1280 #dash: switch under 1 s",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 390 #explain-std: switch under 1 s",
+   "label": "strategy-performance ar 1280 #dash: pane not empty",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 390 #explain-std: pane not empty",
+   "label": "strategy-performance ar 1280 #dash: no undefined/NaN/[object Object]",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 390 #explain-std: no undefined/NaN/[object Object]",
+   "label": "strategy-performance ar 1280 #dash: no horizontal overflow",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 390 #explain-std: no horizontal overflow",
+   "label": "strategy-performance ar 1280 #dash: no errors",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 390 #explain-std: no errors",
+   "label": "strategy-performance ar 1280 #templates: pane shows",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 390 #explain-cl: pane shows",
+   "label": "strategy-performance ar 1280 #templates: switch under 1 s",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 390 #explain-cl: switch under 1 s",
+   "label": "strategy-performance ar 1280 #templates: pane not empty",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 390 #explain-cl: pane not empty",
+   "label": "strategy-performance ar 1280 #templates: no undefined/NaN/[object Object]",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 390 #explain-cl: no undefined/NaN/[object Object]",
+   "label": "strategy-performance ar 1280 #templates: no horizontal overflow",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 390 #explain-cl: no horizontal overflow",
+   "label": "strategy-performance ar 1280 #templates: no errors",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 390 #explain-cl: no errors",
+   "label": "strategy-performance ar 1280 #recs: pane shows",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 390 #assess: pane shows",
+   "label": "strategy-performance ar 1280 #recs: switch under 1 s",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 390 #assess: switch under 1 s",
+   "label": "strategy-performance ar 1280 #recs: pane not empty",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 390 #assess: pane not empty",
+   "label": "strategy-performance ar 1280 #recs: no undefined/NaN/[object Object]",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 390 #assess: no undefined/NaN/[object Object]",
+   "label": "strategy-performance ar 1280 #recs: no horizontal overflow",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 390 #assess: no horizontal overflow",
+   "label": "strategy-performance ar 1280 #recs: no errors",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 390 #assess: no errors",
+   "label": "strategy-performance ar 1280 #checklist: pane shows",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 390 #tools: pane shows",
+   "label": "strategy-performance ar 1280 #checklist: switch under 1 s",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 390 #tools: switch under 1 s",
+   "label": "strategy-performance ar 1280 #checklist: pane not empty",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 390 #tools: pane not empty",
+   "label": "strategy-performance ar 1280 #checklist: no undefined/NaN/[object Object]",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 390 #tools: no undefined/NaN/[object Object]",
+   "label": "strategy-performance ar 1280 #checklist: no horizontal overflow",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 390 #tools: no horizontal overflow",
+   "label": "strategy-performance ar 1280 #checklist: no errors",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 390 #tools: no errors",
+   "label": "strategy-performance ar 1280 #terms: pane shows",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 390 #docs: pane shows",
+   "label": "strategy-performance ar 1280 #terms: switch under 1 s",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 390 #docs: switch under 1 s",
+   "label": "strategy-performance ar 1280 #terms: pane not empty",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 390 #docs: pane not empty",
+   "label": "strategy-performance ar 1280 #terms: no undefined/NaN/[object Object]",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 390 #docs: no undefined/NaN/[object Object]",
+   "label": "strategy-performance ar 1280 #terms: no horizontal overflow",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 390 #docs: no horizontal overflow",
+   "label": "strategy-performance ar 1280 #terms: no errors",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 390 #docs: no errors",
+   "label": "strategy-performance ar 1280 #refs: pane shows",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 390 #audit: pane shows",
+   "label": "strategy-performance ar 1280 #refs: switch under 1 s",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 390 #audit: switch under 1 s",
+   "label": "strategy-performance ar 1280 #refs: pane not empty",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 390 #audit: pane not empty",
+   "label": "strategy-performance ar 1280 #refs: no undefined/NaN/[object Object]",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 390 #audit: no undefined/NaN/[object Object]",
+   "label": "strategy-performance ar 1280 #refs: no horizontal overflow",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 390 #audit: no horizontal overflow",
+   "label": "strategy-performance ar 1280 #refs: no errors",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 390 #audit: no errors",
+   "label": "strategy-performance ar 1280 #standard: pane shows",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 390 #dash: pane shows",
+   "label": "strategy-performance ar 1280 #standard: switch under 1 s",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 390 #dash: switch under 1 s",
+   "label": "strategy-performance ar 1280 #standard: pane not empty",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 390 #dash: pane not empty",
+   "label": "strategy-performance ar 1280 #standard: no undefined/NaN/[object Object]",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 390 #dash: no undefined/NaN/[object Object]",
+   "label": "strategy-performance ar 1280 #standard: no horizontal overflow",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 390 #dash: no horizontal overflow",
+   "label": "strategy-performance ar 1280 #standard: no errors",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 390 #dash: no errors",
+   "label": "strategy-performance ar 1280 #clauses: pane shows",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 390 #report: pane shows",
+   "label": "strategy-performance ar 1280 #clauses: switch under 1 s",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 390 #report: switch under 1 s",
+   "label": "strategy-performance ar 1280 #clauses: pane not empty",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 390 #report: pane not empty",
+   "label": "strategy-performance ar 1280 #clauses: no undefined/NaN/[object Object]",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 390 #report: no undefined/NaN/[object Object]",
+   "label": "strategy-performance ar 1280 #clauses: no horizontal overflow",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 390 #report: no horizontal overflow",
+   "label": "strategy-performance ar 1280 #clauses: no errors",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 390 #report: no errors",
+   "label": "strategy-performance ar 390: sidebar lists tabs",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 390 #ai: pane shows",
+   "label": "strategy-performance ar 390 #home: pane shows",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 390 #ai: switch under 1 s",
+   "label": "strategy-performance ar 390 #home: switch under 1 s",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 390 #ai: pane not empty",
+   "label": "strategy-performance ar 390 #home: pane not empty",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 390 #ai: no undefined/NaN/[object Object]",
+   "label": "strategy-performance ar 390 #home: no undefined/NaN/[object Object]",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 390 #ai: no horizontal overflow",
+   "label": "strategy-performance ar 390 #home: no horizontal overflow",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar 390 #ai: no errors",
+   "label": "strategy-performance ar 390 #home: no errors",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 1280: sidebar lists tabs",
+   "label": "strategy-performance ar 390 #profile: pane shows",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 1280 #home: pane shows",
+   "label": "strategy-performance ar 390 #profile: switch under 1 s",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 1280 #home: switch under 1 s",
+   "label": "strategy-performance ar 390 #profile: pane not empty",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 1280 #home: pane not empty",
+   "label": "strategy-performance ar 390 #profile: no undefined/NaN/[object Object]",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 1280 #home: no undefined/NaN/[object Object]",
+   "label": "strategy-performance ar 390 #profile: no horizontal overflow",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 1280 #home: no horizontal overflow",
+   "label": "strategy-performance ar 390 #profile: no errors",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 1280 #home: no errors",
+   "label": "strategy-performance ar 390 #swot: pane shows",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 1280 #explain-std: pane shows",
+   "label": "strategy-performance ar 390 #swot: switch under 1 s",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 1280 #explain-std: switch under 1 s",
+   "label": "strategy-performance ar 390 #swot: pane not empty",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 1280 #explain-std: pane not empty",
+   "label": "strategy-performance ar 390 #swot: no undefined/NaN/[object Object]",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 1280 #explain-std: no undefined/NaN/[object Object]",
+   "label": "strategy-performance ar 390 #swot: no horizontal overflow",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 1280 #explain-std: no horizontal overflow",
+   "label": "strategy-performance ar 390 #swot: no errors",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 1280 #explain-std: no errors",
+   "label": "strategy-performance ar 390 #pestle: pane shows",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 1280 #explain-cl: pane shows",
+   "label": "strategy-performance ar 390 #pestle: switch under 1 s",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 1280 #explain-cl: switch under 1 s",
+   "label": "strategy-performance ar 390 #pestle: pane not empty",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 1280 #explain-cl: pane not empty",
+   "label": "strategy-performance ar 390 #pestle: no undefined/NaN/[object Object]",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 1280 #explain-cl: no undefined/NaN/[object Object]",
+   "label": "strategy-performance ar 390 #pestle: no horizontal overflow",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 1280 #explain-cl: no horizontal overflow",
+   "label": "strategy-performance ar 390 #pestle: no errors",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 1280 #explain-cl: no errors",
+   "label": "strategy-performance ar 390 #tows: pane shows",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 1280 #assess: pane shows",
+   "label": "strategy-performance ar 390 #tows: switch under 1 s",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 1280 #assess: switch under 1 s",
+   "label": "strategy-performance ar 390 #tows: pane not empty",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 1280 #assess: pane not empty",
+   "label": "strategy-performance ar 390 #tows: no undefined/NaN/[object Object]",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 1280 #assess: no undefined/NaN/[object Object]",
+   "label": "strategy-performance ar 390 #tows: no horizontal overflow",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 1280 #assess: no horizontal overflow",
+   "label": "strategy-performance ar 390 #tows: no errors",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 1280 #assess: no errors",
+   "label": "strategy-performance ar 390 #obj: pane shows",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 1280 #tools: pane shows",
+   "label": "strategy-performance ar 390 #obj: switch under 1 s",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 1280 #tools: switch under 1 s",
+   "label": "strategy-performance ar 390 #obj: pane not empty",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 1280 #tools: pane not empty",
+   "label": "strategy-performance ar 390 #obj: no undefined/NaN/[object Object]",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 1280 #tools: no undefined/NaN/[object Object]",
+   "label": "strategy-performance ar 390 #obj: no horizontal overflow",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 1280 #tools: no horizontal overflow",
+   "label": "strategy-performance ar 390 #obj: no errors",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 1280 #tools: no errors",
+   "label": "strategy-performance ar 390 #map: pane shows",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 1280 #docs: pane shows",
+   "label": "strategy-performance ar 390 #map: switch under 1 s",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 1280 #docs: switch under 1 s",
+   "label": "strategy-performance ar 390 #map: pane not empty",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 1280 #docs: pane not empty",
+   "label": "strategy-performance ar 390 #map: no undefined/NaN/[object Object]",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 1280 #docs: no undefined/NaN/[object Object]",
+   "label": "strategy-performance ar 390 #map: no horizontal overflow",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 1280 #docs: no horizontal overflow",
+   "label": "strategy-performance ar 390 #map: no errors",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 1280 #docs: no errors",
+   "label": "strategy-performance ar 390 #kpi: pane shows",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 1280 #audit: pane shows",
+   "label": "strategy-performance ar 390 #kpi: switch under 1 s",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 1280 #audit: switch under 1 s",
+   "label": "strategy-performance ar 390 #kpi: pane not empty",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 1280 #audit: pane not empty",
+   "label": "strategy-performance ar 390 #kpi: no undefined/NaN/[object Object]",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 1280 #audit: no undefined/NaN/[object Object]",
+   "label": "strategy-performance ar 390 #kpi: no horizontal overflow",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 1280 #audit: no horizontal overflow",
+   "label": "strategy-performance ar 390 #kpi: no errors",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 1280 #audit: no errors",
+   "label": "strategy-performance ar 390 #trend: pane shows",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 1280 #dash: pane shows",
+   "label": "strategy-performance ar 390 #trend: switch under 1 s",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 1280 #dash: switch under 1 s",
+   "label": "strategy-performance ar 390 #trend: pane not empty",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 1280 #dash: pane not empty",
+   "label": "strategy-performance ar 390 #trend: no undefined/NaN/[object Object]",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 1280 #dash: no undefined/NaN/[object Object]",
+   "label": "strategy-performance ar 390 #trend: no horizontal overflow",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 1280 #dash: no horizontal overflow",
+   "label": "strategy-performance ar 390 #trend: no errors",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 1280 #dash: no errors",
+   "label": "strategy-performance ar 390 #init: pane shows",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 1280 #report: pane shows",
+   "label": "strategy-performance ar 390 #init: switch under 1 s",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 1280 #report: switch under 1 s",
+   "label": "strategy-performance ar 390 #init: pane not empty",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 1280 #report: pane not empty",
+   "label": "strategy-performance ar 390 #init: no undefined/NaN/[object Object]",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 1280 #report: no undefined/NaN/[object Object]",
+   "label": "strategy-performance ar 390 #init: no horizontal overflow",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 1280 #report: no horizontal overflow",
+   "label": "strategy-performance ar 390 #init: no errors",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 1280 #report: no errors",
+   "label": "strategy-performance ar 390 #raid: pane shows",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 1280 #ai: pane shows",
+   "label": "strategy-performance ar 390 #raid: switch under 1 s",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 1280 #ai: switch under 1 s",
+   "label": "strategy-performance ar 390 #raid: pane not empty",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 1280 #ai: pane not empty",
+   "label": "strategy-performance ar 390 #raid: no undefined/NaN/[object Object]",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 1280 #ai: no undefined/NaN/[object Object]",
+   "label": "strategy-performance ar 390 #raid: no horizontal overflow",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 1280 #ai: no horizontal overflow",
+   "label": "strategy-performance ar 390 #raid: no errors",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 1280 #ai: no errors",
+   "label": "strategy-performance ar 390 #dash: pane shows",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 390: sidebar lists tabs",
+   "label": "strategy-performance ar 390 #dash: switch under 1 s",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 390 #home: pane shows",
+   "label": "strategy-performance ar 390 #dash: pane not empty",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 390 #home: switch under 1 s",
+   "label": "strategy-performance ar 390 #dash: no undefined/NaN/[object Object]",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 390 #home: pane not empty",
+   "label": "strategy-performance ar 390 #dash: no horizontal overflow",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 390 #home: no undefined/NaN/[object Object]",
+   "label": "strategy-performance ar 390 #dash: no errors",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 390 #home: no horizontal overflow",
+   "label": "strategy-performance ar 390 #templates: pane shows",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 390 #home: no errors",
+   "label": "strategy-performance ar 390 #templates: switch under 1 s",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 390 #explain-std: pane shows",
+   "label": "strategy-performance ar 390 #templates: pane not empty",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 390 #explain-std: switch under 1 s",
+   "label": "strategy-performance ar 390 #templates: no undefined/NaN/[object Object]",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 390 #explain-std: pane not empty",
+   "label": "strategy-performance ar 390 #templates: no horizontal overflow",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 390 #explain-std: no undefined/NaN/[object Object]",
+   "label": "strategy-performance ar 390 #templates: no errors",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 390 #explain-std: no horizontal overflow",
+   "label": "strategy-performance ar 390 #recs: pane shows",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 390 #explain-std: no errors",
+   "label": "strategy-performance ar 390 #recs: switch under 1 s",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 390 #explain-cl: pane shows",
+   "label": "strategy-performance ar 390 #recs: pane not empty",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 390 #explain-cl: switch under 1 s",
+   "label": "strategy-performance ar 390 #recs: no undefined/NaN/[object Object]",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 390 #explain-cl: pane not empty",
+   "label": "strategy-performance ar 390 #recs: no horizontal overflow",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 390 #explain-cl: no undefined/NaN/[object Object]",
+   "label": "strategy-performance ar 390 #recs: no errors",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 390 #explain-cl: no horizontal overflow",
+   "label": "strategy-performance ar 390 #checklist: pane shows",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 390 #explain-cl: no errors",
+   "label": "strategy-performance ar 390 #checklist: switch under 1 s",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 390 #assess: pane shows",
+   "label": "strategy-performance ar 390 #checklist: pane not empty",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 390 #assess: switch under 1 s",
+   "label": "strategy-performance ar 390 #checklist: no undefined/NaN/[object Object]",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 390 #assess: pane not empty",
+   "label": "strategy-performance ar 390 #checklist: no horizontal overflow",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 390 #assess: no undefined/NaN/[object Object]",
+   "label": "strategy-performance ar 390 #checklist: no errors",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 390 #assess: no horizontal overflow",
+   "label": "strategy-performance ar 390 #terms: pane shows",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 390 #assess: no errors",
+   "label": "strategy-performance ar 390 #terms: switch under 1 s",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 390 #tools: pane shows",
+   "label": "strategy-performance ar 390 #terms: pane not empty",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 390 #tools: switch under 1 s",
+   "label": "strategy-performance ar 390 #terms: no undefined/NaN/[object Object]",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 390 #tools: pane not empty",
+   "label": "strategy-performance ar 390 #terms: no horizontal overflow",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 390 #tools: no undefined/NaN/[object Object]",
+   "label": "strategy-performance ar 390 #terms: no errors",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 390 #tools: no horizontal overflow",
+   "label": "strategy-performance ar 390 #refs: pane shows",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 390 #tools: no errors",
+   "label": "strategy-performance ar 390 #refs: switch under 1 s",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 390 #docs: pane shows",
+   "label": "strategy-performance ar 390 #refs: pane not empty",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 390 #docs: switch under 1 s",
+   "label": "strategy-performance ar 390 #refs: no undefined/NaN/[object Object]",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 390 #docs: pane not empty",
+   "label": "strategy-performance ar 390 #refs: no horizontal overflow",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 390 #docs: no undefined/NaN/[object Object]",
+   "label": "strategy-performance ar 390 #refs: no errors",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 390 #docs: no horizontal overflow",
+   "label": "strategy-performance ar 390 #standard: pane shows",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 390 #docs: no errors",
+   "label": "strategy-performance ar 390 #standard: switch under 1 s",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 390 #audit: pane shows",
+   "label": "strategy-performance ar 390 #standard: pane not empty",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 390 #audit: switch under 1 s",
+   "label": "strategy-performance ar 390 #standard: no undefined/NaN/[object Object]",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 390 #audit: pane not empty",
+   "label": "strategy-performance ar 390 #standard: no horizontal overflow",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 390 #audit: no undefined/NaN/[object Object]",
+   "label": "strategy-performance ar 390 #standard: no errors",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 390 #audit: no horizontal overflow",
+   "label": "strategy-performance ar 390 #clauses: pane shows",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 390 #audit: no errors",
+   "label": "strategy-performance ar 390 #clauses: switch under 1 s",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 390 #dash: pane shows",
+   "label": "strategy-performance ar 390 #clauses: pane not empty",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 390 #dash: switch under 1 s",
+   "label": "strategy-performance ar 390 #clauses: no undefined/NaN/[object Object]",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 390 #dash: pane not empty",
+   "label": "strategy-performance ar 390 #clauses: no horizontal overflow",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 390 #dash: no undefined/NaN/[object Object]",
+   "label": "strategy-performance ar 390 #clauses: no errors",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 390 #dash: no horizontal overflow",
+   "label": "strategy-performance en 1280: sidebar lists tabs",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 390 #dash: no errors",
+   "label": "strategy-performance en 1280 #home: pane shows",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 390 #report: pane shows",
+   "label": "strategy-performance en 1280 #home: switch under 1 s",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 390 #report: switch under 1 s",
+   "label": "strategy-performance en 1280 #home: pane not empty",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 390 #report: pane not empty",
+   "label": "strategy-performance en 1280 #home: no undefined/NaN/[object Object]",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 390 #report: no undefined/NaN/[object Object]",
+   "label": "strategy-performance en 1280 #home: no horizontal overflow",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 390 #report: no horizontal overflow",
+   "label": "strategy-performance en 1280 #home: no errors",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 390 #report: no errors",
+   "label": "strategy-performance en 1280 #profile: pane shows",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 390 #ai: pane shows",
+   "label": "strategy-performance en 1280 #profile: switch under 1 s",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 390 #ai: switch under 1 s",
+   "label": "strategy-performance en 1280 #profile: pane not empty",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 390 #ai: pane not empty",
+   "label": "strategy-performance en 1280 #profile: no undefined/NaN/[object Object]",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 390 #ai: no undefined/NaN/[object Object]",
+   "label": "strategy-performance en 1280 #profile: no horizontal overflow",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 390 #ai: no horizontal overflow",
+   "label": "strategy-performance en 1280 #profile: no errors",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en 390 #ai: no errors",
+   "label": "strategy-performance en 1280 #swot: pane shows",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #swot: switch under 1 s",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #swot: pane not empty",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #swot: no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #swot: no horizontal overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #swot: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #pestle: pane shows",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #pestle: switch under 1 s",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #pestle: pane not empty",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #pestle: no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #pestle: no horizontal overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #pestle: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #tows: pane shows",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #tows: switch under 1 s",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #tows: pane not empty",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #tows: no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #tows: no horizontal overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #tows: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #obj: pane shows",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #obj: switch under 1 s",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #obj: pane not empty",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #obj: no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #obj: no horizontal overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #obj: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #map: pane shows",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #map: switch under 1 s",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #map: pane not empty",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #map: no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #map: no horizontal overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #map: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #kpi: pane shows",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #kpi: switch under 1 s",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #kpi: pane not empty",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #kpi: no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #kpi: no horizontal overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #kpi: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #trend: pane shows",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #trend: switch under 1 s",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #trend: pane not empty",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #trend: no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #trend: no horizontal overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #trend: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #init: pane shows",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #init: switch under 1 s",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #init: pane not empty",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #init: no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #init: no horizontal overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #init: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #raid: pane shows",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #raid: switch under 1 s",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #raid: pane not empty",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #raid: no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #raid: no horizontal overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #raid: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #dash: pane shows",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #dash: switch under 1 s",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #dash: pane not empty",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #dash: no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #dash: no horizontal overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #dash: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #templates: pane shows",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #templates: switch under 1 s",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #templates: pane not empty",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #templates: no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #templates: no horizontal overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #templates: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #recs: pane shows",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #recs: switch under 1 s",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #recs: pane not empty",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #recs: no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #recs: no horizontal overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #recs: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #checklist: pane shows",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #checklist: switch under 1 s",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #checklist: pane not empty",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #checklist: no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #checklist: no horizontal overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #checklist: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #terms: pane shows",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #terms: switch under 1 s",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #terms: pane not empty",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #terms: no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #terms: no horizontal overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #terms: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #refs: pane shows",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #refs: switch under 1 s",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #refs: pane not empty",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #refs: no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #refs: no horizontal overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #refs: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #standard: pane shows",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #standard: switch under 1 s",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #standard: pane not empty",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #standard: no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #standard: no horizontal overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #standard: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #clauses: pane shows",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #clauses: switch under 1 s",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #clauses: pane not empty",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #clauses: no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #clauses: no horizontal overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 1280 #clauses: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390: sidebar lists tabs",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #home: pane shows",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #home: switch under 1 s",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #home: pane not empty",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #home: no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #home: no horizontal overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #home: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #profile: pane shows",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #profile: switch under 1 s",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #profile: pane not empty",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #profile: no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #profile: no horizontal overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #profile: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #swot: pane shows",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #swot: switch under 1 s",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #swot: pane not empty",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #swot: no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #swot: no horizontal overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #swot: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #pestle: pane shows",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #pestle: switch under 1 s",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #pestle: pane not empty",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #pestle: no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #pestle: no horizontal overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #pestle: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #tows: pane shows",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #tows: switch under 1 s",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #tows: pane not empty",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #tows: no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #tows: no horizontal overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #tows: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #obj: pane shows",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #obj: switch under 1 s",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #obj: pane not empty",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #obj: no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #obj: no horizontal overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #obj: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #map: pane shows",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #map: switch under 1 s",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #map: pane not empty",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #map: no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #map: no horizontal overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #map: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #kpi: pane shows",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #kpi: switch under 1 s",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #kpi: pane not empty",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #kpi: no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #kpi: no horizontal overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #kpi: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #trend: pane shows",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #trend: switch under 1 s",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #trend: pane not empty",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #trend: no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #trend: no horizontal overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #trend: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #init: pane shows",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #init: switch under 1 s",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #init: pane not empty",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #init: no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #init: no horizontal overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #init: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #raid: pane shows",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #raid: switch under 1 s",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #raid: pane not empty",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #raid: no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #raid: no horizontal overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #raid: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #dash: pane shows",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #dash: switch under 1 s",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #dash: pane not empty",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #dash: no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #dash: no horizontal overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #dash: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #templates: pane shows",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #templates: switch under 1 s",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #templates: pane not empty",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #templates: no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #templates: no horizontal overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #templates: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #recs: pane shows",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #recs: switch under 1 s",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #recs: pane not empty",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #recs: no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #recs: no horizontal overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #recs: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #checklist: pane shows",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #checklist: switch under 1 s",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #checklist: pane not empty",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #checklist: no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #checklist: no horizontal overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #checklist: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #terms: pane shows",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #terms: switch under 1 s",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #terms: pane not empty",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #terms: no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #terms: no horizontal overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #terms: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #refs: pane shows",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #refs: switch under 1 s",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #refs: pane not empty",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #refs: no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #refs: no horizontal overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #refs: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #standard: pane shows",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #standard: switch under 1 s",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #standard: pane not empty",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #standard: no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #standard: no horizontal overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #standard: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #clauses: pane shows",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #clauses: switch under 1 s",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #clauses: pane not empty",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #clauses: no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #clauses: no horizontal overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance en 390 #clauses: no errors",
    "ok": true,
    "detail": ""
   }
  ],
  "stats": {
-  "tabs": 528,
-  "max_ms": 434
+  "tabs": 564,
+  "max_ms": 504
  },
  "modules": [
   "ai-regulatory",
@@ -16059,6 +17139,6 @@
   "kaqa",
   "pareto",
   "pmo-maturity",
-  "swot"
+  "strategy-performance"
  ]
 }

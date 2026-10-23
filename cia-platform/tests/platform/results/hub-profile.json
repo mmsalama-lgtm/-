@@ -1,0 +1,312 @@
+{
+ "name": "hub-profile",
+ "checks": 61,
+ "failed": 0,
+ "rows": [
+  {
+   "label": "ar 1280px: #profile opens the organization profile",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ar 1280px: no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ar 1280px: no horizontal overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ar 1280px: header button invites registration",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ar 1280px: the note says the profile stays in this browser until the shared-platform phase",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ar 1280px: every section is there (7)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ar 1280px: every field has a label",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ar 1280px: no console errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "en 1280px: #profile opens the organization profile",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "en 1280px: no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "en 1280px: no horizontal overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "en 1280px: header button invites registration",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "en 1280px: the note says the profile stays in this browser until the shared-platform phase",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "en 1280px: every section is there (7)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "en 1280px: every field has a label",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "en 1280px: no console errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ar 390px: #profile opens the organization profile",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ar 390px: no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ar 390px: no horizontal overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ar 390px: header button invites registration",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ar 390px: the note says the profile stays in this browser until the shared-platform phase",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ar 390px: every section is there (7)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ar 390px: every field has a label",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ar 390px: no console errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "en 390px: #profile opens the organization profile",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "en 390px: no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "en 390px: no horizontal overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "en 390px: header button invites registration",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "en 390px: the note says the profile stays in this browser until the shared-platform phase",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "en 390px: every section is there (7)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "en 390px: every field has a label",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "en 390px: no console errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "save with no name is refused with a message on the field",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "a wrong email is refused",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "unsaved changes are shown",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "saved: cia-org:v1 holds the documented schema (v1, every field)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "saved: the values typed",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "header button shows the organization's name",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "cover preview shows the name and 'prepared for … · prepared by …'",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "a 1600×900 PNG is resized in the browser to 512 px at most",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "the stored logo is 300 KB or less",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "the logo is previewed on a light and a dark background",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "the saved profile carries the logo; the header button shows it",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "an SVG logo is kept as a vector",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "SVG cleaned: no script, no event attribute, no foreignObject",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "SVG cleaned: no external reference",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "a file that is not a supported image is refused with a message",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "remove the logo",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "export JSON: the saved profile, same schema",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "import JSON fills the form (not saved until Save)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "import JSON drops a logo that is not an image data URL",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "a broken JSON file changes nothing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "import from the Executive Cockpit shows a preview first",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "after confirming, the English name goes to its box; nothing changes in the cockpit",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "the cockpit import is saved only by Save",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "clear (after confirmation) deletes cia-org:v1 and resets the button",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "no console errors in the profile workflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "home: the first-visit prompt invites registration",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "home: 'later' hides the prompt for good",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "home: no prompt once a profile exists; header shows the English name",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "header button opens the profile with the saved values",
+   "ok": true,
+   "detail": ""
+  }
+ ]
+}

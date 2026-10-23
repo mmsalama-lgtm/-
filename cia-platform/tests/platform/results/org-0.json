@@ -1,0 +1,490 @@
+{
+ "name": "org-0",
+ "checks": 94,
+ "failed": 0,
+ "seconds": 118.5,
+ "rows": [
+  {
+   "label": "a3: the organization profile kit runs (CIAORG) and finds no profile",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "a3: the report branding is wrapped by the kit",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "a3: no profile → no fill bar and no suggestions on any tab",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "a3: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "a3: no profile → report output (rd) byte-identical to the previous release",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "a3: no profile → report output (rep) byte-identical to the previous release",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "a3: with a profile the report carries the organization cover (rd, rep)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "a3: with a profile, visiting every tab leaves the stored state unchanged (same content; a tool may re-save its keys in its own order)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "a3: suggestion field #f-area lists the profile's values",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "a3: no errors with a profile",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "dmaic: the organization profile kit runs (CIAORG) and finds no profile",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "dmaic: the report branding is wrapped by the kit",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "dmaic: no profile → no fill bar and no suggestions on any tab",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "dmaic: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "dmaic: no profile → report output (rd) byte-identical to the previous release",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "dmaic: no profile → report output (rep) byte-identical to the previous release",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "dmaic: with a profile the report carries the organization cover (rd, rep)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "dmaic: with a profile, visiting every tab leaves the stored state unchanged (same content; a tool may re-save its keys in its own order)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "dmaic: suggestion field #f-area lists the profile's values",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "dmaic: no errors with a profile",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "five-whys: the organization profile kit runs (CIAORG) and finds no profile",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "five-whys: the report branding is wrapped by the kit",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "five-whys: no profile → no fill bar and no suggestions on any tab",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "five-whys: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "five-whys: no profile → report output (rd) byte-identical to the previous release",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "five-whys: no profile → report output (rep) byte-identical to the previous release",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "five-whys: with a profile the report carries the organization cover (rd, rep)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "five-whys: with a profile, visiting every tab leaves the stored state unchanged (same content; a tool may re-save its keys in its own order)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "five-whys: suggestion field #f-area lists the profile's values",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "five-whys: no errors with a profile",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso14001: the organization profile kit runs (CIAORG) and finds no profile",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso14001: the report branding is wrapped by the kit",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso14001: no profile → no fill bar and no suggestions on any tab",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso14001: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso14001: no profile → report output (bh) byte-identical to the previous release",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso14001: with a profile the report carries the organization cover (bh)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso14001: with a profile, visiting every tab leaves the stored state unchanged (same content; a tool may re-save its keys in its own order)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso14001: tab assess organization fields already filled (example) → no fill bar",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso14001: no errors with a profile",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso27701: the organization profile kit runs (CIAORG) and finds no profile",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso27701: the report branding is wrapped by the kit",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso27701: no profile → no fill bar and no suggestions on any tab",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso27701: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso27701: no profile → report output (bh) byte-identical to the previous release",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso27701: with a profile the report carries the organization cover (bh)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso27701: with a profile, visiting every tab leaves the stored state unchanged (same content; a tool may re-save its keys in its own order)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso27701: tab profile organization fields already filled (example) → no fill bar",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso27701: no errors with a profile",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37301: the organization profile kit runs (CIAORG) and finds no profile",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37301: the report branding is wrapped by the kit",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37301: no profile → no fill bar and no suggestions on any tab",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37301: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37301: no profile → report output (bh) byte-identical to the previous release",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37301: with a profile the report carries the organization cover (bh)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37301: with a profile, visiting every tab leaves the stored state unchanged (same content; a tool may re-save its keys in its own order)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37301: tab assess organization fields already filled (example) → no fill bar",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37301: no errors with a profile",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso9001: the organization profile kit runs (CIAORG) and finds no profile",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso9001: the report branding is wrapped by the kit",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso9001: no profile → no fill bar and no suggestions on any tab",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso9001: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso9001: no profile → report output (bh) byte-identical to the previous release",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso9001: with a profile the report carries the organization cover (bh)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso9001: with a profile, visiting every tab leaves the stored state unchanged (same content; a tool may re-save its keys in its own order)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso9001: tab assess organization fields already filled (example) → no fill bar",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso9001: no errors with a profile",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "p3o: the organization profile kit runs (CIAORG) and finds no profile",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "p3o: the report branding is wrapped by the kit",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "p3o: no profile → no fill bar and no suggestions on any tab",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "p3o: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "p3o: no profile → report output (bh) byte-identical to the previous release",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "p3o: with a profile the report carries the organization cover (bh)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "p3o: with a profile, visiting every tab leaves the stored state unchanged (same content; a tool may re-save its keys in its own order)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "p3o: tab profile organization fields already filled (example) → no fill bar",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "p3o: no errors with a profile",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pmo-excellence: the organization profile kit runs (CIAORG) and finds no profile",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pmo-excellence: the report branding is wrapped by the kit",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pmo-excellence: no profile → no fill bar and no suggestions on any tab",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pmo-excellence: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pmo-excellence: no profile → report output (bh) byte-identical to the previous release",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pmo-excellence: with a profile the report carries the organization cover (bh)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pmo-excellence: with a profile, visiting every tab leaves the stored state unchanged (same content; a tool may re-save its keys in its own order)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pmo-excellence: tab profile organization fields already filled (example) → no fill bar",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pmo-excellence: no errors with a profile",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "stakeholders: the organization profile kit runs (CIAORG) and finds no profile",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "stakeholders: the report branding is wrapped by the kit",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "stakeholders: no profile → no fill bar and no suggestions on any tab",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "stakeholders: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "stakeholders: no profile → report output (rd) byte-identical to the previous release",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "stakeholders: no profile → report output (rep) byte-identical to the previous release",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "stakeholders: with a profile the report carries the organization cover (rd, rep)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "stakeholders: with a profile, visiting every tab leaves the stored state unchanged (same content; a tool may re-save its keys in its own order)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "stakeholders: suggestion field #f-owner lists the profile's values",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "stakeholders: no errors with a profile",
+   "ok": true,
+   "detail": ""
+  }
+ ],
+ "modules": [
+  "a3",
+  "dmaic",
+  "five-whys",
+  "iso14001",
+  "iso27701",
+  "iso37301",
+  "iso9001",
+  "p3o",
+  "pmo-excellence",
+  "stakeholders"
+ ]
+}

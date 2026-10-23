@@ -112,10 +112,10 @@ PASS 390 px: the heat map fits the screen
 PASS 390 px: the stage map stacks in one column
 PASS 390 px: dashboard without page scroll, no errors
 PASS hub: FMEA URL, Audit & Improvement row and card
-PASS hub: 38 tools and Audit & Improvement 15 (PESTLE step)
+PASS hub: 39 tools and Audit & Improvement 16 (Stakeholder step)
 PASS hub: adapter reads the example snapshot (75%, 3/3, 2/3)
 PASS hub: TOOLINFO, NEWS and the request mapping
-PASS hub: grouped toolbox entry names the 1 tool left (PESTLE step)
+PASS hub: the toolbox is complete, no grouped toolbox entry (Stakeholder step)
 PASS hub: ciaOpenFile opens FMEA in the overlay
 PASS hub: no errors
 

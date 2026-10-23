@@ -1,8 +1,8 @@
 {
  "name": "sweep-2",
- "checks": 2748,
+ "checks": 2992,
  "failed": 0,
- "seconds": 90.0,
+ "seconds": 68.2,
  "rows": [
   {
    "label": "capa ar 1280: sidebar lists tabs",
@@ -13743,11 +13743,1231 @@
    "label": "rca en 390 #ai: no errors",
    "ok": true,
    "detail": ""
+  },
+  {
+   "label": "swot ar 1280: sidebar lists tabs",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 1280 #home: pane shows",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 1280 #home: switch under 1 s",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 1280 #home: pane not empty",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 1280 #home: no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 1280 #home: no horizontal overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 1280 #home: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 1280 #explain-std: pane shows",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 1280 #explain-std: switch under 1 s",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 1280 #explain-std: pane not empty",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 1280 #explain-std: no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 1280 #explain-std: no horizontal overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 1280 #explain-std: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 1280 #explain-cl: pane shows",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 1280 #explain-cl: switch under 1 s",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 1280 #explain-cl: pane not empty",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 1280 #explain-cl: no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 1280 #explain-cl: no horizontal overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 1280 #explain-cl: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 1280 #assess: pane shows",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 1280 #assess: switch under 1 s",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 1280 #assess: pane not empty",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 1280 #assess: no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 1280 #assess: no horizontal overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 1280 #assess: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 1280 #tools: pane shows",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 1280 #tools: switch under 1 s",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 1280 #tools: pane not empty",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 1280 #tools: no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 1280 #tools: no horizontal overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 1280 #tools: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 1280 #docs: pane shows",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 1280 #docs: switch under 1 s",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 1280 #docs: pane not empty",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 1280 #docs: no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 1280 #docs: no horizontal overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 1280 #docs: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 1280 #audit: pane shows",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 1280 #audit: switch under 1 s",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 1280 #audit: pane not empty",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 1280 #audit: no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 1280 #audit: no horizontal overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 1280 #audit: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 1280 #dash: pane shows",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 1280 #dash: switch under 1 s",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 1280 #dash: pane not empty",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 1280 #dash: no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 1280 #dash: no horizontal overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 1280 #dash: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 1280 #report: pane shows",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 1280 #report: switch under 1 s",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 1280 #report: pane not empty",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 1280 #report: no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 1280 #report: no horizontal overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 1280 #report: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 1280 #ai: pane shows",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 1280 #ai: switch under 1 s",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 1280 #ai: pane not empty",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 1280 #ai: no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 1280 #ai: no horizontal overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 1280 #ai: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 390: sidebar lists tabs",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 390 #home: pane shows",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 390 #home: switch under 1 s",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 390 #home: pane not empty",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 390 #home: no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 390 #home: no horizontal overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 390 #home: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 390 #explain-std: pane shows",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 390 #explain-std: switch under 1 s",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 390 #explain-std: pane not empty",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 390 #explain-std: no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 390 #explain-std: no horizontal overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 390 #explain-std: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 390 #explain-cl: pane shows",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 390 #explain-cl: switch under 1 s",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 390 #explain-cl: pane not empty",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 390 #explain-cl: no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 390 #explain-cl: no horizontal overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 390 #explain-cl: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 390 #assess: pane shows",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 390 #assess: switch under 1 s",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 390 #assess: pane not empty",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 390 #assess: no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 390 #assess: no horizontal overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 390 #assess: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 390 #tools: pane shows",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 390 #tools: switch under 1 s",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 390 #tools: pane not empty",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 390 #tools: no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 390 #tools: no horizontal overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 390 #tools: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 390 #docs: pane shows",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 390 #docs: switch under 1 s",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 390 #docs: pane not empty",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 390 #docs: no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 390 #docs: no horizontal overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 390 #docs: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 390 #audit: pane shows",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 390 #audit: switch under 1 s",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 390 #audit: pane not empty",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 390 #audit: no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 390 #audit: no horizontal overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 390 #audit: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 390 #dash: pane shows",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 390 #dash: switch under 1 s",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 390 #dash: pane not empty",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 390 #dash: no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 390 #dash: no horizontal overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 390 #dash: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 390 #report: pane shows",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 390 #report: switch under 1 s",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 390 #report: pane not empty",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 390 #report: no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 390 #report: no horizontal overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 390 #report: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 390 #ai: pane shows",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 390 #ai: switch under 1 s",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 390 #ai: pane not empty",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 390 #ai: no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 390 #ai: no horizontal overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar 390 #ai: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 1280: sidebar lists tabs",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 1280 #home: pane shows",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 1280 #home: switch under 1 s",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 1280 #home: pane not empty",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 1280 #home: no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 1280 #home: no horizontal overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 1280 #home: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 1280 #explain-std: pane shows",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 1280 #explain-std: switch under 1 s",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 1280 #explain-std: pane not empty",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 1280 #explain-std: no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 1280 #explain-std: no horizontal overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 1280 #explain-std: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 1280 #explain-cl: pane shows",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 1280 #explain-cl: switch under 1 s",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 1280 #explain-cl: pane not empty",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 1280 #explain-cl: no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 1280 #explain-cl: no horizontal overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 1280 #explain-cl: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 1280 #assess: pane shows",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 1280 #assess: switch under 1 s",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 1280 #assess: pane not empty",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 1280 #assess: no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 1280 #assess: no horizontal overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 1280 #assess: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 1280 #tools: pane shows",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 1280 #tools: switch under 1 s",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 1280 #tools: pane not empty",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 1280 #tools: no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 1280 #tools: no horizontal overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 1280 #tools: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 1280 #docs: pane shows",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 1280 #docs: switch under 1 s",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 1280 #docs: pane not empty",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 1280 #docs: no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 1280 #docs: no horizontal overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 1280 #docs: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 1280 #audit: pane shows",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 1280 #audit: switch under 1 s",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 1280 #audit: pane not empty",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 1280 #audit: no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 1280 #audit: no horizontal overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 1280 #audit: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 1280 #dash: pane shows",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 1280 #dash: switch under 1 s",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 1280 #dash: pane not empty",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 1280 #dash: no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 1280 #dash: no horizontal overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 1280 #dash: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 1280 #report: pane shows",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 1280 #report: switch under 1 s",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 1280 #report: pane not empty",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 1280 #report: no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 1280 #report: no horizontal overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 1280 #report: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 1280 #ai: pane shows",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 1280 #ai: switch under 1 s",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 1280 #ai: pane not empty",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 1280 #ai: no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 1280 #ai: no horizontal overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 1280 #ai: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 390: sidebar lists tabs",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 390 #home: pane shows",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 390 #home: switch under 1 s",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 390 #home: pane not empty",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 390 #home: no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 390 #home: no horizontal overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 390 #home: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 390 #explain-std: pane shows",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 390 #explain-std: switch under 1 s",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 390 #explain-std: pane not empty",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 390 #explain-std: no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 390 #explain-std: no horizontal overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 390 #explain-std: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 390 #explain-cl: pane shows",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 390 #explain-cl: switch under 1 s",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 390 #explain-cl: pane not empty",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 390 #explain-cl: no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 390 #explain-cl: no horizontal overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 390 #explain-cl: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 390 #assess: pane shows",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 390 #assess: switch under 1 s",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 390 #assess: pane not empty",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 390 #assess: no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 390 #assess: no horizontal overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 390 #assess: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 390 #tools: pane shows",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 390 #tools: switch under 1 s",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 390 #tools: pane not empty",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 390 #tools: no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 390 #tools: no horizontal overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 390 #tools: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 390 #docs: pane shows",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 390 #docs: switch under 1 s",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 390 #docs: pane not empty",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 390 #docs: no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 390 #docs: no horizontal overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 390 #docs: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 390 #audit: pane shows",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 390 #audit: switch under 1 s",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 390 #audit: pane not empty",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 390 #audit: no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 390 #audit: no horizontal overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 390 #audit: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 390 #dash: pane shows",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 390 #dash: switch under 1 s",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 390 #dash: pane not empty",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 390 #dash: no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 390 #dash: no horizontal overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 390 #dash: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 390 #report: pane shows",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 390 #report: switch under 1 s",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 390 #report: pane not empty",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 390 #report: no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 390 #report: no horizontal overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 390 #report: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 390 #ai: pane shows",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 390 #ai: switch under 1 s",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 390 #ai: pane not empty",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 390 #ai: no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 390 #ai: no horizontal overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en 390 #ai: no errors",
+   "ok": true,
+   "detail": ""
   }
  ],
  "stats": {
-  "tabs": 452,
-  "max_ms": 472
+  "tabs": 492,
+  "max_ms": 396
  },
  "modules": [
   "capa",
@@ -13758,6 +14978,7 @@
   "iso42005",
   "lessons",
   "pdca",
-  "rca"
+  "rca",
+  "swot"
  ]
 }

@@ -54,6 +54,7 @@ R.check("FMEA tour layer identical to the DMAIC one apart from its CFG line", "f
 R.check("Lessons Learned tour layer identical to the FMEA one apart from its CFG line", "lessons" in same, tour_variants)
 R.check("SWOT tour layer identical to the Lessons Learned one apart from its CFG line", "swot" in same, tour_variants)
 R.check("PESTLE tour layer identical to the SWOT one apart from its CFG line", "pestle" in same, tour_variants)
+R.check("Stakeholder Analysis tour layer identical to the PESTLE one apart from its CFG line", "stakeholders" in same, tour_variants)
 # ---- shared toolbox engine: one marked block, identical in every tool that carries it
 ENG_A, ENG_B = "/* CIA toolbox engine v1 — start */", "/* CIA toolbox engine v1 — end */"
 engines = {}
@@ -62,9 +63,31 @@ for m in modules():
     if ENG_A in s:
         R.check(f"{m}: engine block appears once", s.count(ENG_A) == 1 and s.count(ENG_B) == 1)
         engines[m] = s[s.find(ENG_A):s.find(ENG_B) + len(ENG_B)]
-R.check("toolbox engine carried by PDCA, CAPA, 5 Whys, Fishbone, Pareto, RCA, A3, DMAIC, ISO 10009, FMEA, Lessons Learned, SWOT and PESTLE (thirteen files)", {"pdca", "capa", "five-whys", "fishbone", "pareto", "rca", "a3", "dmaic", "iso10009", "fmea", "lessons", "swot", "pestle"} <= set(engines) and len(engines) == 13, sorted(engines))
+R.check("toolbox engine carried by PDCA, CAPA, 5 Whys, Fishbone, Pareto, RCA, A3, DMAIC, ISO 10009, FMEA, Lessons Learned, SWOT, PESTLE and Stakeholder Analysis (fourteen files)", {"pdca", "capa", "five-whys", "fishbone", "pareto", "rca", "a3", "dmaic", "iso10009", "fmea", "lessons", "swot", "pestle", "stakeholders"} <= set(engines) and len(engines) == 14, sorted(engines))
 R.check("toolbox engine block identical in every tool that carries it", len(set(engines.values())) == 1, sorted(engines))
 # other tools keep the tour variant they were released with (information only)
+
+# ---- step 15: the organization profile kit (every tool and the hub), the readers and the link panels (the hub and every linked tool)
+otpl = open(os.path.join(ROOT, "templates", "org-profile-kit.html"), encoding="utf-8").read()
+OB = {i: block(otpl, t, i) for t, i in (("style", "cia-org-css"), ("script", "cia-org-js"), ("script", "cia-readers-js"), ("style", "cia-linkui-css"), ("script", "cia-linkui-js"))}
+R.check("org-profile template has its five blocks", all(OB.values()))
+linked = []
+for m in modules():
+    s = open(os.path.join(ROOT, "modules", m + ".html"), encoding="utf-8").read()
+    for i in ("cia-org-css", "cia-org-js"):
+        tag = "style" if i.endswith("css") else "script"
+        R.check(f"{m}: {i} block byte-identical to the template and carried once", block(s, tag, i) == OB[i] and s.count('id="%s"' % i) == 1)
+    if 'id="cia-links-cfg"' in s:
+        linked.append(m)
+        for i in ("cia-readers-js", "cia-linkui-css", "cia-linkui-js"):
+            tag = "style" if i.endswith("css") else "script"
+            R.check(f"{m}: {i} block byte-identical to the template", block(s, tag, i) == OB[i] and s.count('id="%s"' % i) == 1)
+R.check("link panels in the nine linked tools", sorted(linked) == sorted(["capa", "iso31000-risk-studio", "ims-builder", "smart-audit-improvement", "strategy-performance",
+        "excellence-efqm", "kaqa", "pmo-excellence", "executive-cockpit-workspace"]), linked)
+hub = open(os.path.join(ROOT, "index.html"), encoding="utf-8").read()
+for i in ("cia-org-css", "cia-org-js", "cia-readers-js"):
+    tag = "style" if i.endswith("css") else "script"
+    R.check(f"index.html: {i} block byte-identical to the template", block(hub, tag, i) == OB[i])
 
 # ---- node --check of every inline script
 SCRIPT = re.compile(r'<script(?![^>]*\bsrc=)([^>]*)>(.*?)</script>', re.S | re.I)

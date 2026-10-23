@@ -1,103 +1,116 @@
 {
  "compliance-anti-bribery": {
-  "file_changed": false,
-  "tabs": {}
- },
- "fishbone": {
-  "file_changed": false,
-  "tabs": {}
- },
- "iso10009": {
   "file_changed": true,
   "tabs": {
-   "ar:dash": {
-    "added": 2,
-    "removed": 2,
-    "added_sample": [
-     "8",
-     "12"
-    ],
-    "removed_sample": [
-     "7",
-     "13"
-    ]
-   },
-   "ar:explain-cl": {
-    "added": 1,
-    "removed": 1,
-    "added_sample": [
-     "5.2"
-    ],
-    "removed_sample": [
-     "5.2"
-    ]
-   },
-   "ar:home": {
-    "added": 2,
-    "removed": 2,
-    "added_sample": [
-     "8",
-     "12"
-    ],
-    "removed_sample": [
-     "7",
-     "13"
-    ]
-   },
-   "en:dash": {
-    "added": 2,
-    "removed": 2,
-    "added_sample": [
-     "8",
-     "12"
-    ],
-    "removed_sample": [
-     "7",
-     "13"
-    ]
-   },
-   "en:explain-cl": {
-    "added": 1,
-    "removed": 1,
-    "added_sample": [
-     "5.2"
-    ],
-    "removed_sample": [
-     "5.2"
-    ]
-   },
    "en:home": {
     "added": 2,
     "removed": 2,
     "added_sample": [
-     "8",
-     "12"
+     "Prepared by مدثر سلامه",
+     "Contact مدثر سلامه for bribery risk assessments, speak-up channel and investigation design, third-party due diligence and preparation for ISO 37301 and ISO 37001:2025 certification."
     ],
     "removed_sample": [
-     "7",
-     "13"
+     "Prepared by Modather Salama",
+     "Contact Modather Salama for bribery risk assessments, speak-up channel and investigation design, third-party due diligence and preparation for ISO 37301 and ISO 37001:2025 certification."
     ]
    }
   }
  },
- "iso27001": {
-  "file_changed": false,
+ "fishbone": {
+  "file_changed": true,
   "tabs": {}
+ },
+ "iso10009": {
+  "file_changed": true,
+  "tabs": {}
+ },
+ "iso27001": {
+  "file_changed": true,
+  "tabs": {
+   "en:home": {
+    "added": 2,
+    "removed": 2,
+    "added_sample": [
+     "Prepared by مدثر سلامه",
+     "Search the common questions for an instant answer, or send your question directly to مدثر سلامه for consulting, training, audits and certification readiness."
+    ],
+    "removed_sample": [
+     "Prepared by Modather Salama",
+     "Search the common questions for an instant answer, or send your question directly to Modather Salama for consulting, training, audits and certification readiness."
+    ]
+   }
+  }
  },
  "iso37001": {
-  "file_changed": false,
-  "tabs": {}
+  "file_changed": true,
+  "tabs": {
+   "en:home": {
+    "added": 2,
+    "removed": 2,
+    "added_sample": [
+     "Prepared by مدثر سلامه",
+     "Search the common questions for an instant answer, or send your question directly to مدثر سلامه for consulting, training, audits and certification readiness."
+    ],
+    "removed_sample": [
+     "Prepared by Modather Salama",
+     "Search the common questions for an instant answer, or send your question directly to Modather Salama for consulting, training, audits and certification readiness."
+    ]
+   }
+  }
  },
  "iso45001": {
-  "file_changed": false,
-  "tabs": {}
+  "file_changed": true,
+  "tabs": {
+   "en:home": {
+    "added": 2,
+    "removed": 2,
+    "added_sample": [
+     "Prepared by مدثر سلامه",
+     "Search the common questions for an instant answer, or send your question directly to مدثر سلامه for consulting, training, audits and certification readiness."
+    ],
+    "removed_sample": [
+     "Prepared by Modather Salama",
+     "Search the common questions for an instant answer, or send your question directly to Modather Salama for consulting, training, audits and certification readiness."
+    ]
+   }
+  }
  },
  "operations-excellence": {
-  "file_changed": false,
+  "file_changed": true,
+  "tabs": {
+   "en:home": {
+    "added": 2,
+    "removed": 2,
+    "added_sample": [
+     "Prepared by مدثر سلامه",
+     "Contact مدثر سلامه to build process architecture and RACI matrices, design competence matrices and training plans, prepare Aramco and SEC Unified Contract prequalification files, and evaluate vendors and contractors."
+    ],
+    "removed_sample": [
+     "Prepared by Modather Salama",
+     "Contact Modather Salama to build process architecture and RACI matrices, design competence matrices and training plans, prepare Aramco and SEC Unified Contract prequalification files, and evaluate vendors and contractors."
+    ]
+   }
+  }
+ },
+ "pestle": {
+  "file_changed": true,
   "tabs": {}
  },
  "smart-audit-improvement": {
-  "file_changed": false,
-  "tabs": {}
+  "file_changed": true,
+  "tabs": {
+   "en:home": {
+    "added": 2,
+    "removed": 2,
+    "added_sample": [
+     "Prepared by مدثر سلامه",
+     "Contact مدثر سلامه to build an integrated risk-based audit programme, train internal auditors on ISO 19011:2026, run root cause analysis, and prepare for the ISO 9001:2026 transition audit."
+    ],
+    "removed_sample": [
+     "Prepared by Modather Salama",
+     "Contact Modather Salama to build an integrated risk-based audit programme, train internal auditors on ISO 19011:2026, run root cause analysis, and prepare for the ISO 9001:2026 transition audit."
+    ]
+   }
+  }
  }
 }

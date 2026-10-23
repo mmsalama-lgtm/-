@@ -1,0 +1,356 @@
+{
+"a3": [
+[
+"color-contrast",
+4
+]
+],
+"ai-regulatory": [
+[
+"aria-required-parent",
+16
+],
+[
+"color-contrast",
+9
+]
+],
+"capa": [
+[
+"color-contrast",
+3
+]
+],
+"compliance-anti-bribery": [
+[
+"aria-required-parent",
+20
+],
+[
+"color-contrast",
+6
+]
+],
+"dmaic": [
+[
+"color-contrast",
+5
+]
+],
+"excellence-efqm": [
+[
+"aria-required-parent",
+16
+],
+[
+"color-contrast",
+6
+]
+],
+"executive-cockpit-workspace": [
+[
+"aria-required-parent",
+18
+],
+[
+"color-contrast",
+6
+]
+],
+"fishbone": [
+[
+"color-contrast",
+3
+]
+],
+"five-whys": [
+[
+"color-contrast",
+3
+]
+],
+"fmea": [
+[
+"color-contrast",
+6
+]
+],
+"ims-builder": [
+[
+"aria-hidden-focus",
+1
+],
+[
+"aria-required-parent",
+14
+],
+[
+"color-contrast",
+6
+]
+],
+"iso10009": [
+[
+"color-contrast",
+7
+]
+],
+"iso14001": [
+[
+"aria-hidden-focus",
+1
+],
+[
+"aria-required-parent",
+12
+],
+[
+"color-contrast",
+3
+]
+],
+"iso21500": [
+[
+"aria-required-parent",
+13
+],
+[
+"color-contrast",
+6
+]
+],
+"iso22301": [
+[
+"aria-hidden-focus",
+1
+],
+[
+"aria-required-parent",
+13
+]
+],
+"iso27001": [
+[
+"aria-hidden-focus",
+1
+],
+[
+"aria-required-parent",
+13
+]
+],
+"iso27701": [
+[
+"aria-required-parent",
+16
+],
+[
+"color-contrast",
+8
+]
+],
+"iso31000-risk-studio": [
+[
+"aria-hidden-focus",
+1
+],
+[
+"aria-required-parent",
+13
+],
+[
+"color-contrast",
+1
+]
+],
+"iso37000-governance": [
+[
+"aria-hidden-focus",
+1
+],
+[
+"aria-required-parent",
+13
+],
+[
+"color-contrast",
+1
+]
+],
+"iso37001": [
+[
+"aria-hidden-focus",
+1
+],
+[
+"aria-required-parent",
+13
+]
+],
+"iso37301": [
+[
+"aria-hidden-focus",
+1
+],
+[
+"aria-required-parent",
+13
+]
+],
+"iso42001": [
+[
+"aria-required-parent",
+15
+],
+[
+"color-contrast",
+10
+]
+],
+"iso42005": [
+[
+"aria-required-parent",
+15
+],
+[
+"color-contrast",
+9
+]
+],
+"iso45001": [
+[
+"aria-hidden-focus",
+1
+],
+[
+"aria-required-parent",
+12
+]
+],
+"iso9001": [
+[
+"aria-hidden-focus",
+1
+],
+[
+"aria-required-parent",
+12
+],
+[
+"color-contrast",
+3
+]
+],
+"kaqa": [
+[
+"aria-required-parent",
+16
+],
+[
+"color-contrast",
+5
+]
+],
+"lessons": [
+[
+"color-contrast",
+7
+]
+],
+"operations-excellence": [
+[
+"aria-required-parent",
+26
+],
+[
+"color-contrast",
+5
+]
+],
+"p3o": [
+[
+"aria-required-parent",
+14
+],
+[
+"color-contrast",
+4
+]
+],
+"pareto": [
+[
+"color-contrast",
+3
+]
+],
+"pdca": [
+[
+"color-contrast",
+3
+]
+],
+"pestle": [
+[
+"color-contrast",
+6
+]
+],
+"pmo-excellence": [
+[
+"aria-required-parent",
+15
+],
+[
+"color-contrast",
+5
+]
+],
+"pmo-maturity": [
+[
+"aria-required-parent",
+13
+],
+[
+"color-contrast",
+5
+]
+],
+"rca": [
+[
+"color-contrast",
+4
+]
+],
+"smart-audit-improvement": [
+[
+"aria-required-parent",
+20
+],
+[
+"color-contrast",
+5
+]
+],
+"stakeholders": [
+[
+"color-contrast",
+5
+]
+],
+"strategy-performance": [
+[
+"aria-required-parent",
+19
+],
+[
+"color-contrast",
+5
+]
+],
+"swot": [
+[
+"color-contrast",
+6
+]
+]
+}

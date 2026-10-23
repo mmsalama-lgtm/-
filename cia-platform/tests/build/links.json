@@ -1,0 +1,243 @@
+{
+ "iso9001": [],
+ "iso14001": [],
+ "iso45001": [],
+ "iso27001": [],
+ "iso27701": [
+  "aireg",
+  "iso27001"
+ ],
+ "iso22301": [],
+ "iso37301": [],
+ "iso37001": [],
+ "iso42001": [],
+ "iso42005": [
+  "iso42001"
+ ],
+ "iso31000": [
+  "fmea",
+  "iso14001",
+  "iso22301",
+  "iso27001",
+  "iso37000",
+  "iso37001",
+  "iso37301",
+  "iso45001",
+  "iso9001",
+  "pestle",
+  "stakeholders",
+  "swot"
+ ],
+ "iso37000": [
+  "iso31000"
+ ],
+ "ims": [
+  "iso14001",
+  "iso22301",
+  "iso27001",
+  "iso37001",
+  "iso37301",
+  "iso45001",
+  "iso9001"
+ ],
+ "pmo": [],
+ "iso21500": [],
+ "p3o": [],
+ "pmoexc": [
+  "iso21500",
+  "lessons",
+  "p3o",
+  "pmo"
+ ],
+ "exc": [
+  "a3",
+  "dmaic",
+  "pdca",
+  "str"
+ ],
+ "kaqa": [
+  "a3",
+  "dmaic",
+  "exc",
+  "pdca",
+  "str"
+ ],
+ "ccc": [],
+ "aireg": [
+  "iso42001",
+  "iso42005"
+ ],
+ "aud": [
+  "iso14001",
+  "iso22301",
+  "iso27001",
+  "iso31000",
+  "iso37000",
+  "iso37001",
+  "iso37301",
+  "iso45001",
+  "iso9001"
+ ],
+ "str": [
+  "exc",
+  "kaqa",
+  "pestle",
+  "stakeholders",
+  "swot"
+ ],
+ "oec": [],
+ "w8": [
+  "a3",
+  "aireg",
+  "aud",
+  "capa",
+  "ccc",
+  "dmaic",
+  "exc",
+  "fish",
+  "fmea",
+  "ims",
+  "iso10009",
+  "iso14001",
+  "iso21500",
+  "iso22301",
+  "iso27001",
+  "iso27701",
+  "iso31000",
+  "iso37000",
+  "iso37001",
+  "iso37301",
+  "iso42001",
+  "iso42005",
+  "iso45001",
+  "iso9001",
+  "kaqa",
+  "lessons",
+  "oec",
+  "p3o",
+  "pareto",
+  "pdca",
+  "pestle",
+  "pmo",
+  "pmoexc",
+  "rca",
+  "stakeholders",
+  "str",
+  "swot",
+  "why5"
+ ],
+ "pdca": [],
+ "capa": [
+  "aud",
+  "exc",
+  "fish",
+  "iso14001",
+  "iso22301",
+  "iso27001",
+  "iso31000",
+  "iso37000",
+  "iso37001",
+  "iso37301",
+  "iso45001",
+  "iso9001",
+  "kaqa",
+  "pdca",
+  "rca",
+  "why5"
+ ],
+ "why5": [
+  "capa",
+  "fish",
+  "pdca"
+ ],
+ "fish": [
+  "capa",
+  "pareto",
+  "pdca",
+  "why5"
+ ],
+ "pareto": [
+  "aud",
+  "capa",
+  "fish",
+  "pdca",
+  "rca",
+  "why5"
+ ],
+ "rca": [
+  "a3",
+  "capa",
+  "fish",
+  "pareto",
+  "pdca",
+  "why5"
+ ],
+ "a3": [
+  "capa",
+  "dmaic",
+  "fish",
+  "pareto",
+  "pdca",
+  "rca",
+  "why5"
+ ],
+ "dmaic": [
+  "a3",
+  "capa",
+  "fish",
+  "fmea",
+  "pareto",
+  "pdca",
+  "rca",
+  "why5"
+ ],
+ "iso10009": [
+  "a3",
+  "capa",
+  "dmaic",
+  "fish",
+  "fmea",
+  "pareto",
+  "pdca",
+  "rca",
+  "why5"
+ ],
+ "fmea": [
+  "a3",
+  "capa",
+  "dmaic",
+  "fish",
+  "lessons",
+  "pareto",
+  "pdca",
+  "rca",
+  "why5"
+ ],
+ "lessons": [
+  "a3",
+  "capa",
+  "dmaic",
+  "fish",
+  "fmea",
+  "pareto",
+  "pdca",
+  "rca",
+  "why5"
+ ],
+ "swot": [
+  "fmea",
+  "lessons",
+  "pareto",
+  "str"
+ ],
+ "pestle": [
+  "str",
+  "swot"
+ ],
+ "stakeholders": [
+  "lessons",
+  "pestle",
+  "str",
+  "swot"
+ ]
+}

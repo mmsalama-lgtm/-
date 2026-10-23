@@ -1,1 +1,11 @@
-== regress-2: 45/45 passed (135.9s)
+  capa: text differences on 4 tab views; with removed lines: 4
+  executive-cockpit-workspace: text differences on 1 tab views; with removed lines: 1
+  ims-builder: text differences on 1 tab views; with removed lines: 1
+  iso22301: text differences on 1 tab views; with removed lines: 1
+  iso37000-governance: text differences on 1 tab views; with removed lines: 1
+  iso42005: text differences on 1 tab views; with removed lines: 1
+  lessons: text differences on 0 tab views; with removed lines: 0
+  pdca: text differences on 4 tab views; with removed lines: 4
+  rca: text differences on 0 tab views; with removed lines: 0
+  swot: text differences on 0 tab views; with removed lines: 0
+== regress-2: 40/40 passed (118.3s)

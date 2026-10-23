@@ -1,0 +1,378 @@
+{
+ "name": "links",
+ "checks": 74,
+ "failed": 0,
+ "seconds": 108.5,
+ "rows": [
+  {
+   "label": "capa: the link panel shows on the tools tab",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "capa: every group in the panel is a declared source (9001, 14001, 45001, 27001, 22301, 37301, 37001, 31000, 37000, EFQM, KAQA)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "capa: no undefined/NaN/[object Object] in the panel",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "capa: showing the panel changes no stored state",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "capa: after its action, every source tool's stored state is byte-identical",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "capa: its own stored state is unchanged (read-only panel, or a new record left unsaved in the form)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "capa: 'start a CAPA' fills a new unsaved record (title, reference, class) and says so",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "capa: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso31000-risk-studio: the link panel shows on the annexa tab",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso31000-risk-studio: every group in the panel is a declared source (PESTLE, STK, FMEA, 9001)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso31000-risk-studio: no undefined/NaN/[object Object] in the panel",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso31000-risk-studio: showing the panel changes no stored state",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso31000-risk-studio: after its action, every source tool's stored state is byte-identical",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso31000-risk-studio: only its own key changed, through its own button",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso31000: 'start a risk' added a register row naming its source",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso31000-risk-studio: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ims-builder: the link panel shows on the picker tab",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ims-builder: every group in the panel is a declared source (ISO)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ims-builder: no undefined/NaN/[object Object] in the panel",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ims-builder: showing the panel changes no stored state",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ims-builder: after its action, every source tool's stored state is byte-identical",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ims-builder: only its own key changed, through its own button",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ims-builder: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "smart-audit-improvement: the link panel shows on the clist tab",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "smart-audit-improvement: every group in the panel is a declared source (9001)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "smart-audit-improvement: no undefined/NaN/[object Object] in the panel",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "smart-audit-improvement: showing the panel changes no stored state",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "smart-audit-improvement: after its action, every source tool's stored state is byte-identical",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "smart-audit-improvement: its own stored state is unchanged (read-only panel, or a new record left unsaved in the form)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "smart-audit-improvement: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance: the link panel shows on the swot tab",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance: every group in the panel is a declared source (SWOT, PESTLE, STK, EFQM, KAQA)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance: no undefined/NaN/[object Object] in the panel",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance: showing the panel changes no stored state",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance: after its action, every source tool's stored state is byte-identical",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance: its own stored state is unchanged (read-only panel, or a new record left unsaved in the form)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "excellence-efqm: the link panel shows on the results tab",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "excellence-efqm: every group in the panel is a declared source (BSC, PDCA · A3 · DMAIC)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "excellence-efqm: no undefined/NaN/[object Object] in the panel",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "excellence-efqm: showing the panel changes no stored state",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "excellence-efqm: after its action, every source tool's stored state is byte-identical",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "excellence-efqm: its own stored state is unchanged (read-only panel, or a new record left unsaved in the form)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "excellence-efqm: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "kaqa: the link panel shows on the results tab",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "kaqa: every group in the panel is a declared source (BSC, PDCA · A3 · DMAIC)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "kaqa: no undefined/NaN/[object Object] in the panel",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "kaqa: showing the panel changes no stored state",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "kaqa: after its action, every source tool's stored state is byte-identical",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "kaqa: its own stored state is unchanged (read-only panel, or a new record left unsaved in the form)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "kaqa: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pmo-excellence: the link panel shows on the assess tab",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pmo-excellence: every group in the panel is a declared source (LL)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pmo-excellence: no undefined/NaN/[object Object] in the panel",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pmo-excellence: showing the panel changes no stored state",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pmo-excellence: after its action, every source tool's stored state is byte-identical",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pmo-excellence: its own stored state is unchanged (read-only panel, or a new record left unsaved in the form)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pmo-excellence: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "executive-cockpit-workspace: the link panel shows on the cockpit tab",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "executive-cockpit-workspace: every group in the panel is a declared source (TOOLBOX, REPORT)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "executive-cockpit-workspace: no undefined/NaN/[object Object] in the panel",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "executive-cockpit-workspace: showing the panel changes no stored state",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "executive-cockpit-workspace: after its action, every source tool's stored state is byte-identical",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "executive-cockpit-workspace: its own stored state is unchanged (read-only panel, or a new record left unsaved in the form)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "executive-cockpit-workspace: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "capa: with no data in the source tools the panel is absent",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso31000-risk-studio: with no data in the source tools the panel is absent",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ims-builder: with no data in the source tools the panel is absent",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "smart-audit-improvement: with no data in the source tools the panel is absent",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance: with no data in the source tools the panel is absent",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "excellence-efqm: with no data in the source tools the panel is absent",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "kaqa: with no data in the source tools the panel is absent",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pmo-excellence: with no data in the source tools the panel is absent",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "executive-cockpit-workspace: with no data in the source tools the panel is absent",
+   "ok": true,
+   "detail": ""
+  }
+ ]
+}

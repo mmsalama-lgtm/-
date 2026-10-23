@@ -1,0 +1,51 @@
+PASS iso9001: the register lists the tool's own action plan (30) and checklist findings (3)
+PASS iso14001: the register lists the tool's own action plan (30) and checklist findings (0)
+PASS iso45001: the register lists the tool's own action plan (30) and checklist findings (2)
+PASS iso27001: the register lists the tool's own action plan (30) and checklist findings (0)
+PASS iso22301: the register lists the tool's own action plan (30) and checklist findings (0)
+PASS iso37301: the register lists the tool's own action plan (30) and checklist findings (0)
+PASS iso37001: the register lists the tool's own action plan (30) and checklist findings (0)
+PASS iso31000: the register lists the tool's own action plan (30) and checklist findings (0)
+PASS iso37000: the register lists the tool's own action plan (32) and checklist findings (0)
+PASS capa: the register lists every CAPA record not closed by the tool's own stage rule (3)
+PASS capa: the register's follow-up flags add up to the dashboard's open-item count (3)
+PASS why5: the register's follow-up flags add up to the dashboard's open-item count (3)
+PASS fish: the register's follow-up flags add up to the dashboard's open-item count (1)
+PASS pareto: the register's follow-up flags add up to the dashboard's open-item count (2)
+PASS rca: the register's follow-up flags add up to the dashboard's open-item count (1)
+PASS a3: the register's follow-up flags add up to the dashboard's open-item count (1)
+PASS dmaic: the register's follow-up flags add up to the dashboard's open-item count (1)
+PASS iso10009: the register's follow-up flags add up to the dashboard's open-item count (1)
+PASS fmea: the register's follow-up flags add up to the dashboard's open-item count (1)
+PASS lessons: the register's follow-up flags add up to the dashboard's open-item count (1)
+PASS swot: the register's follow-up flags add up to the dashboard's open-item count (0)
+PASS pestle: the register's follow-up flags add up to the dashboard's open-item count (0)
+PASS stakeholders: the register's follow-up flags add up to the dashboard's open-item count (0)
+PASS every tool: the register holds exactly the items its reader returns
+PASS the register shows the first 80 rows and a 'show more' button
+PASS the counters equal the items
+PASS filter: overdue only
+PASS filter: a system shows its tools only
+PASS filter: one tool
+PASS search narrows to the matching record
+PASS each of the 39 tools with items: its first row opens the record's tool in the overlay
+PASS a toolbox record opens on its own record (FMEA: the one-time hint {open})
+PASS no console errors
+PASS ar 1280px: #actions renders; menu item present
+PASS ar 1280px: no undefined/NaN/[object Object]
+PASS ar 1280px: no horizontal overflow
+PASS ar 1280px: no console errors
+PASS en 1280px: #actions renders; menu item present
+PASS en 1280px: no undefined/NaN/[object Object]
+PASS en 1280px: no horizontal overflow
+PASS en 1280px: no console errors
+PASS ar 390px: #actions renders; menu item present
+PASS ar 390px: no undefined/NaN/[object Object]
+PASS ar 390px: no horizontal overflow
+PASS ar 390px: no console errors
+PASS en 390px: #actions renders; menu item present
+PASS en 390px: no undefined/NaN/[object Object]
+PASS en 390px: no horizontal overflow
+PASS en 390px: no console errors
+PASS no data: the register says so and invites starting a tool
+== hub-actions: 50/50 passed

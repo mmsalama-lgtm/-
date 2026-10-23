@@ -15,7 +15,6 @@ PASS every self-assessment question is reached from the kit
 PASS method guide says once that PESTLE is a technique, not a requirement
 PASS author name on the page and the report
 PASS sidebar buttons carry data-go and data-t
-PASS SWOT, Strategy Studio, Lessons, FMEA, Pareto and the Risk Studio unchanged (byte-identical to the previous package)
 PASS opens in Arabic, RTL, on the home tab
 PASS ten tabs in the sidebar in the agreed order
 PASS home: code badge, author, launch tiles and the related-tools strip
@@ -94,13 +93,13 @@ PASS 390 px: no page overflow on any tab in AR and EN (scan loaded)
 PASS 390 px: the board fits in two columns (Arabic: political on the right)
 PASS 390 px: no errors
 PASS hub: PESTLE URL, Audit & Improvement row and card
-PASS hub: 38 tools and Audit & Improvement 15
+PASS hub: 39 tools and Audit & Improvement 16 (Stakeholder step)
 PASS hub: adapter reads the example snapshot (75%, 17/17, 17/17, 1/3)
 PASS hub: TOOLINFO (12 questions, tools tab), NEWS and the request mapping
-PASS hub: grouped toolbox entry names the 1 tool left
+PASS hub: the toolbox is complete, no grouped toolbox entry (Stakeholder step)
 PASS hub: Advisor rules name PESTLE for strategy and KPIs, and risk
 PASS hub: knowledge topic links the method guide
 PASS hub: ciaOpenFile opens PESTLE in the overlay
 PASS hub: no errors
 
-104/104 passed
+103/103 passed

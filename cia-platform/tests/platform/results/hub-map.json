@@ -1,0 +1,217 @@
+{
+ "name": "hub-map",
+ "checks": 42,
+ "failed": 0,
+ "rows": [
+  {
+   "label": "link_types.json and links.json name the same links",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ar 1280px: #map opens the integration map",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ar 1280px: no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ar 1280px: no horizontal overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ar 1280px: the mobile menu has the map item",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ar 1280px: the top menu has the map item after Guides",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ar 1280px: the map embeds every link of link_types.json (177)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ar 1280px: 39 tool nodes, 7 branches, the 6-step cycle and the centre",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ar 1280px: the counters equal the data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ar 1280px: legend lists the four link types and the profile",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ar 1280px: hovering each node highlights exactly its links (reads and read by) and the side list matches",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ar 1280px: a click on a node opens its tool in the overlay (5 sampled by click)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ar 1280px: every one of the 39 nodes opens its tool (keyboard Enter)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ar 1280px: no console errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "en 1280px: #map opens the integration map",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "en 1280px: no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "en 1280px: no horizontal overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "en 1280px: the mobile menu has the map item",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "en 1280px: the top menu has the map item after Guides",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "en 1280px: the map embeds every link of link_types.json (177)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "en 1280px: 39 tool nodes, 7 branches, the 6-step cycle and the centre",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "en 1280px: the counters equal the data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "en 1280px: legend lists the four link types and the profile",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "en 1280px: hovering each node highlights exactly its links (reads and read by) and the side list matches",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "en 1280px: no console errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ar 390px: #map opens the integration map",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ar 390px: no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ar 390px: no horizontal overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ar 390px: the mobile menu has the map item",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ar 390px: on a phone the map is collapsible branches (7)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ar 390px: a tool opened in a branch lists what it feeds and what feeds it, with an open button",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ar 390px: no overflow with a branch open",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ar 390px: no console errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "en 390px: #map opens the integration map",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "en 390px: no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "en 390px: no horizontal overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "en 390px: the mobile menu has the map item",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "en 390px: on a phone the map is collapsible branches (7)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "en 390px: a tool opened in a branch lists what it feeds and what feeds it, with an open button",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "en 390px: no overflow with a branch open",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "en 390px: no console errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "the Arabic map is the English one mirrored (every node)",
+   "ok": true,
+   "detail": ""
+  }
+ ]
+}

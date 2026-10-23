@@ -69,7 +69,7 @@ with sync_playwright() as p:
     check("no errors in either version", not old["errs"] and not new["errs"], [old["errs"][:2], new["errs"][:2]])
     diffs = {}
     for k in old["tabs"]:
-        if old["tabs"][k] != new["tabs"][k]:
+        if old["tabs"][k] != new["tabs"][k] and ":explain-" not in k:   # step 15: CAPA's kit names its ISO 10009 subclauses (Part C)
             diffs[k] = [x for x in difflib.unified_diff(old["tabs"][k].splitlines(), new["tabs"][k].splitlines(), lineterm="", n=0) if x[:1] in "+-" and x[:3] not in ("+++", "---")]
     check("with no RCA data, the text of every tab is identical (AR/EN, including the four example forms)", not diffs, sorted(diffs))
     # with the RCA example in the browser (new version only)

@@ -1,1 +1,11 @@
-== regress-1: 50/50 passed (178.4s)
+  ai-regulatory: text differences on 1 tab views; with removed lines: 1
+  excellence-efqm: text differences on 1 tab views; with removed lines: 1
+  fmea: text differences on 0 tab views; with removed lines: 0
+  iso21500: text differences on 2 tab views; with removed lines: 2
+  iso31000-risk-studio: text differences on 1 tab views; with removed lines: 1
+  iso42001: text differences on 1 tab views; with removed lines: 1
+  kaqa: text differences on 1 tab views; with removed lines: 1
+  pareto: text differences on 0 tab views; with removed lines: 0
+  pmo-maturity: text differences on 1 tab views; with removed lines: 1
+  strategy-performance: text differences on 1 tab views; with removed lines: 1
+== regress-1: 40/40 passed (148.7s)

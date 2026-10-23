@@ -1,42 +1,171 @@
 {
  "a3": {
-  "file_changed": false,
+  "file_changed": true,
   "tabs": {}
  },
  "dmaic": {
-  "file_changed": false,
+  "file_changed": true,
   "tabs": {}
  },
  "five-whys": {
-  "file_changed": false,
-  "tabs": {}
+  "file_changed": true,
+  "tabs": {
+   "ar:explain-cl": {
+    "added": 1,
+    "removed": 1,
+    "added_sample": [
+     "ما يرد تحت «المتطلب» ملخص تفسيري بصياغة مستقلة، وليس النص الرسمي للمواصفة. وما تحت «كيف تطبقه» و«الفجوات» إرشاد تطبيقي. أرقام البنود وعناوينها متحقق منها من النصوص الرسمية المرفوعة. وتشرح ISO 10009:2024 تحليل لماذا الخمس في البند 14.4؛ والشرح الكامل في دليل ISO 10009 على المنصة."
+    ],
+    "removed_sample": [
+     "ما يرد تحت «المتطلب» ملخص تفسيري بصياغة مستقلة، وليس النص الرسمي للمواصفة. وما تحت «كيف تطبقه» و«الفجوات» إرشاد تطبيقي. أرقام البنود وعناوينها متحقق منها من النصوص الرسمية المرفوعة."
+    ]
+   },
+   "ar:explain-std": {
+    "added": 1,
+    "removed": 1,
+    "added_sample": [
+     "ما يرد تحت «المتطلب» ملخص تفسيري بصياغة مستقلة، وليس النص الرسمي للمواصفة. وما تحت «كيف تطبقه» و«الفجوات» إرشاد تطبيقي. أرقام البنود وعناوينها متحقق منها من النصوص الرسمية المرفوعة. وتشرح ISO 10009:2024 تحليل لماذا الخمس في البند 14.4؛ والشرح الكامل في دليل ISO 10009 على المنصة."
+    ],
+    "removed_sample": [
+     "ما يرد تحت «المتطلب» ملخص تفسيري بصياغة مستقلة، وليس النص الرسمي للمواصفة. وما تحت «كيف تطبقه» و«الفجوات» إرشاد تطبيقي. أرقام البنود وعناوينها متحقق منها من النصوص الرسمية المرفوعة."
+    ]
+   },
+   "en:explain-cl": {
+    "added": 1,
+    "removed": 1,
+    "added_sample": [
+     "Text under “requirement” is an interpretive summary in independent wording, not the official text of the standard. “How to implement” and “common gaps” are practical guidance. Clause numbers and titles were checked against the uploaded official texts. ISO 10009:2024 reviews five whys analysis in 14.4. The full guide is the ISO 10009 tool on the platform."
+    ],
+    "removed_sample": [
+     "Text under “requirement” is an interpretive summary in independent wording, not the official text of the standard. “How to implement” and “common gaps” are practical guidance. Clause numbers and titles were checked against the uploaded official texts."
+    ]
+   },
+   "en:explain-std": {
+    "added": 1,
+    "removed": 1,
+    "added_sample": [
+     "Text under “requirement” is an interpretive summary in independent wording, not the official text of the standard. “How to implement” and “common gaps” are practical guidance. Clause numbers and titles were checked against the uploaded official texts. ISO 10009:2024 reviews five whys analysis in 14.4. The full guide is the ISO 10009 tool on the platform."
+    ],
+    "removed_sample": [
+     "Text under “requirement” is an interpretive summary in independent wording, not the official text of the standard. “How to implement” and “common gaps” are practical guidance. Clause numbers and titles were checked against the uploaded official texts."
+    ]
+   }
+  }
  },
  "iso14001": {
-  "file_changed": false,
-  "tabs": {}
+  "file_changed": true,
+  "tabs": {
+   "en:home": {
+    "added": 2,
+    "removed": 2,
+    "added_sample": [
+     "Prepared by مدثر سلامه",
+     "Ask ISO AI instantly, or contact مدثر سلامه directly for consulting, training, audits and certification readiness."
+    ],
+    "removed_sample": [
+     "Prepared by Modather Salama",
+     "Ask ISO AI instantly, or contact Modather Salama directly for consulting, training, audits and certification readiness."
+    ]
+   }
+  }
  },
  "iso27701": {
-  "file_changed": false,
-  "tabs": {}
+  "file_changed": true,
+  "tabs": {
+   "en:home": {
+    "added": 2,
+    "removed": 2,
+    "added_sample": [
+     "Prepared by مدثر سلامه",
+     "Search the common questions for an instant answer, or contact مدثر سلامه for evidence-based readiness assessments, the processing record, impact assessments and the breach procedure, internal auditor training, and preparation for both stages."
+    ],
+    "removed_sample": [
+     "Prepared by Modather Salama",
+     "Search the common questions for an instant answer, or contact Modather Salama for evidence-based readiness assessments, the processing record, impact assessments and the breach procedure, internal auditor training, and preparation for both stages."
+    ]
+   }
+  }
  },
  "iso37301": {
-  "file_changed": false,
-  "tabs": {}
+  "file_changed": true,
+  "tabs": {
+   "en:home": {
+    "added": 2,
+    "removed": 2,
+    "added_sample": [
+     "Prepared by مدثر سلامه",
+     "Search the common questions for an instant answer, or send your question directly to مدثر سلامه for consulting, training, audits and certification readiness."
+    ],
+    "removed_sample": [
+     "Prepared by Modather Salama",
+     "Search the common questions for an instant answer, or send your question directly to Modather Salama for consulting, training, audits and certification readiness."
+    ]
+   }
+  }
  },
  "iso9001": {
-  "file_changed": false,
-  "tabs": {}
+  "file_changed": true,
+  "tabs": {
+   "en:home": {
+    "added": 2,
+    "removed": 2,
+    "added_sample": [
+     "Prepared by مدثر سلامه",
+     "Ask ISO AI instantly, or contact مدثر سلامه directly for consulting, training, audits and certification readiness."
+    ],
+    "removed_sample": [
+     "Prepared by Modather Salama",
+     "Ask ISO AI instantly, or contact Modather Salama directly for consulting, training, audits and certification readiness."
+    ]
+   }
+  }
  },
  "p3o": {
-  "file_changed": false,
-  "tabs": {}
+  "file_changed": true,
+  "tabs": {
+   "en:faq": {
+    "added": 1,
+    "removed": 1,
+    "added_sample": [
+     "Short answers about P3O, office design and the assessment method. For specific questions use the assistant button or email مدثر سلامه."
+    ],
+    "removed_sample": [
+     "Short answers about P3O, office design and the assessment method. For specific questions use the assistant button or email Modather Salama."
+    ]
+   },
+   "en:home": {
+    "added": 2,
+    "removed": 2,
+    "added_sample": [
+     "Prepared by مدثر سلامه",
+     "Search the common questions for an instant answer, or contact مدثر سلامه for evidence-based office capability assessments, model selection, service and organization design, implementation planning and office team training."
+    ],
+    "removed_sample": [
+     "Prepared by Modather Salama",
+     "Search the common questions for an instant answer, or contact Modather Salama for evidence-based office capability assessments, model selection, service and organization design, implementation planning and office team training."
+    ]
+   }
+  }
  },
  "pmo-excellence": {
-  "file_changed": false,
-  "tabs": {}
+  "file_changed": true,
+  "tabs": {
+   "en:home": {
+    "added": 2,
+    "removed": 2,
+    "added_sample": [
+     "Prepared by مدثر سلامه",
+     "Search the common questions for an instant answer, or contact مدثر سلامه for evidence-based three-lens PMO assessments, office-model decisions, one integrated improvement plan and board reporting."
+    ],
+    "removed_sample": [
+     "Prepared by Modather Salama",
+     "Search the common questions for an instant answer, or contact Modather Salama for evidence-based three-lens PMO assessments, office-model decisions, one integrated improvement plan and board reporting."
+    ]
+   }
+  }
  },
- "strategy-performance": {
-  "file_changed": false,
+ "stakeholders": {
+  "file_changed": true,
   "tabs": {}
  }
 }

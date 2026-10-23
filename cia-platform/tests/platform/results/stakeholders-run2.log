@@ -1,0 +1,111 @@
+PASS engine block present once in the fourteen toolbox files
+PASS engine block identical in the fourteen files and to tests/build/engine.js
+PASS stakeholders.html cia-explain-kit-css byte-identical to the template
+PASS stakeholders.html cia-explain-kit-js byte-identical to the template
+PASS tour script identical to pestle.html apart from CFG
+PASS tour CSS identical to pestle.html
+PASS tour CFG names stakeholders and guards the example
+PASS storage key and schema documented at the top of the host script
+PASS the host writes only its own key (TBX.save/drop on STORE, language key only)
+PASS other tools' rules carried read-only: ssTKV, SWR, PER, LLR
+PASS no host function named after a browser global
+PASS Explain Kit data: EXPLAIN_STAKEHOLDERS with meta.verified, 4.2, A.4.2, 4.3, 5.1.2, 6.1.1, 9.1.2, 9.3.2, 3.1.4, 4.4.2, 5.1, 5.5, 6.5 and 'not verified'
+PASS Explain Kit ui labels set
+PASS every self-assessment question is reached from the kit
+PASS method guide says once that stakeholder analysis is a technique, not a requirement
+PASS method guide says plainly what ISO 10009 does not cover
+PASS author name on the page and the report
+PASS sidebar buttons carry data-go and data-t
+PASS opens in Arabic, RTL, on the home tab
+PASS ten tabs in the sidebar in the agreed order
+PASS home: code badge STK, author, launch tiles and the related-tools strip (10)
+PASS AI tab is a placeholder labelled under construction
+PASS every tab renders in AR and EN with no undefined/NaN/[object Object]
+PASS English switches to LTR and the title
+PASS clause guide renders the sections
+PASS method guide shows the term box and the kit
+PASS 12 questions in 4 groups on a 0–2 scale
+PASS an answer is saved under cia-stakeholders:v1 and scored
+PASS an empty register is a draft
+PASS saving with no title is refused
+PASS title, reference, scope, decision, date and facilitator → scoped
+PASS one person with a party: the one-person flag
+PASS three roles with an outside input → team complete
+PASS a generic party name is flagged and keeps the register at 'team'
+PASS a specific party name → parties named
+PASS the key-party rule: power or interest of 4 or more (parties 1 and 2 key, 3 not)
+PASS grid quadrants: inform, satisfy, monitor
+PASS parties with no requirement keep the register at 'named' and are listed
+PASS a key-party requirement with no source keeps the register at 'named'
+PASS a 'no' decision with no reason is flagged
+PASS non-key requirement with no source is only noted (info) → requirements sourced and decided
+PASS party 1 rated without reasons keeps the register at 'reqs'
+PASS all rated but the climate question not asked: still 'reqs'
+PASS 'climate requirements found' with none marked climate-related is not enough
+PASS climate asked with the result → rated
+PASS the grid has four quadrants, the matrix one row per party, the chart drawn
+PASS 'add an outcome for every key party' adds two rows
+PASS a PESTLE outcome with no factor leaves a key party uncovered
+PASS a PESTLE outcome with an unknown scan says so (read-only preview)
+PASS a key party with no owner/channel/frequency keeps the register at 'rated'
+PASS every key party engaged with an outcome → engagement and outcomes
+PASS an action with no owner or date keeps the register at 'rated'
+PASS a review dated before the analysis is refused on save
+PASS a review after the analysis with what changed, and a next date → reviewed
+PASS saved under ST-2026-001 with every part
+PASS audit: the reviewed register passes all ten checks
+PASS persistence: the register is there after a reload
+PASS a record with missing or broken parts renders on every tab without errors
+PASS example: three registers ST-EX-01…03 with stages reviewed / reviewed / engaged
+PASS example: self-assessment 71%
+PASS example: audit 100% of the applicable checks
+PASS example: the client's hot-weather method statement is a climate-related requirement
+PASS example: ST-EX-01 outcomes go to SW-EX-01 and PE-EX-01; ST-EX-02 to SW-EX-02 and the bid risk entry
+PASS example: residents named by their association (no generic party)
+PASS example: 15/15 key-party requirements and 13/13 key parties on the dashboard
+PASS example: 2026 dates up to today, illustrative
+PASS example: the only open item is the Tower C register not reviewed yet
+PASS CSV: BOM, 21 columns, one row per register
+PASS report: cover with the author, grid, requirements matrix, outcomes, audit and self-assessment
+PASS delete needs a second click
+PASS second click deletes
+PASS clear all (with its confirmation) empties the tool's key only
+PASS no page errors in the main run
+PASS home: the start note counts the items other tools hold
+PASS start previews: SWOT items naming a party (2), PESTLE items with 'who is affected' (18), Studio rows naming a party (2), customer/supplier lessons (0)
+PASS PESTLE read with its own stage rule and score
+PASS SWOT read with its own stage rule
+PASS start from a PESTLE scan: each item's 'who is affected' becomes a party with the item as its requirement, source and date
+PASS party source ids show a preview by PESTLE's rule
+PASS the source shows in the header with its preview
+PASS start from a Studio row: one party of the suggested type (customer)
+PASS the other tools' stored data is unchanged (read only)
+PASS ?swot=&item= starts a new register from that item
+PASS ?pestle=&item= starts from one item; an environmental item is marked climate-related
+PASS the one-time hint cia-nav:stakeholders starts a register and is removed
+PASS ?open= loads a saved register
+PASS SWOT and PESTLE outcomes preview SW-EX-01 and PE-EX-01 with each tool's own stage
+PASS no errors with other tools' data
+PASS assistant: five suggested questions including 'useful' and 'Stakeholders, PESTLE or SWOT'
+PASS assistant answers 'useful' with the stages
+PASS assistant answers 'which one' with 4.2 and 4.1
+PASS assistant: 4–6 fixed FAQ answers plus two answers from the registers
+PASS Escape closes the assistant
+PASS keyboard: typing into the form and tabbing moves focus
+PASS no errors
+PASS guided tour layer is present (launch button)
+PASS 390 px: no page overflow on any tab in AR and EN (register loaded)
+PASS 390 px: the grid fits in two columns (Arabic: high interest on the left)
+PASS 390 px: no errors
+PASS hub: URL, Audit & Improvement row and card (STK)
+PASS hub: 39 tools and Audit & Improvement 16
+PASS hub: adapter reads the example snapshot (71%, 15/15, 13/13, 2/3)
+PASS hub: TOOLINFO (12 questions, tools tab), NEWS and the request mapping
+PASS hub: the toolbox is complete — no grouped 'coming soon' toolbox entry
+PASS hub: Advisor rules name the stakeholder tool for certification, strategy and KPIs, and risk
+PASS hub: knowledge topic links the method guide
+PASS hub: PDCA card says the toolbox is complete
+PASS hub: ciaOpenFile opens the tool in the overlay
+PASS hub: no errors
+
+109/109 passed

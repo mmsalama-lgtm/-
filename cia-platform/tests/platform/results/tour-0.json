@@ -2,7 +2,7 @@
  "name": "tour-0",
  "checks": 140,
  "failed": 0,
- "seconds": 188.9,
+ "seconds": 140.0,
  "rows": [
   {
    "label": "a3 ar: tour API present",
@@ -635,72 +635,72 @@
    "detail": ""
   },
   {
-   "label": "strategy-performance ar: tour API present",
+   "label": "stakeholders ar: tour API present",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "strategy-performance ar: full tour finishes (26 steps)",
+   "label": "stakeholders ar: full tour finishes (17 steps)",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "strategy-performance ar: tour visits all 18 tabs",
+   "label": "stakeholders ar: tour visits all 9 tabs",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "strategy-performance ar: no empty step title",
+   "label": "stakeholders ar: no empty step title",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "strategy-performance ar: tour text has no undefined/NaN/[object Object]",
+   "label": "stakeholders ar: tour text has no undefined/NaN/[object Object]",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "strategy-performance ar: back where it started",
+   "label": "stakeholders ar: back where it started",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "strategy-performance ar: no errors",
+   "label": "stakeholders ar: no errors",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "strategy-performance en: tour API present",
+   "label": "stakeholders en: tour API present",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "strategy-performance en: full tour finishes (26 steps)",
+   "label": "stakeholders en: full tour finishes (17 steps)",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "strategy-performance en: tour visits all 18 tabs",
+   "label": "stakeholders en: tour visits all 9 tabs",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "strategy-performance en: no empty step title",
+   "label": "stakeholders en: no empty step title",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "strategy-performance en: tour text has no undefined/NaN/[object Object]",
+   "label": "stakeholders en: tour text has no undefined/NaN/[object Object]",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "strategy-performance en: back where it started",
+   "label": "stakeholders en: back where it started",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "strategy-performance en: no errors",
+   "label": "stakeholders en: no errors",
    "ok": true,
    "detail": ""
   }
@@ -715,6 +715,6 @@
   "iso9001",
   "p3o",
   "pmo-excellence",
-  "strategy-performance"
+  "stakeholders"
  ]
 }

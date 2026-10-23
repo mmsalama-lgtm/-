@@ -1,0 +1,100 @@
+{
+ "ai-regulatory": {
+  "profile": {
+   "fill": [
+    "[data-p=\"org\"]",
+    "[data-p=\"scope\"]"
+   ],
+   "sugg": []
+  }
+ },
+ "excellence-efqm": {
+  "profile": {
+   "fill": [
+    "[data-p=\"org\"]",
+    "[data-p=\"scope\"]",
+    "[data-p=\"sites\"]"
+   ],
+   "sugg": []
+  }
+ },
+ "fmea": {
+  "tools": {
+   "fill": [],
+   "sugg": [
+    "#f-area",
+    "#f-owner"
+   ]
+  }
+ },
+ "iso21500": {
+  "profile": {
+   "fill": [
+    "[data-p=\"org\"]",
+    "[data-p=\"scope\"]"
+   ],
+   "sugg": []
+  }
+ },
+ "iso31000-risk-studio": {
+  "assess": {
+   "fill": [
+    "[data-p=\"org\"]"
+   ],
+   "sugg": []
+  },
+  "checklist": {
+   "fill": [
+    "[data-m=\"org\"]",
+    "[data-m=\"scope\"]"
+   ],
+   "sugg": []
+  }
+ },
+ "iso42001": {
+  "profile": {
+   "fill": [
+    "[data-p=\"org\"]",
+    "[data-p=\"scope\"]"
+   ],
+   "sugg": []
+  }
+ },
+ "kaqa": {
+  "profile": {
+   "fill": [
+    "[data-p=\"org\"]",
+    "[data-p=\"scope\"]"
+   ],
+   "sugg": []
+  }
+ },
+ "pareto": {
+  "tools": {
+   "fill": [],
+   "sugg": [
+    "#f-area",
+    "#f-owner"
+   ]
+  }
+ },
+ "pmo-maturity": {
+  "profile": {
+   "fill": [
+    "[data-p=\"org\"]",
+    "[data-p=\"scope\"]"
+   ],
+   "sugg": []
+  }
+ },
+ "strategy-performance": {
+  "profile": {
+   "fill": [
+    "[data-p=\"org\"]"
+   ],
+   "sugg": [
+    "[data-p=\"owner\"]"
+   ]
+  }
+ }
+}

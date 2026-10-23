@@ -1,8 +1,8 @@
 {
  "name": "kit-2",
- "checks": 142,
+ "checks": 158,
  "failed": 0,
- "seconds": 310.1,
+ "seconds": 252.3,
  "rows": [
   {
    "label": "capa ar: kit indexed sections and items",
@@ -713,6 +713,86 @@
    "label": "rca en: no errors",
    "ok": true,
    "detail": ""
+  },
+  {
+   "label": "swot ar: kit indexed sections and items",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar: all 7 sections and 28 items open",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar: kit text has no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar: every 'Assess this' lands (16 landed, 12 outside the assessment)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar: every 'Explain' link on the assessment opens its item (12 links)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot: explain-cl re-renders in English",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot: explain-cl re-renders back in Arabic, same text",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot: explain-std re-renders in English",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot: explain-std re-renders back in Arabic, same text",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en: kit indexed sections and items",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en: all 7 sections and 28 items open",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en: kit text has no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en: every 'Assess this' lands (16 landed, 12 outside the assessment)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en: every 'Explain' link on the assessment opens its item (12 links)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en: no errors",
+   "ok": true,
+   "detail": ""
   }
  ],
  "modules": [
@@ -724,6 +804,7 @@
   "iso42005",
   "lessons",
   "pdca",
-  "rca"
+  "rca",
+  "swot"
  ]
 }

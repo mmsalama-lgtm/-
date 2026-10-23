@@ -1,0 +1,40 @@
+PASS ar: the dashboard carries the 'Issue the integrated report' button
+PASS ar: overall index equals the dashboard's (57%)
+PASS ar: data completeness and tools used equal the dashboard's
+PASS ar: every tool's index in the status section equals the dashboard's (39)
+PASS ar: the cover and the eight numbered sections are there
+PASS ar: the cover shows the organization's logo and name next to the academy logo
+PASS ar: the cover says 'prepared for … · prepared by …' and the academy line
+PASS ar: the static integration map is on page 2 with its 39 tools
+PASS ar: three decisions for management
+PASS ar: the verification table has the eight finding types
+PASS ar: direction and language
+PASS ar: no undefined/NaN/[object Object] in the report
+PASS ar: the standing note
+PASS ar: the consolidated action plan CSV has one row per roadmap item (294)
+PASS ar: a snapshot of the report's numbers is kept in cia-org-reports:v1
+PASS ar: the next report shows the change since the last one
+PASS ar: #actions → the report opens in a new tab; the plan downloads as CSV
+PASS ar: no console errors
+PASS en: the dashboard carries the 'Issue the integrated report' button
+PASS en: overall index equals the dashboard's (57%)
+PASS en: data completeness and tools used equal the dashboard's
+PASS en: every tool's index in the status section equals the dashboard's (39)
+PASS en: the cover and the eight numbered sections are there
+PASS en: the cover shows the organization's logo and name next to the academy logo
+PASS en: the cover says 'prepared for … · prepared by …' and the academy line
+PASS en: the static integration map is on page 2 with its 39 tools
+PASS en: three decisions for management
+PASS en: the verification table has the eight finding types
+PASS en: direction and language
+PASS en: no undefined/NaN/[object Object] in the report
+PASS en: the standing note
+PASS en: the consolidated action plan CSV has one row per roadmap item (294)
+PASS en: a snapshot of the report's numbers is kept in cia-org-reports:v1
+PASS en: the next report shows the change since the last one
+PASS en: #actions → the report opens in a new tab; the plan downloads as CSV
+PASS en: no console errors
+PASS no profile: no organization logo on the cover, and a note to register it
+PASS Executive Cockpit: its panel offers 'Issue the integrated report'
+PASS Executive Cockpit: the button issues the hub's report
+== hub-integrated-report: 39/39 passed

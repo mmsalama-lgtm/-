@@ -1,0 +1,103 @@
+{
+ "capa": {
+  "tools": {
+   "fill": [],
+   "sugg": [
+    "#f-area",
+    "#f-owner"
+   ]
+  }
+ },
+ "executive-cockpit-workspace": {
+  "orgprofile": {
+   "fill": [
+    "[data-ok=\"name\"]"
+   ],
+   "sugg": [
+    "[data-ok=\"owner\"]"
+   ]
+  }
+ },
+ "ims-builder": {
+  "picker": {
+   "fill": [
+    "[data-p=\"org\"]",
+    "[data-p=\"sites\"]"
+   ],
+   "sugg": []
+  }
+ },
+ "iso22301": {
+  "assess": {
+   "fill": [
+    "[data-p=\"org\"]"
+   ],
+   "sugg": []
+  },
+  "checklist": {
+   "fill": [
+    "[data-m=\"org\"]",
+    "[data-m=\"scope\"]"
+   ],
+   "sugg": []
+  }
+ },
+ "iso37000-governance": {
+  "assess": {
+   "fill": [
+    "[data-p=\"org\"]"
+   ],
+   "sugg": []
+  },
+  "checklist": {
+   "fill": [
+    "[data-m=\"org\"]",
+    "[data-m=\"scope\"]"
+   ],
+   "sugg": []
+  }
+ },
+ "iso42005": {
+  "profile": {
+   "fill": [
+    "[data-p=\"org\"]",
+    "[data-p=\"scope\"]"
+   ],
+   "sugg": []
+  }
+ },
+ "lessons": {
+  "tools": {
+   "fill": [],
+   "sugg": [
+    "#f-area",
+    "#f-site",
+    "#f-owner"
+   ]
+  }
+ },
+ "pdca": {
+  "tools": {
+   "fill": [],
+   "sugg": [
+    "#h-owner"
+   ]
+  }
+ },
+ "rca": {
+  "tools": {
+   "fill": [],
+   "sugg": [
+    "#f-area"
+   ]
+  }
+ },
+ "swot": {
+  "tools": {
+   "fill": [],
+   "sugg": [
+    "#f-owner"
+   ]
+  }
+ }
+}

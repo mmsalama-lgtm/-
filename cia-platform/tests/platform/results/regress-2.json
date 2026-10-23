@@ -1,8 +1,8 @@
 {
  "name": "regress-2",
- "checks": 45,
+ "checks": 40,
  "failed": 0,
- "seconds": 135.9,
+ "seconds": 118.3,
  "rows": [
   {
    "label": "capa: stored state on first load matches",
@@ -21,11 +21,6 @@
   },
   {
    "label": "capa: no errors (new)",
-   "ok": true,
-   "detail": ""
-  },
-  {
-   "label": "capa: unchanged file shows identical text on every tab (AR/EN)",
    "ok": true,
    "detail": ""
   },
@@ -50,11 +45,6 @@
    "detail": ""
   },
   {
-   "label": "executive-cockpit-workspace: unchanged file shows identical text on every tab (AR/EN)",
-   "ok": true,
-   "detail": ""
-  },
-  {
    "label": "ims-builder: stored state on first load matches",
    "ok": true,
    "detail": ""
@@ -71,11 +61,6 @@
   },
   {
    "label": "ims-builder: no errors (new)",
-   "ok": true,
-   "detail": ""
-  },
-  {
-   "label": "ims-builder: unchanged file shows identical text on every tab (AR/EN)",
    "ok": true,
    "detail": ""
   },
@@ -100,11 +85,6 @@
    "detail": ""
   },
   {
-   "label": "iso22301: unchanged file shows identical text on every tab (AR/EN)",
-   "ok": true,
-   "detail": ""
-  },
-  {
    "label": "iso37000-governance: stored state on first load matches",
    "ok": true,
    "detail": ""
@@ -121,11 +101,6 @@
   },
   {
    "label": "iso37000-governance: no errors (new)",
-   "ok": true,
-   "detail": ""
-  },
-  {
-   "label": "iso37000-governance: unchanged file shows identical text on every tab (AR/EN)",
    "ok": true,
    "detail": ""
   },
@@ -150,11 +125,6 @@
    "detail": ""
   },
   {
-   "label": "iso42005: unchanged file shows identical text on every tab (AR/EN)",
-   "ok": true,
-   "detail": ""
-  },
-  {
    "label": "lessons: stored state on first load matches",
    "ok": true,
    "detail": ""
@@ -171,11 +141,6 @@
   },
   {
    "label": "lessons: no errors (new)",
-   "ok": true,
-   "detail": ""
-  },
-  {
-   "label": "lessons: unchanged file shows identical text on every tab (AR/EN)",
    "ok": true,
    "detail": ""
   },
@@ -200,11 +165,6 @@
    "detail": ""
   },
   {
-   "label": "pdca: unchanged file shows identical text on every tab (AR/EN)",
-   "ok": true,
-   "detail": ""
-  },
-  {
    "label": "rca: stored state on first load matches",
    "ok": true,
    "detail": ""
@@ -225,7 +185,22 @@
    "detail": ""
   },
   {
-   "label": "rca: unchanged file shows identical text on every tab (AR/EN)",
+   "label": "swot: stored state on first load matches",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot: stored state after the example (pfEx) matches exactly",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot: stored state after visiting every tab matches",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot: no errors (new)",
    "ok": true,
    "detail": ""
   }
@@ -239,6 +214,7 @@
   "iso42005",
   "lessons",
   "pdca",
-  "rca"
+  "rca",
+  "swot"
  ]
 }

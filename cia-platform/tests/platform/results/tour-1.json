@@ -2,7 +2,7 @@
  "name": "tour-1",
  "checks": 140,
  "failed": 0,
- "seconds": 186.6,
+ "seconds": 151.7,
  "rows": [
   {
    "label": "ai-regulatory ar: tour API present",
@@ -635,72 +635,72 @@
    "detail": ""
   },
   {
-   "label": "swot ar: tour API present",
+   "label": "strategy-performance ar: tour API present",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar: full tour finishes (17 steps)",
+   "label": "strategy-performance ar: full tour finishes (26 steps)",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar: tour visits all 9 tabs",
+   "label": "strategy-performance ar: tour visits all 18 tabs",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar: no empty step title",
+   "label": "strategy-performance ar: no empty step title",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar: tour text has no undefined/NaN/[object Object]",
+   "label": "strategy-performance ar: tour text has no undefined/NaN/[object Object]",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar: back where it started",
+   "label": "strategy-performance ar: back where it started",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot ar: no errors",
+   "label": "strategy-performance ar: no errors",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en: tour API present",
+   "label": "strategy-performance en: tour API present",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en: full tour finishes (17 steps)",
+   "label": "strategy-performance en: full tour finishes (26 steps)",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en: tour visits all 9 tabs",
+   "label": "strategy-performance en: tour visits all 18 tabs",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en: no empty step title",
+   "label": "strategy-performance en: no empty step title",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en: tour text has no undefined/NaN/[object Object]",
+   "label": "strategy-performance en: tour text has no undefined/NaN/[object Object]",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en: back where it started",
+   "label": "strategy-performance en: back where it started",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot en: no errors",
+   "label": "strategy-performance en: no errors",
    "ok": true,
    "detail": ""
   }
@@ -715,6 +715,6 @@
   "kaqa",
   "pareto",
   "pmo-maturity",
-  "swot"
+  "strategy-performance"
  ]
 }

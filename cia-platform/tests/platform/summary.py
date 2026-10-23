@@ -7,6 +7,8 @@ for f in sorted(glob.glob(os.path.join(RES, "*.json"))):
     if name.startswith("text-diff"):
         continue
     d = json.load(open(f, encoding="utf-8"))
+    if not isinstance(d, dict) or "name" not in d or "rows" not in d:
+        continue   # data files kept in results (org_map-*, axe-modules, examples)
     g = re.sub(r"-\d+$", "", d["name"])
     a = groups.setdefault(g, {"checks": 0, "failed": 0, "fails": [], "extra": []})
     a["checks"] += d["checks"]; a["failed"] += d["failed"]
@@ -26,7 +28,7 @@ for f in sorted(glob.glob(os.path.join(RES, "pdca-run*.log"))):
     runs.append(m.group(0) if m else "no result")
 if runs:
     print("pdca suite     " + " | ".join(runs))
-for name in ("capa", "why5", "fish", "pareto", "rca", "pdca-engine", "capa-why5-regress", "capa-fish-regress", "why5-fish-regress", "fish-pareto-regress", "capa-rca-regress", "pareto-rca-regress", "a3", "rca-a3-regress", "dmaic", "a3-dmaic-regress", "iso10009", "fmea", "dmaic-fmea-regress", "iso10009-fmea-regress", "lessons", "fmea-lessons-regress", "iso10009-explain", "iso10009-explain-regress", "swot", "iso10009-swot-regress", "pestle", "iso10009-pestle-regress", "swot-pestle-regress"):
+for name in ("capa", "why5", "fish", "pareto", "rca", "pdca-engine", "capa-why5-regress", "capa-fish-regress", "why5-fish-regress", "fish-pareto-regress", "capa-rca-regress", "pareto-rca-regress", "a3", "rca-a3-regress", "dmaic", "a3-dmaic-regress", "iso10009", "fmea", "dmaic-fmea-regress", "iso10009-fmea-regress", "lessons", "fmea-lessons-regress", "iso10009-explain", "iso10009-explain-regress", "swot", "iso10009-swot-regress", "pestle", "iso10009-pestle-regress", "swot-pestle-regress", "stakeholders", "iso10009-stakeholders-regress", "hub-advisor", "guides", "links", "hub-profile", "hub-map", "hub-actions", "hub-report", "hub-overlay"):
     rr = []
     for f in sorted(glob.glob(os.path.join(RES, name + "-run*.log"))):
         m = re.search(r"(\d+)/(\d+) passed", open(f, encoding="utf-8").read())

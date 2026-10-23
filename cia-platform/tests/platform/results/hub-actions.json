@@ -1,0 +1,257 @@
+{
+ "name": "hub-actions",
+ "checks": 50,
+ "failed": 0,
+ "rows": [
+  {
+   "label": "iso9001: the register lists the tool's own action plan (30) and checklist findings (3)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso14001: the register lists the tool's own action plan (30) and checklist findings (0)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso45001: the register lists the tool's own action plan (30) and checklist findings (2)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso27001: the register lists the tool's own action plan (30) and checklist findings (0)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso22301: the register lists the tool's own action plan (30) and checklist findings (0)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37301: the register lists the tool's own action plan (30) and checklist findings (0)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37001: the register lists the tool's own action plan (30) and checklist findings (0)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso31000: the register lists the tool's own action plan (30) and checklist findings (0)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37000: the register lists the tool's own action plan (32) and checklist findings (0)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "capa: the register lists every CAPA record not closed by the tool's own stage rule (3)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "capa: the register's follow-up flags add up to the dashboard's open-item count (3)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "why5: the register's follow-up flags add up to the dashboard's open-item count (3)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "fish: the register's follow-up flags add up to the dashboard's open-item count (1)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pareto: the register's follow-up flags add up to the dashboard's open-item count (2)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "rca: the register's follow-up flags add up to the dashboard's open-item count (1)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "a3: the register's follow-up flags add up to the dashboard's open-item count (1)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "dmaic: the register's follow-up flags add up to the dashboard's open-item count (1)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso10009: the register's follow-up flags add up to the dashboard's open-item count (1)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "fmea: the register's follow-up flags add up to the dashboard's open-item count (1)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "lessons: the register's follow-up flags add up to the dashboard's open-item count (1)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot: the register's follow-up flags add up to the dashboard's open-item count (0)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pestle: the register's follow-up flags add up to the dashboard's open-item count (0)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "stakeholders: the register's follow-up flags add up to the dashboard's open-item count (0)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "every tool: the register holds exactly the items its reader returns",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "the register shows the first 80 rows and a 'show more' button",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "the counters equal the items",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "filter: overdue only",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "filter: a system shows its tools only",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "filter: one tool",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "search narrows to the matching record",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "each of the 39 tools with items: its first row opens the record's tool in the overlay",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "a toolbox record opens on its own record (FMEA: the one-time hint {open})",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "no console errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ar 1280px: #actions renders; menu item present",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ar 1280px: no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ar 1280px: no horizontal overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ar 1280px: no console errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "en 1280px: #actions renders; menu item present",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "en 1280px: no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "en 1280px: no horizontal overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "en 1280px: no console errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ar 390px: #actions renders; menu item present",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ar 390px: no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ar 390px: no horizontal overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ar 390px: no console errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "en 390px: #actions renders; menu item present",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "en 390px: no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "en 390px: no horizontal overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "en 390px: no console errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "no data: the register says so and invites starting a tool",
+   "ok": true,
+   "detail": ""
+  }
+ ]
+}

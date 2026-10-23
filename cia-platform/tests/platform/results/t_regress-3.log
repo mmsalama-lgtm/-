@@ -1,2 +1,10 @@
-  iso10009: text differences on 6 tab views; with removed lines: 6
-== regress-3: 40/40 passed (147.7s)
+  compliance-anti-bribery: text differences on 1 tab views; with removed lines: 1
+  fishbone: text differences on 0 tab views; with removed lines: 0
+  iso10009: text differences on 0 tab views; with removed lines: 0
+  iso27001: text differences on 1 tab views; with removed lines: 1
+  iso37001: text differences on 1 tab views; with removed lines: 1
+  iso45001: text differences on 1 tab views; with removed lines: 1
+  operations-excellence: text differences on 1 tab views; with removed lines: 1
+  pestle: text differences on 0 tab views; with removed lines: 0
+  smart-audit-improvement: text differences on 1 tab views; with removed lines: 1
+== regress-3: 36/36 passed (126.7s)

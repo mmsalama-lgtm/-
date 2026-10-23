@@ -209,7 +209,7 @@ tool("raci", "6.5", B("مصفوفة الصلاحيات / RACI / RASCI", "Authori
      L(("يزيل الغموض في التعاون والقرار", "Removes ambiguity in collaboration and decisions"), ("يبين العلاقات بين الأشخاص عبر العمليات", "Shows relationships between people across processes"),
        ("يدعم بناء الفريق", "Supports team-building")),
      L(("تُربط بالأوصاف الوظيفية وتُحدَّث عند الحاجة", "Link it to job descriptions and update it as needed"),),
-     [P("oec", "raci", "in")],
+     [P("oec", "raci", "in"), P("stakeholders", "tools", "rel")],
      B("في مصفوفة RACI لاستلام الخرسانة: فني الجودة منفذ للفحص، ومدير المشروع مساءَل، والمحطة مستشارة، والاستشاري مُبلَّغ.",
        "In the concrete receiving RACI: the QC technician is responsible for the check, the project manager accountable, the plant consulted, the consultant informed."),
      B("مصفوفة RACI بمساءَل واحد لكل نشاط، مرتبطة بالأوصاف الوظيفية", "A RACI with one accountable per activity, linked to job descriptions"), "")
@@ -711,7 +711,7 @@ tool("tqm", "16.2", B("إدارة الجودة الشاملة (TQM)", "Total qua
 
 # ---------------------------------------------------------------- other relevant tools (named only, not reviewed)
 OTHER = [
-    ("5.5", B("مخطط/مصفوفة/سجل سياق المنشأة (COTO)", "Context of the organization (COTO) diagram/matrix/log"), []),
+    ("5.5", B("مخطط/مصفوفة/سجل سياق المنشأة (COTO)", "Context of the organization (COTO) diagram/matrix/log"), [P("stakeholders", "tools", "rel")]),
     ("5.5", B("ISO/PAS 24644-1", "ISO/PAS 24644-1"), []),
     ("5.5", B("إطار COSO", "COSO framework"), [P("ccc", "standard", "rel")]),
     ("6.6", B("منهج IDEF0 للنمذجة الوظيفية", "IDEF0 functional modelling"), []),
@@ -768,13 +768,13 @@ assert len(set(t["c"] for t in T)) == 53
 
 # hub keys and file names the platform links use (the host turns them into overlay or new-tab links)
 FILES = {"pdca": "pdca.html", "capa": "capa.html", "why5": "five-whys.html", "fish": "fishbone.html", "pareto": "pareto.html", "rca": "rca.html",
-         "a3": "a3.html", "dmaic": "dmaic.html", "fmea": "fmea.html", "swot": "swot.html", "pestle": "pestle.html", "str": "strategy-performance.html", "oec": "operations-excellence.html",
+         "a3": "a3.html", "dmaic": "dmaic.html", "fmea": "fmea.html", "swot": "swot.html", "pestle": "pestle.html", "stakeholders": "stakeholders.html", "str": "strategy-performance.html", "oec": "operations-excellence.html",
          "iso31000": "iso31000-risk-studio.html", "w8": "executive-cockpit-workspace.html", "aud": "smart-audit-improvement.html",
          "exc": "excellence-efqm.html", "iso21500": "iso21500.html", "iso37000": "iso37000-governance.html", "pmo": "pmo-maturity.html",
          "pmoexc": "pmo-excellence.html", "ccc": "compliance-anti-bribery.html", "kaqa": "kaqa.html"}
 NAMES = {"pdca": B("دورة PDCA", "PDCA cycle"), "capa": B("الإجراءات التصحيحية CAPA", "CAPA"), "why5": B("لماذا الخمس", "5 Whys"),
          "fish": B("عظمة السمكة", "Fishbone"), "pareto": B("باريتو", "Pareto"), "rca": B("تحليل السبب الجذري", "Root cause analysis"),
-         "a3": B("حل المشكلات A3", "A3 problem solving"), "dmaic": B("مشروع DMAIC", "DMAIC project"), "fmea": B("دراسة FMEA", "FMEA study"), "swot": B("دراسة SWOT", "SWOT study"), "pestle": B("مسح PESTLE", "PESTLE scan"),
+         "a3": B("حل المشكلات A3", "A3 problem solving"), "dmaic": B("مشروع DMAIC", "DMAIC project"), "fmea": B("دراسة FMEA", "FMEA study"), "swot": B("دراسة SWOT", "SWOT study"), "pestle": B("مسح PESTLE", "PESTLE scan"), "stakeholders": B("سجل الأطراف المعنية", "Stakeholder register"),
          "str": B("استوديو الاستراتيجية والأداء", "Strategy & Performance Studio"), "oec": B("مركز التميز التشغيلي", "Operations Excellence Center"),
          "iso31000": B("استوديو المخاطر ISO 31000", "ISO 31000 Risk Studio"), "w8": B("قمرة القيادة التنفيذية", "Executive Cockpit"),
          "aud": B("التدقيق الذكي والتحسين", "Smart Audit & Improvement"), "exc": B("التميز المؤسسي EFQM", "EFQM Excellence"),

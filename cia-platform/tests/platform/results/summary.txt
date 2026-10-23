@@ -1,12 +1,19 @@
-example           384/384    passed
-hub-home          568/568    passed
-hub               438/438    passed
-kit               598/598    passed
-regress           185/185    passed
-regress-hub        39/39     passed
-static            223/223    passed
-sweep           12392/12392  passed  (tab views 2040, slowest switch 641 ms)
-tour              532/532    passed
+example           396/396    passed
+hub-actions        50/50     passed
+hub-home          572/572    passed
+hub-integrated-report     39/39     passed
+hub-map            42/42     passed
+hub-overlay         6/6      passed
+hub-profile        61/61     passed
+hub               446/446    passed
+kit               614/614    passed
+links              74/74     passed
+org               378/378    passed
+regress           156/156    passed
+regress-hub        41/41     passed
+static            341/341    passed
+sweep           12636/12636  passed  (tab views 2080, slowest switch 504 ms)
+tour              546/546    passed
 pdca suite     73/73 passed | 73/73 passed | 73/73 passed
 capa suite     154/154 passed | 154/154 passed | 154/154 passed
 why5 suite     168/168 passed | 168/168 passed | 168/168 passed
@@ -29,6 +36,8 @@ fmea-lessons-regress suite 11/11 passed
 iso10009-explain suite 91/91 passed | 91/91 passed | 91/91 passed
 iso10009-explain-regress suite 10/10 passed
 swot suite     108/108 passed | 108/108 passed | 108/108 passed
-pestle suite   104/104 passed | 104/104 passed | 104/104 passed
-iso10009-pestle-regress suite 8/8 passed
-TOTAL          15359/15359 passed
+pestle suite   103/103 passed | 103/103 passed | 103/103 passed
+stakeholders suite 109/109 passed | 109/109 passed | 109/109 passed
+hub-advisor suite 572/572 passed
+guides suite   50/50 passed
+TOTAL          16398/16398 passed

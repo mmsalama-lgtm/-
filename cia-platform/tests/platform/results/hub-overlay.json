@@ -1,0 +1,37 @@
+{
+ "name": "hub-overlay",
+ "checks": 6,
+ "failed": 0,
+ "rows": [
+  {
+   "label": "no typing: another tool opens without a question",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "unsaved edits: the hub asks before opening another tool",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "Cancel keeps the open tool and the typed value",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "OK opens the other tool",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "after 'New record' clears the form, no question is asked",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "no errors",
+   "ok": true,
+   "detail": ""
+  }
+ ]
+}

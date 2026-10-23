@@ -1,42 +1,156 @@
 {
  "ai-regulatory": {
-  "file_changed": false,
-  "tabs": {}
+  "file_changed": true,
+  "tabs": {
+   "en:home": {
+    "added": 2,
+    "removed": 2,
+    "added_sample": [
+     "Prepared by مدثر سلامه",
+     "Search the common questions for an instant answer, or contact مدثر سلامه to classify your systems against SDAIA's draft, the PDPL and the EU AI Act, build the obligations register and timeline, and link them to your ISO/IEC 42001 system and compliance register."
+    ],
+    "removed_sample": [
+     "Prepared by Modather Salama",
+     "Search the common questions for an instant answer, or contact Modather Salama to classify your systems against SDAIA's draft, the PDPL and the EU AI Act, build the obligations register and timeline, and link them to your ISO/IEC 42001 system and compliance register."
+    ]
+   }
+  }
  },
  "excellence-efqm": {
-  "file_changed": false,
-  "tabs": {}
+  "file_changed": true,
+  "tabs": {
+   "en:home": {
+    "added": 2,
+    "removed": 2,
+    "added_sample": [
+     "Prepared by مدثر سلامه",
+     "Contact مدثر سلامه for evidence-based self-assessments, internal assessor training, consensus workshops, submission writing and site-visit preparation."
+    ],
+    "removed_sample": [
+     "Prepared by Modather Salama",
+     "Contact Modather Salama for evidence-based self-assessments, internal assessor training, consensus workshops, submission writing and site-visit preparation."
+    ]
+   }
+  }
  },
  "fmea": {
-  "file_changed": false,
+  "file_changed": true,
   "tabs": {}
  },
  "iso21500": {
-  "file_changed": false,
-  "tabs": {}
+  "file_changed": true,
+  "tabs": {
+   "en:faq": {
+    "added": 1,
+    "removed": 1,
+    "added_sample": [
+     "Short answers about the series and the assessment method. For specific questions use the assistant button or email مدثر سلامه."
+    ],
+    "removed_sample": [
+     "Short answers about the series and the assessment method. For specific questions use the assistant button or email Modather Salama."
+    ]
+   },
+   "en:home": {
+    "added": 2,
+    "removed": 2,
+    "added_sample": [
+     "Prepared by مدثر سلامه",
+     "Search the common questions for an instant answer, or contact مدثر سلامه for evidence-based conformity assessments, project and portfolio governance design, methods, templates and earned value, and project manager training."
+    ],
+    "removed_sample": [
+     "Prepared by Modather Salama",
+     "Search the common questions for an instant answer, or contact Modather Salama for evidence-based conformity assessments, project and portfolio governance design, methods, templates and earned value, and project manager training."
+    ]
+   }
+  }
  },
  "iso31000-risk-studio": {
-  "file_changed": false,
-  "tabs": {}
+  "file_changed": true,
+  "tabs": {
+   "en:home": {
+    "added": 2,
+    "removed": 2,
+    "added_sample": [
+     "Prepared by مدثر سلامه",
+     "Search the common questions for an instant answer, or contact مدثر سلامه for ERM consulting, risk owner training, assessment workshops and board reporting."
+    ],
+    "removed_sample": [
+     "Prepared by Modather Salama",
+     "Search the common questions for an instant answer, or contact Modather Salama for ERM consulting, risk owner training, assessment workshops and board reporting."
+    ]
+   }
+  }
  },
  "iso42001": {
-  "file_changed": false,
-  "tabs": {}
+  "file_changed": true,
+  "tabs": {
+   "en:home": {
+    "added": 2,
+    "removed": 2,
+    "added_sample": [
+     "Prepared by مدثر سلامه",
+     "Search the common questions for an instant answer, or contact مدثر سلامه for evidence-based readiness assessments, the Statement of Applicability and impact assessments, internal auditor training, and preparation for stages 1 and 2."
+    ],
+    "removed_sample": [
+     "Prepared by Modather Salama",
+     "Search the common questions for an instant answer, or contact Modather Salama for evidence-based readiness assessments, the Statement of Applicability and impact assessments, internal auditor training, and preparation for stages 1 and 2."
+    ]
+   }
+  }
  },
  "kaqa": {
-  "file_changed": false,
-  "tabs": {}
+  "file_changed": true,
+  "tabs": {
+   "en:home": {
+    "added": 2,
+    "removed": 2,
+    "added_sample": [
+     "Prepared by مدثر سلامه",
+     "Contact مدثر سلامه for evidence-based self-assessment on Itqan, internal assessor training, consensus workshops, participation file writing and site-visit preparation."
+    ],
+    "removed_sample": [
+     "Prepared by Modather Salama",
+     "Contact Modather Salama for evidence-based self-assessment on Itqan, internal assessor training, consensus workshops, participation file writing and site-visit preparation."
+    ]
+   }
+  }
  },
  "pareto": {
-  "file_changed": false,
+  "file_changed": true,
   "tabs": {}
  },
  "pmo-maturity": {
-  "file_changed": false,
-  "tabs": {}
+  "file_changed": true,
+  "tabs": {
+   "en:home": {
+    "added": 2,
+    "removed": 2,
+    "added_sample": [
+     "Prepared by مدثر سلامه",
+     "Search the common questions for an instant answer, or contact مدثر سلامه for evidence-based maturity assessments, PMO design and governance, portfolio registers and management dashboards, and project manager training."
+    ],
+    "removed_sample": [
+     "Prepared by Modather Salama",
+     "Search the common questions for an instant answer, or contact Modather Salama for evidence-based maturity assessments, PMO design and governance, portfolio registers and management dashboards, and project manager training."
+    ]
+   }
+  }
  },
- "swot": {
-  "file_changed": false,
-  "tabs": {}
+ "strategy-performance": {
+  "file_changed": true,
+  "tabs": {
+   "en:home": {
+    "added": 2,
+    "removed": 2,
+    "added_sample": [
+     "Prepared by مدثر سلامه",
+     "Contact مدثر سلامه for strategy and balanced-scorecard workshops, KPI dictionary design, linking objectives to ISO 9001:2026, and setting up the quarterly executive review."
+    ],
+    "removed_sample": [
+     "Prepared by Modather Salama",
+     "Contact Modather Salama for strategy and balanced-scorecard workshops, KPI dictionary design, linking objectives to ISO 9001:2026, and setting up the quarterly executive review."
+    ]
+   }
+  }
  }
 }

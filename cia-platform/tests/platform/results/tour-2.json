@@ -1,8 +1,8 @@
 {
  "name": "tour-2",
- "checks": 126,
+ "checks": 140,
  "failed": 0,
- "seconds": 161.1,
+ "seconds": 139.4,
  "rows": [
   {
    "label": "capa ar: tour API present",
@@ -633,6 +633,76 @@
    "label": "rca en: no errors",
    "ok": true,
    "detail": ""
+  },
+  {
+   "label": "swot ar: tour API present",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar: full tour finishes (17 steps)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar: tour visits all 9 tabs",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar: no empty step title",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar: tour text has no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar: back where it started",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot ar: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en: tour API present",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en: full tour finishes (17 steps)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en: tour visits all 9 tabs",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en: no empty step title",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en: tour text has no undefined/NaN/[object Object]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en: back where it started",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot en: no errors",
+   "ok": true,
+   "detail": ""
   }
  ],
  "modules": [
@@ -644,6 +714,7 @@
   "iso42005",
   "lessons",
   "pdca",
-  "rca"
+  "rca",
+  "swot"
  ]
 }

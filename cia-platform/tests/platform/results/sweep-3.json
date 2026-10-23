@@ -2,7 +2,7 @@
  "name": "sweep-3",
  "checks": 3252,
  "failed": 0,
- "seconds": 108.0,
+ "seconds": 76.7,
  "rows": [
   {
    "label": "compliance-anti-bribery ar 1280: sidebar lists tabs",
@@ -16267,7 +16267,7 @@
  ],
  "stats": {
   "tabs": 536,
-  "max_ms": 641
+  "max_ms": 478
  },
  "modules": [
   "compliance-anti-bribery",

@@ -1,0 +1,99 @@
+{
+ "compliance-anti-bribery": {
+  "profile": {
+   "fill": [
+    "[data-p=\"org\"]",
+    "[data-p=\"scope\"]",
+    "[data-p=\"sites\"]"
+   ],
+   "sugg": [
+    "[data-p=\"owner\"]"
+   ]
+  }
+ },
+ "fishbone": {
+  "tools": {
+   "fill": [],
+   "sugg": [
+    "#f-area"
+   ]
+  }
+ },
+ "iso10009": {},
+ "iso27001": {
+  "assess": {
+   "fill": [
+    "[data-p=\"org\"]"
+   ],
+   "sugg": []
+  },
+  "checklist": {
+   "fill": [
+    "[data-m=\"org\"]",
+    "[data-m=\"scope\"]"
+   ],
+   "sugg": []
+  }
+ },
+ "iso37001": {
+  "assess": {
+   "fill": [
+    "[data-p=\"org\"]"
+   ],
+   "sugg": []
+  },
+  "checklist": {
+   "fill": [
+    "[data-m=\"org\"]",
+    "[data-m=\"scope\"]"
+   ],
+   "sugg": []
+  }
+ },
+ "iso45001": {
+  "assess": {
+   "fill": [
+    "[data-p=\"org\"]"
+   ],
+   "sugg": []
+  },
+  "checklist": {
+   "fill": [
+    "[data-m=\"org\"]",
+    "[data-m=\"scope\"]"
+   ],
+   "sugg": []
+  }
+ },
+ "operations-excellence": {
+  "profile": {
+   "fill": [
+    "[data-p=\"org\"]",
+    "[data-p=\"scope\"]"
+   ],
+   "sugg": [
+    "[data-p=\"owner\"]"
+   ]
+  }
+ },
+ "pestle": {
+  "tools": {
+   "fill": [],
+   "sugg": [
+    "#f-owner"
+   ]
+  }
+ },
+ "smart-audit-improvement": {
+  "profile": {
+   "fill": [
+    "[data-p=\"org\"]",
+    "[data-p=\"scope\"]",
+    "[data-p=\"sites\"]"
+   ],
+   "sugg": [
+    "[data-p=\"owner\"]"
+   ]
+  }
+ }
+}

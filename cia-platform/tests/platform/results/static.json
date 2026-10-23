@@ -1,8 +1,8 @@
 {
  "name": "static",
- "checks": 223,
+ "checks": 341,
  "failed": 0,
- "seconds": 15.2,
+ "seconds": 12.1,
  "rows": [
   {
    "label": "template has both kit blocks",
@@ -730,6 +730,26 @@
    "detail": ""
   },
   {
+   "label": "stakeholders: kit CSS block byte-identical to template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "stakeholders: kit JS block byte-identical to template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "stakeholders: each kit block appears once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "stakeholders: guided tour layer present",
+   "ok": true,
+   "detail": ""
+  },
+  {
    "label": "strategy-performance: kit CSS block byte-identical to template",
    "ok": true,
    "detail": ""
@@ -840,6 +860,11 @@
    "detail": ""
   },
   {
+   "label": "Stakeholder Analysis tour layer identical to the PESTLE one apart from its CFG line",
+   "ok": true,
+   "detail": ""
+  },
+  {
    "label": "a3: engine block appears once",
    "ok": true,
    "detail": ""
@@ -900,17 +925,572 @@
    "detail": ""
   },
   {
+   "label": "stakeholders: engine block appears once",
+   "ok": true,
+   "detail": ""
+  },
+  {
    "label": "swot: engine block appears once",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "toolbox engine carried by PDCA, CAPA, 5 Whys, Fishbone, Pareto, RCA, A3, DMAIC, ISO 10009, FMEA, Lessons Learned, SWOT and PESTLE (thirteen files)",
+   "label": "toolbox engine carried by PDCA, CAPA, 5 Whys, Fishbone, Pareto, RCA, A3, DMAIC, ISO 10009, FMEA, Lessons Learned, SWOT, PESTLE and Stakeholder Analysis (fourteen files)",
    "ok": true,
    "detail": ""
   },
   {
    "label": "toolbox engine block identical in every tool that carries it",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "org-profile template has its five blocks",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "a3: cia-org-css block byte-identical to the template and carried once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "a3: cia-org-js block byte-identical to the template and carried once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ai-regulatory: cia-org-css block byte-identical to the template and carried once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ai-regulatory: cia-org-js block byte-identical to the template and carried once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "capa: cia-org-css block byte-identical to the template and carried once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "capa: cia-org-js block byte-identical to the template and carried once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "capa: cia-readers-js block byte-identical to the template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "capa: cia-linkui-css block byte-identical to the template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "capa: cia-linkui-js block byte-identical to the template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "compliance-anti-bribery: cia-org-css block byte-identical to the template and carried once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "compliance-anti-bribery: cia-org-js block byte-identical to the template and carried once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "dmaic: cia-org-css block byte-identical to the template and carried once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "dmaic: cia-org-js block byte-identical to the template and carried once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "excellence-efqm: cia-org-css block byte-identical to the template and carried once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "excellence-efqm: cia-org-js block byte-identical to the template and carried once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "excellence-efqm: cia-readers-js block byte-identical to the template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "excellence-efqm: cia-linkui-css block byte-identical to the template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "excellence-efqm: cia-linkui-js block byte-identical to the template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "executive-cockpit-workspace: cia-org-css block byte-identical to the template and carried once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "executive-cockpit-workspace: cia-org-js block byte-identical to the template and carried once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "executive-cockpit-workspace: cia-readers-js block byte-identical to the template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "executive-cockpit-workspace: cia-linkui-css block byte-identical to the template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "executive-cockpit-workspace: cia-linkui-js block byte-identical to the template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "fishbone: cia-org-css block byte-identical to the template and carried once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "fishbone: cia-org-js block byte-identical to the template and carried once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "five-whys: cia-org-css block byte-identical to the template and carried once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "five-whys: cia-org-js block byte-identical to the template and carried once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "fmea: cia-org-css block byte-identical to the template and carried once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "fmea: cia-org-js block byte-identical to the template and carried once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ims-builder: cia-org-css block byte-identical to the template and carried once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ims-builder: cia-org-js block byte-identical to the template and carried once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ims-builder: cia-readers-js block byte-identical to the template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ims-builder: cia-linkui-css block byte-identical to the template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ims-builder: cia-linkui-js block byte-identical to the template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso10009: cia-org-css block byte-identical to the template and carried once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso10009: cia-org-js block byte-identical to the template and carried once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso14001: cia-org-css block byte-identical to the template and carried once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso14001: cia-org-js block byte-identical to the template and carried once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso21500: cia-org-css block byte-identical to the template and carried once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso21500: cia-org-js block byte-identical to the template and carried once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso22301: cia-org-css block byte-identical to the template and carried once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso22301: cia-org-js block byte-identical to the template and carried once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso27001: cia-org-css block byte-identical to the template and carried once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso27001: cia-org-js block byte-identical to the template and carried once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso27701: cia-org-css block byte-identical to the template and carried once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso27701: cia-org-js block byte-identical to the template and carried once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso31000-risk-studio: cia-org-css block byte-identical to the template and carried once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso31000-risk-studio: cia-org-js block byte-identical to the template and carried once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso31000-risk-studio: cia-readers-js block byte-identical to the template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso31000-risk-studio: cia-linkui-css block byte-identical to the template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso31000-risk-studio: cia-linkui-js block byte-identical to the template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37000-governance: cia-org-css block byte-identical to the template and carried once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37000-governance: cia-org-js block byte-identical to the template and carried once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37001: cia-org-css block byte-identical to the template and carried once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37001: cia-org-js block byte-identical to the template and carried once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37301: cia-org-css block byte-identical to the template and carried once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso37301: cia-org-js block byte-identical to the template and carried once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso42001: cia-org-css block byte-identical to the template and carried once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso42001: cia-org-js block byte-identical to the template and carried once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso42005: cia-org-css block byte-identical to the template and carried once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso42005: cia-org-js block byte-identical to the template and carried once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso45001: cia-org-css block byte-identical to the template and carried once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso45001: cia-org-js block byte-identical to the template and carried once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso9001: cia-org-css block byte-identical to the template and carried once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso9001: cia-org-js block byte-identical to the template and carried once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "kaqa: cia-org-css block byte-identical to the template and carried once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "kaqa: cia-org-js block byte-identical to the template and carried once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "kaqa: cia-readers-js block byte-identical to the template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "kaqa: cia-linkui-css block byte-identical to the template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "kaqa: cia-linkui-js block byte-identical to the template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "lessons: cia-org-css block byte-identical to the template and carried once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "lessons: cia-org-js block byte-identical to the template and carried once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "operations-excellence: cia-org-css block byte-identical to the template and carried once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "operations-excellence: cia-org-js block byte-identical to the template and carried once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "p3o: cia-org-css block byte-identical to the template and carried once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "p3o: cia-org-js block byte-identical to the template and carried once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pareto: cia-org-css block byte-identical to the template and carried once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pareto: cia-org-js block byte-identical to the template and carried once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pdca: cia-org-css block byte-identical to the template and carried once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pdca: cia-org-js block byte-identical to the template and carried once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pestle: cia-org-css block byte-identical to the template and carried once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pestle: cia-org-js block byte-identical to the template and carried once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pmo-excellence: cia-org-css block byte-identical to the template and carried once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pmo-excellence: cia-org-js block byte-identical to the template and carried once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pmo-excellence: cia-readers-js block byte-identical to the template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pmo-excellence: cia-linkui-css block byte-identical to the template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pmo-excellence: cia-linkui-js block byte-identical to the template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pmo-maturity: cia-org-css block byte-identical to the template and carried once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pmo-maturity: cia-org-js block byte-identical to the template and carried once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "rca: cia-org-css block byte-identical to the template and carried once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "rca: cia-org-js block byte-identical to the template and carried once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "smart-audit-improvement: cia-org-css block byte-identical to the template and carried once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "smart-audit-improvement: cia-org-js block byte-identical to the template and carried once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "smart-audit-improvement: cia-readers-js block byte-identical to the template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "smart-audit-improvement: cia-linkui-css block byte-identical to the template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "smart-audit-improvement: cia-linkui-js block byte-identical to the template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "stakeholders: cia-org-css block byte-identical to the template and carried once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "stakeholders: cia-org-js block byte-identical to the template and carried once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance: cia-org-css block byte-identical to the template and carried once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance: cia-org-js block byte-identical to the template and carried once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance: cia-readers-js block byte-identical to the template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance: cia-linkui-css block byte-identical to the template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance: cia-linkui-js block byte-identical to the template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot: cia-org-css block byte-identical to the template and carried once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "swot: cia-org-js block byte-identical to the template and carried once",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "link panels in the nine linked tools",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "index.html: cia-org-css block byte-identical to the template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "index.html: cia-org-js block byte-identical to the template",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "index.html: cia-readers-js block byte-identical to the template",
    "ok": true,
    "detail": ""
   },
@@ -1100,6 +1680,11 @@
    "detail": ""
   },
   {
+   "label": "modules/stakeholders.html: every inline script passes node --check",
+   "ok": true,
+   "detail": ""
+  },
+  {
    "label": "modules/strategy-performance.html: every inline script passes node --check",
    "ok": true,
    "detail": ""
@@ -1111,6 +1696,11 @@
   },
   {
    "label": "templates/explain-kit-template.html: every inline script passes node --check",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "templates/org-profile-kit.html: every inline script passes node --check",
    "ok": true,
    "detail": ""
   },
@@ -1157,79 +1747,264 @@
   "pmo-maturity",
   "rca",
   "smart-audit-improvement",
+  "stakeholders",
   "strategy-performance",
   "swot"
  ],
  "no_kit": [],
- "inline_scripts_checked": 282,
+ "inline_scripts_checked": 359,
  "changes": {
   "changed": [
    "index.html",
+   "modules/a3.html",
+   "modules/ai-regulatory.html",
+   "modules/capa.html",
+   "modules/compliance-anti-bribery.html",
+   "modules/dmaic.html",
+   "modules/excellence-efqm.html",
+   "modules/executive-cockpit-workspace.html",
+   "modules/fishbone.html",
+   "modules/five-whys.html",
+   "modules/fmea.html",
+   "modules/ims-builder.html",
    "modules/iso10009.html",
+   "modules/iso14001.html",
+   "modules/iso21500.html",
+   "modules/iso22301.html",
+   "modules/iso27001.html",
+   "modules/iso27701.html",
+   "modules/iso31000-risk-studio.html",
+   "modules/iso37000-governance.html",
+   "modules/iso37001.html",
+   "modules/iso37301.html",
+   "modules/iso42001.html",
+   "modules/iso42005.html",
+   "modules/iso45001.html",
+   "modules/iso9001.html",
+   "modules/kaqa.html",
+   "modules/lessons.html",
+   "modules/operations-excellence.html",
+   "modules/p3o.html",
+   "modules/pareto.html",
+   "modules/pdca.html",
+   "modules/pestle.html",
+   "modules/pmo-excellence.html",
+   "modules/pmo-maturity.html",
+   "modules/rca.html",
+   "modules/smart-audit-improvement.html",
+   "modules/stakeholders.html",
+   "modules/strategy-performance.html",
+   "modules/swot.html",
+   "tests/a3/test_a3.py",
    "tests/build/README.md",
-   "tests/build/cat_10009.py",
-   "tests/build/qt_host.js",
-   "tests/fmea/test_fmea.py",
-   "tests/iso10009/explain_regress.py",
-   "tests/iso10009/test_iso10009.py",
-   "tests/iso10009/test_iso10009_explain.py",
-   "tests/lessons/test_lessons.py",
+   "tests/build/links.json",
+   "tests/build/links_inventory.py",
+   "tests/capa/pdca_engine_regress.py",
+   "tests/dmaic/test_dmaic.py",
+   "tests/hub/test_home_advisor.py",
    "tests/platform/run_all.sh",
    "tests/platform/summary.py",
-   "tests/platform/t_example.py",
-   "tests/platform/t_hub.py",
    "tests/platform/t_static.py",
+   "tests/rca/capa_regress.py",
    "tests/swot/test_swot.py"
   ],
   "added": [
-   "modules/pestle.html",
-   "tests/build/build_pestle.py",
-   "tests/build/data_pestle.py",
-   "tests/build/demo_pestle.py",
-   "tests/build/patch_10009_pestle.py",
-   "tests/build/patch_hub_pestle.py",
-   "tests/build/pestle_body.html",
-   "tests/build/pestle_example.js",
-   "tests/build/pestle_host.css",
-   "tests/build/pestle_host.js",
-   "tests/pestle/iso10009_regress.py",
-   "tests/pestle/test_pestle.py"
+   "CHANGELOG.md",
+   "DEPLOY.md",
+   "README.md",
+   "assets/cia-labels.json",
+   "templates/org-profile-kit.html",
+   "tests/build/build_step15.sh",
+   "tests/build/link_types.json",
+   "tests/build/org/axe_audit.py",
+   "tests/build/org/build_kit.py",
+   "tests/build/org/hub_actions.js",
+   "tests/build/org/hub_glue.js",
+   "tests/build/org/hub_map.js",
+   "tests/build/org/hub_org.css",
+   "tests/build/org/hub_profile.js",
+   "tests/build/org/iso_meta.json",
+   "tests/build/org/links/aud.js",
+   "tests/build/org/links/capa.js",
+   "tests/build/org/links/exc.js",
+   "tests/build/org/links/ims.js",
+   "tests/build/org/links/iso31000.js",
+   "tests/build/org/links/pmoexc.js",
+   "tests/build/org/links/str.js",
+   "tests/build/org/links/w8.js",
+   "tests/build/org/links_common.py",
+   "tests/build/org/linkui.css",
+   "tests/build/org/linkui.js",
+   "tests/build/org/org_kit.css",
+   "tests/build/org/org_kit.js",
+   "tests/build/org/org_labels.py",
+   "tests/build/org/readers.js",
+   "tests/build/org_map.json",
+   "tests/build/patch_a11y_modules.py",
+   "tests/build/patch_author_name.py",
+   "tests/build/patch_hub_a11y.py",
+   "tests/build/patch_hub_map.py",
+   "tests/build/patch_hub_nav.py",
+   "tests/build/patch_hub_overlay.py",
+   "tests/build/patch_hub_profile.py",
+   "tests/build/patch_hub_report.py",
+   "tests/build/patch_kits_10009_c.py",
+   "tests/build/patch_links_capa.py",
+   "tests/build/patch_links_cockpit.py",
+   "tests/build/patch_links_efqm.py",
+   "tests/build/patch_links_ims.py",
+   "tests/build/patch_links_iso31000.py",
+   "tests/build/patch_links_kaqa.py",
+   "tests/build/patch_links_pmo_excellence.py",
+   "tests/build/patch_links_smart_audit.py",
+   "tests/build/patch_links_strategy.py",
+   "tests/build/patch_meta.py",
+   "tests/build/patch_org_modules.py",
+   "tests/build/patch_tests_step15.py",
+   "tests/hub/hubkit.py",
+   "tests/hub/results/examples.json",
+   "tests/hub/results/integrated-report-ar.html",
+   "tests/hub/results/integrated-report-en.html",
+   "tests/hub/results/tmp/bad.json",
+   "tests/hub/results/tmp/imp.json",
+   "tests/hub/results/tmp/logo-bad.svg",
+   "tests/hub/results/tmp/logo-big.png",
+   "tests/hub/results/tmp/not-image.txt",
+   "tests/hub/test_actions.py",
+   "tests/hub/test_integrated_report.py",
+   "tests/hub/test_map.py",
+   "tests/hub/test_overlay.py",
+   "tests/hub/test_profile.py",
+   "tests/platform/t_links.py",
+   "tests/platform/t_org.py"
   ],
   "removed": [],
-  "unchanged": 219,
+  "unchanged": 220,
   "sha256": {
-   "index.html": "c0288e61c1613dbc9e2005ef78e71db40222c47989d76e7cc30345096ce7b9a6",
-   "modules/iso10009.html": "f07385f653f27b06403c4b5104121f0c16435376deebe6951cf390afc08446de",
-   "modules/pestle.html": "44393a73bc74e65d92bf9ab198b3d9502253a6ecb9b98974c9c500ee715693b0",
-   "tests/build/README.md": "206277216de9f7d8b6526a1ee9b5e388b41f15dd20451554c5facafdd6814e7b",
-   "tests/build/build_pestle.py": "74e17f9dfc0defbaaa867e802ab674a95bc75325908bf546e0221485932e42f4",
-   "tests/build/cat_10009.py": "a83ef4d1e40f9d13bb8c800f3a6c4b8d378c3f87a8cee67c22873bda0031adba",
-   "tests/build/data_pestle.py": "3a9451390b83c186e0bc7f837f42e0d17d69743603a59f15b6c791dc54744906",
-   "tests/build/demo_pestle.py": "5977de23771850cf799f02bc014fc586ff814daf46624bb6ae60bacd75a433f2",
-   "tests/build/patch_10009_pestle.py": "783f2ed4c0d20eddd7d154be5886e810ff7d86418e34c2cf6e66e4c17e421961",
-   "tests/build/patch_hub_pestle.py": "46a55d6c1c8095ecec8b5d1fb7e47958a3313f4651c35fb2d2cc5cead6081997",
-   "tests/build/pestle_body.html": "19d38cd1e89af3a2bfe0514b310d8407f85871edef5583549c8f9ef2ce05565f",
-   "tests/build/pestle_example.js": "5addf21f726c8c710333a9cb79913ea14c47a35eb798c503b528612f06eb9232",
-   "tests/build/pestle_host.css": "ddbfda9bef693d37ac016ac86e24ca4cc1bcf2cc93e4831e903087f35d93f0b6",
-   "tests/build/pestle_host.js": "b7f0cdefd1ed2be46fe3e2e43704fd7cc511aa9fa32ac7448988dea0cef74993",
-   "tests/build/qt_host.js": "315b92394b1e912f058950ae4268a1669893fdf52bf333503b12ff1a12ea6df9",
-   "tests/fmea/test_fmea.py": "c3e787d417b620327475128ae361fa87088cc9c41e6c862f77f7496d464c7533",
-   "tests/iso10009/explain_regress.py": "36683776c9d5985f21e7cff5cd20e132410e85324f331c0f21c6a82b0e24dd17",
-   "tests/iso10009/test_iso10009.py": "c7a852b6b0bf3f3e87d6b0031202caf16575db19793fa001289c44ae24bcf447",
-   "tests/iso10009/test_iso10009_explain.py": "840858997a50d46ada910de655aa10ca477ddfeab42b5090047e330a90f2ce44",
-   "tests/lessons/test_lessons.py": "f12f3c890e9cbe1f2fd74dd5f5e844f69739912223feeccfaad16954ff6ba523",
-   "tests/pestle/iso10009_regress.py": "c73bb8d07a264ca1424101c5c67004ac2b6dd1c28c6564c37bc22fc96baf765e",
-   "tests/pestle/test_pestle.py": "da0b5a5b0a727a7ceadbc7b75769aa2cd4df86b8750d192dff115b4d4fdd0b19",
-   "tests/platform/run_all.sh": "4d9b2d77f3bef9f5020ee17da05bc4ab642f228bb99a814f1e9063f1eea791be",
-   "tests/platform/summary.py": "879f2e5d38fec47b57ff8bfeec9d5756511bd7c89182492a65db707129c511e2",
-   "tests/platform/t_example.py": "f91c3750dd6d58aa16577490bdd8743238e95a72a4ffdbff9f182d246d0f106b",
-   "tests/platform/t_hub.py": "f5a67278e44ab2aeeea388754c5124d0460591e4d62e91cca5d4197d6c1d5680",
-   "tests/platform/t_static.py": "84d6ee2b8d86953073192fc27d9577e1d109ca33f7784b6ddf09b76e7c832013",
-   "tests/swot/test_swot.py": "481a71e109865f859f6637944f220bc06552ce7ca7f9c4d36b93829d80f68042"
+   "CHANGELOG.md": "ca2ef82a35c56c6d0dbd24ce65bb2aee1ab2883b0a68854a1a2a9ae80a999ff3",
+   "DEPLOY.md": "bda96dc710055df2ffa8ddd35475ae8649670ec75de3c5cbb64832dbeffe0369",
+   "README.md": "87a5cdb5145c2d1e9c859c44f613d0bb77db2503a90713c2e16589efb898639f",
+   "assets/cia-labels.json": "1342b79eb3c034c08b64f4779105b003069d3a47a57dbd2c60aee7307763f3ec",
+   "index.html": "251f96cc04daf694a5bbf4fa436c1902a4cf95098e90cbbde08bb696fa3ea353",
+   "modules/a3.html": "7e7d17c97b75031a0b2730c380a6445cccbc04997ae5bd0049c18112d8155e6c",
+   "modules/ai-regulatory.html": "2314ee028112400c549582c57f5ff876fc5bec6330775518a5af834acc7a33e7",
+   "modules/capa.html": "4747702a39018cb6790267090347151f815f49ee3dda5e3a41a3d50a240dfbf5",
+   "modules/compliance-anti-bribery.html": "48b2ae027f073266fda4cb7d471bb6bc2004a1d92ede59d3a319ccd8014c536b",
+   "modules/dmaic.html": "093efb074d9c99ff654236cd6bbd4a9768c04e8a7c24c583058c883ea9630f43",
+   "modules/excellence-efqm.html": "b9f1dcd32ecd7e90051db924f9dcf4f51b91038087a3f0142b0d3f82feb4309d",
+   "modules/executive-cockpit-workspace.html": "598f17271600319d75d026691186b26f65117085b965858332cbdf985d90c822",
+   "modules/fishbone.html": "300d5fe3eaadc45e861c2300290c6e2e87177588496903e02c937ba70d3cf8fd",
+   "modules/five-whys.html": "f84fce8e132ad7b80cee40c9784a91ce92371483746519c119819ae34b807d16",
+   "modules/fmea.html": "3ab48e344a3d6dc160a11630e1e813b39691423371d311d0a8bbb65674a4287e",
+   "modules/ims-builder.html": "df10ea8009a9e70593b60f134da6854b19a75f14e17583047ad111391c750f44",
+   "modules/iso10009.html": "9359833c02558b16ee5d2f63d0e69129e9988b976a07700904bf2df6ce177360",
+   "modules/iso14001.html": "7c686b5142a2e4d4ddbfcf8d1bdb2ff57654d8a36f9d4f94350fb219fc5b52fb",
+   "modules/iso21500.html": "17b5eacb0711756a10ff1a0c7fe86af3cac404698653483b47af2474c85bfc54",
+   "modules/iso22301.html": "9d36da81fd6d881e638e7a5c042dd8c87f4c0442e321eed9069fbba4a0a97ddb",
+   "modules/iso27001.html": "0b588cc225f5e3d6bdece63fef51675dc1ee304929afa1eef4eed0b6c63967ad",
+   "modules/iso27701.html": "6b6c6b78f6b4650a4b9ae6a844dccd5e721ac1d327ee55ab630ac9c8c79b5266",
+   "modules/iso31000-risk-studio.html": "c4f460d3f52edd9db8e84f6731a17d8f52a969ec2312bca962e21e935d3f0136",
+   "modules/iso37000-governance.html": "85399ebacf432d543ff7b7a003cff0ff157681fc46b70a0d8396f561f5264eb9",
+   "modules/iso37001.html": "0723aabb45ad9b1c5fb881a19e499d310ba7e4a075d7107878f8e627d2ed8925",
+   "modules/iso37301.html": "292519a1dc2e8d02bd002441d974ecba99b8ea1874b8d38a779f7408ea521635",
+   "modules/iso42001.html": "7804053a05a42f36d1defcd1dcac238449b0cbba8df3e2c4323f5ea238dcf965",
+   "modules/iso42005.html": "1d0d560122fea6fb5259113658b21b590246e96dd0287bf1230433162ef5e2c2",
+   "modules/iso45001.html": "65bf4bb4dc39c4745228f77e94c704cfe852755f3fcfd4abdfeb05a1470b4e84",
+   "modules/iso9001.html": "84b41ce7777ca9f525d8887abfe7e8ebb1dad43b0c55e31e61e10da943af9362",
+   "modules/kaqa.html": "5bcc8e7c9e1f99e00c571fb848291d3ab43aa11c1ef8687afd5d5db9f7bd28ee",
+   "modules/lessons.html": "abd34e21deabc608c5787648d70f5162fedcb2cd07fe9c5d47a58f3ab36f4182",
+   "modules/operations-excellence.html": "91d98c2dd5a81603ecfda12d2e493622307af242c55569208b007c199065860c",
+   "modules/p3o.html": "2b684caeba95f72033e09816381ce330c8e8a839288de5935ec0ca1946b43a9c",
+   "modules/pareto.html": "380c471cd63170f4926b01e39fb46e5e6a6a6bce4d13274ba99373a06c3b720b",
+   "modules/pdca.html": "cb498b16deae46006d411ebe5e34fc6854de9347cf9f4dfa00058589084a4c31",
+   "modules/pestle.html": "0a7b74f65a14457ed7e44048a946358a9847f79f7f059026dd13569914ef3687",
+   "modules/pmo-excellence.html": "5a0791fd1724e0a343cc3d4743b9ee41b0c930ddfe4f68084a7dbddf7a2d7af0",
+   "modules/pmo-maturity.html": "fd722213ad613a98131ab7cbd93b5d3faf35343ef2a0a8980227dbd4f02978cf",
+   "modules/rca.html": "b3e9bff00b1f0303fb0bd8878227a3126b59aeec97cf51b8151bcf0b5e4498bb",
+   "modules/smart-audit-improvement.html": "b46206da231b5d06027e66e3a65ed5bbc6597601c252424bb48ead3418b1f4bf",
+   "modules/stakeholders.html": "c188ddcb242dd9ede626407051c6bf4660fe63248997d47a31cca33511a98b97",
+   "modules/strategy-performance.html": "f0a9094abe94b34a22687c46e4c4ae92d2971c90e3b4e02c3e41eb24e2068652",
+   "modules/swot.html": "0fa5e40791f0c765e0e1bfe7cdcee3a778ce5962ff46f17db85f82041f97c41c",
+   "templates/org-profile-kit.html": "8579aeb05111642bcbc05af2c700e33b5728e82cedea711deab446438a4ba1a1",
+   "tests/a3/test_a3.py": "ff336b018ef3f7b15b8dd16fcece7161bdbdee015003afd2b0d9132ea66922b0",
+   "tests/build/README.md": "3555bf838679a8e30664637fa9af33cbcf6a538537911a6084d4c7a560dc0243",
+   "tests/build/build_step15.sh": "b1ea4994658bc32952b886da4da4a5fe6b4827090907e5c7507b7b7c7dec9bb3",
+   "tests/build/link_types.json": "4c4b2a046723d2046d87a9ee5df02e9f2851271963f3af3a018a33c0bdad6a0c",
+   "tests/build/links.json": "7bb8824a95bbc9265fa37c7e92a328118d673a59244247aeed1df7923d5bb696",
+   "tests/build/links_inventory.py": "79133982fc861b4bb256c0427d71d74cb496b2528e4b83cfe864b874eb40f762",
+   "tests/build/org/axe_audit.py": "5f82768b696f6799152cddce143f4b723e241545cdf1a9e98a050b3ce7930241",
+   "tests/build/org/build_kit.py": "0a9bde6a7591ef7e7e76b6f93d86cc7bcfb698b5e6e8f0fe88e0983dac7919d6",
+   "tests/build/org/hub_actions.js": "ac4185391deddaeacc969c17cb7f172fe7ae243972f9970c383f34bf7ffbc4ed",
+   "tests/build/org/hub_glue.js": "fb206eed311f3fae4c3bc1d25347d1fd8af16ff224ca2596626619469b331b59",
+   "tests/build/org/hub_map.js": "289abbe47b8c3108a0fa6bf59bd1757e13fc90626d4847d603167841f9ce77b9",
+   "tests/build/org/hub_org.css": "829b2d295ae32a7a0ae0080919172efa670aec54915caa16491386e2b3fe697d",
+   "tests/build/org/hub_profile.js": "2089a5792fa90367792118ec1a15d94ca6c8aa77508bb0f959723fb90c13d54e",
+   "tests/build/org/iso_meta.json": "0fefff35ad4795fe65fd810c5a61c4a7b3aa8696394f791a93e245e5b1b05448",
+   "tests/build/org/links/aud.js": "4141a65b72ae489a181278e0e3f3002da2e959aab58e91e1a0f46d7ee17e6025",
+   "tests/build/org/links/capa.js": "293e0c2248dd9be5b77a2272d71d3cc3f9c9fdd66dccce2adf5ed66a8f44c409",
+   "tests/build/org/links/exc.js": "8e6104f1ae644d83f98f34b63d22c83af621c781c017e54d05e17223e3e564d5",
+   "tests/build/org/links/ims.js": "405c753b18c4d85f8daef48473fec59c48110484ccfd2e642ae3f988bca71726",
+   "tests/build/org/links/iso31000.js": "a53945e5ca0cabf7b530bd1cd8f64d9ea5917a329193bff24fc3a1762dbfdbdc",
+   "tests/build/org/links/pmoexc.js": "431a5611bf7ba7f7cbaa2a70f6ccf38dca3f21a1a1822752aaef0a5b4d4c3cc1",
+   "tests/build/org/links/str.js": "986d541bf1ecee69f2c6ae1d7f3d0c7743be0524021da9961eb8488fed892c7c",
+   "tests/build/org/links/w8.js": "bea7fb271e1c3fddf450787f3060da41eac13aea0be7bbdc48ee274ed3d2de72",
+   "tests/build/org/links_common.py": "bf3e903935b9d8781fc0887c5e14c0925c4b41fb6e193b768762d2a6e994e02d",
+   "tests/build/org/linkui.css": "264d06c8075345f871fafd7cde6a10486f4211c5334ee10d0caacd0527fc6bfc",
+   "tests/build/org/linkui.js": "b8849cb8c8dee215c6245b5b68178b716d48ec30f564c734978106ac0a3e8562",
+   "tests/build/org/org_kit.css": "f35b5b67f31411c5c5b7d7b3ca1bd983ad510976c36e1d968d5ba45d141ca1bb",
+   "tests/build/org/org_kit.js": "7465d162d0a88efb7cd0c20f67c070df224f2a2c6d35675a1e1fd676e89bc0de",
+   "tests/build/org/org_labels.py": "70cd530fb3c3455e329f55f1fb95efa16f341070421ca8fa873b0cf5f93d963d",
+   "tests/build/org/readers.js": "5e4d70f942a1549a2af843275cd113060914ba9e37656882ce2f3186094da594",
+   "tests/build/org_map.json": "9156fa1c63ca8300a153e1bba42379cb766c7a360669a7e7debcb895073ee6de",
+   "tests/build/patch_a11y_modules.py": "162628dd75333907d4d5e25497eb2a5d0820b9a3daa5e14a47c9cefca0596ab1",
+   "tests/build/patch_author_name.py": "96a937c36058f7544186e1dc0dd344b33741ac281d5f18fe8738132912aba8a2",
+   "tests/build/patch_hub_a11y.py": "8348b760898f1578fd4a887cbc2eed3dbb9d3f4de5ce8bfed5192a0ec98eb8ef",
+   "tests/build/patch_hub_map.py": "1fe2d514d7ec8430ce9794864e1c3d44425d0a5b76e503e5fc2511be2814d662",
+   "tests/build/patch_hub_nav.py": "15e741a930c13ac8c52184ea1ddbac9825c19a3c3e187a55763efa15016ff525",
+   "tests/build/patch_hub_overlay.py": "fa8238ba02ddf5ae24170f3a241898ba64e64cc61b6449489b9b838ca1a02fb2",
+   "tests/build/patch_hub_profile.py": "e2589b523849259aed0c6643d9815080fec806a87bb33b51af0a661795ae1de8",
+   "tests/build/patch_hub_report.py": "b343d40bd7361c5e7593d7d4ffbab8c4a729d531e02d282ddc50e6a38caa71e2",
+   "tests/build/patch_kits_10009_c.py": "054afb40c509b357aa9f5b27dd47167d50972832154156b031c74ccf4f1726d5",
+   "tests/build/patch_links_capa.py": "dc589340f54c0d2768453548a8358cae4cb44d76e021bee54434fb9f8e1afb5a",
+   "tests/build/patch_links_cockpit.py": "0ca3bb9ebea0f32a4c6c356bc049ae2612fed22e3d83b7f0e2e3c9640ab6ff63",
+   "tests/build/patch_links_efqm.py": "d0cee26d226b5aac5f8da0cebfc15d1c9864de40c077bff6e799e54147473a85",
+   "tests/build/patch_links_ims.py": "883e334d437d46d73a630fa63bb7fea7209b3d77abb1497ffab8a18e3d600fcf",
+   "tests/build/patch_links_iso31000.py": "ff95fc34e2f251423e8947b70efc975c842f132dd7109a34b0a8098300dd568f",
+   "tests/build/patch_links_kaqa.py": "70608e8e728d1e5b5cc842b78bf85339a12c303f7eb52e0e0adae70c355c1a42",
+   "tests/build/patch_links_pmo_excellence.py": "112b418d9040538a2e3fc98c79b1d929873341cf9582340b52e99e7cbad14cd8",
+   "tests/build/patch_links_smart_audit.py": "0bae4bd979e38d40b7cd8ecda02ecae278989d748a754f007df092bf8ff8c4af",
+   "tests/build/patch_links_strategy.py": "13f69f1b6ed3f2e58ca0bc3ee40a052e6da6d223d11265e60a8f4b0d1d8dd8a4",
+   "tests/build/patch_meta.py": "ebb865f89b75d50eba0375a93221fae0e97a023c8cc4db84f2740c5368f1186d",
+   "tests/build/patch_org_modules.py": "2ed4c0327f6362689c8b5062be32ac3458af9e5ae36281214b000d096635ae5b",
+   "tests/build/patch_tests_step15.py": "a2b811efd9f1d883f24a31d8db030705308d7bb1dbec9899ab8612b63ad1bcb7",
+   "tests/capa/pdca_engine_regress.py": "6e4733de066896e152b800f66da3d63eaf6dd3e6f310f70ae7539b7e1784ad6e",
+   "tests/dmaic/test_dmaic.py": "20287794757896dbe48f3fada1e2707d06f87e353ac0365ce56c12af2e00f816",
+   "tests/hub/hubkit.py": "5fddc54b6f6ce853c9dc5a3bee7f229b9a179abf0a5b09d25fc6efa3c458be91",
+   "tests/hub/results/examples.json": "a69b74fda2574693d0501321aa154270df44ce00284207e40d5b232cbc8dc2fb",
+   "tests/hub/results/integrated-report-ar.html": "7ce9b6d27d67064aa57b753ddf710b37f1dcde7c1cf812aaec856dc8fff35196",
+   "tests/hub/results/integrated-report-en.html": "d1dcf8c8304150f6cc3614b8191d4b16167937d044011e447befa0c52232cbe1",
+   "tests/hub/results/tmp/bad.json": "92072df399cb74703f8e86f450d552bc0bb01eeeb98a90985a1b7772c8fd0016",
+   "tests/hub/results/tmp/imp.json": "3808c53938612c5fd017a461788e3c9ca9d51c0bbb12f4d9be6c6fd207d6c95e",
+   "tests/hub/results/tmp/logo-bad.svg": "3fef6978275dfb733d7c78a4626b76dd86f5887552d0dc9750287399d7d5e6c3",
+   "tests/hub/results/tmp/logo-big.png": "eece2016ab020c4be11a190700e12db61099be8ed3c49748de62b3e34e2ab15a",
+   "tests/hub/results/tmp/not-image.txt": "2cf24dba5fb0a30e26e83b2ac5b9e29e1b161e5c1fa7425e73043362938b9824",
+   "tests/hub/test_actions.py": "5c4f960e089f778ed33887d2c4398ad4bef3196a7cd901de2db7294a985b0a5c",
+   "tests/hub/test_home_advisor.py": "dfcc6aaa628b4ff8d4ae0014e2bb665d4efa38017e1a5d2dcb9982380b16c661",
+   "tests/hub/test_integrated_report.py": "316111217ce213d0c7fadbf702d58e51b69a44d41ce3713c8b96294f08d07822",
+   "tests/hub/test_map.py": "a572b8b1e9222b732b000e9e8b492d4df0588be5965c76d4a1b91c25382a3072",
+   "tests/hub/test_overlay.py": "6aceb45a72ec81ea1247c6ef54c65f9b1c34467907781d6062fcae8ac1b57090",
+   "tests/hub/test_profile.py": "6beea5f1a53c1148bc0e970962c281f85bb32e3e16cc04a65a4687f21331536e",
+   "tests/platform/run_all.sh": "79767717f6b56e7c853c8256ecfefa7611f1eb457f28a1741adef4fa37d75876",
+   "tests/platform/summary.py": "e6fa2214bb7720ab2f8900218178cca1eab1434bff72c136b443a1b38ce884f9",
+   "tests/platform/t_links.py": "8a4c624b983636144770b2ef9515d56ce84271a575624b7b7aa1820adfb77070",
+   "tests/platform/t_org.py": "6294ab04786a3aa3ef07f49a4e59efb971321c85567b0efdc5ac2dfd9e5fd353",
+   "tests/platform/t_static.py": "cf577c55c861a7ad2b6fbc135b2f760890d23722918e774efcf2a914da8f6e18",
+   "tests/rca/capa_regress.py": "fa95959f7ced037b3edbb221edd68c911ab2ddebd1e8cc14eb9b3c01199ce6a9",
+   "tests/swot/test_swot.py": "6fa41d440844feab11b773d64753081fc3d7106bc50ad222e0608c6218a7e5af"
   }
  },
  "tour_variants": {
-  "64b68023d4": 26,
+  "64b68023d4": 27,
   "a3e63a3dd8": 1,
   "5e88a24a87": 1,
   "e8606e0bed": 1,

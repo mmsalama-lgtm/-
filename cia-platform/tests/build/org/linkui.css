@@ -1,0 +1,33 @@
+/* CIA link panels v1 */
+.cia-lk{margin:0 0 16px;border:1px solid #D6DEEA;border-inline-start:4px solid #1E8C93;border-radius:14px;background:#F7FAFC;color:#1B2A4A;font-size:14px;line-height:1.55}
+.cia-lk>summary{display:flex;align-items:center;gap:10px;padding:11px 14px;cursor:pointer;list-style:none;font-size:14.5px}
+.cia-lk>summary::-webkit-details-marker{display:none}
+.cia-lk>summary b{flex:1;min-width:0}
+.cia-lk>summary em{font-style:normal;font-size:12.5px;color:#4B5874;background:#E6EEF6;border-radius:999px;padding:2px 10px;white-space:nowrap}
+.cia-lk>summary:focus-visible{outline:3px solid #B8901E;outline-offset:2px;border-radius:12px}
+.cia-lk-ic{display:inline-grid;place-items:center;width:28px;height:28px;border-radius:8px;background:#1E8C93;color:#fff;font-weight:700;flex:none}
+.cia-lk-b{padding:0 14px 12px}
+.cia-lk-sub{margin:0 0 4px;color:#33415C}
+.cia-lk-ro{margin:0 0 10px;font-size:12.5px;color:#5E6B84}
+.cia-lk-g{border-top:1px solid #DCE4EE;padding:10px 0 4px}
+.cia-lk-g header{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:0 0 6px}
+.cia-lk-g header b{flex:1;min-width:0}
+.cia-lk-code{font-family:Georgia,serif;font-weight:700;font-size:12px;background:#1B2A4A;color:#fff;border-radius:6px;padding:2px 7px}
+.cia-lk-head{margin:0 0 6px;font-size:13px;color:#33415C}
+.cia-lk ul{list-style:none;margin:0;padding:0;display:grid;gap:6px}
+.cia-lk li{display:flex;align-items:flex-start;gap:8px;padding:7px 9px;border:1px solid #E1E8F1;border-radius:10px;background:#fff}
+.cia-lk-t{flex:1;min-width:0;display:grid;gap:1px;overflow-wrap:anywhere}
+.cia-lk-t small{color:#5E6B84;font-size:12.5px}
+.cia-lk-dot{width:9px;height:9px;border-radius:50%;margin-top:7px;flex:none;background:#7A869E}
+.cia-lk-dot.s3{background:#C2410C}.cia-lk-dot.s2{background:#D97706}.cia-lk-dot.s1{background:#3C9A5F}
+.cia-lk-late{color:#B42318;font-weight:700;font-size:12px}
+.cia-lk-a{display:flex;gap:6px;flex-wrap:wrap;flex:none;max-width:48%}
+.cia-lk button{font:inherit;font-size:12.5px;border:1px solid #C9D4E3;background:#fff;color:#1B2A4A;border-radius:999px;padding:4px 11px;cursor:pointer;white-space:nowrap}
+.cia-lk button.pri{background:#1B2A4A;border-color:#1B2A4A;color:#fff;font-weight:700}
+.cia-lk button:focus-visible{outline:3px solid #B8901E;outline-offset:2px}
+.cia-lk-more{margin-top:6px}
+.cia-lk-note{margin:0 0 12px;padding:10px 12px;border-radius:12px;background:#E5F4EA;border:1px solid #9FD3B1;color:#1F5A36;font-weight:600}
+@media (max-width:560px){.cia-lk li{flex-wrap:wrap}.cia-lk-a{max-width:none;width:100%;justify-content:flex-end}}
+@media (prefers-color-scheme:dark){.cia-lk{background:#15213A;border-color:#2A3A58;color:#E7ECF4}.cia-lk li{background:#0E1729;border-color:#2A3A58}.cia-lk-sub,.cia-lk-head{color:#C9D2E2}.cia-lk-ro,.cia-lk-t small{color:#9AA6BC}
+ .cia-lk>summary em{background:#22324F;color:#C9D2E2}.cia-lk button{background:#15213A;color:#E7ECF4;border-color:#3A4C6E}.cia-lk button.pri{background:#E6CF8A;border-color:#E6CF8A;color:#1B2A4A}.cia-lk-g{border-color:#2A3A58}.cia-lk-note{background:#163A26;border-color:#2F7D4B;color:#CFEBD8}}
+@media print{.cia-lk{display:none}}

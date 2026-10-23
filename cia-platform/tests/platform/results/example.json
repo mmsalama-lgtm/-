@@ -1,8 +1,8 @@
 {
  "name": "example",
- "checks": 384,
+ "checks": 396,
  "failed": 0,
- "seconds": 220.4,
+ "seconds": 215.8,
  "rows": [
   {
    "label": "a3: example loads (pfEx) into cia-a3:v1",
@@ -361,6 +361,16 @@
   },
   {
    "label": "smart-audit-improvement: no errors while loading the example",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "stakeholders: example loads (pfEx) into cia-stakeholders:v1",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "stakeholders: no errors while loading the example",
    "ok": true,
    "detail": ""
   },
@@ -921,6 +931,21 @@
   },
   {
    "label": "smart-audit-improvement ar: no errors with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "stakeholders ar: every tab with example data has content",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "stakeholders ar: no undefined/NaN/[object Object] with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "stakeholders ar: no errors with example data",
    "ok": true,
    "detail": ""
   },
@@ -1495,6 +1520,21 @@
    "detail": ""
   },
   {
+   "label": "stakeholders en: every tab with example data has content",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "stakeholders en: no undefined/NaN/[object Object] with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "stakeholders en: no errors with example data",
+   "ok": true,
+   "detail": ""
+  },
+  {
    "label": "strategy-performance en: every tab with example data has content",
    "ok": true,
    "detail": ""
@@ -1710,6 +1750,11 @@
    "detail": ""
   },
   {
+   "label": "hub dashboard reads stakeholders (stakeholders.html)",
+   "ok": true,
+   "detail": ""
+  },
+  {
    "label": "hub dashboard reads w8 (executive-cockpit-workspace.html)",
    "ok": true,
    "detail": ""
@@ -1900,6 +1945,21 @@
    "detail": ""
   },
   {
+   "label": "Stakeholder metrics on the hub: 71% assessed, 15/15 key-party requirements sourced and decided, 13/13 key parties with an outcome, 2/3 reviewed",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "Stakeholder breakdown on the hub: every open-item type 0 in the example",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "hub demo snapshot for Stakeholder Analysis equals the hub's own reading of the example",
+   "ok": true,
+   "detail": ""
+  },
+  {
    "label": "hub dashboard view has no undefined/NaN/[object Object]",
    "ok": true,
    "detail": ""
@@ -2044,6 +2104,9 @@
    "pfEx"
   ],
   "smart-audit-improvement": [
+   "pfEx"
+  ],
+  "stakeholders": [
    "pfEx"
   ],
   "strategy-performance": [

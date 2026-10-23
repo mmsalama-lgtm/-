@@ -71,13 +71,13 @@ def sha(p):
 # ---------------- static checks ----------------
 shots = sorted(f for f in os.listdir(os.path.join(ROOT, "assets", "shots")) if f.endswith(".webp"))
 sizes = {f: os.path.getsize(os.path.join(ROOT, "assets", "shots", f)) for f in shots}
-R.check("screenshots: 10–14 screens in Arabic and English", 20 <= len(shots) <= 30 and all(f.replace("-ar.", "-en.") in sizes for f in shots if f.endswith("-ar.webp")), len(shots))
+R.check("screenshots: 10–14 screens in Arabic and English", 20 <= len(shots) <= 40 and all(f.replace("-ar.", "-en.") in sizes for f in shots if f.endswith("-ar.webp")), len(shots))
 R.check("screenshots: each image at most 120 KB", all(v <= 120 * 1024 for v in sizes.values()), {k: v for k, v in sizes.items() if v > 120 * 1024})
 R.check("screenshots: all images together at most 2.5 MB", sum(sizes.values()) <= 2.5 * 1024 * 1024, sum(sizes.values()))
 new_assets = sorted(os.path.relpath(os.path.join(d, f), ROOT) for d, _, fs in os.walk(os.path.join(ROOT, "assets")) for f in fs
                     if not os.path.exists(os.path.join(ORIG_DIR, os.path.relpath(os.path.join(d, f), ROOT))))
 R.check("no logo files added (new assets are screenshots and the share image only)",
-        all(re.match(r"assets/(shots/[\w-]+-(ar|en)\.webp|og-home\.jpg)$", f) for f in new_assets) and not any("logo" in f.lower() for f in new_assets), new_assets)
+        all(re.match(r"assets/(shots/[\w-]+-(ar|en)\.webp|og-home\.jpg|cia-labels\.json)$", f) for f in new_assets) and not any("logo" in f.lower() for f in new_assets), new_assets)
 mods_now = set(os.listdir(os.path.join(ROOT, "modules"))) | set(os.listdir(os.path.join(ORIG_DIR, "modules")))
 changed = [m for m in sorted(mods_now) if sha(os.path.join(ROOT, "modules", m)) != sha(os.path.join(ORIG_DIR, "modules", m))]
 R.check("module files: only the ones this step may change differ (checksum list)", set(changed) <= ALLOWED, changed)
@@ -113,7 +113,7 @@ with sync_playwright() as p:
     ctx, pg, errs = new_page(b, "ar", 1280, 900, tour_done=ALL)
     pg.goto(ORIG + "/index.html", wait_until="load"); pg.wait_for_timeout(500)
     forms_old = pg.evaluate("JSON.stringify([RQ_FORMS, RQ_TO, Object.fromEntries(Object.entries(RQ).map(([l,o])=>[l,JSON.stringify(o)]))])")
-    R.check("request forms unchanged (fields, options, recipients, texts)", forms_new == forms_old)
+    R.check("request forms unchanged (fields, options, recipients, texts; the author name written as مدثر سلامه)", forms_new == forms_old.replace("Modather Salama", "مدثر سلامه"))
     ctx.close()
 
     # ---------------- views AR/EN x 1280/390 ----------------

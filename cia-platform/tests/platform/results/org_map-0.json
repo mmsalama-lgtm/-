@@ -1,0 +1,108 @@
+{
+ "a3": {
+  "tools": {
+   "fill": [],
+   "sugg": [
+    "#f-area",
+    "#f-owner"
+   ]
+  }
+ },
+ "dmaic": {
+  "tools": {
+   "fill": [],
+   "sugg": [
+    "#f-area",
+    "#f-owner"
+   ]
+  }
+ },
+ "five-whys": {
+  "tools": {
+   "fill": [],
+   "sugg": [
+    "#f-area"
+   ]
+  }
+ },
+ "iso14001": {
+  "assess": {
+   "fill": [
+    "[data-p=\"org\"]"
+   ],
+   "sugg": []
+  },
+  "checklist": {
+   "fill": [
+    "[data-m=\"org\"]",
+    "[data-m=\"scope\"]"
+   ],
+   "sugg": []
+  }
+ },
+ "iso27701": {
+  "profile": {
+   "fill": [
+    "[data-p=\"org\"]",
+    "[data-p=\"scope\"]"
+   ],
+   "sugg": []
+  }
+ },
+ "iso37301": {
+  "assess": {
+   "fill": [
+    "[data-p=\"org\"]"
+   ],
+   "sugg": []
+  },
+  "checklist": {
+   "fill": [
+    "[data-m=\"org\"]",
+    "[data-m=\"scope\"]"
+   ],
+   "sugg": []
+  }
+ },
+ "iso9001": {
+  "assess": {
+   "fill": [
+    "[data-p=\"org\"]"
+   ],
+   "sugg": []
+  },
+  "checklist": {
+   "fill": [
+    "[data-m=\"org\"]",
+    "[data-m=\"scope\"]"
+   ],
+   "sugg": []
+  }
+ },
+ "p3o": {
+  "profile": {
+   "fill": [
+    "[data-p=\"org\"]",
+    "[data-p=\"scope\"]"
+   ],
+   "sugg": []
+  }
+ },
+ "pmo-excellence": {
+  "profile": {
+   "fill": [
+    "[data-p=\"org\"]",
+    "[data-p=\"scope\"]"
+   ],
+   "sugg": []
+  }
+ },
+ "stakeholders": {
+  "tools": {
+   "fill": [],
+   "sugg": [
+    "#f-owner"
+   ]
+  }
+ }
+}

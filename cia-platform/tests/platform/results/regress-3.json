@@ -1,8 +1,8 @@
 {
  "name": "regress-3",
- "checks": 40,
+ "checks": 36,
  "failed": 0,
- "seconds": 147.7,
+ "seconds": 126.7,
  "rows": [
   {
    "label": "compliance-anti-bribery: stored state on first load matches",
@@ -25,11 +25,6 @@
    "detail": ""
   },
   {
-   "label": "compliance-anti-bribery: unchanged file shows identical text on every tab (AR/EN)",
-   "ok": true,
-   "detail": ""
-  },
-  {
    "label": "fishbone: stored state on first load matches",
    "ok": true,
    "detail": ""
@@ -46,11 +41,6 @@
   },
   {
    "label": "fishbone: no errors (new)",
-   "ok": true,
-   "detail": ""
-  },
-  {
-   "label": "fishbone: unchanged file shows identical text on every tab (AR/EN)",
    "ok": true,
    "detail": ""
   },
@@ -95,11 +85,6 @@
    "detail": ""
   },
   {
-   "label": "iso27001: unchanged file shows identical text on every tab (AR/EN)",
-   "ok": true,
-   "detail": ""
-  },
-  {
    "label": "iso37001: stored state on first load matches",
    "ok": true,
    "detail": ""
@@ -116,11 +101,6 @@
   },
   {
    "label": "iso37001: no errors (new)",
-   "ok": true,
-   "detail": ""
-  },
-  {
-   "label": "iso37001: unchanged file shows identical text on every tab (AR/EN)",
    "ok": true,
    "detail": ""
   },
@@ -145,11 +125,6 @@
    "detail": ""
   },
   {
-   "label": "iso45001: unchanged file shows identical text on every tab (AR/EN)",
-   "ok": true,
-   "detail": ""
-  },
-  {
    "label": "operations-excellence: stored state on first load matches",
    "ok": true,
    "detail": ""
@@ -170,12 +145,22 @@
    "detail": ""
   },
   {
-   "label": "operations-excellence: unchanged file shows identical text on every tab (AR/EN)",
+   "label": "pestle: stored state on first load matches",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "pestle: new in this release (no previous version to compare)",
+   "label": "pestle: stored state after the example (pfEx) matches exactly",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pestle: stored state after visiting every tab matches",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pestle: no errors (new)",
    "ok": true,
    "detail": ""
   },
@@ -196,11 +181,6 @@
   },
   {
    "label": "smart-audit-improvement: no errors (new)",
-   "ok": true,
-   "detail": ""
-  },
-  {
-   "label": "smart-audit-improvement: unchanged file shows identical text on every tab (AR/EN)",
    "ok": true,
    "detail": ""
   }

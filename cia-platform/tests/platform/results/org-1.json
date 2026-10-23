@@ -1,0 +1,485 @@
+{
+ "name": "org-1",
+ "checks": 93,
+ "failed": 0,
+ "seconds": 141.7,
+ "rows": [
+  {
+   "label": "ai-regulatory: the organization profile kit runs (CIAORG) and finds no profile",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ai-regulatory: the report branding is wrapped by the kit",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ai-regulatory: no profile → no fill bar and no suggestions on any tab",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ai-regulatory: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ai-regulatory: no profile → report output (bh) byte-identical to the previous release",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ai-regulatory: with a profile the report carries the organization cover (bh)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ai-regulatory: with a profile, visiting every tab leaves the stored state unchanged (same content; a tool may re-save its keys in its own order)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ai-regulatory: tab profile organization fields already filled (example) → no fill bar",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "ai-regulatory: no errors with a profile",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "excellence-efqm: the organization profile kit runs (CIAORG) and finds no profile",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "excellence-efqm: the report branding is wrapped by the kit",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "excellence-efqm: no profile → no fill bar and no suggestions on any tab",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "excellence-efqm: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "excellence-efqm: no profile → report output (bh) byte-identical to the previous release",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "excellence-efqm: with a profile the report carries the organization cover (bh)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "excellence-efqm: with a profile, visiting every tab leaves the stored state unchanged (same content; a tool may re-save its keys in its own order)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "excellence-efqm: tab profile organization fields already filled (example) → no fill bar",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "excellence-efqm: no errors with a profile",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "fmea: the organization profile kit runs (CIAORG) and finds no profile",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "fmea: the report branding is wrapped by the kit",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "fmea: no profile → no fill bar and no suggestions on any tab",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "fmea: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "fmea: no profile → report output (rd) byte-identical to the previous release",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "fmea: no profile → report output (rep) byte-identical to the previous release",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "fmea: with a profile the report carries the organization cover (rd, rep)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "fmea: with a profile, visiting every tab leaves the stored state unchanged (same content; a tool may re-save its keys in its own order)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "fmea: suggestion field #f-area lists the profile's values",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "fmea: no errors with a profile",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso21500: the organization profile kit runs (CIAORG) and finds no profile",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso21500: the report branding is wrapped by the kit",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso21500: no profile → no fill bar and no suggestions on any tab",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso21500: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso21500: no profile → report output (bh) byte-identical to the previous release",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso21500: with a profile the report carries the organization cover (bh)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso21500: with a profile, visiting every tab leaves the stored state unchanged (same content; a tool may re-save its keys in its own order)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso21500: tab profile organization fields already filled (example) → no fill bar",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso21500: no errors with a profile",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso31000-risk-studio: the organization profile kit runs (CIAORG) and finds no profile",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso31000-risk-studio: the report branding is wrapped by the kit",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso31000-risk-studio: no profile → no fill bar and no suggestions on any tab",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso31000-risk-studio: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso31000-risk-studio: no profile → report output (bh) byte-identical to the previous release",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso31000-risk-studio: with a profile the report carries the organization cover (bh)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso31000-risk-studio: with a profile, visiting every tab leaves the stored state unchanged (same content; a tool may re-save its keys in its own order)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso31000-risk-studio: tab assess organization fields already filled (example) → no fill bar",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso31000-risk-studio: no errors with a profile",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso42001: the organization profile kit runs (CIAORG) and finds no profile",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso42001: the report branding is wrapped by the kit",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso42001: no profile → no fill bar and no suggestions on any tab",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso42001: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso42001: no profile → report output (bh) byte-identical to the previous release",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso42001: with a profile the report carries the organization cover (bh)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso42001: with a profile, visiting every tab leaves the stored state unchanged (same content; a tool may re-save its keys in its own order)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso42001: tab profile organization fields already filled (example) → no fill bar",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "iso42001: no errors with a profile",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "kaqa: the organization profile kit runs (CIAORG) and finds no profile",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "kaqa: the report branding is wrapped by the kit",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "kaqa: no profile → no fill bar and no suggestions on any tab",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "kaqa: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "kaqa: no profile → report output (bh) byte-identical to the previous release",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "kaqa: with a profile the report carries the organization cover (bh)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "kaqa: with a profile, visiting every tab leaves the stored state unchanged (same content; a tool may re-save its keys in its own order)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "kaqa: tab profile organization fields already filled (example) → no fill bar",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "kaqa: no errors with a profile",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pareto: the organization profile kit runs (CIAORG) and finds no profile",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pareto: the report branding is wrapped by the kit",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pareto: no profile → no fill bar and no suggestions on any tab",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pareto: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pareto: no profile → report output (rd) byte-identical to the previous release",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pareto: no profile → report output (rep) byte-identical to the previous release",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pareto: with a profile the report carries the organization cover (rd, rep)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pareto: with a profile, visiting every tab leaves the stored state unchanged (same content; a tool may re-save its keys in its own order)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pareto: suggestion field #f-area lists the profile's values",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pareto: no errors with a profile",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pmo-maturity: the organization profile kit runs (CIAORG) and finds no profile",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pmo-maturity: the report branding is wrapped by the kit",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pmo-maturity: no profile → no fill bar and no suggestions on any tab",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pmo-maturity: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pmo-maturity: no profile → report output (bh) byte-identical to the previous release",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pmo-maturity: with a profile the report carries the organization cover (bh)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pmo-maturity: with a profile, visiting every tab leaves the stored state unchanged (same content; a tool may re-save its keys in its own order)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pmo-maturity: tab profile organization fields already filled (example) → no fill bar",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "pmo-maturity: no errors with a profile",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance: the organization profile kit runs (CIAORG) and finds no profile",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance: the report branding is wrapped by the kit",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance: no profile → no fill bar and no suggestions on any tab",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance: no errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance: no profile → report output (bh) byte-identical to the previous release",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance: with a profile the report carries the organization cover (bh)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance: with a profile, visiting every tab leaves the stored state unchanged (same content; a tool may re-save its keys in its own order)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance: suggestion field [data-p=\"owner\"] lists the profile's values",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance: tab profile organization fields already filled (example) → no fill bar",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "strategy-performance: no errors with a profile",
+   "ok": true,
+   "detail": ""
+  }
+ ],
+ "modules": [
+  "ai-regulatory",
+  "excellence-efqm",
+  "fmea",
+  "iso21500",
+  "iso31000-risk-studio",
+  "iso42001",
+  "kaqa",
+  "pareto",
+  "pmo-maturity",
+  "strategy-performance"
+ ]
+}

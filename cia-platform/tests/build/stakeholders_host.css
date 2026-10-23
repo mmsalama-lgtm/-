@@ -1,0 +1,61 @@
+/* ===== Stakeholder Analysis tool — additions to the PDCA host styles and the CAPA … PESTLE additions (same tokens) ===== */
+.sk-term{border-inline-start-color:#7B5BB8}
+.sk-from{border-inline-start-color:#1B2A4A}
+/* stage map: seven stages; four columns on tablets, one on phones */
+.sk-map{grid-template-columns:repeat(7,minmax(0,1fr))}
+.sk-map li{padding:7px 8px}
+.sk-map li b{font-size:12.5px}
+@media (max-width:1100px){.sk-map{grid-template-columns:repeat(4,minmax(0,1fr))}}
+@media (max-width:640px){.sk-map{grid-template-columns:1fr}}
+/* sections */
+.sk-sec .dm-pht{font-size:16.5px}
+.sk-tm{min-width:520px}
+.sk-rq{min-width:1180px}
+.sk-ou{min-width:1320px}
+.sk-rv{min-width:760px}
+.sk-vh{margin:14px 0 4px;font-size:14px;color:var(--ink)}
+.sk-clim{margin-top:12px}
+.sk-rq td:nth-child(1){min-width:170px}.sk-rq td:nth-child(2){min-width:260px}.sk-rq td:nth-child(3){min-width:170px}.sk-rq td:nth-child(5){min-width:80px}.sk-rq td:nth-child(6){min-width:110px}.sk-rq td:nth-child(7){min-width:200px}
+.sk-ou td:nth-child(1){min-width:170px}.sk-ou td:nth-child(2){min-width:170px}.sk-ou td:nth-child(3){min-width:95px}.sk-ou td:nth-child(4){min-width:110px}.sk-ou td:nth-child(5){min-width:230px}.sk-ou td:nth-child(6){min-width:200px}.sk-ou td:nth-child(7){min-width:170px}.sk-ou td:nth-child(8){min-width:120px}
+.sk-rv td:nth-child(2){min-width:130px}.sk-rv td:nth-child(3){min-width:220px}
+.sk-rq tr.a3-pf td{background:#FFF7E8}
+/* party cards: two compact columns; the colour of the party type on the edge */
+.sk-pcards .dm-card{border-inline-start:4px solid var(--tc,#3563C9)}
+.sk-acards .dm-card{border-inline-start:4px solid #C2410C}
+.sk-pt .pd-fields{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+.sk-pt .pd-f{min-width:0}
+.sk-pt .pd-f.wide{grid-column:1/-1}
+.sk-pt .pd-f input,.sk-pt .pd-f select,.sk-pt .pd-f textarea{padding:7px 9px;font-size:14px}
+.sk-pcards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+/* action cards: three compact columns */
+.sk-ac .pd-fields{grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+.sk-ac .pd-f{min-width:0}
+.sk-ac .pd-f.wide{grid-column:1/-1}
+/* the power/interest grid and the requirements matrix (also drawn into the report) */
+.sk-gridw{display:grid;grid-template-columns:22px minmax(0,1fr);grid-template-rows:auto auto;gap:4px;margin:6px 0;min-width:0}
+.sk-ax-y{grid-row:1;writing-mode:vertical-rl;transform:rotate(180deg);font-size:11.5px;color:var(--ink-soft);font-weight:700;text-align:center}
+.sk-ax-x{grid-column:2;font-size:11.5px;color:var(--ink-soft);font-weight:700;text-align:center}
+.sk-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:6px;min-width:0}
+.sk-q{border:1px solid var(--line,#DCE4EE);border-top:4px solid var(--qc);border-radius:10px;padding:6px 8px;min-width:0;background:#fff}
+.sk-q h5{margin:0 0 4px;display:flex;flex-direction:column;gap:1px;font-size:12.5px;color:var(--qc)}
+.sk-q h5 small{color:var(--ink-soft);font-weight:400;font-size:11px}
+.sk-q ul{margin:0;padding:0;list-style:none;display:grid;gap:3px}
+.sk-q li{display:flex;gap:5px;align-items:baseline;font-size:12px;overflow-wrap:anywhere;min-width:0;border-inline-start:3px solid var(--tc);padding-inline-start:4px}
+.sk-q li span{flex:1;min-width:0}
+.sk-q code{font-family:Georgia,serif;font-weight:700;color:var(--tc)}
+.sk-q em{font-style:normal;color:var(--ink-soft);font-size:11px;white-space:nowrap}
+.sk-none{margin:2px 0;color:var(--muted,#7A869E);font-size:12.5px}
+.sk-rm{border-collapse:collapse;width:100%;font-size:12.5px;min-width:560px}
+.sk-rm th,.sk-rm td{border:1px solid var(--line,#DCE4EE);padding:4px 6px;text-align:center}
+.sk-rm th[scope=row]{text-align:start;font-weight:600}
+.sk-rm td.y{background:#E5F4EA}.sk-rm td.p{background:#FBEBCB}.sk-rm td.n{background:#F6D5D2}.sk-rm td.u{background:#EEF1F6}.sk-rm td.z{color:#9AA5B8}
+.sk-rm code{font-family:Georgia,serif;font-weight:700}
+/* chart: never wider than the screen */
+.sk-chartw{overflow-x:auto;max-width:100%}
+.sk-chartw svg{max-width:100%;height:auto;display:block}
+@media (max-width:900px){.sk-pcards{grid-template-columns:1fr}}
+@media (max-width:760px){.sk-ac .pd-fields{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:640px){.sk-tm{min-width:460px}.sk-rq{min-width:1100px}.sk-ou{min-width:1240px}.sk-rv{min-width:640px}.sk-q{padding:5px 6px}.sk-q li{font-size:11.5px}}
+@media (max-width:420px){.sk-pt .pd-fields,.sk-ac .pd-fields{grid-template-columns:1fr}.sk-grid{gap:4px}}
+/* the three-letter code badge in the header */
+.brand-mark{font-size:11px;letter-spacing:.02em}

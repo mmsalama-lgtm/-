@@ -1,0 +1,52 @@
+PASS ar 1280px: #guides opens the Guides view
+PASS ar 1280px: the top menu has the Guides item after Tools
+PASS ar 1280px: the mobile menu has the Guides item
+PASS ar 1280px: no undefined/NaN/[object Object]
+PASS ar 1280px: no horizontal overflow
+PASS ar 1280px: every live tool has its card and every explanation tab its link (39 tools, 95 guides)
+PASS ar 1280px: the counter and the hero show the same numbers
+PASS ar 1280px: three kinds of explanation with their screenshots in this language (loaded, with alt text)
+PASS ar 1280px: the path drawing has four steps
+PASS ar 1280px: the note says the guides are not the official text
+PASS filter: Audit & Improvement shows its 16 tools only
+PASS search: 'دليل البنود' narrows the list
+PASS search: no match shows the empty message
+PASS knowledge centre links to the Guides center
+PASS the knowledge-centre link opens the Guides view
+PASS switching language re-renders the view in English
+PASS all 95 guide links open the tool in the overlay on its explanation tab
+PASS the three 'try it' links open ISO 9001 on the method guide and the clause guide
+PASS ar 1280px: no page errors
+PASS en 1280px: #guides opens the Guides view
+PASS en 1280px: the top menu has the Guides item after Tools
+PASS en 1280px: the mobile menu has the Guides item
+PASS en 1280px: no undefined/NaN/[object Object]
+PASS en 1280px: no horizontal overflow
+PASS en 1280px: every live tool has its card and every explanation tab its link (39 tools, 95 guides)
+PASS en 1280px: the counter and the hero show the same numbers
+PASS en 1280px: three kinds of explanation with their screenshots in this language (loaded, with alt text)
+PASS en 1280px: the path drawing has four steps
+PASS en 1280px: the note says the guides are not the official text
+PASS en 1280px: no page errors
+PASS ar 390px: #guides opens the Guides view
+PASS ar 390px: the mobile menu has the Guides item
+PASS ar 390px: no undefined/NaN/[object Object]
+PASS ar 390px: no horizontal overflow
+PASS ar 390px: every live tool has its card and every explanation tab its link (39 tools, 95 guides)
+PASS ar 390px: the counter and the hero show the same numbers
+PASS ar 390px: three kinds of explanation with their screenshots in this language (loaded, with alt text)
+PASS ar 390px: the path drawing has four steps
+PASS ar 390px: the note says the guides are not the official text
+PASS ar 390px: no page errors
+PASS en 390px: #guides opens the Guides view
+PASS en 390px: the mobile menu has the Guides item
+PASS en 390px: no undefined/NaN/[object Object]
+PASS en 390px: no horizontal overflow
+PASS en 390px: every live tool has its card and every explanation tab its link (39 tools, 95 guides)
+PASS en 390px: the counter and the hero show the same numbers
+PASS en 390px: three kinds of explanation with their screenshots in this language (loaded, with alt text)
+PASS en 390px: the path drawing has four steps
+PASS en 390px: the note says the guides are not the official text
+PASS en 390px: no page errors
+
+50/50 passed

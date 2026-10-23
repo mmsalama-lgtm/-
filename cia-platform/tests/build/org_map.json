@@ -1,0 +1,404 @@
+{
+ "a3": {
+  "tools": {
+   "fill": [],
+   "sugg": [
+    "#f-area",
+    "#f-owner"
+   ]
+  }
+ },
+ "ai-regulatory": {
+  "profile": {
+   "fill": [
+    "[data-p=\"org\"]",
+    "[data-p=\"scope\"]"
+   ],
+   "sugg": []
+  }
+ },
+ "capa": {
+  "tools": {
+   "fill": [],
+   "sugg": [
+    "#f-area",
+    "#f-owner"
+   ]
+  }
+ },
+ "compliance-anti-bribery": {
+  "profile": {
+   "fill": [
+    "[data-p=\"org\"]",
+    "[data-p=\"scope\"]",
+    "[data-p=\"sites\"]"
+   ],
+   "sugg": [
+    "[data-p=\"owner\"]"
+   ]
+  }
+ },
+ "dmaic": {
+  "tools": {
+   "fill": [],
+   "sugg": [
+    "#f-area",
+    "#f-owner"
+   ]
+  }
+ },
+ "excellence-efqm": {
+  "profile": {
+   "fill": [
+    "[data-p=\"org\"]",
+    "[data-p=\"scope\"]",
+    "[data-p=\"sites\"]"
+   ],
+   "sugg": []
+  }
+ },
+ "executive-cockpit-workspace": {
+  "orgprofile": {
+   "fill": [
+    "[data-ok=\"name\"]"
+   ],
+   "sugg": [
+    "[data-ok=\"owner\"]"
+   ]
+  }
+ },
+ "fishbone": {
+  "tools": {
+   "fill": [],
+   "sugg": [
+    "#f-area"
+   ]
+  }
+ },
+ "five-whys": {
+  "tools": {
+   "fill": [],
+   "sugg": [
+    "#f-area"
+   ]
+  }
+ },
+ "fmea": {
+  "tools": {
+   "fill": [],
+   "sugg": [
+    "#f-area",
+    "#f-owner"
+   ]
+  }
+ },
+ "ims-builder": {
+  "picker": {
+   "fill": [
+    "[data-p=\"org\"]",
+    "[data-p=\"sites\"]"
+   ],
+   "sugg": []
+  }
+ },
+ "iso10009": {},
+ "iso14001": {
+  "assess": {
+   "fill": [
+    "[data-p=\"org\"]"
+   ],
+   "sugg": []
+  },
+  "checklist": {
+   "fill": [
+    "[data-m=\"org\"]",
+    "[data-m=\"scope\"]"
+   ],
+   "sugg": []
+  }
+ },
+ "iso21500": {
+  "profile": {
+   "fill": [
+    "[data-p=\"org\"]",
+    "[data-p=\"scope\"]"
+   ],
+   "sugg": []
+  }
+ },
+ "iso22301": {
+  "assess": {
+   "fill": [
+    "[data-p=\"org\"]"
+   ],
+   "sugg": []
+  },
+  "checklist": {
+   "fill": [
+    "[data-m=\"org\"]",
+    "[data-m=\"scope\"]"
+   ],
+   "sugg": []
+  }
+ },
+ "iso27001": {
+  "assess": {
+   "fill": [
+    "[data-p=\"org\"]"
+   ],
+   "sugg": []
+  },
+  "checklist": {
+   "fill": [
+    "[data-m=\"org\"]",
+    "[data-m=\"scope\"]"
+   ],
+   "sugg": []
+  }
+ },
+ "iso27701": {
+  "profile": {
+   "fill": [
+    "[data-p=\"org\"]",
+    "[data-p=\"scope\"]"
+   ],
+   "sugg": []
+  }
+ },
+ "iso31000-risk-studio": {
+  "assess": {
+   "fill": [
+    "[data-p=\"org\"]"
+   ],
+   "sugg": []
+  },
+  "checklist": {
+   "fill": [
+    "[data-m=\"org\"]",
+    "[data-m=\"scope\"]"
+   ],
+   "sugg": []
+  }
+ },
+ "iso37000-governance": {
+  "assess": {
+   "fill": [
+    "[data-p=\"org\"]"
+   ],
+   "sugg": []
+  },
+  "checklist": {
+   "fill": [
+    "[data-m=\"org\"]",
+    "[data-m=\"scope\"]"
+   ],
+   "sugg": []
+  }
+ },
+ "iso37001": {
+  "assess": {
+   "fill": [
+    "[data-p=\"org\"]"
+   ],
+   "sugg": []
+  },
+  "checklist": {
+   "fill": [
+    "[data-m=\"org\"]",
+    "[data-m=\"scope\"]"
+   ],
+   "sugg": []
+  }
+ },
+ "iso37301": {
+  "assess": {
+   "fill": [
+    "[data-p=\"org\"]"
+   ],
+   "sugg": []
+  },
+  "checklist": {
+   "fill": [
+    "[data-m=\"org\"]",
+    "[data-m=\"scope\"]"
+   ],
+   "sugg": []
+  }
+ },
+ "iso42001": {
+  "profile": {
+   "fill": [
+    "[data-p=\"org\"]",
+    "[data-p=\"scope\"]"
+   ],
+   "sugg": []
+  }
+ },
+ "iso42005": {
+  "profile": {
+   "fill": [
+    "[data-p=\"org\"]",
+    "[data-p=\"scope\"]"
+   ],
+   "sugg": []
+  }
+ },
+ "iso45001": {
+  "assess": {
+   "fill": [
+    "[data-p=\"org\"]"
+   ],
+   "sugg": []
+  },
+  "checklist": {
+   "fill": [
+    "[data-m=\"org\"]",
+    "[data-m=\"scope\"]"
+   ],
+   "sugg": []
+  }
+ },
+ "iso9001": {
+  "assess": {
+   "fill": [
+    "[data-p=\"org\"]"
+   ],
+   "sugg": []
+  },
+  "checklist": {
+   "fill": [
+    "[data-m=\"org\"]",
+    "[data-m=\"scope\"]"
+   ],
+   "sugg": []
+  }
+ },
+ "kaqa": {
+  "profile": {
+   "fill": [
+    "[data-p=\"org\"]",
+    "[data-p=\"scope\"]"
+   ],
+   "sugg": []
+  }
+ },
+ "lessons": {
+  "tools": {
+   "fill": [],
+   "sugg": [
+    "#f-area",
+    "#f-site",
+    "#f-owner"
+   ]
+  }
+ },
+ "operations-excellence": {
+  "profile": {
+   "fill": [
+    "[data-p=\"org\"]",
+    "[data-p=\"scope\"]"
+   ],
+   "sugg": [
+    "[data-p=\"owner\"]"
+   ]
+  }
+ },
+ "p3o": {
+  "profile": {
+   "fill": [
+    "[data-p=\"org\"]",
+    "[data-p=\"scope\"]"
+   ],
+   "sugg": []
+  }
+ },
+ "pareto": {
+  "tools": {
+   "fill": [],
+   "sugg": [
+    "#f-area",
+    "#f-owner"
+   ]
+  }
+ },
+ "pdca": {
+  "tools": {
+   "fill": [],
+   "sugg": [
+    "#h-owner"
+   ]
+  }
+ },
+ "pestle": {
+  "tools": {
+   "fill": [],
+   "sugg": [
+    "#f-owner"
+   ]
+  }
+ },
+ "pmo-excellence": {
+  "profile": {
+   "fill": [
+    "[data-p=\"org\"]",
+    "[data-p=\"scope\"]"
+   ],
+   "sugg": []
+  }
+ },
+ "pmo-maturity": {
+  "profile": {
+   "fill": [
+    "[data-p=\"org\"]",
+    "[data-p=\"scope\"]"
+   ],
+   "sugg": []
+  }
+ },
+ "rca": {
+  "tools": {
+   "fill": [],
+   "sugg": [
+    "#f-area"
+   ]
+  }
+ },
+ "smart-audit-improvement": {
+  "profile": {
+   "fill": [
+    "[data-p=\"org\"]",
+    "[data-p=\"scope\"]",
+    "[data-p=\"sites\"]"
+   ],
+   "sugg": [
+    "[data-p=\"owner\"]"
+   ]
+  }
+ },
+ "stakeholders": {
+  "tools": {
+   "fill": [],
+   "sugg": [
+    "#f-owner"
+   ]
+  }
+ },
+ "strategy-performance": {
+  "profile": {
+   "fill": [
+    "[data-p=\"org\"]"
+   ],
+   "sugg": [
+    "[data-p=\"owner\"]"
+   ]
+  }
+ },
+ "swot": {
+  "tools": {
+   "fill": [],
+   "sugg": [
+    "#f-owner"
+   ]
+  }
+ }
+}

@@ -1,0 +1,7 @@
+PASS no typing: another tool opens without a question
+PASS unsaved edits: the hub asks before opening another tool
+PASS Cancel keeps the open tool and the typed value
+PASS OK opens the other tool
+PASS after 'New record' clears the form, no question is asked
+PASS no errors
+== hub-overlay: 6/6 passed

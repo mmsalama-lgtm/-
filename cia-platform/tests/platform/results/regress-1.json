@@ -1,8 +1,8 @@
 {
  "name": "regress-1",
- "checks": 50,
+ "checks": 40,
  "failed": 0,
- "seconds": 178.4,
+ "seconds": 148.7,
  "rows": [
   {
    "label": "ai-regulatory: stored state on first load matches",
@@ -21,11 +21,6 @@
   },
   {
    "label": "ai-regulatory: no errors (new)",
-   "ok": true,
-   "detail": ""
-  },
-  {
-   "label": "ai-regulatory: unchanged file shows identical text on every tab (AR/EN)",
    "ok": true,
    "detail": ""
   },
@@ -50,11 +45,6 @@
    "detail": ""
   },
   {
-   "label": "excellence-efqm: unchanged file shows identical text on every tab (AR/EN)",
-   "ok": true,
-   "detail": ""
-  },
-  {
    "label": "fmea: stored state on first load matches",
    "ok": true,
    "detail": ""
@@ -71,11 +61,6 @@
   },
   {
    "label": "fmea: no errors (new)",
-   "ok": true,
-   "detail": ""
-  },
-  {
-   "label": "fmea: unchanged file shows identical text on every tab (AR/EN)",
    "ok": true,
    "detail": ""
   },
@@ -100,11 +85,6 @@
    "detail": ""
   },
   {
-   "label": "iso21500: unchanged file shows identical text on every tab (AR/EN)",
-   "ok": true,
-   "detail": ""
-  },
-  {
    "label": "iso31000-risk-studio: stored state on first load matches",
    "ok": true,
    "detail": ""
@@ -121,11 +101,6 @@
   },
   {
    "label": "iso31000-risk-studio: no errors (new)",
-   "ok": true,
-   "detail": ""
-  },
-  {
-   "label": "iso31000-risk-studio: unchanged file shows identical text on every tab (AR/EN)",
    "ok": true,
    "detail": ""
   },
@@ -150,11 +125,6 @@
    "detail": ""
   },
   {
-   "label": "iso42001: unchanged file shows identical text on every tab (AR/EN)",
-   "ok": true,
-   "detail": ""
-  },
-  {
    "label": "kaqa: stored state on first load matches",
    "ok": true,
    "detail": ""
@@ -171,11 +141,6 @@
   },
   {
    "label": "kaqa: no errors (new)",
-   "ok": true,
-   "detail": ""
-  },
-  {
-   "label": "kaqa: unchanged file shows identical text on every tab (AR/EN)",
    "ok": true,
    "detail": ""
   },
@@ -200,11 +165,6 @@
    "detail": ""
   },
   {
-   "label": "pareto: unchanged file shows identical text on every tab (AR/EN)",
-   "ok": true,
-   "detail": ""
-  },
-  {
    "label": "pmo-maturity: stored state on first load matches",
    "ok": true,
    "detail": ""
@@ -225,32 +185,22 @@
    "detail": ""
   },
   {
-   "label": "pmo-maturity: unchanged file shows identical text on every tab (AR/EN)",
+   "label": "strategy-performance: stored state on first load matches",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot: stored state on first load matches",
+   "label": "strategy-performance: stored state after the example (pfEx) matches exactly",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot: stored state after the example (pfEx) matches exactly",
+   "label": "strategy-performance: stored state after visiting every tab matches",
    "ok": true,
    "detail": ""
   },
   {
-   "label": "swot: stored state after visiting every tab matches",
-   "ok": true,
-   "detail": ""
-  },
-  {
-   "label": "swot: no errors (new)",
-   "ok": true,
-   "detail": ""
-  },
-  {
-   "label": "swot: unchanged file shows identical text on every tab (AR/EN)",
+   "label": "strategy-performance: no errors (new)",
    "ok": true,
    "detail": ""
   }
@@ -265,6 +215,6 @@
   "kaqa",
   "pareto",
   "pmo-maturity",
-  "swot"
+  "strategy-performance"
  ]
 }

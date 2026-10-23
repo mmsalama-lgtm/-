@@ -1,38 +1,187 @@
 {
  "capa": {
-  "file_changed": false,
-  "tabs": {}
+  "file_changed": true,
+  "tabs": {
+   "ar:explain-cl": {
+    "added": 1,
+    "removed": 1,
+    "added_sample": [
+     "ما يرد تحت «المتطلب» ملخص تفسيري بصياغة مستقلة، وليس النص الرسمي للمواصفة. وما تحت «كيف تطبقه» و«الفجوات» إرشاد تطبيقي. أرقام البنود وعناوينها متحقق منها من النصوص الرسمية المرفوعة. وتشرح ISO 10009:2024 تحليل السبب الجذري في البند 14.1، وتذكر «مخططات 8D وA3» في 14.7؛ والشرح الكامل في دليل ISO 10009 على المنصة."
+    ],
+    "removed_sample": [
+     "ما يرد تحت «المتطلب» ملخص تفسيري بصياغة مستقلة، وليس النص الرسمي للمواصفة. وما تحت «كيف تطبقه» و«الفجوات» إرشاد تطبيقي. أرقام البنود وعناوينها متحقق منها من النصوص الرسمية المرفوعة."
+    ]
+   },
+   "ar:explain-std": {
+    "added": 1,
+    "removed": 1,
+    "added_sample": [
+     "ما يرد تحت «المتطلب» ملخص تفسيري بصياغة مستقلة، وليس النص الرسمي للمواصفة. وما تحت «كيف تطبقه» و«الفجوات» إرشاد تطبيقي. أرقام البنود وعناوينها متحقق منها من النصوص الرسمية المرفوعة. وتشرح ISO 10009:2024 تحليل السبب الجذري في البند 14.1، وتذكر «مخططات 8D وA3» في 14.7؛ والشرح الكامل في دليل ISO 10009 على المنصة."
+    ],
+    "removed_sample": [
+     "ما يرد تحت «المتطلب» ملخص تفسيري بصياغة مستقلة، وليس النص الرسمي للمواصفة. وما تحت «كيف تطبقه» و«الفجوات» إرشاد تطبيقي. أرقام البنود وعناوينها متحقق منها من النصوص الرسمية المرفوعة."
+    ]
+   },
+   "en:explain-cl": {
+    "added": 1,
+    "removed": 1,
+    "added_sample": [
+     "Text under “requirement” is an interpretive summary in independent wording, not the official text of the standard. “How to implement” and “common gaps” are practical guidance. Clause numbers and titles were checked against the uploaded official texts. ISO 10009:2024 reviews root cause analysis in 14.1 and names “8D and A3 charts” in 14.7. The full guide is the ISO 10009 tool on the platform."
+    ],
+    "removed_sample": [
+     "Text under “requirement” is an interpretive summary in independent wording, not the official text of the standard. “How to implement” and “common gaps” are practical guidance. Clause numbers and titles were checked against the uploaded official texts."
+    ]
+   },
+   "en:explain-std": {
+    "added": 1,
+    "removed": 1,
+    "added_sample": [
+     "Text under “requirement” is an interpretive summary in independent wording, not the official text of the standard. “How to implement” and “common gaps” are practical guidance. Clause numbers and titles were checked against the uploaded official texts. ISO 10009:2024 reviews root cause analysis in 14.1 and names “8D and A3 charts” in 14.7. The full guide is the ISO 10009 tool on the platform."
+    ],
+    "removed_sample": [
+     "Text under “requirement” is an interpretive summary in independent wording, not the official text of the standard. “How to implement” and “common gaps” are practical guidance. Clause numbers and titles were checked against the uploaded official texts."
+    ]
+   }
+  }
  },
  "executive-cockpit-workspace": {
-  "file_changed": false,
-  "tabs": {}
+  "file_changed": true,
+  "tabs": {
+   "en:home": {
+    "added": 1,
+    "removed": 1,
+    "added_sample": [
+     "Prepared by: مدثر سلامه"
+    ],
+    "removed_sample": [
+     "Prepared by: Modather Salama"
+    ]
+   }
+  }
  },
  "ims-builder": {
-  "file_changed": false,
-  "tabs": {}
+  "file_changed": true,
+  "tabs": {
+   "en:home": {
+    "added": 2,
+    "removed": 2,
+    "added_sample": [
+     "Prepared by مدثر سلامه",
+     "Search the common questions for an instant answer, or contact مدثر سلامه for IMS design, gap assessments, combined internal audits, and certification, Unified Contract and Aramco readiness."
+    ],
+    "removed_sample": [
+     "Prepared by Modather Salama",
+     "Search the common questions for an instant answer, or contact Modather Salama for IMS design, gap assessments, combined internal audits, and certification, Unified Contract and Aramco readiness."
+    ]
+   }
+  }
  },
  "iso22301": {
-  "file_changed": false,
-  "tabs": {}
+  "file_changed": true,
+  "tabs": {
+   "en:home": {
+    "added": 2,
+    "removed": 2,
+    "added_sample": [
+     "Prepared by مدثر سلامه",
+     "Search the common questions for an instant answer, or send your question directly to مدثر سلامه for consulting, training, audits and certification readiness."
+    ],
+    "removed_sample": [
+     "Prepared by Modather Salama",
+     "Search the common questions for an instant answer, or send your question directly to Modather Salama for consulting, training, audits and certification readiness."
+    ]
+   }
+  }
  },
  "iso37000-governance": {
-  "file_changed": false,
-  "tabs": {}
+  "file_changed": true,
+  "tabs": {
+   "en:home": {
+    "added": 2,
+    "removed": 2,
+    "added_sample": [
+     "Prepared by مدثر سلامه",
+     "Search the common questions for an instant answer, or contact مدثر سلامه for governance maturity assessments, board and committee evaluation, charters and delegation matrices, and board training."
+    ],
+    "removed_sample": [
+     "Prepared by Modather Salama",
+     "Search the common questions for an instant answer, or contact Modather Salama for governance maturity assessments, board and committee evaluation, charters and delegation matrices, and board training."
+    ]
+   }
+  }
  },
  "iso42005": {
-  "file_changed": false,
-  "tabs": {}
+  "file_changed": true,
+  "tabs": {
+   "en:home": {
+    "added": 2,
+    "removed": 2,
+    "added_sample": [
+     "Prepared by مدثر سلامه",
+     "Search the common questions for an instant answer, or contact مدثر سلامه to design the impact assessment procedure and triage criteria, assess high-impact systems with your teams, prepare approval minutes, and link it all to your ISO/IEC 42001 system."
+    ],
+    "removed_sample": [
+     "Prepared by Modather Salama",
+     "Search the common questions for an instant answer, or contact Modather Salama to design the impact assessment procedure and triage criteria, assess high-impact systems with your teams, prepare approval minutes, and link it all to your ISO/IEC 42001 system."
+    ]
+   }
+  }
  },
  "lessons": {
-  "file_changed": false,
+  "file_changed": true,
   "tabs": {}
  },
  "pdca": {
-  "file_changed": false,
-  "tabs": {}
+  "file_changed": true,
+  "tabs": {
+   "ar:explain-cl": {
+    "added": 1,
+    "removed": 1,
+    "added_sample": [
+     "الفرق بين التعريف والإرشاد: ما يلي في «المتطلب» تعريف مأخوذ من المنهجية، وما في «كيف تطبقه» و«الفجوات» إرشاد تطبيقي من خبرة الكاتب وليس نصاً معيارياً. وتشرح ISO 10009:2024 دورة PDCA في البند 15.6؛ والشرح الكامل في دليل ISO 10009 على المنصة."
+    ],
+    "removed_sample": [
+     "الفرق بين التعريف والإرشاد: ما يلي في «المتطلب» تعريف مأخوذ من المنهجية، وما في «كيف تطبقه» و«الفجوات» إرشاد تطبيقي من خبرة الكاتب وليس نصاً معيارياً."
+    ]
+   },
+   "ar:explain-std": {
+    "added": 1,
+    "removed": 1,
+    "added_sample": [
+     "الفرق بين التعريف والإرشاد: ما يلي في «المتطلب» تعريف مأخوذ من المنهجية، وما في «كيف تطبقه» و«الفجوات» إرشاد تطبيقي من خبرة الكاتب وليس نصاً معيارياً. وتشرح ISO 10009:2024 دورة PDCA في البند 15.6؛ والشرح الكامل في دليل ISO 10009 على المنصة."
+    ],
+    "removed_sample": [
+     "الفرق بين التعريف والإرشاد: ما يلي في «المتطلب» تعريف مأخوذ من المنهجية، وما في «كيف تطبقه» و«الفجوات» إرشاد تطبيقي من خبرة الكاتب وليس نصاً معيارياً."
+    ]
+   },
+   "en:explain-cl": {
+    "added": 1,
+    "removed": 1,
+    "added_sample": [
+     "Definition vs guidance: the “requirement” text describes the method; “how to implement” and “common gaps” are practical guidance from the author's experience, not normative text. ISO 10009:2024 reviews the PDCA cycle in 15.6. The full guide is the ISO 10009 tool on the platform."
+    ],
+    "removed_sample": [
+     "Definition vs guidance: the “requirement” text describes the method; “how to implement” and “common gaps” are practical guidance from the author's experience, not normative text."
+    ]
+   },
+   "en:explain-std": {
+    "added": 1,
+    "removed": 1,
+    "added_sample": [
+     "Definition vs guidance: the “requirement” text describes the method; “how to implement” and “common gaps” are practical guidance from the author's experience, not normative text. ISO 10009:2024 reviews the PDCA cycle in 15.6. The full guide is the ISO 10009 tool on the platform."
+    ],
+    "removed_sample": [
+     "Definition vs guidance: the “requirement” text describes the method; “how to implement” and “common gaps” are practical guidance from the author's experience, not normative text."
+    ]
+   }
+  }
  },
  "rca": {
-  "file_changed": false,
+  "file_changed": true,
+  "tabs": {}
+ },
+ "swot": {
+  "file_changed": true,
   "tabs": {}
  }
 }

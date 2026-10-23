@@ -223,3 +223,62 @@ SWOT, the Strategy Studio, Lessons Learned, FMEA and the other tools are unchang
 "start from PESTLE" would change its source schema, so it was left out).
 Tests: `tests/pestle/test_pestle.py` (with CIA_ORIG_DIR it also proves those tools byte-identical) and `tests/pestle/iso10009_regress.py`. This package:
 `CIA_NEW_TOOLS=pestle CIA_NEW_HUB=pestle`, advisor `CIA_ALLOWED_CHANGED=iso10009.html,pestle.html`.
+
+## Step 14 — Stakeholder Analysis (modules/stakeholders.html), the 14th and last toolbox tool (2026-10-17 → 2026-10-22)
+1. `python3 tests/build/patch_10009_stakeholders.py` then `python3 tests/build/build_10009.py` — the ISO 10009 catalogue names the stakeholder tool as a
+   related platform link ("rel") for 6.5 RACI and for the 5.5 "other relevant tool" COTO log; FILES and NAMES gain "stakeholders". 6.5 keeps its level
+   ("in"); `own`, REC_KEYS and the assistant's coverage answer are unchanged. Stored state, CSV, audit, self-assessment and coverage (8/12/3/11/19)
+   identical; the default report differs only in the 6.5 row (one more platform name) — tests/stakeholders/iso10009_regress.py.
+2. `python3 tests/build/build_stakeholders.py` (after build_pestle.py) — writes modules/stakeholders.html from pestle.html with `stakeholders_body.html`,
+   `stakeholders_host.css`, `stakeholders_host.js`, `stakeholders_example.js` and `data_stakeholders.py` (EXPLAIN_STAKEHOLDERS). Read-only parts copied at
+   build time: the Strategy Studio's TKV (it holds no interested-parties register: its REGKEYS are asserted), SWOT's rules (SWR) with stage and quadrant
+   names, PESTLE's rules (PER: fix, stage, items, score, tops, codes) with stage names, and the Lessons Learned rules (LLR) with stage names. Engine
+   unchanged (fourteen files); tour copied from PESTLE with only its CFG line changed.
+3. `python3 tests/build/patch_hub_stakeholders.py index.html` then `python3 tests/build/demo_stakeholders.py` (server running) — URL, Audit & Improvement
+   row (16 / 39), toolkit card STK, PDCA card ("the toolbox is complete"), the grouped citbox entry removed from SOON (only egea stays), knowledge topic,
+   compliance note, adapter `stakeholdersAd`, TOOLINFO / NEWS / TOOL_RQ / Advisor rules (goal cert 1, goal kpi 1, goal risk 1); fills `DEMO_RES.stakeholders`.
+4. `python3 tests/build/patch_tests_stakeholders.py` — earlier suites follow the new counts (39 / 16), the removed citbox and the new news item.
+Chain: … → build_pestle → patch_10009_stakeholders → build_10009 → build_stakeholders; … → patch_hub_pestle → demo_pestle → patch_hub_stakeholders → demo_stakeholders.
+Tests: `tests/stakeholders/test_stakeholders.py` (with CIA_ORIG_DIR it proves SWOT, PESTLE, the Strategy Studio, Lessons, FMEA, Pareto, PDCA, CAPA, the Risk
+Studio, Smart Audit and ISO 9001 byte-identical) and `tests/stakeholders/iso10009_regress.py`. This package: `CIA_NEW_TOOLS=stakeholders CIA_NEW_HUB=stakeholders`,
+advisor `CIA_ALLOWED_CHANGED=iso10009.html,stakeholders.html`.
+
+## Step 14.1 — Guides center in the hub (#guides, 2026-10-22)
+1. `python3 tests/build/guides_probe.py tests/build/guides_data.json` (server on 8802) — opens every module on every explanation tab (explain-std,
+   explain-cl, standard, clauses, guide), checks that #anchor shows the tab, and records its label in Arabic and English (39 tools, 95 tabs).
+2. Screenshots for the introduction: assets/shots/guide-std-{ar,en}.webp (ISO 9001 method guide), guide-cl-{ar,en}.webp (ISO 9001 clause guide),
+   guide-item-{ar,en}.webp (a clause card with "Assess this").
+3. `python3 tests/build/patch_hub_guides.py index.html` — menu item "الشروح / Guides" after Tools (both menu data blocks), the view (introduction, three
+   kinds with screenshots, a learn → assess → apply → review path in SVG, search, system filters, one card per tool with an icon per explanation tab;
+   a click calls openModule(key, push, anchor)), a link from the knowledge centre, `renderGuides()` in renderAll. No tool, adapter, snapshot or count changes.
+4. `python3 tests/build/links_inventory.py` — writes tests/build/links.json (which tool reads which), the input of the next step's integration map.
+Tests: `tests/hub/test_guides.py` (every one of the 95 links opens its tool on its tab).
+
+## Step 15 — one connected platform: organization profile, links, integration map, follow-up, integrated report (2026-10-22)
+Everything is rebuilt from the step-14.1 package by `bash tests/build/build_step15.sh` (checked byte for byte on a fresh copy: every module,
+index.html, templates/org-profile-kit.html, links.json, link_types.json). Sources are in `tests/build/org/`.
+0. `python3 tests/build/org/org_labels.py` (server on 8802; run once) — reads the nine ISO toolkits' questions (id, domain, clause, weight,
+   new-in-edition flag, phase, weeks) into `org/iso_meta.json` and their texts (question, recommended action, suggested owner, clause titles,
+   AR/EN) into `assets/cia-labels.json`.
+1. `org/build_kit.py` — `templates/org-profile-kit.html`: `cia-org-css` + `cia-org-js` (the organization profile kit, `org_kit.css/js`),
+   `cia-readers-js` (`readers.js` with the hub registry and the ISO plan metadata: each tool's open items by its own rules, read-only),
+   `cia-linkui-css` + `cia-linkui-js` (the link panels, `linkui.css/js`).
+2. `patch_org_modules.py` — the kit in all 39 tools before `</body>` (anchor: the file's last `</script>\n</body>\n</html>`). It wraps the
+   report branding (`brandHeaderHTML` in 25 tools, `TBX.reportDoc` in the 14 toolbox tools) so that reports carry the organization cover only
+   when a profile exists; offers "fill the empty fields"; adds datalist suggestions. No tool code is edited.
+3. `patch_links_<tool>.py` (capa, iso31000, ims, smart_audit, strategy, efqm, kaqa, pmo_excellence, cockpit) — `org/links_common.py` puts the
+   readers, the link panels and the tool's configuration `org/links/<cfg>.js` (first line `/*CIA-LINKS {...}*/` declares its sources and link
+   types) before the kit. The cockpit's configuration carries a verbatim copy of the hub's `CIADASH` (adapters) so its toolbox numbers equal the
+   dashboard's.
+4. `links_inventory.py` — `links.json` and `link_types.json` (shared blocks excluded from the key scan; declared panel links added; types start
+   / panel / outcome / reads). 111 → 177 links; every tool now reads or is read by another; 14 tools read no other tool (the source tools).
+5. `patch_hub_profile.py`, `patch_hub_map.py`, `patch_hub_report.py`, `patch_hub_overlay.py` — the hub's `#profile`, `#map`, `#actions`, the
+   integrated report and the overlay guard (sources `org/hub_profile.js`, `hub_glue.js`, `hub_map.js`, `hub_actions.js`, `hub_org.css`).
+6. `patch_author_name.py` (the English texts say مدثر سلامه; example data untouched), `patch_meta.py` (share card, description, version stamp),
+   `patch_hub_a11y.py` and `patch_a11y_modules.py` (contrast of muted text; tab roles in the toolbox side menu).
+7. `patch_hub_nav.py` (the desktop menu fits at 1280 px), `patch_kits_10009_c.py` (ISO 10009 "Part C": the PDCA, CAPA and 5 Whys kits name
+   15.6, 14.1/14.7 and 14.4 — kit data text only), `patch_tests_step15.py` (earlier suites follow this step).
+Left out on purpose (rule: never change a tool's stored state, CSV or audit): ISO 10009 storyboard steps on 5.1/5.2 linking to SWOT/PESTLE
+records (adding the keys to REC_KEYS changes the guide's audit of the example, as recorded in steps 12–13).
+Tests: `tests/platform/t_org.py` (sharded), `t_links.py`, `tests/hub/test_profile.py`, `test_map.py`, `test_actions.py`,
+`test_integrated_report.py`, `test_overlay.py`; `t_static.py` checks the new shared blocks' byte identity. Accessibility: `org/axe_audit.py`.
