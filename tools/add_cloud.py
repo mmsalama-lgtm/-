@@ -42,6 +42,25 @@ rep('  const m=rqCompose(rqRef()); rqLast={...m,kind:rqKind,sent:false};',
 rep('/* init */\n(function(){',
     '/* cia-cloud:start */\n' + js.strip() + '\n/* cia-cloud:end *//* init */\n(function(){')
 
+# ---------- the gate in every tool opened on its own (outside the hub): back to the hub, which asks for a sign-in ----------
+GATE = ('<!-- cia-gate:start --><script src="../cloud-config.js"></script><script>(function(k){try{var c=window.CIA_CLOUD||{};'
+        'if(!c.url||!c.key||c.gate!==true||(Array.isArray(c.free)?c.free:["iso9001"]).indexOf(k)>=0||window.top!==window.self'
+        '||localStorage.getItem("cia-cloud-auth"))return;location.replace("../index.html#m="+k);}catch(e){}})("%s");</script><!-- cia-gate:end -->')
+tools = dict(re.findall(r'(\w+):\s*"\./modules/([\w.-]+\.html)"', s))
+if len(tools) < 10:
+    sys.exit("tool list (URLS) not found in index.html")
+gated = {}
+for key, fname in tools.items():
+    mp = os.path.join(root, "modules", fname)
+    if not os.path.exists(mp):
+        continue
+    t = open(mp, encoding="utf-8").read()
+    t = re.sub(r"<!-- cia-gate:start -->.*?<!-- cia-gate:end -->", "", t, count=1, flags=re.S)
+    i = t.find("<head>")
+    if i < 0 or i > 4000:
+        sys.exit(f"{fname}: <head> not found near the top")
+    gated[mp] = t[:i + 6] + GATE % key + t[i + 6:]
+
 os.makedirs(os.path.join(root, "assets", "vendor"), exist_ok=True)
 shutil.copyfile(os.path.join(src, "vendor", "supabase-2.117.2.js"), os.path.join(root, "assets", "vendor", "supabase-2.117.2.js"))
 shutil.copyfile(os.path.join(src, "admin.html"), os.path.join(root, "admin.html"))
@@ -49,5 +68,8 @@ cfg = os.path.join(root, "cloud-config.js")
 kept = os.path.exists(cfg)
 if not kept:
     shutil.copyfile(os.path.join(src, "cloud-config.js"), cfg)
+for mp, t in gated.items():
+    open(mp, "w", encoding="utf-8").write(t)
 open(path, "w", encoding="utf-8").write(s)
+print(f"gate added to {len(gated)} tools")
 print("accounts and cloud save added" + (" (existing cloud-config.js kept)" if kept else ""))
