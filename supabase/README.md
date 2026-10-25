@@ -53,6 +53,18 @@ window.CIA_CLOUD = {
 
 3. ارفع `cloud-config.js` إلى مستودع الموقع.
 
+## البريد عبر Gmail (دون دومين) — مفعّل
+
+1. في حساب `ciacademy.egy@gmail.com`: فعّل التحقق بخطوتين، ثم أنشئ كلمة سر تطبيق من https://myaccount.google.com/apppasswords باسم `Supabase`.
+2. في **Authentication** ← **Emails** ← **SMTP Settings**:
+   - Sender email و Username: `ciacademy.egy@gmail.com`
+   - Sender name: `أكاديمية التحسين المستمر`
+   - Host: `smtp.gmail.com` — Port: `587` (أو `465`)
+   - Password: كلمة سر التطبيق (16 حرفاً، دون مسافات)
+3. إذا ظهر «Error sending confirmation email · 500» في نافذة الدخول، فالخلل في هذه الإعدادات: أنشئ كلمة سر تطبيق جديدة، وجرّب المنفذ الآخر. وسبب الرفض بالتفصيل في **Logs Explorer**:
+   `select timestamp, event_message from auth_logs order by timestamp desc limit 20`
+4. حد Gmail المجاني نحو 500 رسالة في اليوم.
+
 ## 5. اجعل حسابك مشرفاً
 
 1. افتح المنصة، واضغط **دخول**، وسجّل ببريدك.
