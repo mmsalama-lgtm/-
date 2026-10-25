@@ -44,6 +44,7 @@ rep('.trainBtn[hidden]{display:none!important}',
     '''.trainBtn[hidden]{display:none!important}/* cia-pwa:start */
 .appBtn{background:var(--gold-tint);border-color:var(--gold);color:var(--gold-ink)}
 @media (max-width:640px){.appBtn span{display:none}.appBtn{padding:8px 10px}}
+@media (min-width:1021px){#appBtn{display:none!important}}
 @media (max-width:460px){.topbar:has(#appBtn:not([hidden])) .brand>div{display:none}}
 .appUpd{position:fixed;left:max(16px,env(safe-area-inset-left,0px));right:max(16px,env(safe-area-inset-right,0px));bottom:calc(16px + env(safe-area-inset-bottom,0px));margin-inline:auto;max-width:520px;z-index:1200;display:flex;align-items:center;justify-content:space-between;gap:12px;background:var(--navy);color:#fff;border-radius:16px;padding:10px 12px 10px 18px;box-shadow:0 18px 50px rgba(10,18,34,.35);font-weight:600;font-size:14.5px}
 html[dir="rtl"] .appUpd{padding:10px 18px 10px 12px}
