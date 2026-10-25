@@ -26,7 +26,12 @@
 <meta name="cia-version" content="1.0.0 · 2026-10-22">
 <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
 <link rel="icon" type="image/png" sizes="192x192" href="assets/icon-192.png">
-<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png"><!-- cia-pwa:start -->
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="CIA">
+<meta name="apple-mobile-web-app-status-bar-style" content="default"><!-- cia-pwa:end -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&family=Noto+Kufi+Arabic:wght@500;700;800&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
@@ -524,7 +529,15 @@ html[lang="ar"] .cs b{font-family:"Fraunces",Georgia,serif}
 
 /* ===== platform polish ===== */
 .sr{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);clip-path:inset(50%);white-space:nowrap}
-.trainBtn[hidden]{display:none!important}
+.trainBtn[hidden]{display:none!important}/* cia-pwa:start */
+.appBtn{background:var(--gold-tint);border-color:var(--gold);color:var(--gold-ink)}
+@media (max-width:640px){.appBtn span{display:none}.appBtn{padding:8px 10px}}
+@media (max-width:460px){.topbar:has(#appBtn:not([hidden])) .brand>div{display:none}}
+.appUpd{position:fixed;left:max(16px,env(safe-area-inset-left,0px));right:max(16px,env(safe-area-inset-right,0px));bottom:calc(16px + env(safe-area-inset-bottom,0px));margin-inline:auto;max-width:520px;z-index:1200;display:flex;align-items:center;justify-content:space-between;gap:12px;background:var(--navy);color:#fff;border-radius:16px;padding:10px 12px 10px 18px;box-shadow:0 18px 50px rgba(10,18,34,.35);font-weight:600;font-size:14.5px}
+html[dir="rtl"] .appUpd{padding:10px 18px 10px 12px}
+.appUpd[hidden]{display:none!important}
+.app-steps{margin:0;padding-inline-start:22px;display:grid;gap:8px}
+/* cia-pwa:end */
 .menuBtn{display:none;flex:none;align-items:center;justify-content:center;width:40px;height:40px;border-radius:12px;border:1px solid var(--line);background:var(--surface);color:var(--ink);cursor:pointer;padding:0}
 .menuBtn:hover{border-color:var(--ink-soft)}
 @media (max-width:1020px){.menuBtn{display:inline-flex}}
@@ -1313,7 +1326,7 @@ html[dir="rtl"] .ac-t tr.late td:first-child{box-shadow:inset -4px 0 0 #B42318}
     <div class="bar-right">
       <nav class="nav" id="nav" aria-label="Sections"></nav>
       <button class="srchBtn" id="srchBtn" type="button"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><span class="t"></span><kbd>Ctrl K</kbd></button>
-      <a class="trainBtn" id="trainBtn" target="_blank" rel="noopener" hidden>
+      <!-- cia-pwa:start --><button class="trainBtn appBtn" id="appBtn" type="button" hidden><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="2.5" width="12" height="19" rx="2.5"/><path d="M12 7.5v7M9 11.5l3 3 3-3M10.5 18.5h3"/></svg><span id="appLabel"></span></button><!-- cia-pwa:end --><a class="trainBtn" id="trainBtn" target="_blank" rel="noopener" hidden>
         <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M2 9l10-5 10 5-10 5z"/><path d="M6 11v5c3 2.5 9 2.5 12 0v-5"/></svg>
         <span id="trainLabel"></span>
       </a>
@@ -1626,7 +1639,9 @@ html[dir="rtl"] .ac-t tr.late td:first-child{box-shadow:inset -4px 0 0 #B42318}
   </div>
 </footer>
 <dialog class="ddlg" id="dDlg" aria-labelledby="dDlgT"></dialog>
-<dialog class="ddlg" id="hDlg" aria-labelledby="hDlgT"></dialog>
+<dialog class="ddlg" id="hDlg" aria-labelledby="hDlgT"></dialog><!-- cia-pwa:start -->
+<dialog class="ddlg" id="appDlg" aria-labelledby="appDlgT"></dialog>
+<div class="appUpd" id="appUpd" role="status" aria-live="polite" hidden></div><!-- cia-pwa:end -->
 <dialog class="ddlg" id="pfDlg" aria-labelledby="pfDlgT"></dialog>
 <div class="sd-bg" id="sdBg" aria-hidden="true"></div>
 <aside class="sd" id="sd" role="dialog" aria-modal="true" aria-labelledby="sdT" aria-hidden="true"></aside>
@@ -2677,7 +2692,8 @@ function renderText(){
   set("trainLabel",u.training);
   const tb=$("trainBtn");
   if(TRAINING_URL){ tb.href=TRAINING_URL; tb.target="_blank"; tb.hidden=false; }
-  else { tb.hidden=true; tb.removeAttribute("href"); }
+  else { tb.hidden=true; tb.removeAttribute("href"); }/* cia-pwa:start */
+  if(typeof appText==="function") appText();/* cia-pwa:end */
 }
 
 let tkQ = "", tkSys = "all";
@@ -6328,7 +6344,62 @@ function orgView(v){
   else if(v==="actions" && typeof renderActions==="function"){ renderActions(); CIAR.loadLabels("assets/cia-labels.json").then(()=>{ if(curView==="actions") renderActions(); }); }
 }
 
-/* init */
+/* cia-pwa:start */
+/* ===================== INSTALLABLE APP (PWA) ===================== */
+const APPT = {
+ ar:{install:"ثبّت التطبيق", installT:"ثبّت المنصة على جهازك", iosT:"ثبّت المنصة على iPhone أو iPad",
+   why:"تفتح المنصة من أيقونتها مثل أي تطبيق وبسرعة أكبر، وتعمل الأدوات التي فتحتها من قبل دون إنترنت. بياناتك تبقى على جهازك كما هي.",
+   iosSteps:["افتح المنصة في Safari.","اضغط زر المشاركة (المربع والسهم) أسفل الشاشة.","اختر «إضافة إلى الشاشة الرئيسية»، ثم «إضافة»."],
+   other:"على الحاسوب: اضغط أيقونة التثبيت في شريط العنوان في Chrome أو Edge. على Android: اختر «تثبيت التطبيق» من قائمة المتصفح.",
+   close:"إغلاق", upd:"نسخة جديدة من المنصة جاهزة.", updBtn:"حدّث الآن", installed:"تم تثبيت التطبيق"},
+ en:{install:"Install app", installT:"Install the platform on your device", iosT:"Install the platform on iPhone or iPad",
+   why:"The platform opens from its own icon like any app, loads faster, and the tools you have opened keep working offline. Your data stays on your device as before.",
+   iosSteps:["Open the platform in Safari.","Tap the Share button (the square with the arrow) at the bottom of the screen.","Choose Add to Home Screen, then Add."],
+   other:"On a computer: click the install icon in the address bar of Chrome or Edge. On Android: choose Install app from the browser menu.",
+   close:"Close", upd:"A new version of the platform is ready.", updBtn:"Update now", installed:"App installed"}
+};
+let appPrompt = null, appWaiting = null;
+const appStandalone = () => matchMedia("(display-mode: standalone)").matches || navigator.standalone === true;
+const appIOS = () => /iphone|ipad|ipod/i.test(navigator.userAgent) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
+function appText(){
+  const u = APPT[L], b = $("appBtn"); if(!b) return;
+  $("appLabel").textContent = u.install; b.title = u.installT; b.setAttribute("aria-label", u.installT);
+  b.hidden = appStandalone() || !(appPrompt || appIOS());
+  if(!$("appUpd").hidden) appUpdShow();
+}
+function appHelp(){
+  const u = APPT[L], dlg = $("appDlg"), ios = appIOS();
+  dlg.innerHTML = `<div class="ddlg-h" style="--c:var(--gold)"><h3 id="appDlgT">${esc(ios?u.iosT:u.installT)}</h3><button type="button" class="ddlg-x" id="appDlgX" aria-label="${esc(u.close)}">×</button></div>
+    <div class="ddlg-b"><p style="margin:0">${esc(u.why)}</p>${ios?`<ol class="app-steps">${u.iosSteps.map(x=>`<li>${esc(x)}</li>`).join("")}</ol>`:`<p style="margin:0">${esc(u.other)}</p>`}
+    <div><button type="button" class="btn primary" id="appDlgC">${esc(u.close)}</button></div></div>`;
+  $("appDlgX").onclick = $("appDlgC").onclick = () => dlg.close();
+  dlg.showModal();
+}
+function appUpdShow(){
+  const u = APPT[L], bar = $("appUpd");
+  bar.innerHTML = `<span>${esc(u.upd)}</span><button type="button" class="btn gold" id="appUpdB">${esc(u.updBtn)}</button>`;
+  bar.hidden = false;
+  $("appUpdB").onclick = () => { if(appWaiting) appWaiting.postMessage("skipWaiting"); else location.reload(); };
+}
+$("appBtn").onclick = async () => {
+  if(!appPrompt){ appHelp(); return; }
+  appPrompt.prompt(); try{ await appPrompt.userChoice; }catch(e){}
+  appPrompt = null; appText();
+};
+addEventListener("beforeinstallprompt", e => { e.preventDefault(); appPrompt = e; appText(); });
+addEventListener("appinstalled", () => { appPrompt = null; appText(); toast(APPT[L].installed); });
+if("serviceWorker" in navigator && /^https?:$/.test(location.protocol)){
+  addEventListener("load", () => {
+    navigator.serviceWorker.register("sw.js").then(reg => {
+      const track = w => { if(w) w.addEventListener("statechange", () => { if(w.state === "installed" && navigator.serviceWorker.controller){ appWaiting = w; appUpdShow(); } }); };
+      if(reg.waiting && navigator.serviceWorker.controller){ appWaiting = reg.waiting; appUpdShow(); }
+      track(reg.installing); reg.addEventListener("updatefound", () => track(reg.installing));
+    }).catch(() => {});
+    let reloading = false;
+    navigator.serviceWorker.addEventListener("controllerchange", () => { if(appWaiting && !reloading){ reloading = true; location.reload(); } });
+  });
+}
+/* cia-pwa:end *//* init */
 (function(){
   const q = new URLSearchParams(location.search).get("lang");
   let saved = null; try{ saved = localStorage.getItem("cia-lang"); }catch(e){}
