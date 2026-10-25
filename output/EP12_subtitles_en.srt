@@ -1,0 +1,255 @@
+1
+00:00:00,000 --> 00:00:01,428
+Good evening, excellence.
+
+2
+00:00:01,576 --> 00:00:03,006
+Last episode’s riddle?
+
+3
+00:00:03,006 --> 00:00:04,867
+The answer: RADAR.
+
+4
+00:00:04,987 --> 00:00:05,955
+A word that reads
+
+5
+00:00:05,955 --> 00:00:06,922
+the same both ways…
+
+6
+00:00:06,922 --> 00:00:08,529
+and it separates what merely
+
+7
+00:00:08,529 --> 00:00:10,137
+exists from what is excellent.
+
+8
+00:00:10,137 --> 00:00:11,731
+Two factories have the
+
+9
+00:00:11,731 --> 00:00:13,325
+same preventive maintenance procedure.
+
+10
+00:00:13,352 --> 00:00:14,646
+The auditor asked the first:
+
+11
+00:00:14,646 --> 00:00:15,941
+do you have a procedure?
+
+12
+00:00:15,941 --> 00:00:17,021
+They said: yes, here it
+
+13
+00:00:17,021 --> 00:00:17,885
+is in the file.
+
+14
+00:00:17,885 --> 00:00:20,043
+He asked the second. They said: yes,
+
+15
+00:00:20,043 --> 00:00:21,866
+it’s applied on every machine,
+
+16
+00:00:21,866 --> 00:00:23,651
+we measure breakdowns every month,
+
+17
+00:00:23,651 --> 00:00:25,162
+and we changed the schedule
+
+18
+00:00:25,162 --> 00:00:26,371
+twice when breakdowns rose.
+
+19
+00:00:26,371 --> 00:00:28,017
+Both have a procedure…
+
+20
+00:00:28,025 --> 00:00:30,185
+but which one is truly excellent?
+
+21
+00:00:30,221 --> 00:00:32,286
+RADAR works like a GPS.
+
+22
+00:00:32,286 --> 00:00:34,539
+You set your destination, choose the route,
+
+23
+00:00:34,539 --> 00:00:36,829
+actually drive, and if you go wrong…
+
+24
+00:00:36,829 --> 00:00:37,933
+it recalculates.
+
+25
+00:00:37,969 --> 00:00:40,352
+Results, Approach, Deployment,
+
+26
+00:00:40,352 --> 00:00:42,268
+Assessment, and Refinement.
+
+27
+00:00:42,268 --> 00:00:44,180
+And that procedure in the file… is
+
+28
+00:00:44,180 --> 00:00:45,819
+just one of the five letters.
+
+29
+00:00:45,819 --> 00:00:48,037
+The first factory has a written
+
+30
+00:00:48,037 --> 00:00:49,885
+method: no goal, no measurement.
+
+31
+00:00:49,885 --> 00:00:51,399
+The second closed the loop:
+
+32
+00:00:51,399 --> 00:00:52,717
+it knows what it wants
+
+33
+00:00:52,717 --> 00:00:53,772
+to achieve, it deployed,
+
+34
+00:00:53,772 --> 00:00:55,437
+measured, and improved.
+
+35
+00:00:55,483 --> 00:00:56,399
+Try it tomorrow:
+
+36
+00:00:56,399 --> 00:00:57,936
+pick one practice you have,
+
+37
+00:00:57,936 --> 00:00:59,165
+like the morning meeting,
+
+38
+00:00:59,165 --> 00:01:00,726
+and ask five questions.
+
+39
+00:01:00,726 --> 00:01:02,109
+What do we want to achieve?
+
+40
+00:01:02,109 --> 00:01:03,651
+Why this method in particular?
+
+41
+00:01:03,651 --> 00:01:05,632
+Where is it applied, and where not?
+
+42
+00:01:05,632 --> 00:01:06,791
+How do we measure it?
+
+43
+00:01:06,791 --> 00:01:08,782
+And when did we last improve it?
+
+44
+00:01:08,782 --> 00:01:10,352
+Any question with no answer…
+
+45
+00:01:10,352 --> 00:01:12,053
+that’s exactly where to improve.
+
+46
+00:01:12,053 --> 00:01:14,436
+In the EFQM Model,
+
+47
+00:01:14,436 --> 00:01:15,973
+RADAR is the scale every
+
+48
+00:01:15,973 --> 00:01:17,202
+criterion is assessed against.
+
+49
+00:01:17,202 --> 00:01:19,679
+The approach must be sound and integrated,
+
+50
+00:01:19,679 --> 00:01:21,109
+deployment structured,
+
+51
+00:01:21,109 --> 00:01:23,548
+and refinement built on measurement and learning.
+
+52
+00:01:23,548 --> 00:01:25,483
+“Exists” means you have a paper…
+
+53
+00:01:25,483 --> 00:01:26,900
+“Excellent” means you have a
+
+54
+00:01:26,900 --> 00:01:28,034
+loop that keeps turning.
+
+55
+00:01:28,034 --> 00:01:29,789
+What if on a project
+
+56
+00:01:29,789 --> 00:01:31,193
+everyone says “I’m responsible”…
+
+57
+00:01:31,193 --> 00:01:33,193
+and in the end, nobody is?
+
+58
+00:01:33,193 --> 00:01:35,001
+There’s a four-letter tool that
+
+59
+00:01:35,001 --> 00:01:36,810
+solves this in one table.
+
+60
+00:01:36,810 --> 00:01:37,483
+Know it?
+
+61
+00:01:37,483 --> 00:01:38,679
+Tell me in the comments.
+
+62
+00:01:38,679 --> 00:01:39,838
+Save this episode, and
+
+63
+00:01:39,838 --> 00:01:40,997
+see you next time
+
+64
+00:01:40,997 --> 00:01:42,793
+on Masaa Al-Tamayoz.
