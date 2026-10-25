@@ -6613,9 +6613,9 @@ function cloudDialog(view, arg){
       <p class="acct-note">${esc(u.free)}</p></form>`;
   } else if(view === "sent"){
     body = `${head(u.title)}<form class="ddlg-b acct" id="acctCodeForm" novalidate><p class="acct-ok">${esc(u.sent(arg))}</p>
-      <p class="acct-note">${esc(u.code)}</p>
+      ${CC.code ? `<p class="acct-note">${esc(u.code)}</p>
       <div class="acct-row"><label class="acct-f acct-code"><span class="sr">${esc(u.codeL)}</span><input id="acctCode" inputmode="numeric" autocomplete="one-time-code" maxlength="10" dir="ltr" placeholder="••••••"></label><button class="btn primary" type="submit" id="acctVerify">${esc(u.verify)}</button></div>
-      <p class="acct-err" id="acctErr" role="alert" hidden></p>
+      <p class="acct-err" id="acctErr" role="alert" hidden></p>` : ""}
       <div class="acct-row"><button class="btn" type="button" id="acctAgain">${esc(u.again)}</button></div></form>`;
   } else if(view === "expired"){
     body = `${head(u.title)}<div class="ddlg-b acct"><p class="acct-err">${esc(u.expired)}</p><div class="acct-row"><button class="btn primary" type="button" id="acctAgain">${esc(u.send)}</button></div></div>`;
@@ -6652,7 +6652,7 @@ function cloudDialog(view, arg){
     setTimeout(() => $("acctEmail").focus(), 60);
   }
   if($("acctAgain")) $("acctAgain").onclick = () => cloudDialog("signin", cloudSent);
-  if(view === "sent"){
+  if(view === "sent" && CC.code){
     $("acctCodeForm").onsubmit = async e => {
       e.preventDefault();
       const code = $("acctCode").value.replace(/\D/g, ""), err = $("acctErr"), btn = $("acctVerify");

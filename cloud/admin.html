@@ -157,7 +157,7 @@ else {
     const {error} = await SB.auth.signInWithOtp({email, options:{emailRedirectTo:location.origin + location.pathname, shouldCreateUser:false}});
     $("sBtn").disabled = false;
     if(error){ $("sErr").textContent = "تعذّر الإرسال. هل سجّلت بهذا البريد في المنصة من قبل؟"; $("sErr").hidden = false; return; }
-    $("sMsg").textContent = `أرسلنا رابط الدخول إلى ${email}. افتحه، أو اكتب الرمز من الرسالة هنا.`; $("cForm").hidden = false; };
+    $("sMsg").textContent = C.code ? `أرسلنا رابط الدخول إلى ${email}. افتحه، أو اكتب الرمز من الرسالة هنا.` : `أرسلنا رابط الدخول إلى ${email}. افتحه من بريدك.`; $("cForm").hidden = !C.code; };
   $("cForm").onsubmit = async e => { e.preventDefault(); const {data, error} = await SB.auth.verifyOtp({email, token:$("cCode").value.replace(/\D/g, ""), type:"email"});
     if(error){ $("sErr").textContent = "الرمز غير صحيح أو انتهت صلاحيته."; $("sErr").hidden = false; return; } load(data.user); };
   SB.auth.getSession().then(({data}) => { if(data.session) load(data.session.user); else show("signin"); });
