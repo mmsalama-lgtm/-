@@ -197,8 +197,10 @@ async function cloudSubmit(m){
   }
   let token = null;
   if(cloudUser && SB){ try{ token = (await SB.auth.getSession()).data.session.access_token; }catch(e){} }
-  const req = fetch(`${CLOUD_URL}/rest/v1/${table}`, {method:"POST", keepalive:true,
-    headers:{apikey:CC.key, Authorization:"Bearer " + (token || CC.key), "Content-Type":"application/json", Prefer:"return=minimal"}, body:JSON.stringify(row)});
+  /* the publishable key goes in apikey only; Authorization carries a signed-in user's token, so the row is linked to them */
+  const headers = {apikey:CC.key, "Content-Type":"application/json", Prefer:"return=minimal"};
+  if(token) headers.Authorization = "Bearer " + token;
+  const req = fetch(`${CLOUD_URL}/rest/v1/${table}`, {method:"POST", keepalive:true, headers, body:JSON.stringify(row)});
   if(rqKind !== "feedback"){ req.catch(() => {}); return false; }
   const btn = $("rqSubmit"); btn.disabled = true; btn.textContent = RQ[L].sending;
   try{ const r = await req; if(r.ok){ rqLast.sent = true; rqShowDone(rqLast); return true; } }catch(e){}
