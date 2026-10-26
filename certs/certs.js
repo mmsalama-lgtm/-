@@ -322,6 +322,7 @@ function ctReport(box){
   box.innerHTML = `<div class="ct-res ct-report">${cover}${s1}${s2}${s3}${s4}${s5}${s6}${s7}${s8}${s9b}
     <p class="adv-note">${esc(t.disc)}</p>
     <div class="adv-nav ct-acts"><button type="button" class="btn" id="ctEdit">${esc(t.bar.edit)}</button><span class="sp"></span><button type="button" class="btn" id="ctAgain">${esc(t.bar.again)}</button></div></div>`;
+  ctSend(res);
   const oi = $("ctOrg"); if(oi) oi.onchange = () => { CTS.A.org = oi.value.trim(); ctSave(); ctRender(); };
   $("ctPrint").onclick = () => {
     const root = document.documentElement, prev = root.getAttribute("data-theme");
@@ -333,6 +334,19 @@ function ctReport(box){
   $("ctRq").onclick = () => ctRequest(res);
   $("ctEdit").onclick = () => { CTS.done = false; CTS.step = 0; ctSave(); ctRender(); ctFocus(); };
   $("ctAgain").onclick = ctReset;
+}
+
+/* a short copy of the report goes to the academy's dashboard (when accounts are on), once per set of answers */
+function ctSend(res){
+  if(typeof cloudFinder !== "function") return;
+  const A = res.A, P = res.plan, row = {sectors:A.sectors, sector_names:A.sectors.map(v => (ctOpt("sectors", v) || {l:{ar:v}}).l.ar).join("، "), size:A.size,
+    held:A.held.filter(h => h !== "none"), goal:A.goal, recs:[...(res.base === "need" ? ["ISO 9001"] : []), ...res.certs.map(r => r.s.code)], accr:res.accr.map(r => r.s.code),
+    ready:res.ready.overall, months_first:P.first, months_total:P.total, org:(A.org || "").slice(0, 120) || null, lang:L};
+  const key = JSON.stringify([row.sectors, row.size, row.held, row.goal, row.recs, row.accr, A.prod, A.mat]);
+  let h = 0; for(let i = 0; i < key.length; i++) h = (h * 31 + key.charCodeAt(i)) | 0;
+  row.h = String(h >>> 0);
+  try{ if(localStorage.getItem("cia-cloud:finder-sent") === row.h) return; }catch(e){}
+  cloudFinder(row).then(ok => { if(ok) try{ localStorage.setItem("cia-cloud:finder-sent", row.h); }catch(e){} });
 }
 
 /* ---------- charts (inline SVG, readable in print) ---------- */

@@ -7385,6 +7385,7 @@ function ctReport(box){
   box.innerHTML = `<div class="ct-res ct-report">${cover}${s1}${s2}${s3}${s4}${s5}${s6}${s7}${s8}${s9b}
     <p class="adv-note">${esc(t.disc)}</p>
     <div class="adv-nav ct-acts"><button type="button" class="btn" id="ctEdit">${esc(t.bar.edit)}</button><span class="sp"></span><button type="button" class="btn" id="ctAgain">${esc(t.bar.again)}</button></div></div>`;
+  ctSend(res);
   const oi = $("ctOrg"); if(oi) oi.onchange = () => { CTS.A.org = oi.value.trim(); ctSave(); ctRender(); };
   $("ctPrint").onclick = () => {
     const root = document.documentElement, prev = root.getAttribute("data-theme");
@@ -7396,6 +7397,19 @@ function ctReport(box){
   $("ctRq").onclick = () => ctRequest(res);
   $("ctEdit").onclick = () => { CTS.done = false; CTS.step = 0; ctSave(); ctRender(); ctFocus(); };
   $("ctAgain").onclick = ctReset;
+}
+
+/* a short copy of the report goes to the academy's dashboard (when accounts are on), once per set of answers */
+function ctSend(res){
+  if(typeof cloudFinder !== "function") return;
+  const A = res.A, P = res.plan, row = {sectors:A.sectors, sector_names:A.sectors.map(v => (ctOpt("sectors", v) || {l:{ar:v}}).l.ar).join("، "), size:A.size,
+    held:A.held.filter(h => h !== "none"), goal:A.goal, recs:[...(res.base === "need" ? ["ISO 9001"] : []), ...res.certs.map(r => r.s.code)], accr:res.accr.map(r => r.s.code),
+    ready:res.ready.overall, months_first:P.first, months_total:P.total, org:(A.org || "").slice(0, 120) || null, lang:L};
+  const key = JSON.stringify([row.sectors, row.size, row.held, row.goal, row.recs, row.accr, A.prod, A.mat]);
+  let h = 0; for(let i = 0; i < key.length; i++) h = (h * 31 + key.charCodeAt(i)) | 0;
+  row.h = String(h >>> 0);
+  try{ if(localStorage.getItem("cia-cloud:finder-sent") === row.h) return; }catch(e){}
+  cloudFinder(row).then(ok => { if(ok) try{ localStorage.setItem("cia-cloud:finder-sent", row.h); }catch(e){} });
 }
 
 /* ---------- charts (inline SVG, readable in print) ---------- */
@@ -7764,6 +7778,19 @@ async function cloudSubmit(m){
   const btn = $("rqSubmit"); btn.disabled = true; btn.textContent = RQ[L].sending;
   try{ const r = await req; if(r.ok){ rqLast.sent = true; rqShowDone(rqLast); return true; } }catch(e){}
   btn.disabled = false; return false;
+}
+
+/* ---------- certification finder: a short copy of each report (answers in brief and what was recommended) ---------- */
+async function cloudFinder(row){
+  if(!cloudOn) return false;
+  /* a returning signed-in user: wait for the session to be restored, so the report is linked to the account */
+  for(let i = 0; i < 30 && !cloudUser && localStorage.getItem(CLOUD_AUTH); i++) await new Promise(r => setTimeout(r, 300));
+  let token = null;
+  if(cloudUser && SB){ try{ token = (await SB.auth.getSession()).data.session.access_token; }catch(e){} }
+  if(!token) delete row.org;   /* nothing that names a visitor who has not signed in */
+  const headers = {apikey:CC.key, "Content-Type":"application/json", Prefer:"return=minimal"};
+  if(token) headers.Authorization = "Bearer " + token;
+  try{ const r = await fetch(`${CLOUD_URL}/rest/v1/finder_reports`, {method:"POST", keepalive:true, headers, body:JSON.stringify(row)}); return r.ok; }catch(e){ return false; }
 }
 
 /* ---------- interface ---------- */

@@ -243,6 +243,19 @@ async function cloudSubmit(m){
   btn.disabled = false; return false;
 }
 
+/* ---------- certification finder: a short copy of each report (answers in brief and what was recommended) ---------- */
+async function cloudFinder(row){
+  if(!cloudOn) return false;
+  /* a returning signed-in user: wait for the session to be restored, so the report is linked to the account */
+  for(let i = 0; i < 30 && !cloudUser && localStorage.getItem(CLOUD_AUTH); i++) await new Promise(r => setTimeout(r, 300));
+  let token = null;
+  if(cloudUser && SB){ try{ token = (await SB.auth.getSession()).data.session.access_token; }catch(e){} }
+  if(!token) delete row.org;   /* nothing that names a visitor who has not signed in */
+  const headers = {apikey:CC.key, "Content-Type":"application/json", Prefer:"return=minimal"};
+  if(token) headers.Authorization = "Bearer " + token;
+  try{ const r = await fetch(`${CLOUD_URL}/rest/v1/finder_reports`, {method:"POST", keepalive:true, headers, body:JSON.stringify(row)}); return r.ok; }catch(e){ return false; }
+}
+
 /* ---------- interface ---------- */
 function cloudWhen(d){ return d.toLocaleTimeString(L === "ar" ? "ar-EG-u-nu-latn" : "en-GB", {hour:"2-digit", minute:"2-digit"}); }
 function cloudStatus(){

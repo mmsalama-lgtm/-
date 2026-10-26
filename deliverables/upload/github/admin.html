@@ -47,6 +47,7 @@ td.num{font-variant-numeric:tabular-nums;white-space:nowrap}
 details summary{cursor:pointer;color:var(--ink);font-weight:600}
 pre{white-space:pre-wrap;margin:6px 0 0;font:inherit;font-size:13.5px;color:var(--text)}
 [hidden]{display:none!important}
+.fd-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;margin:14px 0}.fd-grid h3{font-size:15px;margin:0 0 8px}.fd-r{display:grid;grid-template-columns:minmax(0,1fr) 90px 34px;gap:8px;align-items:center;font-size:13.5px;margin-bottom:5px}.fd-top .kpis{margin-bottom:6px}
 </style>
 </head>
 <body>
@@ -74,10 +75,12 @@ pre{white-space:pre-wrap;margin:6px 0 0;font:inherit;font-size:13.5px;color:var(
       <button role="tab" data-t="tools" aria-selected="false">تقييم الأدوات</button>
       <button role="tab" data-t="rq" aria-selected="false">طلبات الاستشارة والتدريب</button>
       <button role="tab" data-t="users" aria-selected="false">المستخدمون</button>
+      <button role="tab" data-t="finder" aria-selected="false">مرشد الشهادات</button>
     </div>
     <section class="card" data-p="fb"><div class="row"><h2 style="flex:1">الآراء</h2><select id="fbTool" aria-label="الأداة"></select><button class="btn" id="fbCsv" type="button">تصدير CSV</button></div><div class="tw" id="fbT"></div></section>
     <section class="card" data-p="tools" hidden><h2>تقييم كل أداة</h2><div class="tw" id="toolsT"></div></section>
     <section class="card" data-p="rq" hidden><div class="row"><h2 style="flex:1">طلبات الاستشارة والتدريب</h2><button class="btn" id="rqCsv" type="button">تصدير CSV</button></div><p class="muted">نسخة من كل طلب. الطلب نفسه يصلك أيضاً بالبريد عندما يضغط صاحبه «إرسال».</p><div class="tw" id="rqT"></div></section>
+    <section class="card" data-p="finder" hidden><div class="row"><h2 style="flex:1">مرشد الشهادات</h2><button class="btn" id="fdCsv" type="button">تصدير CSV</button></div><p class="muted" id="fdNote">كل تقرير فتحه زائر: مجالاته وحجمه والشهادات التي رُشّحت له. لا يُحفظ اسم أو بريد لمن لم يسجّل دخوله.</p><div class="fd-top" id="fdTop"></div><div class="tw" id="fdT"></div></section>
     <section class="card" data-p="users" hidden><div class="row"><h2 style="flex:1">المستخدمون</h2><button class="btn" id="usCsv" type="button">تصدير الكل CSV</button><button class="btn" id="usMktCsv" type="button">تصدير من يقبلون الأخبار</button></div><p class="muted" id="usNote"></p><div class="tw" id="usersT"></div></section>
   </div>
 </main>
@@ -87,7 +90,7 @@ const C = window.CIA_CLOUD || {}, $ = id => document.getElementById(id);
 const esc = s => String(s == null ? "" : s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const day = d => d ? new Date(d).toLocaleString("ar-EG-u-nu-latn", {dateStyle:"medium", timeStyle:"short"}) : "—";
 const REC = {y:"نعم", m:"ربما", n:"لا"}, KIND = {consult:"استشارة", training:"تدريب"};
-let SB, FB = [], RQ = [], US = [], NAMES = {hub:"المنصة بشكل عام"};
+let SB, FB = [], RQ = [], US = [], FD = null, NAMES = {hub:"المنصة بشكل عام"};
 const show = id => ["off","signin","notAdmin","app"].forEach(x => $(x).hidden = x !== id);
 
 /* tool names, read from the hub itself so new tools appear without editing this page */
@@ -128,8 +131,25 @@ function render(){
   $("usersT").innerHTML = US.length ? `<table><thead><tr><th>البريد</th><th>التسجيل</th><th>آخر دخول</th><th>بيانات محفوظة</th><th>آخر حفظ</th>${hasMkt ? "<th>يقبل الأخبار</th>" : ""}</tr></thead><tbody>${US.map(u =>
     `<tr><td class="ltr">${esc(u.email)}</td><td class="num">${esc(day(u.created_at))}</td><td class="num">${esc(day(u.last_seen))}</td><td class="num">${u.keys}</td><td class="num">${esc(day(u.last_saved))}</td>${hasMkt ? `<td>${u.marketing ? "نعم" : "—"}</td>` : ""}</tr>`).join("")}</tbody></table>` : `<p class="muted">لا توجد حسابات بعد.</p>`;
   $("usMktCsv").hidden = !hasMkt;
+  renderFinder();
   $("usNote").textContent = hasMkt ? "أرسل الأخبار والعروض لمن وافقوا فقط. الباقون وافقوا على حفظ بياناتهم لتقديم الخدمة، لا على الرسائل التسويقية."
     : "لإظهار الموافقة على الأخبار شغّل الملف supabase/002_marketing.sql مرة واحدة في SQL Editor.";
+}
+
+/* certification finder: who is looking for which certificates */
+const SIZES = {xs:"1–9", s:"10–49", m:"50–249", l:"250–999", xl:"1000+"};
+const email = id => (US.find(u => u.id === id) || {}).email || "";
+function topOf(list){ const c = {}; list.forEach(x => c[x] = (c[x] || 0) + 1); return Object.entries(c).sort((a, b) => b[1] - a[1]); }
+function bars(title, rows, total, ltr){ return `<div><h3>${esc(title)}</h3>${rows.slice(0, 8).map(([k, n]) => `<div class="fd-r"><span${ltr ? ' dir="ltr" style="text-align:right"' : ""}>${esc(k)}</span><div class="bar"><i style="width:${Math.round(n / total * 100)}%"></i></div><b class="num">${n}</b></div>`).join("") || '<p class="muted">—</p>'}</div>`; }
+function renderFinder(){
+  if(FD === null){ $("fdTop").innerHTML = ""; $("fdT").innerHTML = '<p class="muted">لإظهار نتائج مرشد الشهادات شغّل الملف supabase/003_finder.sql مرة واحدة في SQL Editor.</p>'; $("fdCsv").hidden = true; return; }
+  $("fdCsv").hidden = !FD.length;
+  if(!FD.length){ $("fdTop").innerHTML = ""; $("fdT").innerHTML = '<p class="muted">لا توجد تقارير بعد.</p>'; return; }
+  const ready = FD.filter(r => r.ready != null).map(r => r.ready), names = r => (r.sector_names || "").split("، ").filter(Boolean);
+  $("fdTop").innerHTML = `<div class="kpis"><div class="kpi"><b>${FD.length}</b><span>تقرير</span></div><div class="kpi"><b>${FD.filter(r => r.user_id).length}</b><span>من مستخدمين مسجّلين</span></div><div class="kpi"><b>${ready.length ? Math.round(avg(ready)) + "%" : "—"}</b><span>متوسط الجاهزية</span></div></div>
+    <div class="fd-grid">${bars("أكثر المجالات", topOf(FD.flatMap(names)), FD.length)}${bars("أكثر الشهادات ترشيحاً", topOf(FD.flatMap(r => [...(r.recs || []), ...(r.accr || [])])), FD.length)}${bars("حجم المنشآت", topOf(FD.map(r => SIZES[r.size] || r.size || "—")), FD.length, true)}</div>`;
+  $("fdT").innerHTML = `<table><thead><tr><th>التاريخ</th><th>المجالات</th><th>الحجم</th><th>لديهم</th><th>المرشّح</th><th>الجاهزية</th><th>المدة</th><th>المنشأة / الحساب</th></tr></thead><tbody>${FD.map(r =>
+    `<tr><td class="num">${esc(day(r.created_at))}</td><td>${esc(r.sector_names || (r.sectors || []).join("، "))}</td><td class="num">${esc(SIZES[r.size] || r.size || "")}</td><td class="ltr">${esc((r.held || []).join(", ") || "—")}</td><td class="ltr">${esc([...(r.recs || []), ...(r.accr || [])].join(", "))}</td><td class="num">${r.ready != null ? r.ready + "%" : "—"}</td><td class="num">${r.months_first || "—"} / ${r.months_total || "—"} شهر</td><td>${esc([r.org, email(r.user_id)].filter(Boolean).join(" · ") || "زائر")}</td></tr>`).join("")}</tbody></table>`;
 }
 
 async function load(user){
@@ -137,11 +157,12 @@ async function load(user){
   const {data:isAdmin} = await SB.rpc("is_admin");
   if(!isAdmin){ $("adminSql").textContent = `insert into public.admins (user_id) values ('${user.id}');`; show("notAdmin"); return; }
   show("app");
-  const [f, r, u] = await Promise.all([
+  const [f, r, u, fd] = await Promise.all([
     SB.from("feedback").select("*").order("created_at", {ascending:false}).limit(5000),
     SB.from("service_requests").select("*").order("created_at", {ascending:false}).limit(5000),
-    SB.rpc("admin_users")]);
-  FB = f.data || []; RQ = r.data || []; US = u.data || [];
+    SB.rpc("admin_users"),
+    SB.from("finder_reports").select("*").order("created_at", {ascending:false}).limit(5000)]);
+  FB = f.data || []; RQ = r.data || []; US = u.data || []; FD = fd.error ? null : (fd.data || []);
   render();
 }
 
@@ -154,6 +175,7 @@ $("rqCsv").onclick = () => download(`cia-requests-${new Date().toISOString().sli
 const usCols = [["email","البريد"],["created_at","التسجيل"],["last_seen","آخر دخول"],["keys","بيانات محفوظة"],["last_saved","آخر حفظ"],[u => u.marketing ? "نعم" : "لا","يقبل الأخبار"],["marketing_at","تاريخ الموافقة"]];
 $("usCsv").onclick = () => download(`cia-users-${new Date().toISOString().slice(0,10)}.csv`, csv(US, usCols));
 $("usMktCsv").onclick = () => download(`cia-users-news-${new Date().toISOString().slice(0,10)}.csv`, csv(US.filter(u => u.marketing), [["email","البريد"],["marketing_at","تاريخ الموافقة"],["created_at","التسجيل"]]));
+$("fdCsv").onclick = () => download(`cia-finder-${new Date().toISOString().slice(0,10)}.csv`, csv(FD || [], [["created_at","التاريخ"],["sector_names","المجالات"],[r => SIZES[r.size] || r.size,"الحجم"],[r => (r.held || []).join(" | "),"لديهم"],[r => (r.recs || []).join(" | "),"الشهادات المرشحة"],[r => (r.accr || []).join(" | "),"الاعتمادات"],["ready","الجاهزية %"],["months_first","أشهر حتى الشهادة الأولى"],["months_total","أشهر الخطة"],["org","المنشأة"],[r => email(r.user_id),"البريد"],["lang","اللغة"]]));
 $("outBtn").onclick = async () => { await SB.auth.signOut(); location.reload(); };
 
 if(!(C.url && C.key) || !window.supabase){ show("off"); }
