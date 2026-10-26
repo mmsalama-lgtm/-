@@ -32,9 +32,10 @@ rep("/* init */\n(function(){", "/* cia-ui:start */\n" + js + "\n/* cia-ui:end *
 rep('window.addEventListener("resize", ()=>{ if(innerWidth>1020) closeMenu(); });',
     'window.addEventListener("resize", ()=>{ /* cia-ui:start */if(false)/* cia-ui:end */if(innerWidth>1020) closeMenu(); });')
 
-# ---------- every tool: the shared opening card and section tiles (the tools share one page structure) ----------
+# ---------- every tool: the shared design layer and section headers (the tools share one page structure) ----------
 tcss = open(os.path.join(src, "tool.css"), encoding="utf-8").read().strip()
-TOOL = "<!-- cia-ui:start --><style>\n" + tcss + "\n</style><!-- cia-ui:end -->"
+tjs = open(os.path.join(src, "tool.js"), encoding="utf-8").read().strip()
+TOOL = "<!-- cia-ui:start --><style>\n" + tcss + "\n</style><script>\n" + tjs + "\n</script><!-- cia-ui:end -->"
 tools = dict(re.findall(r'(\w+):\s*"\./modules/([\w.-]+\.html)"', s))
 if len(tools) < 10:
     sys.exit("tool list (URLS) not found in index.html")
