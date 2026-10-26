@@ -1,0 +1,12 @@
+/* moving to the new address: the notice on the old address and the "we have moved" window */
+.mv-bar{position:sticky;top:0;z-index:30;display:flex;align-items:center;gap:12px;flex-wrap:wrap;background:#FBF4DF;color:#5E4708;border-bottom:1px solid #EAD9A6;padding:9px max(16px,env(safe-area-inset-left,0px));font-size:14px;line-height:1.6}
+.mv-bar span{flex:1 1 260px}
+.mv-bar .mv-in{border:0;background:#1B2A4A;color:#fff;border-radius:999px;padding:6px 14px;font:inherit;font-weight:700;font-size:13.5px;cursor:pointer}
+.mv-bar .mv-x{border:0;background:transparent;color:inherit;font-size:20px;line-height:1;cursor:pointer;padding:2px 6px}
+.mv-dlg{max-width:520px}
+.mv-in-box{display:grid;gap:12px;padding:6px}
+.mv-in-box h2{margin:0;font-family:var(--display);font-size:22px}
+.mv-in-box p{margin:0;line-height:1.8}
+.mv-note{font-size:13.5px;color:var(--muted)}
+.mv-err{color:#B3261E;font-weight:600}
+.mv-acts{display:flex;flex-wrap:wrap;gap:10px}

@@ -20,6 +20,7 @@
 python3 -I tools/apply_review_fixes.py <مجلد-المنصة>
 python3 -I tools/polish_ui.py <مجلد-المنصة>
 python3 -I tools/add_certs.py <مجلد-المنصة>
+python3 -I tools/add_move.py <مجلد-المنصة> https://الدومين-الجديد   # فقط عند الانتقال إلى الدومين
 python3 -I tools/add_cloud.py <مجلد-المنصة>
 python3 -I tools/add_pwa.py <مجلد-المنصة>     # دائماً الأخير
 ```
