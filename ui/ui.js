@@ -1,11 +1,12 @@
 /* ---------- the menu: every section in three groups, with an icon each (sections added later land in the last group) ---------- */
 const UI_GROUPS = {
-  ar:[["ابدأ", ["home","advisor","start"]], ["اعمل على منشأتك", ["dash","tools","guides","map","actions","systems"]], ["تعلّم وتواصل", ["learn","refs","faq","request","about"]]],
-  en:[["Start", ["home","advisor","start"]], ["Work on your organization", ["dash","tools","guides","map","actions","systems"]], ["Learn and contact", ["learn","refs","faq","request","about"]]]
+  ar:[["ابدأ", ["home","advisor","certs","start"]], ["اعمل على منشأتك", ["dash","tools","guides","map","actions","systems"]], ["تعلّم وتواصل", ["learn","refs","faq","request","about"]]],
+  en:[["Start", ["home","advisor","certs","start"]], ["Work on your organization", ["dash","tools","guides","map","actions","systems"]], ["Learn and contact", ["learn","refs","faq","request","about"]]]
 };
 const UI_ICONS = {
   home:'<path d="M3 11l9-7 9 7v9a1 1 0 0 1-1 1h-5v-6h-6v6H4a1 1 0 0 1-1-1z"/>',
   advisor:'<circle cx="12" cy="12" r="9"/><path d="m15.5 8.5-2 5-5 2 2-5z"/>',
+  certs:'<circle cx="12" cy="9" r="6"/><path d="m9 14.5-1.5 7L12 19l4.5 2.5-1.5-7"/>',
   start:'<path d="M5 21V4h11l-2 4 2 4H5"/>',
   dash:'<path d="M4 19v-7M10 19V5M16 19v-5M3 21h18"/>',
   tools:'<rect x="3.5" y="3.5" width="7" height="7" rx="1.5"/><rect x="13.5" y="3.5" width="7" height="7" rx="1.5"/><rect x="3.5" y="13.5" width="7" height="7" rx="1.5"/><rect x="13.5" y="13.5" width="7" height="7" rx="1.5"/>',

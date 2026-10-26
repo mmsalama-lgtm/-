@@ -1,0 +1,37 @@
+"""Add the certification finder to the CIA platform. Usage: python3 -I add_certs.py <platform-dir>
+
+Adds to index.html a view (#certs, "مرشد الشهادات"): 15 questions about the organization (field, size, customers,
+activities, risks, readiness), then the certificates that fit (ISO 9001 always as the base), accreditations, two or
+three supporting guidance standards and a roadmap, with print, copy and a pre-filled consultation request. Also a
+menu entry after the Advisor and a band on the home page. The tool catalogue (39 tools) is not touched.
+Sources: certs/certs-data.js, certs/certs.js, certs/certs.css. Re-runnable; run it before add_pwa.py."""
+import sys, os, re
+
+here = os.path.dirname(os.path.abspath(__file__))
+src = os.path.join(here, "..", "certs")
+root = sys.argv[1]
+path = os.path.join(root, "index.html")
+s = open(path, encoding="utf-8").read()
+s = re.sub(r"<!-- cia-certs:start -->.*?<!-- cia-certs:end -->", "", s, flags=re.S)
+s = re.sub(r"/\* cia-certs:start \*/.*?/\* cia-certs:end \*/", "", s, flags=re.S)
+
+
+def rep(old, new):
+    global s
+    n = s.count(old)
+    if n != 1:
+        sys.exit(f"expected 1 x {old[:70]!r}, found {n}")
+    s = s.replace(old, new)
+
+
+read = lambda f: open(os.path.join(src, f), encoding="utf-8").read().strip()
+rep("</style>\n</head>", "/* cia-certs:start */\n" + read("certs.css") + "\n/* cia-certs:end */</style>\n</head>")
+rep('  <section id="start" class="band" data-view="start" hidden>',
+    '  <!-- cia-certs:start --><section id="certs" data-view="certs" hidden aria-labelledby="ctTitle"><div class="wrap">'
+    '<div class="sec-head"><div><span class="sec-k" id="ctK"></span><h2 id="ctTitle"></h2><p id="ctSub"></p></div></div><div id="ctBody"></div></div></section>\n\n'
+    '  <!-- cia-certs:end --><section id="start" class="band" data-view="start" hidden>')
+rep('<section id="value" data-view="home"',
+    '<!-- cia-certs:start --><section id="ctBand" data-view="home" aria-label="Certification finder"></section>\n  <!-- cia-certs:end --><section id="value" data-view="home"')
+rep("/* init */\n(function(){", "/* cia-certs:start */\n" + read("certs-data.js") + "\n" + read("certs.js") + "\n/* cia-certs:end *//* init */\n(function(){")
+open(path, "w", encoding="utf-8").write(s)
+print("certification finder added")
