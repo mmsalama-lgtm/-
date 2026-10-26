@@ -1,0 +1,42 @@
+/* ---------- one menu button for every screen: all sections in a grouped list ---------- */
+.nav{display:none!important}
+.menuBtn{display:inline-flex!important;order:99;gap:8px;font:inherit;font-weight:700;font-size:14px}
+@media (min-width:641px){
+  .menuBtn{width:auto;height:40px;padding:0 16px 0 13px;border-radius:999px}
+  .menuBtn .sr{position:static!important;width:auto;height:auto;overflow:visible;clip:auto;clip-path:none}
+}
+.menuBtn[aria-expanded="true"]{background:var(--navy);border-color:var(--navy);color:var(--on-navy)}
+.topbar .mNav:not([hidden]){display:grid!important}
+.topbar .mNav{position:absolute;top:calc(100% + 8px);inset-inline-end:max(12px,calc((100vw - 1180px)/2 + 22px));
+  width:min(780px,calc(100vw - 24px));grid-template-columns:repeat(3,minmax(0,1fr));gap:6px 20px;padding:18px 18px 14px;
+  background:var(--surface);border:1px solid var(--line);border-radius:18px;box-shadow:0 22px 60px rgba(15,23,42,.2);
+  max-height:calc(100vh - 96px);overflow:auto;animation:uiMenuIn .16s ease-out}
+@keyframes uiMenuIn{from{opacity:0;transform:translateY(-6px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){.topbar .mNav{animation:none}}
+.mg{display:grid;gap:2px;align-content:start;min-width:0}
+.mg-t{margin:2px 10px 6px;font-size:12px;font-weight:700;color:var(--gold-ink);letter-spacing:.02em}
+.topbar .mNav a{display:flex;align-items:center;gap:11px;padding:9px 10px;border-radius:11px;font-size:14.5px;line-height:1.4}
+.mNav a svg{flex:none;width:18px;height:18px;color:var(--ink-soft)}
+.mNav a[aria-current="page"] svg{color:currentColor}
+@media (max-width:760px){
+  .topbar .mNav{grid-template-columns:minmax(0,1fr);inset-inline:10px;width:auto;gap:12px;padding:14px 12px 10px}
+  .mg{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .mg-t{grid-column:1/-1;margin-bottom:2px}
+}
+@media (max-width:360px){.mg{grid-template-columns:minmax(0,1fr)}}
+/* the bar has room again: the search shows its label */
+@media (min-width:1021px){.srchBtn{width:auto!important;padding:0 12px!important;justify-content:flex-start!important}.srchBtn .t{display:inline!important}.srchBtn kbd{display:inline-block!important}}
+/* ---------- home: long lists show one row, with a button for the rest ---------- */
+.ui-x{display:none!important}
+.ui-more{display:flex;align-items:center;justify-content:center;gap:8px;margin:12px auto 0;min-height:42px;padding:0 20px;border-radius:999px;
+  border:1px solid var(--line);background:var(--surface);color:var(--ink);font:inherit;font-weight:700;font-size:14px;cursor:pointer}
+.ui-more:hover{border-color:var(--gold)}
+.ui-more svg{width:16px;height:16px;transition:transform .2s}
+.ui-more[aria-expanded="true"] svg{transform:rotate(180deg)}
+.refs2 .ui-more{background:rgba(255,255,255,.06);border-color:rgba(226,196,107,.45);color:#fff}
+.refs2 .ui-more:hover{background:rgba(255,255,255,.12)}
+/* more air between the home sections and between the tool groups */
+.gl-grp+.gl-grp{margin-top:34px}
+.ref-g+.ref-g{margin-top:30px}
+.ui-chips{font:inherit;font-size:11.5px;font-weight:700;color:#E2C46B;background:transparent;border:1px dashed rgba(226,196,107,.6);border-radius:99px;padding:2px 10px;cursor:pointer}
+.ui-chips:hover{background:rgba(226,196,107,.12)}

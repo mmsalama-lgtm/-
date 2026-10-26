@@ -1,7 +1,6 @@
 .acctBtn.on{background:var(--navy);border-color:var(--navy);color:#fff}
 .acctBtn.on.warn{box-shadow:0 0 0 2px var(--gold) inset}
 @media (max-width:640px){.acctBtn span{display:none}.acctBtn{padding:8px 10px}}
-@media (min-width:1021px) and (max-width:1599px){.acctBtn{width:38px;height:38px;padding:0;justify-content:center}.acctBtn span{display:none}}
 @media (max-width:460px){.topbar:has(#acctBtn:not([hidden])) .brand>div{display:none}}
 .acct{gap:14px}
 .acct-why{margin:0;padding-inline-start:20px;display:grid;gap:6px}
