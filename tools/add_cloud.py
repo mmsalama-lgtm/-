@@ -39,6 +39,8 @@ rep('  else { tb.hidden=true; tb.removeAttribute("href"); }',
     '  else { tb.hidden=true; tb.removeAttribute("href"); }/* cia-cloud:start */\n  if(typeof cloudText==="function") cloudText();/* cia-cloud:end */')
 rep('  const m=rqCompose(rqRef()); rqLast={...m,kind:rqKind,sent:false};',
     '  const m=rqCompose(rqRef()); rqLast={...m,kind:rqKind,sent:false};/* cia-cloud:start */\n  if(typeof cloudSubmit==="function" && await cloudSubmit(m)) return;/* cia-cloud:end */')
+rep('${esc(EMAIL)}</a>`;\n',
+    '${esc(EMAIL)}</a>`;/* cia-cloud:start */\n  if(typeof cloudFooter==="function") cloudFooter();/* cia-cloud:end */\n')
 rep('/* init */\n(function(){',
     '/* cia-cloud:start */\n' + js.strip() + '\n/* cia-cloud:end *//* init */\n(function(){')
 
@@ -64,6 +66,7 @@ for key, fname in tools.items():
 os.makedirs(os.path.join(root, "assets", "vendor"), exist_ok=True)
 shutil.copyfile(os.path.join(src, "vendor", "supabase-2.117.2.js"), os.path.join(root, "assets", "vendor", "supabase-2.117.2.js"))
 shutil.copyfile(os.path.join(src, "admin.html"), os.path.join(root, "admin.html"))
+shutil.copyfile(os.path.join(src, "privacy.html"), os.path.join(root, "privacy.html"))
 cfg = os.path.join(root, "cloud-config.js")
 kept = os.path.exists(cfg)
 if not kept:

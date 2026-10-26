@@ -10,7 +10,7 @@ const CC = window.CIA_CLOUD || {};
 const cloudOn = !!(CC.url && CC.key && /^(https:\/\/[^/]+|http:\/\/localhost(:\d+)?)$/.test(String(CC.url).replace(/\/+$/, "")));
 const CLOUD_URL = String(CC.url || "").replace(/\/+$/, "");
 const CLOUD_LIB = "assets/vendor/supabase-2.117.2.js";
-const CLOUD_AUTH = "cia-cloud-auth", CLOUD_META = "cia-cloud:meta", CLOUD_OPEN = "cia-cloud:open";
+const CLOUD_AUTH = "cia-cloud-auth", CLOUD_META = "cia-cloud:meta", CLOUD_OPEN = "cia-cloud:open", CLOUD_MKT = "cia-cloud:mkt";
 /* gate: true opens only the free tools without an account (default ISO 9001); the others ask for a free sign-in */
 const cloudGateOn = cloudOn && CC.gate === true;
 const cloudFree = () => Array.isArray(CC.free) ? CC.free : ["iso9001"];
@@ -28,6 +28,7 @@ const CT = {
  ar:{signin:"دخول", account:"حسابي", title:"سجّل الدخول لحفظ عملك", why:["يُحفظ عملك في كل الأدوات تلقائياً في حسابك.","افتحه من أي جهاز: الحاسوب والجوال والجهاز اللوحي.","لا يضيع إذا مُسحت بيانات المتصفح."],
    free:"الحساب اختياري. دون حساب تبقى بياناتك في هذا المتصفح فقط، كما هي الآن.",
    email:"البريد الإلكتروني", consent:"أوافق على حفظ بيانات أدواتي في حسابي لدى أكاديمية التحسين المستمر لتقديم الخدمة، وأستطيع حذفها في أي وقت.",
+   mkt:"أرسلوا لي أخبار الأكاديمية وعروضها بالبريد (اختياري، ويمكن إلغاؤه في أي وقت).", privacy:"سياسة الخصوصية", mktAcct:"استلام أخبار الأكاديمية وعروضها بالبريد", mktOn:"سنرسل لك أخبار الأكاديمية.", mktOff:"لن نرسل لك أخبار الأكاديمية.",
    send:"أرسل رابط الدخول", sending:"جارٍ الإرسال…", sent:e=>`أرسلنا رابط الدخول إلى ${e}. افتحه من بريدك على أي جهاز، وتنتهي صلاحيته خلال ساعة.`,
    again:"أرسل الرابط مرة أخرى", code:"أو اكتب رمز الدخول المكوّن من 6 أرقام الموجود في الرسالة", codeL:"رمز الدخول", verify:"دخول", eCode:"الرمز غير صحيح أو انتهت صلاحيته.", eEmail:"اكتب بريداً إلكترونياً صحيحاً.", eConsent:"وافق على الحفظ للمتابعة.", eSend:"تعذّر إرسال الرابط. تحقق من البريد وحاول بعد دقيقة.",
    expired:"انتهت صلاحية رابط الدخول أو استُخدم من قبل. اطلب رابطاً جديداً.",
@@ -41,6 +42,7 @@ const CT = {
  en:{signin:"Sign in", account:"My account", title:"Sign in to save your work", why:["Your work in every tool is saved to your account automatically.","Open it on any device: computer, phone or tablet.","It is not lost when the browser data is cleared."],
    free:"An account is optional. Without one, your data stays in this browser only, as it does now.",
    email:"Email", consent:"I agree that my tools' data is saved to my account with the Continual Improvement Academy to provide the service, and I can delete it at any time.",
+   mkt:"Send me Academy news and offers by email (optional; you can stop it at any time).", privacy:"Privacy policy", mktAcct:"Receive Academy news and offers by email", mktOn:"You will receive Academy news.", mktOff:"You will not receive Academy news.",
    send:"Send the sign-in link", sending:"Sending…", sent:e=>`We sent a sign-in link to ${e}. Open it from your email on any device; it expires within an hour.`,
    again:"Send the link again", code:"Or type the 6-digit sign-in code from the email", codeL:"Sign-in code", verify:"Sign in", eCode:"The code is wrong or has expired.", eEmail:"Enter a valid email address.", eConsent:"Agree to the saving to continue.", eSend:"The link could not be sent. Check the email and try again in a minute.",
    expired:"The sign-in link has expired or was already used. Ask for a new one.",
@@ -144,6 +146,10 @@ async function cloudSignedIn(user){
   if(cloudUser && cloudUser.id === user.id) return;
   cloudUser = user; cloudErr = false; cloudText();
   SB.from("profiles").update({last_seen:new Date().toISOString()}).eq("id", user.id).then(() => {}, () => {});
+  /* the news consent ticked in the sign-in window (the link may open in another tab, so it waits in this browser) */
+  if(localStorage.getItem(CLOUD_MKT) === "1")
+    SB.from("profiles").update({marketing:true, marketing_at:new Date().toISOString()}).eq("id", user.id)
+      .then(r => { if(r && !r.error) cloudRawDel(CLOUD_MKT); }, () => {});
   let rows;
   try{ rows = await cloudFetch(); }catch(e){ cloudErr = true; cloudText(); return; }
   cloudSynced.clear(); rows.forEach(r => cloudSynced.set(r.key, r.value));
@@ -265,7 +271,8 @@ function cloudDialog(view, arg, tool){
       ${tool ? `<p class="acct-ok">${esc(u.gateP())}</p>` : ""}
       <ul class="acct-why">${u.why.map(x => `<li>${esc(x)}</li>`).join("")}</ul>
       <label class="acct-f"><span>${esc(u.email)}</span><input id="acctEmail" type="email" dir="ltr" autocomplete="email" required value="${esc(arg || "")}"></label>
-      <label class="acct-c"><input type="checkbox" id="acctOk"><span>${esc(u.consent)}</span></label>
+      <label class="acct-c"><input type="checkbox" id="acctOk"><span>${esc(u.consent)} <a href="privacy.html" target="_blank" rel="noopener">${esc(u.privacy)}</a></span></label>
+      <label class="acct-c"><input type="checkbox" id="acctMkt"><span>${esc(u.mkt)}</span></label>
       <p class="acct-err" id="acctErr" role="alert" hidden></p>
       <div class="acct-row"><button class="btn primary" type="submit" id="acctSend">${esc(u.send)}</button></div>
       ${tool ? "" : `<p class="acct-note">${esc(cloudGateOn ? u.gateP() : u.free)}</p>`}</form>`;
@@ -283,7 +290,9 @@ function cloudDialog(view, arg, tool){
         <div><dt>${esc(u.status)}</dt><dd>${esc(cloudStatus())}</dd></div>
         <div><dt></dt><dd>${esc(u.items(cloudSynced.size))}</dd></div></dl>
       <div class="acct-row"><button class="btn primary" type="button" id="acctSave">${esc(u.saveNow)}</button><button class="btn" type="button" id="acctOut">${esc(u.signout)}</button></div>
+      <label class="acct-c" id="acctMktRow" hidden><input type="checkbox" id="acctMktOn"><span>${esc(u.mktAcct)}</span></label>
       <label class="acct-c"><input type="checkbox" id="acctClear"><span>${esc(u.clearDev)}</span></label>
+      <p class="acct-note"><a href="privacy.html" target="_blank" rel="noopener">${esc(u.privacy)}</a></p>
       <div class="acct-del" id="acctDelBox"><button class="btn danger" type="button" id="acctDel">${esc(u.del)}</button></div></div>`;
   } else if(view === "merge"){
     body = `${head(u.mergeT)}<div class="ddlg-b acct"><p>${esc(u.mergeP(arg))}</p>
@@ -299,6 +308,7 @@ function cloudDialog(view, arg, tool){
       const bad = t => { err.textContent = t; err.hidden = false; };
       if(!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(em)) return bad(u.eEmail);
       if(!$("acctOk").checked) return bad(u.eConsent);
+      try{ if($("acctMkt").checked) cloudRawSet(CLOUD_MKT, "1"); else cloudRawDel(CLOUD_MKT); }catch(e){}
       const btn = $("acctSend"); btn.disabled = true; btn.textContent = u.sending; err.hidden = true;
       try{
         await cloudLoad();
@@ -325,6 +335,16 @@ function cloudDialog(view, arg, tool){
     };
   }
   if(view === "acct"){
+    /* the news choice lives in the profile; the row stays hidden if the profile has no such column yet */
+    SB.from("profiles").select("marketing").eq("id", cloudUser.id).single().then(r => {
+      if(!r || r.error || !r.data || typeof r.data.marketing !== "boolean" || !$("acctMktRow")) return;
+      $("acctMktOn").checked = r.data.marketing; $("acctMktRow").hidden = false;
+      $("acctMktOn").onchange = async e => {
+        const on = e.target.checked;
+        const {error} = await SB.from("profiles").update({marketing:on, marketing_at:new Date().toISOString()}).eq("id", cloudUser.id);
+        if(error){ e.target.checked = !on; toast(u.err); } else toast(on ? u.mktOn : u.mktOff);
+      };
+    }, () => {});
     $("acctSave").onclick = () => { cloudKeys().forEach(k => { if(localStorage.getItem(k) !== cloudSynced.get(k)) cloudDirty.add(k); }); cloudPush(); };
     $("acctOut").onclick = async () => {
       const wipe = $("acctClear").checked;
@@ -359,6 +379,11 @@ function cloudDialog(view, arg, tool){
   if(!dlg.open) dlg.showModal();
 }
 function cloudAskMerge(n){ cloudDialog("merge", n); }
+function cloudFooter(){
+  const f = $("fLinks"); if(!f || f.querySelector("[data-privacy]")) return;
+  const a = document.createElement("a"); a.href = "privacy.html"; a.dataset.privacy = "1"; a.textContent = CT[L].privacy;
+  const mail = f.querySelector('a[href^="mailto:"]'); f.insertBefore(a, mail);
+}
 $("acctBtn").onclick = () => cloudDialog(cloudHold ? "merge" : cloudUser ? "acct" : "signin", cloudHold || undefined);
 
 /* ---------- start: only a returning signed-in user (or a sign-in link) loads the library ---------- */

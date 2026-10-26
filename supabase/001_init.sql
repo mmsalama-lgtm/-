@@ -7,7 +7,9 @@ create table if not exists public.profiles (
   id          uuid primary key references auth.users (id) on delete cascade,
   email       text,
   created_at  timestamptz not null default now(),
-  last_seen   timestamptz
+  last_seen   timestamptz,
+  marketing   boolean not null default false,   -- optional consent to Academy news
+  marketing_at timestamptz
 );
 alter table public.profiles enable row level security;
 
@@ -99,10 +101,11 @@ drop policy if exists "requests: admins read" on public.service_requests;
 create policy "requests: admins read" on public.service_requests for select to authenticated using (public.is_admin());
 
 -- ---------- admin overview: accounts and their last saved work ----------
-create or replace function public.admin_users()
-returns table (id uuid, email text, created_at timestamptz, last_seen timestamptz, keys bigint, last_saved timestamptz)
+drop function if exists public.admin_users();
+create function public.admin_users()
+returns table (id uuid, email text, created_at timestamptz, last_seen timestamptz, keys bigint, last_saved timestamptz, marketing boolean, marketing_at timestamptz)
 language sql stable security definer set search_path = public as $$
-  select p.id, p.email, p.created_at, p.last_seen, count(d.key), max(d.updated_at)
+  select p.id, p.email, p.created_at, p.last_seen, count(d.key), max(d.updated_at), p.marketing, p.marketing_at
   from public.profiles p left join public.user_data d on d.user_id = p.id
   where public.is_admin()
   group by p.id
